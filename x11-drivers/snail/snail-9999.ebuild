@@ -6,7 +6,7 @@ EAPI=4
 
 EGIT_REPO_URI="git://github.com/backbone/snail.git"
 
-[[ 9999 == ${PV} ]] && vcs=git
+[[ 9999 == ${PV} ]] && vcs=git-2
 
 inherit $vcs eutils
 
