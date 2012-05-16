@@ -1,0 +1,7 @@
+--- cmake.orig	1999-10-08 18:18:11.000000000 +0400
++++ cmake	2012-02-17 17:28:43.134573122 +0400
+@@ -5,3 +5,4 @@
+ #
+ 
+ make $* 2>&1 | colormake.pl `stty size`
++exit $PIPESTATUS
