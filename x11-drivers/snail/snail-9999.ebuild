@@ -4,27 +4,22 @@
 
 EAPI=4
 
-inherit eutils
+EGIT_REPO_URI="git://github.com/backbone/snail.git"
 
-if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://github.com/backbone/snail.git"}
-	inherit git-2
-	KEYWORDS=""
-else
+[[ 9999 == ${PV} ]] && vcs=git
+
+inherit $vcs eutils
+
+if [[ 9999 != ${PV} ]]; then
 	SRC_URI="ftp://backbone.ws/projects/snail/${P}.tar.bz2"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
 DESCRIPTION="Snail - nVidia Optimus support"
-
-SRC_URI="ftp://backbone.ws/projects/snail/${P}.tar.bz2"
-
 HOMEPAGE="https://chili.backbone.ws/projects/snail"
 
-SLOT="0"
-
 LICENSE="GPL-3"
-
+SLOT="0"
 IUSE=""
 
 DEPEND="x11-drivers/nvidia-drivers
@@ -34,14 +29,14 @@ DEPEND="x11-drivers/nvidia-drivers
 RDEPEND="${DEPEND}"
 
 src_prepare() {
-	if [[ ${PV} == "9999" ]] ; then
+	if [[ 9999 == ${PV} ]] ; then
 		# Allow user patches to be applied without modifying the ebuild
 		epatch_user
 	fi
 }
 
 src_install() {
-	if [[ ${PV} == "9999" ]] ; then
+	if [[ 9999 == ${PV} ]] ; then
 		emake install DESTDIR="${D}"
 	else
 		emake install DESTDIR="${D}" || die

@@ -3,32 +3,46 @@
 # $Header: $
 
 EAPI=4
-inherit eutils
+
+EGIT_REPO_URI="git://github.com/backbone/snail.git"
+
+[[ 9999 == ${PV} ]] && vcs=git
+
+inherit $vcs eutils
+
+if [[ 9999 != ${PV} ]]; then
+	SRC_URI="ftp://backbone.ws/projects/snail/${P}.tar.bz2"
+	KEYWORDS="-* ~x86 ~amd64"
+fi
 
 DESCRIPTION="Snail - nVidia Optimus support"
-
-SRC_URI="ftp://backbone.ws/projects/snail/${P}.tar.bz2"
-
 HOMEPAGE="https://chili.backbone.ws/projects/snail"
 
-KEYWORDS="-* ~x86 ~amd64"
-
-SLOT="0"
-
 LICENSE="GPL-3"
-
+SLOT="0"
 IUSE=""
 
 DEPEND="x11-drivers/nvidia-drivers
+        sys-power/bbswitch
         sys-apps/dmidecode"
 
 RDEPEND="${DEPEND}"
 
+src_prepare() {
+	if [[ 9999 == ${PV} ]] ; then
+		# Allow user patches to be applied without modifying the ebuild
+		epatch_user
+	fi
+}
+
 src_install() {
-	emake install DESTDIR="${D}" || die
+	if [[ 9999 == ${PV} ]] ; then
+		emake install DESTDIR="${D}"
+	else
+		emake install DESTDIR="${D}" || die
+	fi
 }
 
 pkg_postinst() {
 	snail.configure
 }
-
