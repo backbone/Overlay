@@ -6,25 +6,24 @@ EAPI=3
 
 WX_GTK_VER="2.8"
 
-inherit eutils subversion wxwidgets games
+inherit eutils wxwidgets games
 
-MY_PV="r${PV%_*}-alpha"
-MY_P=${PN}-${MY_PV}
+MY_P="${PN}-r${PV%_*}-alpha"
 
 DESCRIPTION="A free, real-time strategy game"
 HOMEPAGE="http://wildfiregames.com/0ad/"
-ESVN_REPO_URI="http://svn.wildfiregames.com/public/ps/trunk"
+SRC_URI="http://releases.wildfiregames.com/${MY_P}-unix-build.tar.xz"
 
 LICENSE="GPL-2 LGPL-2.1 MIT CCPL-Attribution-ShareAlike-3.0 as-is"
 SLOT="0"
-KEYWORDS=""
-IUSE="+audio +editor fam +pch test"
+KEYWORDS="~amd64 ~x86"
+IUSE="+audio editor fam pch test"
 
 RDEPEND="
 	~dev-lang/spidermonkey-1.8.5
 	dev-libs/boost
 	dev-libs/libxml2
-	!games-strategy/0ad-data
+	~games-strategy/0ad-data-${PV}
 	media-gfx/nvidia-texture-tools
 	media-libs/libpng:0
 	media-libs/libsdl[X,opengl,video]
@@ -44,20 +43,7 @@ DEPEND="${RDEPEND}
 	virtual/pkgconfig
 	test? ( dev-lang/perl )"
 
-S=${WORKDIR}/trunk
-
-pkg_setup() {
-	games_pkg_setup
-
-	if ! use pch ; then
-		eerror "pch useflag is potentially broken"
-		eerror "see http://trac.wildfiregames.com/ticket/1313"
-	fi
-}
-
-src_unpack() {
-	subversion_src_unpack
-}
+S=${WORKDIR}/${MY_P}
 
 src_configure() {
 	cd build/workspaces || die
@@ -86,26 +72,18 @@ src_test() {
 }
 
 src_install() {
-	# data
-	insinto "${GAMES_DATADIR}"/${PN}
-	doins -r binaries/data/* || die
-
-	# bin
 	dogamesbin binaries/system/pyrogenesis || die
 
-	# libs
 	exeinto "$(games_get_libdir)"/${PN}
 	doexe binaries/system/libCollada.so || die
 	if use editor ; then
 		doexe binaries/system/libAtlasUI.so || die
 	fi
 
-	# other
 	dodoc binaries/system/readme.txt
 	doicon build/resources/${PN}.png
 	games_make_wrapper ${PN} "${GAMES_BINDIR}/pyrogenesis"
 	make_desktop_entry ${PN}
 
-	# permissions
 	prepgamesdirs
 }
