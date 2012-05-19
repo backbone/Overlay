@@ -22,7 +22,7 @@ LICENSE="GPL-3"
 SLOT="0"
 IUSE=""
 
-DEPEND=""
+DEPEND="dev-python/pygobject:3"
 
 RDEPEND="${DEPEND}"
 
