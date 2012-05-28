@@ -20,6 +20,7 @@ src_unpack() {
 	cd "${S}"
 	use vanilla || epatch "${FILESDIR}"/${P}-disable-broken-tagging.patch
 	epatch "${FILESDIR}"/${P}-save-pipe-exit-status.patch
+	epatch "${FILESDIR}"/${P}-cmake.patch
 	mv cmake colormake  # prevent clash with dev-util/cmake
 	rm Makefile
 }

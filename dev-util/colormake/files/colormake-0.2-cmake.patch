@@ -1,0 +1,14 @@
+--- cmake.orig	2012-05-28 16:26:51.656114623 +0400
++++ cmake	2012-05-28 16:27:03.745925039 +0400
+@@ -4,5 +4,9 @@
+ # Jumps to the first gcc error that occurs during the build process.
+ #
+ 
+-make $* 2>&1 | colormake.pl `stty size`
+-exit $PIPESTATUS
++if [ -f CMakeCache.txt ]; then
++  make $*
++else
++  make $* 2>&1 | colormake.pl
++  exit $PIPESTATUS
++fi
