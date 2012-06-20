@@ -1,0 +1,42 @@
+From 6e53f28a0f466ff0448021c57b07a677973001e0 Mon Sep 17 00:00:00 2001
+From: Kolan Sh <mecareful@gmail.com>
+Date: Wed, 20 Jun 2012 17:01:35 +0400
+Subject: [PATCH] Out of range in std::vector when adding dummy cells for multicol.
+ On systems with glibc you can see message like that.
+ *** glibc detected *** tex2lyx: free(): invalid next size (fast): 0x00000000012f5340 ***
+ Simple test with LaTeX code for reproducing error:
+ \begin{longtable}{c|c}
+ \multicolumn{3}{c}{a}\\
+ \end{longtable}
+ This commit should fix the error.
+
+---
+ src/tex2lyx/table.cpp |   11 ++++++++++-
+ 1 files changed, 10 insertions(+), 1 deletions(-)
+
+diff --git a/src/tex2lyx/table.cpp b/src/tex2lyx/table.cpp
+index dddf71d..a66f842 100644
+--- a/src/tex2lyx/table.cpp
++++ b/src/tex2lyx/table.cpp
+@@ -994,8 +994,17 @@ void handle_tabular(Parser & p, ostream & os, bool is_long_tabular,
+ 				cellinfo[row][col].content += os.str();
+ 
+ 				// add dummy cells for multicol
+-				for (size_t i = 0; i < ncells - 1 && col < colinfo.size(); ++i) {
++				for (size_t i = 0; i + 1 < ncells; ++i) {
+ 					++col;
++					if (col >= colinfo.size ()) {
++					  cerr << "The cell '"
++					       << cells[cell]
++					       << "' with the number of dummy cells outside"
++					       << " the boundaries of the table with fewer columns."
++					       << " All other cells in this row will be ignored!"
++					       << endl;
++					  break;
++					}
+ 					cellinfo[row][col].multi = CELL_PART_OF_MULTICOLUMN;
+ 					cellinfo[row][col].align = 'c';
+ 				}
+-- 
+1.7.3.4
+
