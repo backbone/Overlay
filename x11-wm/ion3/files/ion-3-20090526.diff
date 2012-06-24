@@ -1,0 +1,142 @@
+Mon Mar  2 10:30:41 W. Europe Standard Time 2009  Tuomo Valkonen <tuomov@iki.fi>
+  * Don't symlink look.lua, but rather dopath from within
+Mon Mar  2 10:09:36 W. Europe Standard Time 2009  Tuomo Valkonen <tuomov@iki.fi>
+  * Fix frame_clear_shape
+Sun Feb  8 23:37:32 W. Europe Standard Time 2009  Tuomo Valkonen <tuomov@iki.fi>
+  * WM_TAKE_FOCUS tune
+Fri Jan  9 23:19:32 W. Europe Standard Time 2009  Tuomo Valkonen <tuomov@iki.fi>
+  tagged ion-3-20090110
+diff -rN -u old-ion-3/config.h new-ion-3/config.h
+--- old-ion-3/config.h	2009-05-26 19:09:08.172555900 +0200
++++ new-ion-3/config.h	2009-05-26 19:09:15.984855900 +0200
+@@ -1,4 +1,4 @@
+-/*
++/*
+  * config.h
+  *
+  * Copyright (c) Tuomo Valkonen 1999-2009.
+diff -rN -u old-ion-3/etc/Makefile new-ion-3/etc/Makefile
+--- old-ion-3/etc/Makefile	2009-05-26 19:09:15.359871900 +0200
++++ new-ion-3/etc/Makefile	2009-05-26 19:09:16.344221700 +0200
+@@ -11,6 +11,7 @@
+ ETC =	cfg_ion.lua cfg_ioncore.lua cfg_kludges.lua cfg_defaults.lua \
+ 	cfg_tiling.lua cfg_query.lua cfg_menu.lua \
+ 	cfg_statusbar.lua cfg_dock.lua cfg_layouts.lua \
++	look.lua \
+ 	look_brownsteel.lua look_clean.lua look_dusky.lua \
+ 	look_greyviolet.lua look_ios.lua look_cleanviolet.lua \
+ 	look_simpleblue.lua look_cleanios.lua look_newviolet.lua \
+@@ -24,5 +25,3 @@
+ ######################################
+ 
+ _install: etc_install
+-	rm -f $(ETCDIR)/look.lua
+-	ln -s look_newviolet.lua $(ETCDIR)/look.lua
+diff -rN -u old-ion-3/etc/look.lua new-ion-3/etc/look.lua
+--- old-ion-3/etc/look.lua	1970-01-01 01:00:00.000000000 +0100
++++ new-ion-3/etc/look.lua	2009-05-26 19:09:16.484843100 +0200
+@@ -0,0 +1 @@
++dopath('look_newviolet')
+diff -rN -u old-ion-3/ioncore/clientwin.c new-ion-3/ioncore/clientwin.c
+--- old-ion-3/ioncore/clientwin.c	2009-05-26 19:09:15.562991700 +0200
++++ new-ion-3/ioncore/clientwin.c	2009-05-26 19:09:17.125451700 +0200
+@@ -1015,10 +1015,11 @@
+ {
+     if(cwin->flags&CLIENTWIN_P_WM_TAKE_FOCUS){
+         Time stmp=ioncore_get_timestamp();
++        region_finalise_focusing((WRegion*)cwin, cwin->win, warp, stmp);
+         send_clientmsg(cwin->win, ioncore_g.atom_wm_take_focus, stmp);
++    }else{
++        region_finalise_focusing((WRegion*)cwin, cwin->win, warp, CurrentTime);
+     }
+-
+-    region_finalise_focusing((WRegion*)cwin, cwin->win, warp);
+     
+     XSync(ioncore_g.dpy, 0);
+ }
+diff -rN -u old-ion-3/ioncore/focus.c new-ion-3/ioncore/focus.c
+--- old-ion-3/ioncore/focus.c	2009-05-26 19:09:15.531742500 +0200
++++ new-ion-3/ioncore/focus.c	2009-05-26 19:09:18.219173700 +0200
+@@ -347,7 +347,7 @@
+ /*Time ioncore_focus_time=CurrentTime;*/
+ 
+ 
+-void region_finalise_focusing(WRegion* reg, Window win, bool warp)
++void region_finalise_focusing(WRegion* reg, Window win, bool warp, Time time)
+ {
+     if(warp)
+         region_do_warp(reg);
+@@ -356,10 +356,7 @@
+         return;
+     
+     region_set_await_focus(reg);
+-    /*xwindow_do_set_focus(win);*/
+-    XSetInputFocus(ioncore_g.dpy, win, RevertToParent, 
+-                   CurrentTime/*ioncore_focus_time*/);
+-    /*ioncore_focus_time=CurrentTime;*/
++    XSetInputFocus(ioncore_g.dpy, win, RevertToParent, time);
+ }
+ 
+ 
+diff -rN -u old-ion-3/ioncore/focus.h new-ion-3/ioncore/focus.h
+--- old-ion-3/ioncore/focus.h	2009-05-26 19:09:15.484868700 +0200
++++ new-ion-3/ioncore/focus.h	2009-05-26 19:09:18.250422900 +0200
+@@ -23,7 +23,7 @@
+ extern void region_warp(WRegion *reg); /* maybewarp TRUE */
+ extern void region_set_focus(WRegion *reg); /* maybewarp FALSE */
+ 
+-extern void region_finalise_focusing(WRegion* reg, Window win, bool warp);
++extern void region_finalise_focusing(WRegion* reg, Window win, bool warp, Time time);
+ 
+ DYNFUN void region_do_set_focus(WRegion *reg, bool warp);
+ extern void region_do_warp(WRegion *reg);
+diff -rN -u old-ion-3/ioncore/frame-draw.c new-ion-3/ioncore/frame-draw.c
+--- old-ion-3/ioncore/frame-draw.c	2009-05-26 19:09:15.422370300 +0200
++++ new-ion-3/ioncore/frame-draw.c	2009-05-26 19:09:18.266047500 +0200
+@@ -219,7 +219,8 @@
+ 
+ void frame_clear_shape(WFrame *frame)
+ {
+-    grbrush_set_window_shape(frame->brush, TRUE, 0, NULL);
++    if(frame->brush!=NULL)
++        grbrush_set_window_shape(frame->brush, TRUE, 0, NULL);
+ }
+ 
+ 
+diff -rN -u old-ion-3/ioncore/group.c new-ion-3/ioncore/group.c
+--- old-ion-3/ioncore/group.c	2009-05-26 19:09:15.453619500 +0200
++++ new-ion-3/ioncore/group.c	2009-05-26 19:09:18.969154500 +0200
+@@ -241,7 +241,7 @@
+     if(st!=NULL && st->reg!=NULL)
+         region_do_set_focus(st->reg, warp);
+     else
+-        region_finalise_focusing((WRegion*)ws, ws->dummywin, warp);
++        region_finalise_focusing((WRegion*)ws, ws->dummywin, warp, CurrentTime);
+ }
+ 
+ 
+diff -rN -u old-ion-3/ioncore/window.c new-ion-3/ioncore/window.c
+--- old-ion-3/ioncore/window.c	2009-05-26 19:09:15.437994900 +0200
++++ new-ion-3/ioncore/window.c	2009-05-26 19:09:21.562838100 +0200
+@@ -182,7 +182,7 @@
+ 
+ void window_do_set_focus(WWindow *wwin, bool warp)
+ {
+-    region_finalise_focusing((WRegion*)wwin, wwin->win, warp);
++    region_finalise_focusing((WRegion*)wwin, wwin->win, warp, CurrentTime);
+ }
+ 
+ 
+diff -rN -u old-ion-3/mod_tiling/tiling.c new-ion-3/mod_tiling/tiling.c
+--- old-ion-3/mod_tiling/tiling.c	2009-05-26 19:09:15.437994900 +0200
++++ new-ion-3/mod_tiling/tiling.c	2009-05-26 19:09:24.609635100 +0200
+@@ -158,7 +158,7 @@
+ 
+ void tiling_fallback_focus(WTiling *ws, bool warp)
+ {
+-    region_finalise_focusing((WRegion*)ws, ws->dummywin, warp);
++    region_finalise_focusing((WRegion*)ws, ws->dummywin, warp, CurrentTime);
+ }
+ 
+ 
+

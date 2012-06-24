@@ -1,0 +1,69 @@
+diff -uNr ion-3-20090110.orig/build/rules.mk ion-3-20090110/build/rules.mk
+--- ion-3-20090110.orig/build/rules.mk	2010-01-03 18:25:15.790364065 -0200
++++ ion-3-20090110/build/rules.mk	2010-01-03 18:31:38.746612387 -0200
+@@ -267,5 +267,5 @@
+ # Defaults
+ ######################################
+ 
+-INSTALL_STRIP ?= -s
++INSTALL_STRIP ?= 
+ INSTALLBIN ?= $(INSTALL) $(INSTALL_STRIP) -m $(BIN_MODE)
+diff -uNr ion-3-20090110.orig/system.mk ion-3-20090110/system.mk
+--- ion-3-20090110.orig/system.mk	2010-01-03 18:25:15.815367048 -0200
++++ ion-3-20090110/system.mk	2010-01-03 18:29:55.384633453 -0200
+@@ -8,7 +8,7 @@
+ 
+ # Installation path prefix. Unless you know what you're doing, the default
+ # of /usr/local is likely the correct choice.
+-PREFIX=/usr/local
++PREFIX=/usr
+ 
+ # Unless you are creating a package conforming to some OS's standards, you
+ # probably do not want to modify the following directories:
+@@ -16,7 +16,7 @@
+ # Main binaries
+ BINDIR=$(PREFIX)/bin
+ # Configuration .lua files
+-ETCDIR=$(PREFIX)/etc/ion3
++ETCDIR=/etc/ion3
+ # Some .lua files and ion-* shell scripts
+ SHAREDIR=$(PREFIX)/share/ion3
+ # Manual pages
+@@ -62,7 +62,7 @@
+ 
+ # If you have installed Lua 5.1 from the official tarball without changing
+ # paths, this should do it.
+-LUA_DIR=/usr/local
++LUA_DIR=/usr
+ LUA_LIBS = -L$(LUA_DIR)/lib -llua
+ LUA_INCLUDES = -I$(LUA_DIR)/include
+ LUA=$(LUA_DIR)/bin/lua
+@@ -81,7 +81,7 @@
+ ##
+ 
+ # Paths
+-X11_PREFIX=/usr/X11R6
++X11_PREFIX=/usr
+ # SunOS/Solaris
+ #X11_PREFIX=/usr/openwin
+ 
+@@ -157,8 +157,8 @@
+ 	-Wtrigraphs -Wformat -Wchar-subscripts \
+ 	-Wparentheses -pedantic -Wuninitialized
+ 
+-CFLAGS=-Os $(WARN) $(DEFINES) $(INCLUDES) $(EXTRA_INCLUDES)
+-LDFLAGS=$(LIBS) $(EXTRA_LIBS)
++CFLAGS += $(WARN) $(DEFINES) $(INCLUDES) $(EXTRA_INCLUDES)
++LDFLAGS += $(LIBS) $(EXTRA_LIBS)
+ EXPORT_DYNAMIC=-Xlinker --export-dynamic
+ 
+ # The following options are mainly for development use and can be used
+@@ -208,7 +208,7 @@
+ ##
+ 
+ INSTALL=sh $(TOPDIR)/install-sh -c
+-INSTALL_STRIP=-s
++INSTALL_STRIP=
+ INSTALLDIR=mkdir -p
+ 
+ BIN_MODE=755

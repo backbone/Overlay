@@ -1,0 +1,16 @@
+# ChangeLog for x11-wm/ion3
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  18 Apr 2010; Rafael Goncalves Martins <rafael@rafaelmartins.eng.br>
+  ion3-20090110-r1.ebuild:
+  Fixed URLs of sources. The official website is offline.
+
+*ion3-20090110-r1 (24 Jan 2010)
+
+  24 Jan 2010; Rafael Goncalves Martins <rafael@rafaelmartins.eng.br>
+  +files/ion-3-20090526.diff, +files/ion-3plus.proportional.patch,
+  +files/ion3-fix_build_system.patch, +files/ion3.desktop,
+  +files/pwm3.desktop, +ion3-20090110-r1.ebuild:
+  Initial import.
+
