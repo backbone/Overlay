@@ -1,0 +1,4 @@
+How to add this repo using layman
+=================================
+
+sudo layman -f -o https://git.backbone.ws/portage/overlay/blobs/raw/master/layman.xml -a backbone

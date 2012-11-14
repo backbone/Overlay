@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layman>
+  <overlay
+    name = "backbone"
+    status="unofficial"
+    type = "git"
+    src = "git://github.com/backbone/overlay.git"
+    contact = "mecareful@gmail.com">
+    <link>https://git.backbone.ws/portage</link>
+    <description>Backbone’s Portage overlay.</description>
+    <feed>https://github.com/backbone/overlay.atom</feed>
+  </overlay>
+</layman>
