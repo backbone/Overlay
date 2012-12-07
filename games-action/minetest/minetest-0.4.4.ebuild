@@ -18,6 +18,7 @@ RDEPEND="dev-db/sqlite:3
 	dev-lang/lua
 	>=dev-libs/jthread-1.2
 	sys-libs/zlib
+	media-libs/glu
 	!dedicated? (
 		app-arch/bzip2
 		media-libs/libogg
@@ -32,6 +33,7 @@ RDEPEND="dev-db/sqlite:3
 	nls? ( virtual/libintl )"
 # XXX: support shared lib for irrlicht
 DEPEND="${RDEPEND}
+	media-libs/glu
 	>=dev-games/irrlicht-1.7
 	nls? ( sys-devel/gettext )"
 
