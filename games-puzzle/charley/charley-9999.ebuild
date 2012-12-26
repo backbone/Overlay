@@ -31,17 +31,22 @@ DEPEND="virtual/opengl
 
 RDEPEND="${DEPEND}"
 
-INSTALL_BASE="opt/Charley"
+INSTALL_BASE="usr"
+
+src_compile() {
+	make PREFIX=/usr
+}
 
 src_install() {
 	local BASE=${INSTALL_BASE}
 
-	mkdir -p ${D}/${BASE}
-	cp -R build/* ${D}/${BASE}
+	mkdir -p ${D}/${BASE}/share/charleygame
+	cp -R build/*/ ${D}/${BASE}/share/charleygame
+	mkdir -p ${D}/${BASE}/bin
+	cp build/charleygame-bin ${D}/${BASE}/bin
 
-	chmod a+x ${D}/${BASE}/charleygame-bin
+	chmod a+x ${D}/${BASE}/bin/charleygame-bin
 
-	mkdir -p ${D}/usr/bin
-	cp ${FILESDIR}/charleygame-bin.sh ${D}/usr/bin/charleygame-bin.sh
-	chmod a+x ${D}/usr/bin/charleygame-bin.sh
+	mkdir -p ${D}/${BASE}/bin
+	chmod a+x ${D}/${BASE}/bin/charleygame-bin.sh
 }
