@@ -27,8 +27,8 @@ src_prepare() {
 	epatch "${FILESDIR}"/${P}-directorysum.patch
 	# 445910
 	epatch "${FILESDIR}"/${P}-parentdir.patch
-	# 451062
-	epatch "${FILESDIR}"/${P}-nonzero.patch
+	# 452208
+	epatch "${FILESDIR}"/${P}-evaltotal.patch
 	eprefixify ${PN}
 }
 
