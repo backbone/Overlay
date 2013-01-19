@@ -24,62 +24,62 @@ PORTAGE_ELOG_CLASSES="warn error log"
 PORTAGE_ELOG_SYSTEM="save"
 
 # cpu
-USE="$USE custom-cflags"
+USE="${USE} custom-cflags"
 
 # gpu
-USE="$USE directfb dri dri2 fbcon fbcondecor fbosd fbsplash opengl opencl vaapi"
+USE="${USE} directfb dri dri2 fbcon fbcondecor fbosd opengl opencl vaapi"
 
 # fonts
-USE="$USE cairo cleartype -lcdfilter truetype unicode"
+USE="${USE} cairo cleartype -lcdfilter truetype unicode"
 
 # audio
-USE="$USE aac alsa amr audio dts -esd faac gsm jack -jingle mad mikmod -nas \
+USE="${USE} aac alsa amr audio dts -esd faac gsm jack -jingle mad mikmod -nas \
           ogg -osc -oss -pulseaudio speex vorbis"
 
 # multimedia (video+audio)
-USE="$USE dirac -dvb -dvdr encode fftw -ipod -quicktime schroedinger v4l v4l2 video vpx x264 -xv xvid xvmc"
+USE="${USE} dirac -dvb -dvdr encode fftw -ipod -quicktime schroedinger v4l v4l2 video vpx x264 xvid xvmc"
 
 # graphics
-USE="$USE -aalib -gphoto2 imagemagick jpg jpeg png sdl X"
+USE="${USE} -aalib -gphoto2 imagemagick jpg jpeg png sdl X"
 
 # arc
-USE="$USE bzip2 gzip"
+USE="${USE} bzip2 gzip"
 
 # toolkits
-USE="$USE -aqua -gtk -gtk2 -gtkhtml -neXt -qt -qt3 qt3support -qt-static -qt4"
+USE="${USE} -aqua -gtk2 -gtkhtml ncurses -neXt -qt -qt3 qt3support -qt-static"
 
 # desktop
-USE="$USE -gnome -gnome2 -gnome-keyring -kde -nautilus -semantic-desktop xscreensaver"
+USE="${USE} -gnome -gnome2 -gnome-keyring -kde -nautilus -semantic-desktop xscreensaver"
 
 # input
-USE="$USE -joystick tslib"
+USE="${USE} tslib"
 
 # net
-USE="$USE -ipv6"
+USE="${USE} -ipv6"
 
 # security
-USE="$USE -kerberos -pam"
+USE="${USE} -kerberos -pam"
 
 # power
-USE="$USE acpi"
+USE="${USE} acpi"
 
 # develop
-USE="$USE bash-completion cscope -debug -fortran -java \
-          -introspection -lua -mono pch -perl -python -static-libs \
+USE="${USE} bash-completion cscope -debug -fortran -java \
+          -introspection -lua -mono pch \
           -tcl -tidy -tk -tokenizer"
 
 # daemons
-USE="$USE consolekit daemon dbus -hal logrotate samba syslog"
+USE="${USE} consolekit daemon dbus -hal logrotate samba syslog"
 
 # web
-USE="$USE cgi xmlrpc"
+USE="${USE} cgi xmlrpc"
 
 # networking
-USE="$USE -bluetooth -imap -ipv6 -lirc -networkmanager -nis"
+USE="${USE} -bluetooth -imap -ipv6 -lirc -networkmanager -nis"
 
 # db
-USE="$USE -freetds -mssql -sybase-ct"
+USE="${USE} -freetds -mssql -sybase-ct"
 
 # other
-USE="$USE -bindist examples -freetds -ipod -multilib -old-linux nptl \
+USE="${USE} -bindist examples -freetds -ipod -multilib -old-linux nptl \
           -smartcard threads xattr"
