@@ -82,6 +82,7 @@ net-p2p/transmission gtk
 net-voip/linphone gtk
 net-wireless/hostapd logwatch
 sci-geosciences/googleearth qt-bundled
+sys-auth/consolekit policykit
 sys-apps/tuxonice-userui fbsplash
 sys-apps/util-linux static-libs
 sys-block/gparted fat ntfs
