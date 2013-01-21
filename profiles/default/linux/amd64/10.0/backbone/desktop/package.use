@@ -72,7 +72,6 @@ media-video/mplayer a52 aalib -ass -libass bluray bs2b cdio dv dvd dvdnav faad f
 net-fs/samba quota
 net-ftp/pure-ftpd charconv sysquota
 net-im/pidgin gtk
-net-libs/libpcap ipv6
 net-libs/rb_libtorrent python
 net-libs/xulrunner custom-optimization
 net-misc/rsync xattr

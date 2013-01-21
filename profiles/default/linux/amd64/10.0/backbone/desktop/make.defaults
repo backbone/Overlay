@@ -54,9 +54,6 @@ USE="${USE} -gnome -gnome2 -gnome-keyring -kde -nautilus -semantic-desktop xscre
 # input
 USE="${USE} tslib"
 
-# net
-USE="${USE} -ipv6"
-
 # security
 USE="${USE} -kerberos -pam"
 
@@ -75,7 +72,7 @@ USE="${USE} consolekit daemon dbus -hal logrotate samba syslog"
 USE="${USE} cgi xmlrpc"
 
 # networking
-USE="${USE} -bluetooth -imap -ipv6 -lirc -networkmanager -nis"
+USE="${USE} -bluetooth -imap -lirc -networkmanager -nis"
 
 # db
 USE="${USE} -freetds -mssql -sybase-ct"
