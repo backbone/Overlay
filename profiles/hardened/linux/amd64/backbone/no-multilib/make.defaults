@@ -30,7 +30,7 @@ USE="${USE} custom-cflags"
 #USE="${USE} directfb dri dri2 fbcon fbcondecor fbosd opengl opencl vaapi"
 
 # fonts
-USE="${USE} -cairo -cleartype -lcdfilter -truetype unicode"
+USE="${USE} -cairo -cleartype -lcdfilter unicode"
 
 # audio
 USE="${USE} alsa audio dts -esd -jingle mad mikmod -nas \
