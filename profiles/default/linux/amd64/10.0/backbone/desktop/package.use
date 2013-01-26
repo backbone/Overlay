@@ -76,6 +76,7 @@ net-im/pidgin gtk
 net-libs/rb_libtorrent python
 net-libs/xulrunner custom-optimization
 net-misc/rsync xattr
+net-misc/remmina freerdp
 net-misc/wicd gtk
 net-p2p/eiskaltdcpp gtk sqlite xmlrpc qt4
 net-p2p/transmission gtk
