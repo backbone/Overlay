@@ -118,6 +118,7 @@ sys-devel/prelink ~amd64
 sys-firmware/amd-ucode ~amd64
 sys-firmware/ipxe ~amd64
 <sys-firmware/seabios-1.8 ~amd64
+sys-fs/aufs3 ~amd64
 <sys-fs/e4rat-0.2.4 ~amd64
 sys-kernel/dracut ~amd64
 sys-kernel/pf-sources ~amd64

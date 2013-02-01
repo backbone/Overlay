@@ -89,6 +89,7 @@ sys-apps/tuxonice-userui fbsplash
 sys-apps/util-linux static-libs
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
+sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs
 sys-fs/ntfs3g ntfsprogs
 sys-fs/udev extras gudev hwdb
