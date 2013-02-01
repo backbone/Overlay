@@ -62,8 +62,8 @@ USE="${USE} acpi"
 
 # develop
 USE="${USE} bash-completion cscope -debug -fortran -java \
-          -introspection -lua -mono pch \
-          -tcl -tidy -tk"
+            -introspection -lua -mono pch \
+            -tcl -tidy -tk"
 
 # daemons
 USE="${USE} -consolekit daemon -dbus -hal logrotate"
@@ -78,5 +78,5 @@ USE="${USE} -bluetooth -imap -lirc -networkmanager"
 USE="${USE} -freetds -mssql -sybase-ct"
 
 # other
-USE="${USE} -bindist -examples -freetds -gpm -ipod -multilib -old-linux nptl \
-          -smartcard -static-libs threads xattr"
+USE="${USE} -bindist -examples -freetds -gpm inotify -ipod -multilib -old-linux nptl \
+            -smartcard -static-libs threads xattr"
