@@ -43,6 +43,7 @@ net-wireless/hostapd logwatch
 sys-apps/util-linux static-libs
 sys-auth/consolekit policykit
 sys-block/parted device-mapper
+sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs
 sys-fs/ntfs3g ntfsprogs
 sys-fs/udev extras

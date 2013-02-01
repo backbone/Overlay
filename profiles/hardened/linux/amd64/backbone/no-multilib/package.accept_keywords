@@ -51,6 +51,7 @@ sys-devel/crossdev ~amd64
 sys-firmware/amd-ucode ~amd64
 sys-kernel/dracut ~amd64
 sys-libs/tdb ~amd64
+sys-fs/aufs3 ~amd64
 virtual/perl-Module-Load ~amd64
 www-misc/zoneminder ~amd64
 www-servers/thin ~amd64
