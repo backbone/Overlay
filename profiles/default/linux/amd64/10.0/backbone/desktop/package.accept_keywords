@@ -24,6 +24,7 @@ app-office/texmaker ~amd64
 =app-office/texreport-gtk-9999 **
 =app-office/texreport-gtk-plugin_insysltd-common-9999 **
 app-portage/deltup ~amd64
+app-portage/eix ~amd64
 =app-portage/findcruftfiles-9999 **
 app-portage/getdelta ~amd64
 app-portage/smart-live-rebuild ~amd64
