@@ -1,0 +1,82 @@
+CFLAGS="-O2 -pipe -march=native"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed"
+
+CHOST="x86_64-pc-linux-gnu"
+CBUILD="x86_64-pc-linux-gnu"
+MAKEOPTS="-j2"
+EMERGE_DEFAULT_OPTS="-j2"
+
+ACCEPT_KEYWORDS="amd64"
+ACCEPT_LICENSE="*"
+
+VIDEO_CARDS=""
+INPUT_DEVICES=""
+
+FEATURES="ccache parallel-fetch collision-protect sandbox candy metadata-transfer preserve-libs"
+
+CCACHE_SIZE="6G"
+CCACHE_DIR="/var/tmp/ccache"
+PORTAGE_NICENESS="19"
+PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
+
+PORTAGE_ELOG_CLASSES="warn error log"
+PORTAGE_ELOG_SYSTEM="save"
+
+# cpu
+USE="${USE} custom-cflags"
+
+# gpu
+#USE="${USE} directfb dri dri2 fbcon fbcondecor fbosd opengl opencl vaapi"
+
+# fonts
+USE="${USE} -cairo -cleartype -lcdfilter unicode"
+
+# audio
+USE="${USE} alsa audio dts -esd -jingle mad mikmod -nas \
+            -osc -oss -pulseaudio"
+
+# multimedia (video+audio)
+USE="${USE} -dvb -dvdr -ffmpeg fftw -ipod -quicktime v4l v4l2 video -xvmc"
+
+# graphics
+USE="${USE} -aalib -gphoto2 imagemagick jpg -X"
+
+# arc
+USE="${USE} bzip2 gzip"
+
+# toolkits
+USE="${USE} -aqua -gtk -gtk2 -gtkhtml ncurses -neXt -qt -qt3 qt3support -qt4 -qt-static"
+
+# desktop
+USE="${USE} -gnome -gnome2 -gnome-keyring -kde -nautilus -semantic-desktop -xscreensaver"
+
+# input
+USE="${USE} -tslib"
+
+# security
+USE="${USE} -acl -kerberos pam"
+
+# power
+USE="${USE} acpi"
+
+# develop
+USE="${USE} bash-completion cscope -debug -fortran -java \
+            -introspection -lua -mono pch \
+            -tcl -tidy -tk"
+
+# daemons
+USE="${USE} -consolekit daemon -dbus -hal logrotate"
+
+# web
+USE="${USE} xmlrpc"
+
+# networking
+USE="${USE} -bluetooth -imap -lirc -networkmanager"
+
+# db
+USE="${USE} -freetds -mssql -sybase-ct"
+
+# other
+USE="${USE} -bindist -examples -freetds -gpm inotify -ipod -multilib -old-linux nptl \
+            -smartcard -static-libs threads xattr"

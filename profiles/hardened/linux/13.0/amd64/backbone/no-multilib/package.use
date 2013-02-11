@@ -1,0 +1,53 @@
+app-arch/bzip2 static-libs
+app-editors/vim perl python vim-pager cscope
+app-misc/mc samba edit slang -ncurses
+app-misc/sphinx mysql
+app-misc/tmux vim-syntax
+app-portage/eix sqlite zsh-completion
+app-text/wgetpaste zsh-completion
+dev-db/mysql -perl
+dev-lang/php pdo sqlite cgi cli curl gd sqlite3 xml flatfile mysql mysqli mysqlnd inifile sockets sysvipc tokenizer truetype xmlreader xmlwriter xpm zip exif xmlrpc xsl
+dev-lang/python sqlite
+dev-libs/apr-util mysql
+dev-libs/boost python
+dev-libs/glib utils
+dev-libs/libgcrypt static-libs
+dev-libs/libgpg-error static-libs
+dev-libs/libxml2 python icu
+dev-libs/lzo static-libs
+dev-libs/popt static-libs
+dev-libs/xmlrpc-c abyss
+dev-ruby/activerecord mysql
+dev-vcs/git perl -python
+dev-vcs/mercurial zsh-completion
+games-fps/urbanterror dedicated -server
+mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
+media-gfx/imagemagick png
+media-libs/lcms static-libs python
+media-libs/libjpeg-turbo static-libs
+media-libs/libpng static-libs apng
+media-libs/libsdl X opengl
+media-libs/mesa -llvm
+media-sound/mpd flac aac vorbis mikmod inotify lame libsamplerate mpg123 musepack sqlite twolame
+media-sound/ncmpcpp outputs taglib visualizer
+media-sound/sox mad
+media-video/ffmpeg network v4l
+net-fs/samba quota
+net-ftp/pure-ftpd sysquota
+net-im/ejabberd mod_muc mod_proxy65 mod_irc mod_pubsub
+net-libs/xulrunner custom-optimization
+net-misc/rsync xattr
+net-p2p/eiskaltdcpp -cli xmlrpc -emoticons
+net-p2p/rtorrent xmlrpc
+net-wireless/hostapd logwatch
+sys-apps/util-linux static-libs
+sys-auth/consolekit policykit
+sys-block/parted device-mapper
+sys-fs/aufs3 kernel-patch ramfs
+sys-fs/lvm2 static-libs
+sys-fs/ntfs3g ntfsprogs
+sys-fs/udev extras
+sys-libs/zlib minizip
+virtual/jpeg static-libs
+www-misc/zoneminder ffmpeg
+www-servers/lighttpd php fastcgi mysql -minimal -cgi
