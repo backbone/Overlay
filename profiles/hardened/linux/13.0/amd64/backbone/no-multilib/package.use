@@ -31,7 +31,7 @@ media-libs/mesa -llvm
 media-sound/mpd flac aac vorbis mikmod inotify lame libsamplerate mpg123 musepack sqlite twolame
 media-sound/ncmpcpp outputs taglib visualizer
 media-sound/sox mad
-media-video/ffmpeg network v4l
+media-video/ffmpeg network v4l vpx
 net-fs/samba quota
 net-ftp/pure-ftpd sysquota
 net-im/ejabberd mod_muc mod_proxy65 mod_irc mod_pubsub
