@@ -59,6 +59,7 @@ dev-ruby/ruby-hmac ~amd64
 dev-ruby/ruby-net-ldap ~amd64
 dev-ruby/ruby-yadis ~amd64
 dev-ruby/stompserver ~amd64
+dev-tex/pscyr ~amd64
 dev-util/android-sdk-update-manager ~amd64
 dev-util/bdelta ~amd64
 dev-util/colormake ~amd64
