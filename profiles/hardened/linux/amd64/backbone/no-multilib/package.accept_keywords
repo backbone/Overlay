@@ -1,6 +1,7 @@
 app-accessibility/festival-ru ~amd64
 =app-admin/gentoo-upgrade-9999 **
 =app-admin/htpasswd-9999 **
+app-admin/cpuset ~amd64
 app-admin/paxtest ~amd64
 app-arch/lbzip2 ~amd64
 <app-misc/sphinx-2.1 ~amd64
