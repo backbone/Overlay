@@ -4,6 +4,7 @@ app-admin/cpuset ~amd64
 =app-admin/gentoo-upgrade-9999 **
 =app-admin/network-profile-9999 **
 app-admin/paxtest ~amd64
+app-arch/lrzip ~amd64
 app-benchmarks/gtkperf ~amd64
 app-editors/curses-hexedit ~amd64
 app-editors/oxygenxml ~x86
