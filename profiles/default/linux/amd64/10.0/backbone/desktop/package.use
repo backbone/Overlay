@@ -19,6 +19,7 @@ app-text/hyperestraier ruby
 app-text/poppler cairo qt4
 app-text/stardict festival gucharmap pronounce -espeak
 app-text/wgetpaste zsh-completion
+dev-db/sqlite secure-delete unlock-notify
 dev-java/antlr java
 dev-java/swt cairo
 dev-lang/php pdo sqlite curl gd sqlite3 xml flatfile mysql mysqli mysqlnd inifile sockets sysvipc tokenizer truetype xmlreader xmlwriter xpm zip exif cgi xmlrpc xsl
@@ -101,7 +102,7 @@ virtual/jpeg static-libs
 virtual/udev gudev hwdb
 www-apps/dokuwiki gd vhosts
 www-apps/redmine fastcgi git imagemagick mercurial git mysql
-www-client/firefox custom-optimization -pgo
+www-client/firefox custom-optimization -pgo system-jpeg system-sqlite
 www-servers/lighttpd php fastcgi mysql -minimal
 x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk
