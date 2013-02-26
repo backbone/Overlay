@@ -113,6 +113,6 @@ x11-libs/qt-gui cups
 x11-libs/qt-qt3support kde
 x11-libs/qt-webkit kde
 x11-misc/xscreensaver gdm new-login
-x11-terms/rxvt-unicode perl
+x11-terms/rxvt-unicode 256-color alt-font-width perl -vanilla xft
 x11-themes/gtk-engines-equinox -animation -themes -icons
 x11-wm/ion3 proportional-tabs systray wallpaper
