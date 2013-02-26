@@ -8,13 +8,14 @@ app-arch/lrzip ~amd64
 app-benchmarks/gtkperf ~amd64
 app-editors/curses-hexedit ~amd64
 app-editors/oxygenxml ~x86
-app-emulation/winetricks ~amd64
 app-emulation/qemu ~amd64
+<app-emulation/spice-protocol-0.13 ~amd64
 <app-emulation/virtualbox-4.3.0 ~amd64
 <app-emulation/virtualbox-additions-4.3.0 ~amd64
 <app-emulation/virtualbox-extpack-oracle-4.3.0 ~amd64
 <app-emulation/virtualbox-modules-4.3.0 ~amd64
 app-emulation/wine ~amd64
+app-emulation/winetricks ~amd64
 =sci-misc/labview-8.6.0 ~amd64
 app-misc/nixnote ~amd64
 <app-misc/sphinx-2.1 ~amd64
