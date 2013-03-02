@@ -94,7 +94,6 @@ sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs
 sys-fs/ntfs3g ntfsprogs
 sys-fs/udev extras gudev hwdb
-sys-libs/ncurses tinfo
 sys-libs/zlib static-libs minizip
 sys-power/cpufreqd apm lm_sensors pmu
 virtual/ffmpeg mp3 theora
