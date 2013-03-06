@@ -8,6 +8,14 @@ app-arch/lrzip ~amd64
 app-benchmarks/gtkperf ~amd64
 app-editors/curses-hexedit ~amd64
 app-editors/oxygenxml ~x86
+=app-emulation/emul-linux-x86-baselibs-20130224 ~amd64
+=app-emulation/emul-linux-x86-db-20130224 ~amd64
+=app-emulation/emul-linux-x86-gtklibs-20130224 ~amd64
+=app-emulation/emul-linux-x86-medialibs-20130224 ~amd64
+=app-emulation/emul-linux-x86-opengl-20130224 ~amd64
+=app-emulation/emul-linux-x86-sdl-20130224 ~amd64
+=app-emulation/emul-linux-x86-soundlibs-20130224 ~amd64
+=app-emulation/emul-linux-x86-xlibs-20130224 ~amd64
 app-emulation/qemu ~amd64
 <app-emulation/spice-protocol-0.13 ~amd64
 <app-emulation/virtualbox-4.3.0 ~amd64
