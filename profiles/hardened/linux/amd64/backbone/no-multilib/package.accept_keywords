@@ -12,6 +12,7 @@ app-portage/smart-live-rebuild ~amd64
 app-text/cuneiform ~amd64
 app-vim/cctree ~amd64
 app-vim/screen ~amd64
+<dev-games/irrlicht-1.9 ~amd64
 dev-libs/gnulib ~x64-freebsd
 dev-libs/libpipeline ~amd64
 dev-perl/PHP-Serialization ~amd64
