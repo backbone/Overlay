@@ -17,6 +17,7 @@ dev-libs/gnulib ~x64-freebsd
 dev-libs/libpipeline ~amd64
 dev-perl/PHP-Serialization ~amd64
 dev-python/python-exec ~amd64
+dev-python/xhtml2pdf ~amd64
 dev-ruby/IO-Reactor ~amd64
 dev-ruby/Ruby-MemCache ~amd64
 dev-ruby/bundler ~amd64

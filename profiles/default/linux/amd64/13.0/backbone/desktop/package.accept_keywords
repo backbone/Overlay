@@ -57,6 +57,7 @@ dev-libs/nspr ~amd64
 <dev-libs/nss-3.15 ~amd64
 dev-libs/vala-common ~amd64
 dev-python/python-exec ~amd64
+dev-python/xhtml2pdf ~amd64
 dev-ruby/IO-Reactor ~amd64
 dev-ruby/Ruby-MemCache ~amd64
 dev-ruby/bundler ~amd64
