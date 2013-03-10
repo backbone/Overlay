@@ -56,6 +56,7 @@ dev-libs/libgee ~amd64
 dev-libs/nspr ~amd64
 <dev-libs/nss-3.15 ~amd64
 dev-libs/vala-common ~amd64
+<dev-lua/lgi-0.7 ~amd64
 dev-python/python-exec ~amd64
 dev-python/xhtml2pdf ~amd64
 dev-ruby/IO-Reactor ~amd64
@@ -153,7 +154,9 @@ x11-misc/trayion ~amd64
 x11-misc/vdpauinfo ~amd64
 x11-misc/virtualgl ~amd64
 x11-plugins/pidgin-bot-sentry ~amd64
+<x11-plugins/vicivous-2.2 ~amd64
 x11-themes/gtk-engines:3 ~amd64
 x11-themes/gtk-engines-equinox ~amd64
 x11-themes/gtk-engines-clearlooks:3 ~amd64
+<x11-wm/awesome-3.6 ~amd64
 x11-wm/ion3 ~amd64

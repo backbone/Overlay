@@ -62,7 +62,7 @@ USE="${USE} acpi"
 
 # develop
 USE="${USE} bash-completion cscope -debug -fortran -java \
-            -introspection -lua -mono pch \
+            -lua -mono pch \
             -tcl -tidy -tk -tokenizer"
 
 # daemons
