@@ -78,5 +78,5 @@ USE="${USE} -bluetooth -imap -lirc -networkmanager -nis"
 USE="${USE} -freetds -mssql -sybase-ct"
 
 # other
-USE="${USE} -bindist examples -freetds inotify -ipod -multilib -old-linux nptl \
+USE="${USE} -bindist -freetds inotify -ipod -multilib -old-linux nptl \
             -smartcard threads xattr"
