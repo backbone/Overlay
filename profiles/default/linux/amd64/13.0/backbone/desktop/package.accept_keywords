@@ -42,6 +42,7 @@ app-portage/smart-live-rebuild ~amd64
 app-text/cuneiform ~amd64
 app-text/mht-rip ~amd64
 app-vim/cctree ~amd64
+app-vim/clewn ~amd64
 app-vim/screen ~amd64
 dev-java/jutils ~amd64
 dev-java/lwjgl ~amd64

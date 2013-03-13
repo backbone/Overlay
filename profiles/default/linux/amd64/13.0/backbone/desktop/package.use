@@ -1,6 +1,6 @@
 app-arch/bzip2 static-libs
 app-editors/gedit python
-app-editors/gvim gtk cscope
+app-editors/gvim gtk cscope netbeans
 app-editors/nano justify slang
 app-editors/vim perl python vim-pager cscope
 app-emulation/fuse gtk
