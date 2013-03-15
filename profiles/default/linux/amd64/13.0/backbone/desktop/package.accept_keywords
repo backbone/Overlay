@@ -153,6 +153,7 @@ x11-drivers/nvidia-drivers ~amd64
 x11-misc/bumblebee ~amd64
 =x11-misc/primus-9999 **
 x11-misc/trayion ~amd64
+x11-misc/urxvt-perls ~amd64
 x11-misc/vdpauinfo ~amd64
 x11-misc/virtualgl ~amd64
 x11-plugins/pidgin-bot-sentry ~amd64
