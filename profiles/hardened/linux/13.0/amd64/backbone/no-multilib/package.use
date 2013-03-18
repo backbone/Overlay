@@ -1,6 +1,6 @@
 app-arch/bzip2 static-libs
 app-editors/vim perl python vim-pager cscope
-app-misc/mc samba edit slang -ncurses
+app-misc/mc samba edit sftp slang -ncurses
 app-misc/sphinx mysql
 app-misc/tmux vim-syntax
 app-portage/eix sqlite zsh-completion
