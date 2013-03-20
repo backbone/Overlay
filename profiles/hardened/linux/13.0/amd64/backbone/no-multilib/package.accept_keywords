@@ -40,6 +40,7 @@ dev-vcs/gitstats ~amd64
 games-action/minetest ~amd64
 games-action/minetest_game ~amd64
 <media-libs/libvpx-1.2.0 ~amd64
+<net-analyzer/ntop-6.0.0 ~amd64
 net-libs/libtorrent ~amd64
 <net-misc/curl-7.29.0 ~amd64
 <net-p2p/rtorrent-1.0.0 ~amd64
