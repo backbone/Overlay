@@ -118,7 +118,8 @@ src_prepare() {
 	use nfs && ( use amd64 || use ppc64 ) && set_config INO_T_64
 	use ramfs && set_config BR_RAMFS
 
-	use pax_kernel && epatch "${FILESDIR}"/pax-2.patch
+	use pax_kernel && kernel_is lt 3 7 0 && epatch "${FILESDIR}"/pax-2.patch
+	use pax_kernel && kernel_is ge 3 7 0 && epatch "${FILESDIR}"/pax-2_kernel-3.7.patch
 
 	sed -i "s:aufs.ko usr/include/linux/aufs_type.h:aufs.ko:g" Makefile || die
 }
