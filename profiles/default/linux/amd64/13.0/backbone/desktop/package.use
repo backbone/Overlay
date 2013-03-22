@@ -96,7 +96,7 @@ sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs
 sys-fs/ntfs3g ntfsprogs
 sys-fs/udev extras gudev hwdb
-sys-kernel/geek-sources aufs bfq branding ck debian genpatches ice pld suse uksm zen
+sys-kernel/geek-sources aufs bfq branding ck debian genpatches ice suse uksm zen
 sys-libs/zlib static-libs minizip
 sys-power/cpufreqd apm lm_sensors pmu
 virtual/ffmpeg mp3 theora
