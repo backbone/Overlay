@@ -39,6 +39,7 @@ dev-util/anjuta vala
 dev-util/cmake vim-syntax
 dev-util/geany-plugins enchant gtkspell
 dev-util/gtk-doc highlight vim
+dev-util/nemiver memoryview
 dev-util/nvidia-cuda-sdk cuda opencl examples
 dev-util/nvidia-cuda-toolkit debugger profiler
 dev-vcs/git perl cgi
