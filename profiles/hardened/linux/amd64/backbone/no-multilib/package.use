@@ -44,10 +44,12 @@ net-wireless/hostapd logwatch
 sys-apps/util-linux static-libs
 sys-auth/consolekit policykit
 sys-block/parted device-mapper
+sys-boot/grub device-mapper
 sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs
 sys-fs/ntfs3g ntfsprogs
 sys-fs/udev extras
+sys-kernel/dracut device-mapper
 sys-libs/zlib minizip
 virtual/jpeg static-libs
 www-misc/zoneminder ffmpeg

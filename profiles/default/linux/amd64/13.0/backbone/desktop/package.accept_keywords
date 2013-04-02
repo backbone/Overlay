@@ -5,6 +5,7 @@ app-admin/cpuset ~amd64
 =app-admin/network-profile-9999 **
 app-admin/paxtest ~amd64
 app-arch/lrzip ~amd64
+<app-arch/p7zip-9.21 ~amd64
 app-benchmarks/gtkperf ~amd64
 app-editors/curses-hexedit ~amd64
 app-editors/oxygenxml ~x86
@@ -111,7 +112,9 @@ media-libs/glm ~amd64
 <media-libs/gstreamer-1.1 ~amd64
 <media-libs/libvpx-1.2.0 ~amd64
 <media-libs/sk1libs-0.9.2 ~amd64
+media-sound/mp3unicode ~amd64
 media-video/cinelerra ~amd64
+media-video/ffmpeg ~amd64
 media-video/gnome-mplayer ~amd64
 media-video/lives ~amd64
 media-video/nvidia-settings ~amd64
@@ -130,6 +133,7 @@ sys-apps/microcode-data ~amd64
 <sys-apps/sysvinit-2.89 ~amd64
 =sys-apps/uksmstat-9999 **
 sys-apps/util-linux ~amd64
+sys-boot/efibootmgr ~amd64
 >=sys-boot/grub-2 ~amd64
 sys-boot/os-prober ~amd64
 sys-devel/clang ~amd64
