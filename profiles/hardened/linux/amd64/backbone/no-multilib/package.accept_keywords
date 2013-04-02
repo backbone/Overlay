@@ -1,5 +1,6 @@
 app-accessibility/festival-ru ~amd64
 app-admin/cpuset ~amd64
+app-admin/eselect-vala ~amd64
 =app-admin/gentoo-upgrade-9999 **
 =app-admin/htpasswd-9999 **
 app-admin/paxtest ~amd64
@@ -14,8 +15,10 @@ app-text/cuneiform ~amd64
 app-vim/cctree ~amd64
 app-vim/screen ~amd64
 <dev-games/irrlicht-1.9 ~amd64
+dev-lang/vala ~amd64
 dev-libs/gnulib ~x64-freebsd
 dev-libs/libpipeline ~amd64
+dev-libs/vala-common ~amd64
 dev-perl/PHP-Serialization ~amd64
 dev-python/python-exec ~amd64
 dev-python/xhtml2pdf ~amd64
@@ -35,6 +38,7 @@ dev-ruby/ruby-yadis ~amd64
 dev-ruby/stompserver ~amd64
 dev-util/bdelta ~amd64
 dev-util/colormake ~amd64
+=dev-util/valadoc-9999 **
 dev-util/valgrind ~amd64
 dev-vcs/gitosis-gentoo ~amd64
 dev-vcs/gitstats ~amd64
