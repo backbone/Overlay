@@ -46,6 +46,7 @@ dev-vcs/gitstats ~amd64
 games-action/minetest ~amd64
 games-action/minetest_game ~amd64
 <media-libs/libvpx-1.2.0 ~amd64
+media-plugins/gst-plugins-ffmpeg ~amd64
 media-sound/mp3unicode ~amd64
 media-video/ffmpeg ~amd64
 <net-analyzer/ntop-6.0.0 ~amd64

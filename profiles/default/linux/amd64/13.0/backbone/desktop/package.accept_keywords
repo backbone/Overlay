@@ -115,6 +115,7 @@ media-libs/glm ~amd64
 <media-libs/gstreamer-1.1 ~amd64
 <media-libs/libvpx-1.2.0 ~amd64
 <media-libs/sk1libs-0.9.2 ~amd64
+media-plugins/gst-plugins-ffmpeg ~amd64
 media-sound/mp3unicode ~amd64
 media-video/cinelerra ~amd64
 media-video/ffmpeg ~amd64
