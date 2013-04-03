@@ -9,6 +9,7 @@ app-arch/lbzip2 ~amd64
 <app-misc/sphinx-2.1 ~amd64
 app-portage/deltup ~amd64
 app-portage/eix ~amd64
+app-portage/ewo ~amd64
 app-portage/getdelta ~amd64
 app-portage/smart-live-rebuild ~amd64
 app-text/cuneiform ~amd64
