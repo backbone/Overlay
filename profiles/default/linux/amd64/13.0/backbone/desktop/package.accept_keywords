@@ -90,6 +90,8 @@ dev-vcs/gitstats ~amd64
 games-action/minecraft ~amd64
 games-action/minetest ~amd64
 games-action/minetest_game ~amd64
+games-board/ccgo ~amd64
+games-board/sjeng ~amd64
 <games-engines/stratagus-2.3 ~amd64
 games-fps/unigine-heaven ~amd64
 games-fps/unigine-sanctuary ~amd64
@@ -124,6 +126,7 @@ net-fs/cifs-utils ~amd64
 net-fs/curlftpfs ~amd64
 net-fs/smbnetfs ~amd64
 <net-libs/enet-1.3.6 ~amd64
+sci-biology/foldingathome ~amd64
 sci-geosciences/googleearth ~amd64
 =sys-apps/hardinform-9999 **
 sys-apps/man-db ~amd64
