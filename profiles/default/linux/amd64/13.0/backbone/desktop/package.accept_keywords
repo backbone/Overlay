@@ -91,13 +91,13 @@ dev-vcs/gitstats ~amd64
 games-action/minecraft ~amd64
 games-action/minetest ~amd64
 games-action/minetest_game ~amd64
+games-action/minetest_common ~amd64
 games-board/ccgo ~amd64
 games-board/sjeng ~amd64
 <games-engines/stratagus-2.3 ~amd64
 games-fps/unigine-heaven ~amd64
 games-fps/unigine-sanctuary ~amd64
 games-fps/unigine-tropics ~amd64
-games-mud/minetest ~amd64
 =games-puzzle/charley-9999 **
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
