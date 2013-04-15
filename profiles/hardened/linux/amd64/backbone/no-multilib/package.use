@@ -1,3 +1,4 @@
+app-admin/glance mysql
 app-arch/bzip2 static-libs
 app-editors/vim perl python vim-pager cscope
 app-misc/mc samba edit sftp slang -ncurses
@@ -17,6 +18,7 @@ dev-libs/libxml2 python icu
 dev-libs/lzo static-libs
 dev-libs/popt static-libs
 dev-libs/xmlrpc-c abyss
+dev-python/sqlalchemy mysql
 dev-ruby/activerecord mysql
 dev-util/anjuta vala
 dev-vcs/git perl -python
@@ -44,6 +46,7 @@ net-p2p/rtorrent xmlrpc
 net-wireless/hostapd logwatch
 sys-apps/util-linux static-libs
 sys-auth/consolekit policykit
+sys-auth/keystone mysql
 sys-block/parted device-mapper
 sys-boot/grub device-mapper
 sys-fs/aufs3 kernel-patch ramfs

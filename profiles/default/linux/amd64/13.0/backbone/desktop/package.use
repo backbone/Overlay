@@ -1,3 +1,4 @@
+app-admin/glance mysql
 app-arch/bzip2 static-libs
 app-editors/gedit python
 app-editors/gvim gtk cscope netbeans
@@ -34,6 +35,7 @@ dev-libs/libxml2 python
 dev-libs/lzo static-libs
 dev-libs/popt static-libs
 dev-libs/xmlrpc-c abyss
+dev-python/sqlalchemy mysql
 dev-ruby/activerecord mysql
 dev-util/anjuta vala
 dev-util/cmake vim-syntax
@@ -89,6 +91,7 @@ net-voip/linphone gtk
 net-wireless/hostapd logwatch
 sci-geosciences/googleearth qt-bundled
 sys-auth/consolekit policykit
+sys-auth/keystone mysql
 sys-apps/tuxonice-userui fbsplash
 sys-apps/util-linux static-libs
 sys-boot/grub device-mapper
