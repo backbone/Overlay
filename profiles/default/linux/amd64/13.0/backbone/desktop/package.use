@@ -117,6 +117,7 @@ x11-drivers/nvidia-drivers gtk
 x11-libs/cairo X
 x11-libs/cairo directfb glitz opengl svg xcb drm openvg
 x11-libs/gdk-pixbuf X tiff
+>=x11-libs/gtk+-3 examples
 x11-libs/qt-gui cups
 x11-libs/qt-qt3support kde
 x11-libs/qt-webkit kde
