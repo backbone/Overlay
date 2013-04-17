@@ -111,6 +111,7 @@ net-libs/nodejs ~amd64
 net-misc/rabbitmq-server ~amd64
 <net-p2p/rtorrent-1.0.0 ~amd64
 perl-core/Module-Load ~amd64
+sys-apps/gptfdisk ~amd64
 sys-apps/man-db ~amd64
 sys-apps/microcode-data ~amd64
 <sys-apps/portage-2.3.0 **

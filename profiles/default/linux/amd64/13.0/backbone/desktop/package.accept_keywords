@@ -188,6 +188,7 @@ net-misc/rabbitmq-server ~amd64
 <net-p2p/rtorrent-1.0.0 ~amd64
 sci-biology/foldingathome ~amd64
 sci-geosciences/googleearth ~amd64
+sys-apps/gptfdisk ~amd64
 =sys-apps/hardinform-9999 **
 sys-apps/man-db ~amd64
 sys-apps/microcode-data ~amd64
