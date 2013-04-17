@@ -175,6 +175,7 @@ media-video/cinelerra ~amd64
 media-video/ffmpeg ~amd64
 media-video/gnome-mplayer ~amd64
 media-video/lives ~amd64
+media-video/mplayer2 ~amd64
 media-video/nvidia-settings ~amd64
 media-video/v4l2ucp ~amd64
 <net-analyzer/ntop-6.0.0 ~amd64
