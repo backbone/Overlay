@@ -2,3 +2,4 @@
 >=dev-ruby/rubygems-1.8.15
 =media-gfx/imagemagick-6.7.6.4
 =sys-kernel/dracut-022
+=sys-fs/aufs3-3_p20130422
