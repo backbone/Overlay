@@ -4,3 +4,4 @@
 >=media-fonts/liberation-fonts-2.00.0
 =www-client/firefox-16.0.1
 >=dev-games/cegui-0.7.0 # 0.6* required by Qemu, spice
+=sys-kernel/geek-sources-3.9.0
