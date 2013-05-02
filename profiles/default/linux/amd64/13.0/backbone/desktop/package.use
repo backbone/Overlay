@@ -80,6 +80,8 @@ net-fs/cifs-utils upcall
 net-fs/samba cups quota
 net-ftp/pure-ftpd charconv sysquota
 net-im/pidgin gnutls gtk
+net-libs/opal h224 sip sipim x264 xml
+net-libs/ptlib xml wav
 net-libs/rb_libtorrent python
 net-libs/xulrunner custom-optimization
 net-misc/rsync xattr
