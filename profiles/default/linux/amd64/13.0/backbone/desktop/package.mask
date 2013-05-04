@@ -6,3 +6,4 @@
 >=dev-games/cegui-0.7.0 # 0.6* required by Qemu, spice
 =sys-kernel/geek-sources-3.9.0
 =sys-fs/aufs3-3_p20130422
+=sys-fs/aufs3-3_p20130429
