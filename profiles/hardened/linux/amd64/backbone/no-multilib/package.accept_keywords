@@ -13,6 +13,7 @@ app-portage/eix ~amd64
 app-portage/ewo ~amd64
 app-portage/getdelta ~amd64
 app-portage/smart-live-rebuild ~amd64
+<app-shells/bash-completion-1.4 ~amd64
 app-text/cuneiform ~amd64
 app-vim/cctree ~amd64
 app-vim/screen ~amd64
