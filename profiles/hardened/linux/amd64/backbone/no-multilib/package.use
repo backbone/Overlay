@@ -44,7 +44,6 @@ net-libs/xulrunner custom-optimization
 net-misc/rsync xattr
 net-p2p/eiskaltdcpp -cli xmlrpc -emoticons
 net-p2p/rtorrent xmlrpc
-net-print/cups slp
 net-print/hplip hpcups hpijs
 net-wireless/hostapd logwatch
 sys-apps/util-linux static-libs
