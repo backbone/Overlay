@@ -90,6 +90,8 @@ net-misc/spice-gtk gstreamer gtk3
 net-misc/wicd gtk
 net-p2p/eiskaltdcpp gtk sqlite xmlrpc qt4
 net-p2p/transmission gtk
+net-print/cups slp
+net-print/hplip hpcups hpijs
 net-voip/linphone gtk
 net-wireless/hostapd logwatch
 sci-geosciences/googleearth qt-bundled
