@@ -9,7 +9,10 @@ app-arch/lrzip ~amd64
 <app-arch/p7zip-9.21 ~amd64
 app-benchmarks/gtkperf ~amd64
 app-editors/curses-hexedit ~amd64
+app-editors/gvim ~amd64
 app-editors/oxygenxml ~x86
+app-editors/vim ~amd64
+app-editors/vim-core ~amd64
 =app-emulation/emul-linux-x86-baselibs-20130224 ~amd64
 =app-emulation/emul-linux-x86-db-20130224 ~amd64
 =app-emulation/emul-linux-x86-gtklibs-20130224 ~amd64

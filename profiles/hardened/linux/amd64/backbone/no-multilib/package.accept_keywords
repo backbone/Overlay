@@ -7,6 +7,9 @@ app-admin/glance ~amd64
 app-admin/paxtest ~amd64
 app-arch/lbzip2 ~amd64
 <app-arch/p7zip-9.21 ~amd64
+app-editors/gvim ~amd64
+app-editors/vim ~amd64
+app-editors/vim-core ~amd64
 <app-misc/sphinx-2.1 ~amd64
 app-portage/deltup ~amd64
 app-portage/eix ~amd64
