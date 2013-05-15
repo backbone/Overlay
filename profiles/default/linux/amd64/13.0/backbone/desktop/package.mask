@@ -10,3 +10,4 @@
 =sys-fs/aufs3-3_p20130429
 =sys-fs/aufs3-3_p20130506
 =dev-libs/icu-51.1
+=app-emulation/wine-1.5.30
