@@ -104,14 +104,14 @@ sys-block/parted device-mapper
 sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs
 sys-fs/ntfs3g ntfsprogs
-sys-fs/udev extras gudev hwdb
+sys-fs/udev extras gudev hwdb static-libs
 sys-kernel/dracut device-mapper
 sys-kernel/geek-sources aufs bfq branding ck debian genpatches gentoo ice suse uksm zen
 sys-libs/zlib static-libs minizip
 sys-power/cpufreqd apm lm_sensors pmu
 virtual/ffmpeg mp3 theora
 virtual/jpeg static-libs
-virtual/udev gudev hwdb
+virtual/udev gudev hwdb static-libs
 www-apps/dokuwiki gd vhosts
 www-apps/redmine fastcgi git imagemagick mercurial git mysql
 www-client/firefox custom-optimization -pgo system-jpeg system-sqlite

@@ -54,9 +54,10 @@ sys-boot/grub device-mapper
 sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs
 sys-fs/ntfs3g ntfsprogs
-sys-fs/udev extras
+sys-fs/udev extras static-libs
 sys-kernel/dracut device-mapper
 sys-libs/zlib minizip
 virtual/jpeg static-libs
+virtual/udev static-libs
 www-misc/zoneminder ffmpeg
 www-servers/lighttpd php fastcgi mysql -minimal -cgi
