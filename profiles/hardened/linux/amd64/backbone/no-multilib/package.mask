@@ -5,4 +5,3 @@
 =sys-fs/aufs3-3_p20130422
 =sys-fs/aufs3-3_p20130429
 =sys-fs/aufs3-3_p20130506
-=dev-libs/icu-51.1
