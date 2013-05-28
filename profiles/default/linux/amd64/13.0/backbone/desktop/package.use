@@ -92,6 +92,7 @@ net-p2p/eiskaltdcpp gtk sqlite xmlrpc qt4
 net-p2p/transmission gtk
 net-print/hplip hpcups hpijs
 net-voip/linphone gtk
+net-voip/ekiga gstreamer gtk
 net-wireless/hostapd logwatch
 sci-geosciences/googleearth qt-bundled
 sys-auth/consolekit policykit
