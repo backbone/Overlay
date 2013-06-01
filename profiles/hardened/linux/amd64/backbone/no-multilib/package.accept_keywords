@@ -20,6 +20,7 @@ app-portage/smart-live-rebuild ~amd64
 <app-shells/bash-completion-1.4 ~amd64
 app-text/cuneiform ~amd64
 app-vim/cctree ~amd64
+app-vim/pathogen ~amd64
 app-vim/screen ~amd64
 <dev-games/irrlicht-1.9 ~amd64
 dev-lang/vala ~amd64
