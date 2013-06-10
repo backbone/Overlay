@@ -38,6 +38,7 @@ dev-python/chardet ~amd64
 dev-python/cliff ~amd64
 dev-python/cmd2 ~amd64
 dev-python/colorama ~amd64
+dev-python/d2to1 ~amd64
 dev-python/eventlet ~amd64
 dev-python/greenlet ~amd64
 dev-python/httplib2 ~amd64
@@ -57,8 +58,10 @@ dev-python/paramiko ~amd64
 dev-python/passlib ~amd64
 dev-python/paste ~amd64
 dev-python/pastedeploy ~amd64
+dev-python/pbr ~amd64
 dev-python/pep8 ~amd64
 dev-python/prettytable ~amd64
+dev-python/py-amap ~amd64
 dev-python/pycrypto ~amd64
 dev-python/python-cinderclient ~amd64
 dev-python/python-exec ~amd64
