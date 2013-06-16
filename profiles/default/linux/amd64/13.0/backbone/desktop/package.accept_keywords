@@ -9,6 +9,9 @@ app-antivirus/clamav ~amd64
 app-arch/lrzip ~amd64
 <app-arch/p7zip-9.21 ~amd64
 app-benchmarks/gtkperf ~amd64
+app-cdr/cdemu ~amd64
+app-cdr/cdemu-daemon ~amd64
+app-cdr/gcdemu ~amd64
 app-editors/curses-hexedit ~amd64
 app-editors/gvim ~amd64
 app-editors/oxygenxml ~x86
@@ -63,6 +66,7 @@ dev-libs/gnulib ~x64-freebsd
 dev-libs/jthread ~amd64
 dev-libs/libpipeline ~amd64
 dev-libs/libgee ~amd64
+dev-libs/libmirage ~amd64
 dev-libs/nspr ~amd64
 <dev-libs/nss-3.15 ~amd64
 dev-libs/vala-common ~amd64
