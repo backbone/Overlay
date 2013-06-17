@@ -231,6 +231,7 @@ sys-fs/aufs3 ~amd64
 <sys-fs/aufs-util-3.9 ~amd64
 <sys-fs/aufs-headers-3.9 ~amd64
 <sys-fs/e4rat-0.2.4 ~amd64
+=sys-fs/vhba-20130607 ~amd64
 sys-kernel/dracut ~amd64
 sys-kernel/geek-sources ~amd64
 sys-kernel/pf-sources ~amd64
