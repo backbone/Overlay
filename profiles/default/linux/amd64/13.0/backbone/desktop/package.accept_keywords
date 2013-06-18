@@ -12,6 +12,7 @@ app-benchmarks/gtkperf ~amd64
 app-cdr/cdemu ~amd64
 app-cdr/cdemu-daemon ~amd64
 app-cdr/gcdemu ~amd64
+app-cdr/kcdemu ~amd64
 app-editors/curses-hexedit ~amd64
 app-editors/gvim ~amd64
 app-editors/oxygenxml ~x86
