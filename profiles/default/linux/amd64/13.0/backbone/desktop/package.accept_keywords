@@ -85,6 +85,7 @@ dev-python/colorama ~amd64
 dev-python/d2to1 ~amd64
 dev-python/eventlet ~amd64
 dev-python/greenlet ~amd64
+=dev-python/html5lib-1.0_beta1 ~amd64
 dev-python/httplib2 ~amd64
 dev-python/iso8601 ~amd64
 dev-python/jsonschema ~amd64
@@ -107,6 +108,7 @@ dev-python/pep8 ~amd64
 dev-python/prettytable ~amd64
 dev-python/py-amap ~amd64
 dev-python/pycrypto ~amd64
+=dev-python/pyPdf-1.13-r1 ~amd64
 dev-python/python-cinderclient ~amd64
 dev-python/python-exec ~amd64
 dev-python/python-glanceclient ~amd64
@@ -117,6 +119,7 @@ dev-python/python-pam ~amd64
 dev-python/python-quantumclient ~amd64
 dev-python/python-swiftclient ~amd64
 dev-python/pytz ~amd64
+=dev-python/reportlab-2.6 ~amd64
 dev-python/repoze-lru ~amd64
 dev-python/requests ~amd64
 dev-python/routes ~amd64
