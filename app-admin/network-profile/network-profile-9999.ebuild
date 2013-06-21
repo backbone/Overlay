@@ -15,7 +15,7 @@ else
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
-DESCRIPTION="Automated Gentoo upgrading"
+DESCRIPTION="Gentoo network profiling"
 
 HOMEPAGE="https://chili.backbone.ws/projects/network-profile"
 
