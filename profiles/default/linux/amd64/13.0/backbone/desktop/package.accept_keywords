@@ -243,6 +243,7 @@ sys-kernel/pf-sources ~amd64
 sys-libs/libseccomp ~amd64
 sys-power/bbswitch ~amd64
 sys-process/parallel ~amd64
+=virtual/ffmpeg-9 ~amd64
 www-client/firefox ~amd64
 www-client/firefox-bin ~amd64
 www-client/httrack ~amd64
