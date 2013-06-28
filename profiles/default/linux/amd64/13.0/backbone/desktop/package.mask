@@ -9,3 +9,4 @@
 =sys-fs/aufs3-3_p20130506
 =app-emulation/wine-1.5.30
 =sys-kernel/geek-sources-3.9.5
+=games-fps/urbanterror-4.2.012

@@ -5,3 +5,5 @@
 =sys-fs/aufs3-3_p20130422
 =sys-fs/aufs3-3_p20130429
 =sys-fs/aufs3-3_p20130506
+=games-fps/urbanterror-4.2.012
+=sys-kernel/hardened-sources-3.9.7
