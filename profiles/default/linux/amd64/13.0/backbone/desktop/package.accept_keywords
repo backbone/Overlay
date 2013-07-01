@@ -106,7 +106,7 @@ dev-python/pastedeploy ~amd64
 dev-python/pbr ~amd64
 dev-python/pep8 ~amd64
 dev-python/prettytable ~amd64
-dev-python/py-amap ~amd64
+dev-python/py-amqp ~amd64
 dev-python/pycrypto ~amd64
 =dev-python/pyPdf-1.13-r1 ~amd64
 dev-python/python-cinderclient ~amd64
