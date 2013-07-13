@@ -7,4 +7,3 @@
 =sys-fs/aufs3-3_p20130506
 =games-fps/urbanterror-4.2.012
 =sys-kernel/hardened-sources-3.9.7
-=media-video/ffmpeg-2.0
