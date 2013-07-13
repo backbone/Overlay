@@ -10,3 +10,4 @@
 =app-emulation/wine-1.5.30
 =sys-kernel/geek-sources-3.10
 =games-fps/urbanterror-4.2.012
+=media-video/ffmpeg-2.0
