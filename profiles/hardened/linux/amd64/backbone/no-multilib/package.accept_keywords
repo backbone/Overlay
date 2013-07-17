@@ -119,6 +119,7 @@ media-video/ffmpeg ~amd64
 net-libs/libtorrent ~amd64
 net-libs/nodejs ~amd64
 <net-misc/curl-7.29.0 ~amd64
+net-misc/openvswitch ~amd64
 net-misc/rabbitmq-server ~amd64
 <net-p2p/rtorrent-1.0.0 ~amd64
 perl-core/Module-Load ~amd64
