@@ -12,6 +12,7 @@ app-misc/mc samba edit sftp slang -ncurses
 app-misc/sphinx mysql
 app-misc/tmux vim-syntax
 app-misc/vifm vim-plugin vim-syntax
+app-office/libreoffice-bin java
 app-portage/eix sqlite zsh-completion
 app-portage/layman git mercurial subversion
 app-text/evince djvu dvi
