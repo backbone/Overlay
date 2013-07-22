@@ -61,7 +61,7 @@ USE="${USE} -kerberos -pam"
 USE="${USE} acpi"
 
 # develop
-USE="${USE} bash-completion cscope -debug -fortran -java \
+USE="${USE} bash-completion cscope -debug -fortran \
             -lua -mono pch \
             -tcl -tidy -tk -tokenizer"
 
