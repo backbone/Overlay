@@ -110,7 +110,8 @@ sys-fs/ntfs3g ntfsprogs
 sys-fs/udev extras gudev hwdb static-libs
 sys-kernel/dracut device-mapper
 sys-kernel/geek-sources aufs bfq branding ck debian genpatches gentoo ice uksm zen
-=sys-kernel/geek-sources-3.10.1 -branding -gentoo
+>=sys-kernel/geek-sources-3.10.1 -branding -gentoo
+>=sys-kernel/geek-sources-3.11 branding gentoo
 sys-libs/zlib static-libs minizip
 sys-power/cpufreqd apm lm_sensors pmu
 virtual/ffmpeg mp3 theora
