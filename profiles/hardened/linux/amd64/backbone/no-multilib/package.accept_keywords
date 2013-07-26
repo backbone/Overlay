@@ -63,6 +63,7 @@ dev-python/pep8 ~amd64
 dev-python/prettytable ~amd64
 dev-python/py-amqp ~amd64
 dev-python/pycrypto ~amd64
+=dev-python/pyparsing-1.5.7 ~amd64
 dev-python/python-cinderclient ~amd64
 dev-python/python-exec ~amd64
 dev-python/python-glanceclient ~amd64
