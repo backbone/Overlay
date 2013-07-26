@@ -1,12 +1,12 @@
 # Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-kernel/hardened-sources/hardened-sources-3.10.1.ebuild,v 1.1 2013/07/17 01:53:57 blueness Exp $
+# $Header: /var/cvsroot/gentoo-x86/sys-kernel/hardened-sources/hardened-sources-3.10.2.ebuild,v 1.1 2013/07/26 02:03:04 blueness Exp $
 
 EAPI="5"
 
 ETYPE="sources"
 K_WANT_GENPATCHES="base"
-K_GENPATCHES_VER="3"
+K_GENPATCHES_VER="5"
 K_DEBLOB_AVAILABLE="1"
 
 inherit kernel-2
@@ -19,8 +19,8 @@ SRC_URI="${KERNEL_URI} ${HGPV_URI} ${GENPATCHES_URI} ${ARCH_URI}"
 UNIPATCH_LIST="${DISTDIR}/hardened-patches-${HGPV}.extras.tar.bz2"
 UNIPATCH_EXCLUDE="
 	1500_XATTR_USER_PREFIX.patch
-	1510_af_key-fix-info-leaks-in-notify-messages.patch
-	1511_ipv6-ip6_sk_dst_check-must-not-assume-ipv6-dst.patch
+	1600_CVE-2013-4125-ipv6-fix-fib6_add_rt2node-BUG.patch
+	1600_CVE-2013-4127-fix-use-after-free-in-vhost_net_flush.patch
 	2900_dev-root-proc-mount-fix.patch"
 
 DESCRIPTION="Hardened kernel sources (kernel series ${KV_MAJOR}.${KV_MINOR})"
