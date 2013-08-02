@@ -52,6 +52,7 @@ sys-auth/consolekit policykit
 sys-auth/keystone mysql
 sys-block/parted device-mapper
 sys-boot/grub device-mapper
+sys-devel/llvm clang
 sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs
 sys-fs/ntfs3g ntfsprogs
