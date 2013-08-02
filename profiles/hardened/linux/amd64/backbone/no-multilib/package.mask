@@ -8,3 +8,4 @@
 =games-fps/urbanterror-4.2.012
 =sys-kernel/hardened-sources-3.9.7
 =sys-kernel/hardened-sources-3.10.4
+=sys-kernel/hardened-sources-3.10.4-r1
