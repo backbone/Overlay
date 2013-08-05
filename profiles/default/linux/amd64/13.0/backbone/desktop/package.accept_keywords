@@ -68,6 +68,7 @@ dev-libs/jthread ~amd64
 dev-libs/libpipeline ~amd64
 dev-libs/libgee ~amd64
 dev-libs/libmirage ~amd64
+dev-libs/libpeas ~amd64
 dev-libs/nspr ~amd64
 <dev-libs/nss-3.15 ~amd64
 dev-libs/vala-common ~amd64
@@ -210,6 +211,7 @@ net-libs/nodejs ~amd64
 net-misc/openvswitch ~amd64
 net-misc/rabbitmq-server ~amd64
 <net-misc/remmina-1.1 ~amd64
+<net-news/liferea-1.11 ~amd64
 net-p2p/deluge ~amd64
 <net-p2p/rtorrent-1.0.0 ~amd64
 net-proxy/tinyproxy ~amd64
