@@ -146,6 +146,7 @@ sys-libs/tdb ~amd64
 sys-fs/aufs3 ~amd64
 <sys-fs/aufs-util-3.9 ~amd64
 <sys-fs/aufs-headers-3.9 ~amd64
+<sys-power/powertop-3.0 ~amd64
 sys-fs/mtpfs ~amd64
 virtual/perl-Module-Load ~amd64
 www-misc/zoneminder ~amd64

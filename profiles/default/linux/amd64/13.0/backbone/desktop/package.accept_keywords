@@ -251,6 +251,7 @@ sys-kernel/geek-sources ~amd64
 sys-kernel/pf-sources ~amd64
 sys-libs/libseccomp ~amd64
 sys-power/bbswitch ~amd64
+<sys-power/powertop-3.0 ~amd64
 sys-process/parallel ~amd64
 =virtual/ffmpeg-9 ~amd64
 www-client/firefox ~amd64
