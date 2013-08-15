@@ -142,6 +142,7 @@ sys-devel/crossdev ~amd64
 sys-firmware/amd-ucode ~amd64
 sys-kernel/dracut ~amd64
 <sys-kernel/hardened-sources-3.11 ~amd64
+sys-libs/core-functions ~amd64
 sys-libs/tdb ~amd64
 sys-fs/aufs3 ~amd64
 <sys-fs/aufs-util-3.9 ~amd64
