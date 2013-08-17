@@ -9,3 +9,5 @@
 =sys-kernel/hardened-sources-3.9.7
 =sys-kernel/hardened-sources-3.10.4
 =sys-kernel/hardened-sources-3.10.4-r1
+=dev-python/cliff-1.4                  # resolve conflicts for OpenStack
+=dev-python/python-quantumclient-2.2.6 # resolve conflicts for OpenStack
