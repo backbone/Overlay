@@ -4,3 +4,4 @@
 <app-text/cuneiform-2.0
 <media-video/ffmpeg-2.0
 <sys-kernel/geek-sources-3.10
+>=games-fps/urbanterror-4.3
