@@ -135,6 +135,7 @@ sys-auth/keystone ~amd64
 sys-boot/efibootmgr ~amd64
 >=sys-boot/grub-2 ~amd64
 sys-boot/os-prober ~amd64
+sys-cluster/neutron ~amd64
 sys-cluster/nova ~amd64
 sys-cluster/quantum ~amd64
 sys-devel/crossdev ~amd64
