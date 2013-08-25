@@ -7,7 +7,7 @@ app-misc/tmux vim-syntax
 app-portage/eix sqlite zsh-completion
 app-text/wgetpaste zsh-completion
 dev-db/mysql -perl
-dev-lang/php pdo sqlite cgi cli curl gd sqlite3 xml flatfile mysql mysqli mysqlnd inifile sockets sysvipc tokenizer truetype xmlreader xmlwriter xpm zip exif xmlrpc xsl
+dev-lang/php pdo sqlite cgi cli curl gd sqlite3 xml flatfile mysql mysqli mysqlnd inifile pcntl sockets sysvipc tokenizer truetype xmlreader xmlwriter xpm zip exif xmlrpc xsl
 dev-lang/python sqlite
 dev-libs/apr-util mysql
 dev-libs/boost python

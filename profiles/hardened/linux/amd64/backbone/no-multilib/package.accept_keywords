@@ -151,5 +151,6 @@ sys-fs/aufs3 ~amd64
 <sys-power/powertop-3.0 ~amd64
 sys-fs/mtpfs ~amd64
 virtual/perl-Module-Load ~amd64
+www-apps/tt-rss ~amd64
 www-misc/zoneminder ~amd64
 www-servers/thin ~amd64
