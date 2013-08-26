@@ -63,7 +63,7 @@ media-libs/libmng static-libs lcms
 media-libs/libpng static-libs apng
 media-libs/libsdl joystick
 media-libs/mediastreamer -X
-media-libs/mesa g3dvl
+media-libs/mesa openvg g3dvl xa
 media-libs/phonon gstreamer
 media-libs/sdl-mixer mp3 mod
 media-plugins/gst-plugins-meta ffmpeg
