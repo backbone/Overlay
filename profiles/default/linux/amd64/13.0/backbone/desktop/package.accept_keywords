@@ -217,6 +217,7 @@ net-p2p/deluge ~amd64
 net-proxy/tinyproxy ~amd64
 sci-biology/foldingathome ~amd64
 sci-geosciences/googleearth ~amd64
+<sys-apps/dtc-1.5 ~amd64
 sys-apps/gptfdisk ~amd64
 =sys-apps/hardinform-9999 **
 sys-apps/man-db ~amd64
