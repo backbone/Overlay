@@ -10,5 +10,4 @@
 =sys-fs/aufs3-3_p20130821
 =app-emulation/wine-1.5.30
 =sys-kernel/geek-sources-3.10
->=games-fps/urbanterror-4.2
 =x11-drivers/nvidia-drivers-325.08
