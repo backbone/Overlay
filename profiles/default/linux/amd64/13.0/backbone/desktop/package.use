@@ -92,6 +92,7 @@ net-misc/spice-gtk gstreamer gtk3
 net-misc/tightvnc server
 net-misc/wicd gtk
 net-news/liferea libnotify
+net-p2p/deluge geoip gtk libnotify setproctitle sound webinterface
 net-p2p/eiskaltdcpp gtk sqlite xmlrpc qt4
 net-p2p/transmission gtk
 net-print/hplip hpcups hpijs
