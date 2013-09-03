@@ -89,6 +89,7 @@ net-misc/openvswitch -modules -python_single_target_python2_7
 net-misc/rsync xattr
 net-misc/remmina freerdp
 net-misc/spice-gtk gstreamer gtk3
+net-misc/tightvnc server
 net-misc/wicd gtk
 net-news/liferea libnotify
 net-p2p/eiskaltdcpp gtk sqlite xmlrpc qt4
