@@ -35,6 +35,7 @@ app-emulation/qemu ~amd64
 app-emulation/wine ~amd64
 app-emulation/winetricks ~amd64
 =sci-misc/labview-8.6.0 ~amd64
+app-misc/gnomecatalog ~amd64
 app-misc/nixnote ~amd64
 <app-misc/sphinx-2.1 ~amd64
 app-misc/stardict-enru-dictset ~amd64
