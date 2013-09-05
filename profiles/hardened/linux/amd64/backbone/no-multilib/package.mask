@@ -11,3 +11,5 @@
 =dev-python/python-quantumclient-2.2.6 # resolve conflicts for OpenStack
 =dev-python/python-quantumclient-2.2.3 # resolve conflicts for OpenStack
 =dev-python/cliff-1.4                  # resolve conflicts for OpenStack
+=dev-python/python-keystoneclient-0.3.1 # portage warnings
+=dev-python/requests-1.2.3              # portage warnings
