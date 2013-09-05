@@ -17,7 +17,6 @@ app-portage/eix sqlite zsh-completion
 app-portage/layman git mercurial subversion
 app-text/evince djvu dvi
 app-text/ghostscript-gpl cups
-app-text/hyperestraier ruby
 app-text/poppler cairo qt4
 app-text/stardict festival gucharmap pronounce -espeak
 app-text/wgetpaste zsh-completion
@@ -37,7 +36,6 @@ dev-libs/lzo static-libs
 dev-libs/popt static-libs
 dev-libs/xmlrpc-c abyss
 dev-python/sqlalchemy mysql
-dev-ruby/activerecord mysql
 dev-util/anjuta vala
 dev-util/cmake vim-syntax
 dev-util/geany-plugins enchant gtkspell
