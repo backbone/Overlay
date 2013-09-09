@@ -46,7 +46,7 @@ net-p2p/eiskaltdcpp -cli xmlrpc -emoticons
 net-p2p/rtorrent xmlrpc
 net-print/hplip hpcups hpijs
 net-wireless/hostapd logwatch
-sys-apps/util-linux static-libs
+sys-apps/util-linux static-libs tty-helpers
 sys-auth/consolekit policykit
 sys-auth/keystone mysql
 sys-block/parted device-mapper

@@ -102,7 +102,7 @@ sci-geosciences/googleearth qt-bundled
 sys-auth/consolekit policykit
 sys-auth/keystone mysql
 sys-apps/tuxonice-userui fbsplash
-sys-apps/util-linux static-libs
+sys-apps/util-linux static-libs tty-helpers
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
