@@ -2,7 +2,6 @@ app-accessibility/festival-ru ~amd64
 app-admin/cpuset ~amd64
 app-admin/eselect-vala ~amd64
 =app-admin/gentoo-upgrade-9999 **
-app-admin/glance ~amd64
 =app-admin/htpasswd-9999 **
 app-admin/paxtest ~amd64
 app-antivirus/clamav ~amd64
@@ -66,13 +65,8 @@ dev-python/pycrypto ~amd64
 =dev-python/pyparsing-1.5.7 ~amd64
 dev-python/python-cinderclient ~amd64
 dev-python/python-exec ~amd64
-dev-python/python-glanceclient ~amd64
 dev-python/python-keyring ~amd64
-dev-python/python-keystoneclient ~amd64
-dev-python/python-novaclient ~amd64
 dev-python/python-pam ~amd64
-dev-python/python-quantumclient ~amd64
-dev-python/python-swiftclient ~amd64
 dev-python/pytz ~amd64
 dev-python/repoze-lru ~amd64
 dev-python/requests ~amd64
@@ -117,13 +111,9 @@ sys-apps/microcode-data ~amd64
 <sys-apps/portage-2.3.0 **
 sys-apps/util-linux ~amd64
 <sys-apps/sysvinit-2.89 ~amd64
-sys-auth/keystone ~amd64
 sys-boot/efibootmgr ~amd64
 >=sys-boot/grub-2 ~amd64
 sys-boot/os-prober ~amd64
-sys-cluster/neutron ~amd64
-sys-cluster/nova ~amd64
-sys-cluster/quantum ~amd64
 sys-devel/crossdev ~amd64
 <sys-devel/gcc-4.8 ~amd64
 sys-firmware/amd-ucode ~amd64

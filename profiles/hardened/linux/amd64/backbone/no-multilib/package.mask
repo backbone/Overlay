@@ -1,13 +1,1 @@
 =media-gfx/imagemagick-6.8.6.8
-=sys-kernel/dracut-022
-=sys-fs/aufs3-3_p20130422
-=sys-fs/aufs3-3_p20130429
-=sys-fs/aufs3-3_p20130506
-=sys-kernel/hardened-sources-3.9.7
-=sys-kernel/hardened-sources-3.10.4
-=sys-kernel/hardened-sources-3.10.4-r1
-=dev-python/python-quantumclient-2.2.6 # resolve conflicts for OpenStack
-=dev-python/python-quantumclient-2.2.3 # resolve conflicts for OpenStack
-=dev-python/cliff-1.4                  # resolve conflicts for OpenStack
-=dev-python/python-keystoneclient-0.3.1 # portage warnings
-=dev-python/requests-1.2.3              # portage warnings
