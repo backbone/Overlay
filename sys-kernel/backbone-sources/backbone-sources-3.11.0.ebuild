@@ -10,7 +10,7 @@ detect_arch
 
 KEYWORDS="-* ~amd64 ~x86"
 HOMEPAGE="https://git.backbone.ws/linux/backbone-sources"
-SLOT="3.11"
+SLOT="3.11.0"
 PROVIDE="virtual/linux-sources"
 
 DESCRIPTION="Full kernel sources including Zen, TuxOnIce, Gcc, BLD(>=3.10.11), cjktty for ${KV_MAJOR}.${KV_MINOR} kernel tree"
