@@ -13,11 +13,11 @@ HOMEPAGE="https://git.backbone.ws/linux/backbone-sources"
 SLOT="3.10.11"
 PROVIDE="virtual/linux-sources"
 
-DESCRIPTION="Full kernel sources including Zen, TuxOnIce, Gcc, BLD(>=3.10.11), cjktty for ${KV_MAJOR}.${KV_MINOR} kernel tree"
-SRC_URI="https://git.backbone.ws/linux/backbone-sources/archive-tarball/linux-${PVR}-backbone"
+DESCRIPTION="Full kernel sources including Zen, TuxOnIce, Gcc, BLD, cjktty for ${KV_MAJOR}.${KV_MINOR} kernel tree"
+SRC_URI="https://git.backbone.ws/linux/backbone-sources/archive-tarball/v${PVR} -> linux-backbone-${PVR}.tar.gz"
 
 src_unpack() {
-	tar -xf ${DISTDIR}/linux-${PVR}-backbone
+	tar -xf ${DISTDIR}/linux-backbone-${PVR}.tar.gz
 	mv ${WORKDIR}/linux-backbone-sources ${WORKDIR}/linux-${PVR}-backbone
 }
 
