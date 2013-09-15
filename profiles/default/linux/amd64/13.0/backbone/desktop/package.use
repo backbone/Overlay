@@ -65,7 +65,7 @@ media-libs/mediastreamer -X
 media-libs/mesa openvg g3dvl xa
 media-libs/phonon gstreamer
 media-libs/sdl-mixer mp3 mod
-media-plugins/gst-plugins-meta ffmpeg
+media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg
 media-sound/mpd flac aac vorbis mikmod inotify lame libsamplerate mpg123 musepack sqlite twolame
 media-sound/ncmpcpp clock outputs taglib visualizer
 media-sound/sonata -trayicon
