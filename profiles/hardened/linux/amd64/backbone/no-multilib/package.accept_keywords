@@ -70,6 +70,7 @@ dev-python/python-keyring ~amd64
 dev-python/python-pam ~amd64
 <dev-python/python-quantumclient-2.3 ~amd64
 dev-python/pytz ~amd64
+<dev-python/pyzmq-14 ~amd64
 dev-python/repoze-lru ~amd64
 dev-python/requests ~amd64
 dev-python/routes ~amd64
