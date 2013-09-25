@@ -2,6 +2,7 @@ app-accessibility/festival-ru ~amd64
 app-admin/cpuset ~amd64
 app-admin/eselect-vala ~amd64
 =app-admin/gentoo-upgrade-9999 **
+<app-admin/glance-2014 ~amd64
 =app-admin/htpasswd-9999 **
 app-admin/paxtest ~amd64
 app-antivirus/clamav ~amd64
@@ -34,6 +35,7 @@ dev-python/Babel ~amd64
 dev-python/boto ~amd64
 dev-python/charade ~amd64
 dev-python/chardet ~amd64
+<dev-python/cheetah-3 ~amd64
 dev-python/cliff ~amd64
 dev-python/cmd2 ~amd64
 dev-python/colorama ~amd64
@@ -67,6 +69,7 @@ dev-python/pycrypto ~amd64
 dev-python/python-cinderclient ~amd64
 dev-python/python-exec ~amd64
 dev-python/python-keyring ~amd64
+<dev-python/python-novaclient-3 ~amd64
 dev-python/python-pam ~amd64
 <dev-python/python-quantumclient-2.3 ~amd64
 dev-python/pytz ~amd64
@@ -77,6 +80,9 @@ dev-python/routes ~amd64
 dev-python/setuptools-git ~amd64
 dev-python/six ~amd64
 dev-python/stevedore ~amd64
+<dev-python/sqlalchemy-0.8 ~amd64
+<dev-python/sqlalchemy-migrate-0.8 ~amd64
+<dev-python/suds-0.5 ~amd64
 dev-python/termcolor ~amd64
 dev-python/urllib3 ~amd64
 dev-python/warlock ~amd64
@@ -117,9 +123,12 @@ sys-apps/microcode-data ~amd64
 <sys-apps/portage-2.3.0 **
 sys-apps/util-linux ~amd64
 <sys-apps/sysvinit-2.89 ~amd64
+<sys-auth/keystone-2014 ~amd64
 sys-boot/efibootmgr ~amd64
 >=sys-boot/grub-2 ~amd64
 sys-boot/os-prober ~amd64
+<sys-cluster/neutron-2014 ~amd64
+<sys-cluster/nova-2014 ~amd64
 sys-devel/crossdev ~amd64
 <sys-devel/gcc-4.8 ~amd64
 sys-firmware/amd-ucode ~amd64
