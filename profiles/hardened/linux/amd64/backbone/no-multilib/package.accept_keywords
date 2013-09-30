@@ -45,7 +45,7 @@ dev-python/greenlet ~amd64
 dev-python/httplib2 ~amd64
 dev-python/iso8601 ~amd64
 <dev-python/jsonschema-1 ~amd64
-dev-python/jsonpatch ~amd64
+=dev-python/jsonpatch-0.10 ~amd64
 dev-python/jsonpointer ~amd64
 dev-python/kombu ~amd64
 dev-python/mock ~amd64
