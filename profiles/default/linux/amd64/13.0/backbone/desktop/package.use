@@ -46,7 +46,7 @@ dev-util/nvidia-cuda-sdk cuda opencl examples
 dev-util/nvidia-cuda-toolkit debugger profiler
 dev-vcs/git perl cgi
 dev-vcs/mercurial zsh-completion
-mail-client/thunderbird custom-optimization -crypt
+mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-sqlite
 mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
 media-fonts/intlfonts bdf
 media-fonts/terminus-font a-like-o bolddiag quote ru-dv ru-g ru-i ru-k width pcf psf

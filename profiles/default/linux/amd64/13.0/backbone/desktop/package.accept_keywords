@@ -163,6 +163,7 @@ games-fps/xonotic ~amd64
 =games-puzzle/charley-9999 **
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
+mail-client/thunderbird ~amd64
 mail-client/thunderbird-bin ~amd64
 <media-gfx/gimp-2.9.0 ~amd64
 <media-gfx/splashutils-1.5.5 ~amd64
