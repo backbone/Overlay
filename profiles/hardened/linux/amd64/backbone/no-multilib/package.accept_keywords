@@ -54,7 +54,7 @@ dev-python/nosehtmloutput ~amd64
 dev-python/nosexcover ~amd64
 dev-python/oauthlib ~amd64
 dev-python/openstack-nose-plugin ~amd64
-dev-python/oslo-config ~amd64
+<dev-python/oslo-config-1.2.0 ~amd64
 dev-python/paramiko ~amd64
 dev-python/passlib ~amd64
 dev-python/paste ~amd64
@@ -75,12 +75,12 @@ dev-python/python-pam ~amd64
 dev-python/pytz ~amd64
 <dev-python/pyzmq-14 ~amd64
 dev-python/repoze-lru ~amd64
-dev-python/requests ~amd64
+<dev-python/requests-1.2.3 ~amd64
 dev-python/routes ~amd64
 dev-python/setuptools-git ~amd64
 dev-python/six ~amd64
 dev-python/stevedore ~amd64
-<dev-python/sqlalchemy-0.8 ~amd64
+<dev-python/sqlalchemy-0.7.10 ~amd64
 <dev-python/sqlalchemy-migrate-0.8 ~amd64
 <dev-python/suds-0.5 ~amd64
 dev-python/termcolor ~amd64
@@ -144,6 +144,7 @@ sys-fs/aufs3 ~amd64
 sys-fs/mtpfs ~amd64
 virtual/perl-Module-Load ~amd64
 virtual/pyparsing ~amd64
+www-apps/novnc ~amd64
 www-apps/tt-rss ~amd64
 www-misc/zoneminder ~amd64
 www-servers/thin ~amd64
