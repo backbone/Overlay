@@ -1,7 +1,3 @@
->=games-fps/doom3-1.0.0
->=games-fps/doom3-data-1.0.0
-<=media-video/avidemux-2.5.88
 <app-text/cuneiform-2.0
 <media-video/ffmpeg-2.0
-<sys-kernel/geek-sources-3.10
 <sci-geosciences/googleearth-8
