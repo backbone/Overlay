@@ -63,7 +63,8 @@ USE="${USE} acpi"
 # develop
 USE="${USE} bash-completion cscope -debug -fortran \
             -lua -mono pch \
-            -tcl -tidy -tk -tokenizer"
+            -tcl -tidy -tk -tokenizer \
+            vim-syntax"
 
 # daemons
 USE="${USE} consolekit daemon dbus -hal logrotate samba syslog"
