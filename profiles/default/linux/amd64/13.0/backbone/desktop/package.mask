@@ -1,2 +1,4 @@
 =x11-wm/fvwm-2.6.3
 >=media-fonts/liberation-fonts-2.00.0
+>=dev-libs/boost-1.50       # 1.49 required by libreoffice-bin
+>=dev-util/boost-build-1.50 # 1.49 required by libreoffice-bin
