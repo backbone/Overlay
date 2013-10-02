@@ -184,6 +184,7 @@ media-plugins/gst-plugins-ffmpeg ~amd64
 <media-plugins/gst-plugins-v4l2-2 ~amd64
 media-sound/mp3unicode ~amd64
 <media-sound/exaile-0.4 ~amd64
+<media-video/avidemux-2.7 ~amd64
 media-video/cinelerra ~amd64
 media-video/ffmpeg ~amd64
 media-video/gnome-mplayer ~amd64
