@@ -168,6 +168,8 @@ mail-client/thunderbird-bin ~amd64
 <media-gfx/gimp-2.9.0 ~amd64
 <media-gfx/splashutils-1.5.5 ~amd64
 media-gfx/shotwell ~amd64
+<media-libs/avidemux-core-2.7
+<media-libs/avidemux-plugins-2.7
 <media-libs/babl-0.2.0 ~amd64
 <media-libs/gegl-0.3.0 ~amd64
 <media-libs/gexiv2-0.7.0 ~amd64
