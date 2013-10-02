@@ -2,3 +2,4 @@
 >=media-fonts/liberation-fonts-2.00.0
 >=dev-libs/boost-1.50       # 1.49 required by libreoffice-bin
 >=dev-util/boost-build-1.50 # 1.49 required by libreoffice-bin
+=dev-util/source-highlight-3.1.7-r2  # requires >boost-1.49 while 1.49 required by libreoffice-bin
