@@ -53,6 +53,7 @@ media-fonts/terminus-font a-like-o bolddiag quote ru-dv ru-g ru-i ru-k width pcf
 media-gfx/fbida curl fbcon gif pdf tiff
 media-gfx/gimp pdf svg tiff
 media-gfx/imagemagick png truetype
+media-libs/avidemux-plugins qt4
 media-libs/freetype static-libs
 media-libs/gd fontconfig truetype jpeg png
 media-libs/lcms static-libs python
@@ -71,7 +72,7 @@ media-sound/ncmpcpp clock outputs taglib visualizer
 media-sound/sonata -trayicon
 media-sound/sox amr mad
 media-tv/v4l-utils qt4
-media-video/avidemux gtk aften libsamplerate mp3
+media-video/avidemux gtk aften libsamplerate mp3 qt4
 media-video/ffmpeg aac network hardcoded-tables mp3 rtmp theora amr vpx speex schroedinger dirac faac gsm vorbis xvid mikmod
 media-video/lives libvisual matroska theora
 media-video/mjpg-streamer input_uvc
