@@ -87,7 +87,7 @@ dev-python/termcolor ~amd64
 dev-python/urllib3 ~amd64
 dev-python/warlock ~amd64
 dev-python/webob ~amd64
-dev-python/websockify ~amd64
+<dev-python/websockify-0.4 ~amd64
 <dev-python/webtest-2.0 ~amd64
 dev-python/xhtml2pdf ~amd64
 dev-util/bdelta ~amd64
