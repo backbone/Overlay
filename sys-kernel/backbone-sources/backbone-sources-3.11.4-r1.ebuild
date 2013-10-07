@@ -18,7 +18,7 @@ SRC_URI="https://git.backbone.ws/linux/backbone-sources/archive-tarball/v${PVR} 
 
 src_unpack() {
 	tar -xf ${DISTDIR}/linux-backbone-${PVR}.tar.gz
-	mv ${WORKDIR}/linux-backbone-sources ${WORKDIR}/linux-${PVR}-backbone
+	mv ${WORKDIR}/linux-backbone-sources ${WORKDIR}/linux-${PV}-backbone-${PR}
 }
 
 pkg_postinst() {
