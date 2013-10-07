@@ -176,6 +176,11 @@ src_prepare() {
 		epatch "${FILESDIR}"/${PN}-pax-usercopy.patch
 	fi
 
+	# fix build with linux-3.11
+	if kernel_is ge 3 11 0 ; then
+		epatch "${FILESDIR}"/nv-linux.patch
+	fi
+
 	# Allow user patches so they can support RC kernels and whatever else
 	epatch_user
 }
