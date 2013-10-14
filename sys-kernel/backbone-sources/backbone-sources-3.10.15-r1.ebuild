@@ -10,7 +10,7 @@ detect_arch
 
 KEYWORDS="-* ~amd64 ~x86"
 HOMEPAGE="https://git.backbone.ws/linux/backbone-sources"
-SLOT="3.11.4"
+SLOT="3.10.15"
 PROVIDE="virtual/linux-sources"
 
 DESCRIPTION="Full kernel sources including Zen, TuxOnIce, Gcc, BLD, cjktty for ${KV_MAJOR}.${KV_MINOR} kernel tree"
@@ -18,7 +18,8 @@ SRC_URI="https://git.backbone.ws/linux/backbone-sources/archive-tarball/v${PVR} 
 
 src_unpack() {
 	tar -xf ${DISTDIR}/linux-backbone-${PVR}.tar.gz
-	mv ${WORKDIR}/linux-backbone-sources ${WORKDIR}/linux-${PVR}-backbone
+	if [[ ${PR} != "r0" ]]; then REV="-${PR}"; fi
+	mv ${WORKDIR}/linux-backbone-sources ${WORKDIR}/linux-${PV}-backbone${REV}
 }
 
 pkg_postinst() {
