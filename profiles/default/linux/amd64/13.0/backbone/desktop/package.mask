@@ -4,3 +4,4 @@
 >=dev-util/boost-build-1.50 # 1.49 required by libreoffice-bin
 =dev-util/source-highlight-3.1.7-r2  # requires >boost-1.49 while 1.49 required by libreoffice-bin
 =app-text/poppler-0.22.5
+=media-gfx/shotwell-0.15.0 # requires new gtk+, glib etc while old Vala requires older versions of the libraries
