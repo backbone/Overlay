@@ -77,7 +77,7 @@ media-video/ffmpeg aac network hardcoded-tables mp3 rtmp theora amr vpx speex sc
 media-video/lives libvisual matroska theora
 media-video/mjpg-streamer input_uvc
 media-video/mplayer a52 aalib -ass -libass bluray bs2b cdio dv dvd dvdnav faad fbcon ladspa libcaca libmpeg2 live mpg123 pvr quicktime real rtc shm tga theora toolame tremar -truetype twolame win32codecs xanim xvmc xv
-net-fs/cifs-utils upcall
+net-fs/cifs-utils -acl upcall
 net-fs/samba cups quota winbind
 net-ftp/pure-ftpd charconv sysquota
 net-im/pidgin gnutls gtk
