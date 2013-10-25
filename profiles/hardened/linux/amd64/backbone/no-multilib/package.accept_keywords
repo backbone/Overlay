@@ -130,7 +130,7 @@ sys-boot/os-prober ~amd64
 <sys-cluster/neutron-2014 ~amd64
 <sys-cluster/nova-2014 ~amd64
 sys-devel/crossdev ~amd64
-<sys-devel/gcc-4.8 ~amd64
+<sys-devel/gcc-4.9 ~amd64
 sys-firmware/amd-ucode ~amd64
 sys-kernel/dracut ~amd64
 <sys-kernel/hardened-sources-3.12 ~amd64
