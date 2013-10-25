@@ -64,7 +64,9 @@ dev-java/jinput ~amd64
 <dev-games/irrlicht-1.9 ~amd64
 dev-lang/spidermonkey ~amd64
 dev-lang/vala ~amd64
+dev-libs/cloog ~amd64
 dev-libs/gnulib ~x64-freebsd
+dev-libs/isl ~amd64
 dev-libs/jthread ~amd64
 dev-libs/libpipeline ~amd64
 dev-libs/libgee ~amd64
@@ -231,7 +233,7 @@ sys-cluster/nova ~amd64
 sys-cluster/quantum ~amd64
 sys-devel/clang ~amd64
 sys-devel/crossdev ~amd64
-<sys-devel/gcc-4.8 ~amd64
+<sys-devel/gcc-4.9 ~amd64
 sys-devel/llvm ~amd64
 sys-devel/prelink ~amd64
 sys-firmware/amd-ucode ~amd64
