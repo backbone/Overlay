@@ -2,15 +2,6 @@ CFLAGS="-O2 -pipe -march=native"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
 
-#### LTO/Graphite/OpenMP ####
-TMP_GRAPHITE="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
-TMP_COMMON_CLDFLAGS="-flto=4 ${TMP_GRAPHITE} -ftree-vectorize -fopenmp -floop-parallelize-all"
-CFLAGS="${CFLAGS} ${TMP_COMMON_CLDFLAGS}"
-CXXFLAGS="${CFLAGS}"
-LDFLAGS="${LDFLAGS} ${TMP_COMMON_CLDFLAGS}"
-USE="${USE} graphite"
-#############################
-
 CHOST="x86_64-pc-linux-gnu"
 CBUILD="x86_64-pc-linux-gnu"
 MAKEOPTS="-j2"
@@ -33,7 +24,7 @@ PORTAGE_ELOG_CLASSES="warn error log"
 PORTAGE_ELOG_SYSTEM="save"
 
 # cpu
-USE="${USE} custom-cflags"
+USE="${USE} custom-cflags graphite"
 
 # gpu
 USE="${USE} directfb dri dri2 fbcon fbcondecor fbosd opengl opencl vaapi"
