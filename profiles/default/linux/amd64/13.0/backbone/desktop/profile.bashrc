@@ -86,6 +86,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-libs/glib  # epiphany hangs (GObject)
 && ${CATEGORY}/${PN} != www-client/firefox
 && ${CATEGORY}/${PN} != app-emulation/wine
+&& ${CATEGORY}/${PN} != app-text/poppler
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
