@@ -52,6 +52,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-qt/qtgui
 && ${CATEGORY}/${PN} != dev-libs/libbsd
 && ${CATEGORY}/${PN} != app-misc/vlock
+&& ${CATEGORY}/${PN} != app-cdr/cdrtools
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
