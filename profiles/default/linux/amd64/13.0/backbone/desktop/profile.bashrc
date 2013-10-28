@@ -94,6 +94,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != app-text/poppler # Evince hangs on www.fairchildsemi.com/ds/ND/NDS9435A.pdf
 && ${CATEGORY}/${PN} != media-libs/libmikmod
 && ${CATEGORY}/${PN} != media-libs/libvorbis
+&& ${CATEGORY}/${PN} != media-libs/x264
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
