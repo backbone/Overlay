@@ -53,6 +53,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-libs/libbsd
 && ${CATEGORY}/${PN} != app-misc/vlock
 && ${CATEGORY}/${PN} != app-cdr/cdrtools
+&& ${CATEGORY}/${PN} != dev-vcs/cvs
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
