@@ -51,6 +51,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-games/simgear
 && ${CATEGORY}/${PN} != dev-qt/qtgui
 && ${CATEGORY}/${PN} != dev-libs/libbsd
+&& ${CATEGORY}/${PN} != app-misc/vlock
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
