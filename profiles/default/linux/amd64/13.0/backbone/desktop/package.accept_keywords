@@ -265,6 +265,7 @@ www-client/httrack ~amd64
 www-servers/thin ~amd64
 x11-drivers/nvidia-drivers ~amd64
 =x11-drivers/snail-9999 **
+x11-libs/xcb-util-cursor ~amd64
 x11-misc/bumblebee ~amd64
 =x11-misc/primus-9999 **
 x11-misc/trayion ~amd64
