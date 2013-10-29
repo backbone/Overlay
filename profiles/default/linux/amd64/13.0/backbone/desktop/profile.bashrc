@@ -57,6 +57,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != media-libs/flac
 && ${CATEGORY}/${PN} != sys-process/audit
 && ${CATEGORY}/${PN} != dev-cpp/libcmis
+&& ${CATEGORY}/${PN} != sys-fs/e4rat
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
