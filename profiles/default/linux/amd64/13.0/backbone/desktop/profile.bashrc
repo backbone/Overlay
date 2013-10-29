@@ -58,6 +58,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != sys-process/audit
 && ${CATEGORY}/${PN} != dev-cpp/libcmis
 && ${CATEGORY}/${PN} != sys-fs/e4rat
+&& ${CATEGORY}/${PN} != app-antivirus/clamav
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
