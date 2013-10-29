@@ -59,6 +59,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-cpp/libcmis
 && ${CATEGORY}/${PN} != sys-fs/e4rat
 && ${CATEGORY}/${PN} != app-antivirus/clamav
+&& ${CATEGORY}/${PN} != sys-boot/grub
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
