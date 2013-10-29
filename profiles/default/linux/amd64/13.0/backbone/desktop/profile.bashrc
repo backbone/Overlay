@@ -61,6 +61,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != app-antivirus/clamav
 && ${CATEGORY}/${PN} != sys-boot/grub
 && ${CATEGORY}/${PN} != dev-qt/qtscript
+&& ${CATEGORY}/${PN} != sys-libs/gpm
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
