@@ -55,6 +55,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != app-cdr/cdrtools
 && ${CATEGORY}/${PN} != dev-vcs/cvs
 && ${CATEGORY}/${PN} != media-libs/flac
+&& ${CATEGORY}/${PN} != sys-process/audit
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
