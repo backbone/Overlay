@@ -30,6 +30,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-qt/qtdeclarative
 && ${CATEGORY}/${PN} != media-libs/mesa
 && ${CATEGORY}/${PN}/${PV} != dev-lang/spidermonkey-1.8.5
+&& ${CATEGORY}/${PN}/${PV} != dev-lang/spidermonkey-1.8.5-r4
 && ${CATEGORY}/${PN} != games-action/minetest
 && ${CATEGORY}/${PN} != app-emulation/wine
 && ${CATEGORY}/${PN} != app-emulation/virtualbox
