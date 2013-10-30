@@ -64,6 +64,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-qt/qtscript
 && ${CATEGORY}/${PN} != sys-libs/gpm
 && ${CATEGORY}/${PN} != dev-libs/xmlrpc-c
+&& ${CATEGORY}/${PN} != media-tv/v4l-utils
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
