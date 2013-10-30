@@ -62,6 +62,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != sys-boot/grub
 && ${CATEGORY}/${PN} != dev-qt/qtscript
 && ${CATEGORY}/${PN} != sys-libs/gpm
+&& ${CATEGORY}/${PN} != dev-libs/xmlrpc-c
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
