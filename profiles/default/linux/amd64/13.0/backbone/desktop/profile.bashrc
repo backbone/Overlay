@@ -66,6 +66,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-libs/xmlrpc-c
 && ${CATEGORY}/${PN} != media-tv/v4l-utils
 && ${CATEGORY}/${PN} != x11-drivers/xf86-video-intel
+&& ${CATEGORY}/${PN} != media-gfx/fbida
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
