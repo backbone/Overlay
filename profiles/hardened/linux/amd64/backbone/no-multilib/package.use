@@ -12,6 +12,7 @@ dev-lang/python sqlite
 dev-libs/apr-util mysql
 dev-libs/boost python
 dev-libs/glib utils
+dev-libs/gmp pgo
 dev-libs/libgcrypt static-libs
 dev-libs/libgpg-error static-libs
 dev-libs/libxml2 python icu
