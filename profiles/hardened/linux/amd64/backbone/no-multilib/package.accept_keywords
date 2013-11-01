@@ -94,6 +94,7 @@ dev-util/bdelta ~amd64
 dev-util/colormake ~amd64
 =dev-util/valadoc-9999 **
 dev-util/valgrind ~amd64
+dev-vcs/git ~amd64
 dev-vcs/gitosis-gentoo ~amd64
 dev-vcs/gitstats ~amd64
 games-action/minetest ~amd64
