@@ -41,11 +41,14 @@ dev-python/cliff ~amd64
 dev-python/cmd2 ~amd64
 dev-python/colorama ~amd64
 dev-python/d2to1 ~amd64
+<dev-python/dogpile-cache-0.6 ~amd64
+<dev-python/dogpile-core-0.5 ~amd64
 dev-python/eventlet ~amd64
 dev-python/greenlet ~amd64
 dev-python/httplib2 ~amd64
+=dev-python/jsonrpclib-0_pre20110820-r1 ~amd64
+<dev-python/jsonschema-2.1 ~amd64
 dev-python/iso8601 ~amd64
-<dev-python/jsonschema-1 ~amd64
 =dev-python/jsonpatch-0.10 ~amd64
 dev-python/jsonpointer ~amd64
 dev-python/kombu ~amd64
@@ -53,9 +56,10 @@ dev-python/mock ~amd64
 dev-python/mox ~amd64
 dev-python/nosehtmloutput ~amd64
 dev-python/nosexcover ~amd64
+<dev-python/oauth2-1.6 ~amd64
 dev-python/oauthlib ~amd64
 dev-python/openstack-nose-plugin ~amd64
-<dev-python/oslo-config-1.2.0 ~amd64
+<dev-python/oslo-config-1.3.0 ~amd64
 dev-python/paramiko ~amd64
 dev-python/passlib ~amd64
 dev-python/paste ~amd64
@@ -70,6 +74,7 @@ dev-python/pycrypto ~amd64
 dev-python/python-cinderclient ~amd64
 dev-python/python-exec ~amd64
 dev-python/python-keyring ~amd64
+<dev-python/python-keystoneclient-0.4 ~amd64
 <dev-python/python-novaclient-3 ~amd64
 dev-python/python-pam ~amd64
 <dev-python/python-quantumclient-2.3 ~amd64
@@ -88,7 +93,7 @@ dev-python/termcolor ~amd64
 dev-python/urllib3 ~amd64
 dev-python/warlock ~amd64
 dev-python/webob ~amd64
-<dev-python/websockify-0.4 ~amd64
+<dev-python/websockify-0.6 ~amd64
 <dev-python/webtest-2.0 ~amd64
 dev-python/xhtml2pdf ~amd64
 dev-util/bdelta ~amd64
