@@ -41,6 +41,7 @@ app-misc/nixnote ~amd64
 app-misc/stardict-enru-dictset ~amd64
 <app-office/lyx-2.1.0 ~amd64
 <app-office/libreoffice-bin-4.2 ~amd64
+<app-office/libreoffice-l10n-4.2 ~amd64
 app-office/texmacs ~amd64
 app-office/texmaker ~amd64
 =app-office/texparser-9999 **
@@ -185,6 +186,7 @@ media-libs/glm ~amd64
 <media-libs/gst-plugins-good-1.1 ~amd64
 <media-libs/gstreamer-1.1 ~amd64
 <media-libs/lcms-2 ~amd64
+<media-libs/libpng-1.7 ~amd64
 <media-libs/libvpx-1.2.0 ~amd64
 <media-libs/sk1libs-0.9.2 ~amd64
 media-plugins/gst-plugins-ffmpeg ~amd64
