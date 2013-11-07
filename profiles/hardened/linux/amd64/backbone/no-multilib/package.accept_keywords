@@ -118,6 +118,7 @@ media-video/ffmpeg ~amd64
 net-libs/libtorrent ~amd64
 net-libs/nodejs ~amd64
 <net-misc/curl-7.29.0 ~amd64
+net-misc/netifrc ~amd64
 net-misc/openvswitch ~amd64
 net-misc/rabbitmq-server ~amd64
 net-misc/tor ~amd64
@@ -126,8 +127,11 @@ net-proxy/tinyproxy ~amd64
 perl-core/Module-Load ~amd64
 <sys-apps/gcp-1.0 ~amd64
 sys-apps/gptfdisk ~amd64
+<sys-apps/hwids-20130916 ~amd64
+<sys-apps/kmod-16 ~amd64
 sys-apps/man-db ~amd64
 sys-apps/microcode-data ~amd64
+<sys-apps/openrc-0.13 ~amd64
 <sys-apps/portage-2.3.0 **
 sys-apps/util-linux ~amd64
 <sys-apps/sysvinit-2.89 ~amd64
@@ -151,8 +155,10 @@ sys-fs/aufs3 ~amd64
 <sys-fs/aufs-headers-3.9 ~amd64
 <sys-power/powertop-3.0 ~amd64
 sys-fs/mtpfs ~amd64
+=sys-fs/udev-208 ~amd64
 virtual/perl-Module-Load ~amd64
 virtual/pyparsing ~amd64
+<virtual/udev-207 ~amd64
 www-apps/novnc ~amd64
 www-apps/tt-rss ~amd64
 www-misc/zoneminder ~amd64
