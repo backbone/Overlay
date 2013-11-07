@@ -108,6 +108,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != media-libs/libmikmod
 && ${CATEGORY}/${PN} != media-libs/libvorbis
 && ${CATEGORY}/${PN} != media-libs/x264
+&& ${CATEGORY}/${PN} != net-misc/openssh
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
