@@ -209,6 +209,7 @@ net-fs/smbnetfs ~amd64
 net-libs/libtorrent ~amd64
 net-libs/nodejs ~amd64
 <net-misc/freerdp-1.2 ~amd64
+net-misc/netifrc ~amd64
 net-misc/openvswitch ~amd64
 net-misc/rabbitmq-server ~amd64
 <net-misc/remmina-1.1 ~amd64
@@ -223,8 +224,11 @@ sci-geosciences/googleearth ~amd64
 <sys-apps/gcp-1.0 ~amd64
 sys-apps/gptfdisk ~amd64
 =sys-apps/hardinform-9999 **
+<sys-apps/hwids-20130916 ~amd64
+<sys-apps/kmod-16 ~amd64
 sys-apps/man-db ~amd64
 sys-apps/microcode-data ~amd64
+<sys-apps/openrc-0.13 ~amd64
 <sys-apps/portage-2.3.0 **
 =sys-apps/sandbox-2.6 ~amd64
 <sys-apps/sysvinit-2.89 ~amd64
@@ -249,6 +253,7 @@ sys-fs/aufs3 ~amd64
 <sys-fs/aufs-headers-3.9 ~amd64
 <sys-fs/e4rat-0.2.4 ~amd64
 sys-fs/mtpfs ~amd64
+=sys-fs/udev-208 ~amd64
 =sys-fs/vhba-20130607 ~amd64
 sys-kernel/backbone-sources ~amd64
 sys-kernel/dracut ~amd64
@@ -261,6 +266,7 @@ sys-power/bbswitch ~amd64
 sys-process/parallel ~amd64
 =virtual/ffmpeg-9 ~amd64
 =virtual/opencl-0-r4 ~amd64
+<virtual/udev-207 ~amd64
 www-apps/tt-rss ~amd64
 www-client/firefox ~amd64
 www-client/firefox-bin ~amd64
