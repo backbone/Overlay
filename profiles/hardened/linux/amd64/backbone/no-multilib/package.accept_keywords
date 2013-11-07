@@ -41,6 +41,7 @@ dev-python/cliff ~amd64
 dev-python/cmd2 ~amd64
 dev-python/colorama ~amd64
 dev-python/d2to1 ~amd64
+dev-python/ecdsa ~amd64
 <dev-python/dogpile-cache-0.6 ~amd64
 <dev-python/dogpile-core-0.5 ~amd64
 dev-python/eventlet ~amd64
