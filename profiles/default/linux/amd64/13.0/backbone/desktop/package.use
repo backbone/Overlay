@@ -103,6 +103,7 @@ net-wireless/hostapd logwatch
 sci-geosciences/googleearth qt-bundled
 sys-auth/consolekit policykit
 sys-auth/keystone mysql
+sys-apps/openrc newnet
 sys-apps/tuxonice-userui fbsplash
 sys-apps/util-linux static-libs tty-helpers
 sys-boot/grub device-mapper
