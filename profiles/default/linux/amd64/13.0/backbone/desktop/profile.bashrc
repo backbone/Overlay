@@ -143,6 +143,7 @@ fi
 if [[ true != false
 && ${CATEGORY}/${PN} != undefined/undefined
 && ${CATEGORY}/${PN} != www-client/firefox
+&& ${CATEGORY}/${PN} != x11-base/xorg-server # Artefacts in Dia (app-office/dia) when drawing an ellipse
 ]] ; then
     tmp="-ftree-vectorize"
     CFLAGS="${CFLAGS} ${tmp}"
