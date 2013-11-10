@@ -111,6 +111,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != media-libs/x264
 && ${CATEGORY}/${PN} != net-misc/openssh
 && ${CATEGORY}/${PN} != media-libs/sdl-mixer # Sauerbraten segfaults
+&& ${CATEGORY}/${PN}-${PV} != net-libs/webkit-gtk-1.8.3 # Epiphany segfaults
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
