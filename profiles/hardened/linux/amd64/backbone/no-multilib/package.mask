@@ -1,1 +1,2 @@
 =dev-python/requests-1.2.3
+~net-misc/openvswitch-2.0.0 # Requires <linux-3.11
