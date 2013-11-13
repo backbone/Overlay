@@ -144,7 +144,7 @@ dev-python/websockify ~amd64
 dev-python/xhtml2pdf ~amd64
 dev-tex/pscyr ~amd64
 dev-util/android-sdk-update-manager ~amd64
-<dev-util/anjuta-3.7.0 ~amd64
+<dev-util/anjuta-3.9.0 ~amd64
 dev-util/bdelta ~amd64
 dev-util/colormake ~amd64
 dev-util/gource ~amd64
