@@ -57,7 +57,7 @@ sys-cluster/nova mysql
 sys-cluster/neutron mysql
 sys-devel/llvm clang
 sys-fs/aufs3 kernel-patch ramfs
-sys-fs/lvm2 static-libs
+sys-fs/lvm2 static-libs -thin
 sys-fs/ntfs3g ntfsprogs
 sys-fs/udev extras static-libs
 sys-kernel/dracut device-mapper
