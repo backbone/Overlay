@@ -149,6 +149,7 @@ sys-kernel/dracut ~amd64
 <sys-kernel/hardened-sources-3.12 ~amd64
 sys-kernel/linux-headers ~amd64
 sys-libs/core-functions ~amd64
+sys-libs/glibc ~amd64
 sys-libs/tdb ~amd64
 =sys-libs/timezone-data-2013d ~amd64
 sys-fs/aufs3 ~amd64

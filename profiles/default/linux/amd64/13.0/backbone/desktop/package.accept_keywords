@@ -257,6 +257,7 @@ sys-kernel/geek-sources ~amd64
 sys-kernel/linux-headers ~amd64
 sys-kernel/pf-sources ~amd64
 sys-libs/core-functions ~amd64
+sys-libs/glibc ~amd64
 sys-libs/libseccomp ~amd64
 sys-power/bbswitch ~amd64
 <sys-power/powertop-3.0 ~amd64
