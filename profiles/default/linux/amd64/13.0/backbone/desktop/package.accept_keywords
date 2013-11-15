@@ -254,6 +254,7 @@ sys-fs/mtpfs ~amd64
 sys-kernel/backbone-sources ~amd64
 sys-kernel/dracut ~amd64
 sys-kernel/geek-sources ~amd64
+sys-kernel/linux-headers ~amd64
 sys-kernel/pf-sources ~amd64
 sys-libs/core-functions ~amd64
 sys-libs/libseccomp ~amd64

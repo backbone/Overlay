@@ -147,6 +147,7 @@ sys-firmware/amd-ucode ~amd64
 =sys-firmware/ipxe-1.0.0_p20130624-r1 ~amd64
 sys-kernel/dracut ~amd64
 <sys-kernel/hardened-sources-3.12 ~amd64
+sys-kernel/linux-headers ~amd64
 sys-libs/core-functions ~amd64
 sys-libs/tdb ~amd64
 =sys-libs/timezone-data-2013d ~amd64
