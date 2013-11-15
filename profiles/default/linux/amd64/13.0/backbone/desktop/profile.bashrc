@@ -114,7 +114,6 @@ if [[ true != false
 && ${CATEGORY}/${PN}-${PV} != net-libs/webkit-gtk-1.8.3 # Epiphany segfaults
 && ${CATEGORY}/${PN} != sci-libs/gdal # Out of memory when building the package
 && ${CATEGORY}/${PN} != dev-util/anjuta # anjuta-tags segfaults
-&& ${CATEGORY}/${PN} != sys-devel/llvm
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
@@ -150,6 +149,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != undefined/undefined
 && ${CATEGORY}/${PN} != www-client/firefox
 && ${CATEGORY}/${PN} != x11-base/xorg-server # Artefacts in Dia (app-office/dia) when drawing an ellipse
+&& ${CATEGORY}/${PN} != sys-devel/llvm
 ]] ; then
     tmp="-ftree-vectorize"
     CFLAGS="${CFLAGS} ${tmp}"
