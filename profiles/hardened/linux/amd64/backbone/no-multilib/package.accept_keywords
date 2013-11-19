@@ -108,6 +108,7 @@ dev-vcs/gitstats ~amd64
 games-action/minetest ~amd64
 games-action/minetest_game ~amd64
 games-action/minetest_common ~amd64
+<games-fps/urbanterror-4.3 ~amd64
 =media-gfx/imagemagick-6.8.6.8-r1 ~amd64
 <media-libs/lcms-2 ~amd64
 <media-libs/libvpx-1.2.0 ~amd64
