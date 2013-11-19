@@ -70,6 +70,7 @@ dev-python/pep8 ~amd64
 dev-python/prettytable ~amd64
 =dev-python/progressbar-2.3-r1 ~amd64
 dev-python/py-amqp ~amd64
+dev-python/py-bcrypt ~amd64
 dev-python/pycrypto ~amd64
 <dev-python/pyparsing-3.0 ~amd64
 dev-python/python-cinderclient ~amd64
