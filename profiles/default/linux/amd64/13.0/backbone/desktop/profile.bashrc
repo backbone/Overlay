@@ -114,6 +114,7 @@ if [[ true != false
 && ${CATEGORY}/${PN}-${PV} != net-libs/webkit-gtk-1.8.3 # Epiphany segfaults
 && ${CATEGORY}/${PN} != sci-libs/gdal # Out of memory when building the package
 && ${CATEGORY}/${PN} != dev-util/anjuta # anjuta-tags segfaults
+&& ${CATEGORY}/${PN} != net-libs/libvncserver # Black rectangular artefacts in Remmina
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
