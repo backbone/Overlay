@@ -1,22 +1,21 @@
 # Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Header: /var/cvsroot/gentoo-x86/games-action/minetest/minetest-0.4.8.ebuild,v 1.1 2013/11/24 23:42:51 hasufell Exp $
 
 EAPI=5
 inherit eutils cmake-utils gnome2-utils vcs-snapshot user games
 
 DESCRIPTION="An InfiniMiner/Minecraft inspired game"
-HOMEPAGE="http://c55.me/minetest/"
+HOMEPAGE="http://minetest.net/"
 SRC_URI="http://github.com/minetest/minetest/tarball/${PV} -> ${P}.tar.gz"
 
 LICENSE="LGPL-2.1+ CC-BY-SA-3.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="+curl dedicated nls +server +sound +truetype"
+IUSE="+curl dedicated leveldb luajit nls +server +sound +truetype"
 
 RDEPEND="dev-db/sqlite:3
 	>=dev-games/irrlicht-1.8-r2
-	>=dev-lang/lua-5.1.4
 	sys-libs/zlib
 	curl? ( net-misc/curl )
 	!dedicated? (
@@ -33,6 +32,9 @@ RDEPEND="dev-db/sqlite:3
 		)
 		truetype? ( media-libs/freetype:2 )
 	)
+	leveldb? ( dev-libs/leveldb )
+	luajit? ( dev-lang/luajit:2 )
+	!luajit? ( >=dev-lang/lua-5.1.4 )
 	nls? ( virtual/libintl )"
 DEPEND="${RDEPEND}
 	nls? ( sys-devel/gettext )"
@@ -51,8 +53,9 @@ src_unpack() {
 
 src_prepare() {
 	epatch \
-		"${FILESDIR}"/${P}-cmake.patch \
-		"${FILESDIR}"/${P}-unbundle.patch
+		"${FILESDIR}"/${P}-lua-luajit-option.patch \
+		"${FILESDIR}"/${P}-shared-irrlicht.patch \
+		"${FILESDIR}"/${P}-as-needed.patch
 
 	# correct gettext behavior
 	if [[ -n "${LINGUAS+x}" ]] ; then
@@ -84,9 +87,10 @@ src_configure() {
 		$(usex dedicated "-DBUILD_SERVER=ON -DBUILD_CLIENT=OFF" "$(cmake-utils_use_build server SERVER) -DBUILD_CLIENT=ON")
 		$(cmake-utils_use_enable nls GETTEXT)
 		$(cmake-utils_use_enable curl CURL)
+		$(cmake-utils_use_use luajit LUAJIT)
 		$(cmake-utils_use_enable truetype FREETYPE)
 		$(cmake-utils_use_enable sound SOUND)
-		-DWITH_SYSTEM_JTHREAD=OFF
+		$(cmake-utils_use_enable leveldb LEVELDB)
 		)
 
 	cmake-utils_src_configure
