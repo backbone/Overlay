@@ -11,7 +11,7 @@ app-arch/lbzip2 ~amd64
 app-editors/gvim ~amd64
 app-editors/vim ~amd64
 app-editors/vim-core ~amd64
-<app-misc/sphinx-2.1 ~amd64
+<app-misc/sphinx-2.2 ~amd64
 app-portage/deltup ~amd64
 app-portage/eix ~amd64
 app-portage/ewo ~amd64
