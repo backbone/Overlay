@@ -68,10 +68,10 @@ dev-lang/python-exec ~amd64
 dev-lang/spidermonkey ~amd64
 dev-lang/vala ~amd64
 dev-libs/cloog ~amd64
-<dev-libs/glib-2.37 ~amd64
+<dev-libs/glib-2.36 ~amd64
 dev-libs/gnulib ~x64-freebsd
-<dev-libs/gobject-introspection-1.37 ~amd64
-<dev-libs/gobject-introspection-common-1.37 ~amd64
+<dev-libs/gobject-introspection-1.36 ~amd64
+<dev-libs/gobject-introspection-common-1.36 ~amd64
 dev-libs/isl ~amd64
 dev-libs/jthread ~amd64
 dev-libs/libpipeline ~amd64
@@ -151,7 +151,7 @@ dev-util/android-sdk-update-manager ~amd64
 <dev-util/anjuta-3.9.0 ~amd64
 dev-util/bdelta ~amd64
 dev-util/colormake ~amd64
-<dev-util/gdbus-codegen-2.37 ~amd64
+<dev-util/gdbus-codegen-2.36 ~amd64
 dev-util/gource ~amd64
 <dev-util/kbuild-0.2 ~amd64
 dev-util/nvidia-cuda-sdk ~amd64
