@@ -68,6 +68,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != x11-drivers/xf86-video-intel
 && ${CATEGORY}/${PN} != media-gfx/fbida
 && ${CATEGORY}/${PN} != x11-misc/primus
+&& ${CATEGORY}/${PN} != dev-lang/ruby
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
