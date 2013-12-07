@@ -1,5 +1,6 @@
 app-admin/glance mysql
 app-arch/bzip2 static-libs
+app-crypt/gcr gtk
 app-editors/gedit python
 app-editors/gvim gtk cscope netbeans
 app-editors/nano justify slang
