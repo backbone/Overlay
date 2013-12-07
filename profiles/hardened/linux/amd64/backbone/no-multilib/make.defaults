@@ -23,6 +23,8 @@ PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
 PORTAGE_ELOG_CLASSES="warn error log"
 PORTAGE_ELOG_SYSTEM="save"
 
+RUBY_TARGETS="ruby20"
+
 # cpu
 USE="${USE} custom-cflags"
 
