@@ -15,19 +15,19 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-RDEPEND="dev-lang/vala:0.18
-	>=dev-libs/glib-2.12:2
-	>=dev-libs/libgee-0.5:0
+RDEPEND="dev-lang/vala
+	>=dev-libs/glib-2.12
+	>=dev-libs/libgee-0.5
 	>=media-gfx/graphviz-2.16
-	x11-libs/gdk-pixbuf:2
-	>=x11-libs/gtk+-2.10:2"
+	x11-libs/gdk-pixbuf
+	>=x11-libs/gtk+-2.10"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig"
 
 DOCS=( AUTHORS MAINTAINERS THANKS )
 
 src_configure() {
-	VALAC="$(type -p valac-0.18)" econf --disable-static
+	VALAC="$(type -p valac)" econf --disable-static
 }
 
 src_install() {
