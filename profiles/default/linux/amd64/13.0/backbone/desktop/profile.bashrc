@@ -69,6 +69,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != media-gfx/fbida
 && ${CATEGORY}/${PN} != x11-misc/primus
 && ${CATEGORY}/${PN} != dev-lang/ruby
+&& ${CATEGORY}/${PN} != sys-apps/kmod
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
