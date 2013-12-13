@@ -58,6 +58,7 @@ media-gfx/imagemagick png truetype
 media-libs/avidemux-plugins qt4
 media-libs/freetype static-libs
 media-libs/gd fontconfig truetype jpeg png
+media-libs/harfbuzz icu
 media-libs/lcms static-libs python
 media-libs/libcanberra gtk
 media-libs/libjpeg-turbo static-libs
