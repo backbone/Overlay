@@ -126,6 +126,7 @@ net-misc/openvswitch ~amd64
 net-misc/rabbitmq-server ~amd64
 net-misc/tor ~amd64
 <net-p2p/rtorrent-1.0.0 ~amd64
+<net-proxy/squid-3.4 ~amd64
 net-proxy/tinyproxy ~amd64
 perl-core/Module-Load ~amd64
 <sys-apps/gcp-1.0 ~amd64

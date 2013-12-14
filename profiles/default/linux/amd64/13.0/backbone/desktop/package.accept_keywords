@@ -225,6 +225,7 @@ net-misc/tor ~amd64
 <net-news/liferea-1.11 ~amd64
 net-p2p/deluge ~amd64
 <net-p2p/rtorrent-1.0.0 ~amd64
+<net-proxy/squid-3.4 ~amd64
 net-proxy/tinyproxy ~amd64
 sci-biology/foldingathome ~amd64
 sci-geosciences/googleearth ~amd64
