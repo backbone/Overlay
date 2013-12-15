@@ -99,6 +99,7 @@ net-p2p/deluge geoip gtk libnotify setproctitle sound webinterface
 net-p2p/eiskaltdcpp gtk sqlite xmlrpc qt4
 net-p2p/transmission gtk
 net-print/hplip hpcups hpijs
+net-proxy/squid caps ssl-crtd tproxy
 net-voip/linphone gtk
 net-voip/ekiga gstreamer gtk
 net-wireless/hostapd logwatch
