@@ -19,6 +19,7 @@ dev-libs/libxml2 python icu
 dev-libs/lzo static-libs
 dev-libs/popt static-libs
 dev-libs/xmlrpc-c abyss
+dev-perl/GD png
 dev-python/sqlalchemy mysql
 dev-util/anjuta vala
 dev-vcs/git perl -python
