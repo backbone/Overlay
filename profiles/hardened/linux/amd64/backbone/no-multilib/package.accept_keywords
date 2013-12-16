@@ -53,6 +53,7 @@ dev-python/iso8601 ~amd64
 =dev-python/jsonpatch-0.10 ~amd64
 dev-python/jsonpointer ~amd64
 dev-python/kombu ~amd64
+<dev-python/libvirt-python-1.3 ~amd64
 dev-python/mock ~amd64
 dev-python/mox ~amd64
 dev-python/nosehtmloutput ~amd64
