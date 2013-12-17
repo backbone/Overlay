@@ -173,6 +173,7 @@ games-fps/unigine-sanctuary ~amd64
 games-fps/unigine-tropics ~amd64
 <games-fps/urbanterror-4.3 ~amd64
 games-fps/xonotic ~amd64
+games-misc/asciiquarium ~amd64
 =games-puzzle/charley-9999 **
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
