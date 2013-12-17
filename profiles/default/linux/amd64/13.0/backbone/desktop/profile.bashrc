@@ -118,6 +118,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != sci-libs/gdal # Out of memory when building the package
 && ${CATEGORY}/${PN} != dev-util/anjuta # anjuta-tags segfaults
 && ${CATEGORY}/${PN} != net-libs/libvncserver # Black rectangular artefacts in Remmina
+&& ${CATEGORY}/${PN} != x11-base/xorg-server # Hangs in ~30% cases of Awesome Restarts (Ctrl+Alt+R)
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
