@@ -40,6 +40,7 @@ media-video/ffmpeg network v4l vpx
 net-dns/dnsmasq dhcp-tools
 net-fs/cifs-utils upcall
 net-fs/samba cups quota winbind
+net-ftp/frox transparent
 net-ftp/pure-ftpd sysquota
 net-im/ejabberd mod_muc mod_proxy65 mod_irc mod_pubsub
 net-libs/xulrunner custom-optimization
