@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=">=dev-lang/perl-5.6
-		 dev-perl/Term-Animation[ncurses]"
+		 dev-perl/Term-Animation"
 RDEPEND="${DEPEND}"
 
 S=${WORKDIR}/${MY_P}
