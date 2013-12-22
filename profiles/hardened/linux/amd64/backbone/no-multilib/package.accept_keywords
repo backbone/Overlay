@@ -142,7 +142,6 @@ sys-apps/util-linux ~amd64
 <sys-apps/sysvinit-2.89 ~amd64
 <sys-auth/keystone-2014 ~amd64
 sys-boot/efibootmgr ~amd64
->=sys-boot/grub-2 ~amd64
 sys-boot/os-prober ~amd64
 <sys-cluster/neutron-2014 ~amd64
 <sys-cluster/nova-2014 ~amd64

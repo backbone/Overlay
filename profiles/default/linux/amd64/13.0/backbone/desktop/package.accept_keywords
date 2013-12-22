@@ -244,7 +244,6 @@ sys-apps/microcode-data ~amd64
 sys-apps/util-linux ~amd64
 sys-auth/keystone ~amd64
 sys-boot/efibootmgr ~amd64
->=sys-boot/grub-2 ~amd64
 sys-boot/os-prober ~amd64
 sys-cluster/nova ~amd64
 sys-cluster/quantum ~amd64
