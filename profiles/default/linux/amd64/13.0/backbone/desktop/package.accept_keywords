@@ -28,10 +28,10 @@ app-editors/vim-core ~amd64
 =app-emulation/emul-linux-x86-xlibs-20131008 ~amd64
 app-emulation/qemu ~amd64
 <app-emulation/spice-protocol-0.13 ~amd64
-<app-emulation/virtualbox-4.3.0 ~amd64
-<app-emulation/virtualbox-additions-4.3.0 ~amd64
-<app-emulation/virtualbox-extpack-oracle-4.3.0 ~amd64
-<app-emulation/virtualbox-modules-4.3.0 ~amd64
+<app-emulation/virtualbox-4.4.0 ~amd64
+<app-emulation/virtualbox-additions-4.4.0 ~amd64
+<app-emulation/virtualbox-extpack-oracle-4.4.0 ~amd64
+<app-emulation/virtualbox-modules-4.4.0 ~amd64
 app-emulation/wine ~amd64
 app-emulation/winetricks ~amd64
 =sci-misc/labview-8.6.0 ~amd64
