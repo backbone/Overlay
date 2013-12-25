@@ -119,6 +119,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-util/anjuta # anjuta-tags segfaults
 && ${CATEGORY}/${PN} != net-libs/libvncserver # Black rectangular artefacts in Remmina
 && ${CATEGORY}/${PN} != x11-base/xorg-server # Hangs in ~30% cases of Awesome Restarts (Ctrl+Alt+R)
+&& ${CATEGORY}/${PN} != dev-util/valgrind # Fails to run any elf file
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
