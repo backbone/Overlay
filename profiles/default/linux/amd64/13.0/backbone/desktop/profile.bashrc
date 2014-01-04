@@ -71,6 +71,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-lang/ruby
 && ${CATEGORY}/${PN} != sys-apps/kmod
 && ${CATEGORY}/${PN} != x11-misc/x11vnc
+&& ${CATEGORY}/${PN} != x11-libs/gtkglext
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
