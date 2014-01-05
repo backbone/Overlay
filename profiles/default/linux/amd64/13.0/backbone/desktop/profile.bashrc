@@ -122,6 +122,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != x11-base/xorg-server # Hangs in ~30% cases of Awesome Restarts (Ctrl+Alt+R)
 && ${CATEGORY}/${PN} != dev-util/valgrind # Fails to run any elf file
 && ${CATEGORY}/${PN} != net-p2p/transmission # Segfaults after ~1-2 minutes when downloading something big
+&& ${CATEGORY}/${PN} != dev-libs/icu # Liferea segfaults on double click
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
