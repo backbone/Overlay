@@ -72,6 +72,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != sys-apps/kmod
 && ${CATEGORY}/${PN} != x11-misc/x11vnc
 && ${CATEGORY}/${PN} != x11-libs/gtkglext
+&& ${CATEGORY}/${PN} != gnome-base/gvfs
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
