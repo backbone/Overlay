@@ -49,6 +49,7 @@ dev-util/nvidia-cuda-sdk cuda opencl examples
 dev-util/nvidia-cuda-toolkit debugger profiler
 dev-vcs/git perl cgi
 dev-vcs/mercurial zsh-completion
+gnome-base/gvfs udisks
 mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-sqlite
 mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
 media-fonts/intlfonts bdf
@@ -149,3 +150,4 @@ x11-misc/virtualgl abi_x86_32
 x11-terms/rxvt-unicode 256-color alt-font-width perl -vanilla xft
 x11-themes/gtk-engines-equinox -animation -themes -icons
 x11-wm/ion3 proportional-tabs systray wallpaper
+xfce-base/thunar exif libnotify startup-notification udev -xfce_plugins_trash
