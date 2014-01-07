@@ -33,7 +33,9 @@ dev-python/alembic ~amd64
 dev-python/amqplib ~amd64
 dev-python/anyjson ~amd64
 dev-python/Babel ~amd64
+<dev-python/bcrypt-1.1 ~amd64
 dev-python/boto ~amd64
+<dev-python/cffi-1.0 ~amd64
 dev-python/charade ~amd64
 dev-python/chardet ~amd64
 <dev-python/cheetah-3 ~amd64
