@@ -162,6 +162,7 @@ sys-fs/aufs3 ~amd64
 <sys-fs/aufs-util-3.9 ~amd64
 <sys-fs/aufs-headers-3.9 ~amd64
 <sys-power/powertop-3.0 ~amd64
+<sys-process/procps-3.4 ~amd64
 sys-fs/mtpfs ~amd64
 <sys-fs/udev-209 ~amd64
 virtual/perl-Module-Load ~amd64
