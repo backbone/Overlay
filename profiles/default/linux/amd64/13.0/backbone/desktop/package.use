@@ -42,6 +42,7 @@ dev-libs/popt static-libs
 dev-libs/xmlrpc-c abyss
 dev-perl/GD png
 dev-python/sqlalchemy mysql
+dev-qt/qt-creator android autotools cmake fakevim git valgrind
 dev-util/anjuta vala
 dev-util/cmake vim-syntax
 dev-util/geany-plugins enchant gtkspell
