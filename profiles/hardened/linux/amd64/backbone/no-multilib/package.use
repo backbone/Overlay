@@ -1,5 +1,7 @@
 app-admin/glance mysql
 app-arch/bzip2 static-libs
+app-arch/unzip natspec
+app-arch/zip natspec
 app-editors/vim perl python vim-pager cscope
 app-misc/mc samba edit sftp slang -ncurses
 app-misc/sphinx mysql
