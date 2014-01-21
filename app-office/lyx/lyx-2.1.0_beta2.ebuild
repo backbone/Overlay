@@ -1,6 +1,6 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2013 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-office/lyx/lyx-2.0.4.ebuild,v 1.6 2012/10/10 15:23:33 ranger Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-office/lyx/lyx-2.0.6.ebuild,v 1.10 2013/06/29 16:21:16 ago Exp $
 
 EAPI=3
 
@@ -15,13 +15,14 @@ FONT_S="${S}/lib/fonts"
 FONT_SUFFIX="ttf"
 DESCRIPTION="WYSIWYM frontend for LaTeX, DocBook, etc."
 HOMEPAGE="http://www.lyx.org/"
-SRC_URI="ftp://ftp.lyx.org/pub/lyx/stable/2.0.x/${P}.tar.xz"
-#SRC_URI="ftp://ftp.lyx.org/pub/lyx/devel/lyx-2.0/rc3/${MY_P}.tar.xz"
+#SRC_URI="ftp://ftp.lyx.org/pub/lyx/stable/2.0.x/${P}.tar.xz"
+SRC_URI="ftp://ftp.lyx.org/pub/lyx/devel/lyx-2.1/${MY_P}/${MY_P}.tar.xz"
+RESTRICT="test"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 hppa ia64 ppc ~ppc64 sparc x86 ~x64-macos ~x86-macos"
-IUSE="cups debug nls +latex xetex luatex monolithic-build html rtf dot docbook dia subversion rcs svg gnumeric +hunspell aspell enchant"
+KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x64-macos ~x86-macos"
+IUSE="cups debug nls +latex monolithic-build html rtf dot docbook dia subversion rcs svg gnumeric +hunspell aspell enchant"
 
 LANGS="ar ca cs de da el en es eu fi fr gl he hu ia id it ja nb nn pl pt ro ru sk sr sv tr uk zh_CN zh_TW"
 
@@ -29,11 +30,8 @@ for X in ${LANGS}; do
 	IUSE="${IUSE} linguas_${X}"
 done
 
-COMMONDEPEND="x11-libs/qt-gui:4
-	x11-libs/qt-core:4
-	dev-libs/libxml2
-	media-libs/fontconfig
-	media-libs/freetype
+COMMONDEPEND="dev-qt/qtgui:4
+	dev-qt/qtcore:4
 	>=dev-libs/boost-1.34"
 
 RDEPEND="${COMMONDEPEND}
@@ -41,7 +39,7 @@ RDEPEND="${COMMONDEPEND}
 	|| ( media-gfx/imagemagick[png] media-gfx/graphicsmagick[png] )
 	cups? ( net-print/cups )
 	latex? (
-		virtual/latex-base
+		app-text/texlive
 		app-text/ghostscript-gpl
 		app-text/noweb
 		app-text/dvipng
@@ -60,8 +58,6 @@ RDEPEND="${COMMONDEPEND}
 			dev-tex/tex4ht
 		)
 	)
-	xetex? ( dev-texlive/texlive-xetex )
-	luatex? ( >=dev-texlive/texlive-luatex-2010 )
 	html? ( dev-tex/html2latex )
 	rtf? (
 			dev-tex/latex2rtf
@@ -83,7 +79,6 @@ RDEPEND="${COMMONDEPEND}
 	enchant? ( app-text/enchant )"
 
 DEPEND="${COMMONDEPEND}
-	sys-devel/bc
 	virtual/pkgconfig
 	nls? ( sys-devel/gettext )"
 
@@ -128,7 +123,9 @@ src_install() {
 		doins "${T}"/hebrew.bind || die
 	fi
 
-	newicon -s 32 "$S/development/Win32/packaging/icons/lyx_32x32.png" ${PN}.png
+	newicon -s 32 "${S}/development/Win32/packaging/icons/lyx_32x32.png" ${PN}.png
+	doicon -s 48 "${S}/lib/images/lyx.png"
+	doicon -s scalable "${S}/lib/images/lyx.svg"
 	make_desktop_entry ${PN} "LyX" "${PN}" "Office" "MimeType=application/x-lyx;"
 
 	# fix for bug 91108
