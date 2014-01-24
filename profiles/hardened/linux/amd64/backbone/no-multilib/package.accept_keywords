@@ -26,6 +26,7 @@ app-vim/screen ~amd64
 dev-lang/python-exec ~amd64
 dev-lang/vala ~amd64
 dev-libs/gnulib ~x64-freebsd
+dev-libs/leveldb ~amd64
 dev-libs/libpipeline ~amd64
 dev-libs/vala-common ~amd64
 dev-perl/PHP-Serialization ~amd64

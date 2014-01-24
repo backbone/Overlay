@@ -79,6 +79,7 @@ dev-libs/gnulib ~x64-freebsd
 dev-libs/isl ~amd64
 dev-libs/jthread ~amd64
 dev-libs/kpathsea ~amd64
+dev-libs/leveldb ~amd64
 dev-libs/libpipeline ~amd64
 dev-libs/libgee ~amd64
 dev-libs/libmirage ~amd64

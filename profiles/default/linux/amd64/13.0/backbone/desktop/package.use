@@ -54,6 +54,7 @@ dev-vcs/git perl cgi
 dev-vcs/mercurial zsh-completion
 gnome-base/gvfs udisks
 mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-sqlite
+games-action/minetest leveldb
 mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
 media-fonts/intlfonts bdf
 media-fonts/terminus-font a-like-o bolddiag quote ru-dv ru-g ru-i ru-k width pcf psf
