@@ -39,7 +39,6 @@ app-misc/gnomecatalog ~amd64
 app-misc/nixnote ~amd64
 <app-misc/sphinx-2.1 ~amd64
 app-misc/stardict-enru-dictset ~amd64
-<app-office/lyx-2.1.0 ~amd64
 <app-office/libreoffice-bin-4.2 ~amd64
 <app-office/libreoffice-l10n-4.2 ~amd64
 app-office/texmacs ~amd64
