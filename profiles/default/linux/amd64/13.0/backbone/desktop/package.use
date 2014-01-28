@@ -53,6 +53,7 @@ dev-util/nvidia-cuda-toolkit debugger profiler
 dev-vcs/git perl cgi
 dev-vcs/mercurial zsh-completion
 gnome-base/gvfs udisks
+gnome-extra/nm-applet gconf modemmanager
 mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-sqlite
 games-action/minetest leveldb
 mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
