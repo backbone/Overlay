@@ -125,6 +125,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != net-p2p/transmission # Segfaults after ~1-2 minutes when downloading something big
 && ${CATEGORY}/${PN} != dev-libs/icu # Liferea segfaults on double click
 && ${CATEGORY}/${PN} != dev-tex/luatex # luatex segfaults
+&& ${CATEGORY}/${PN} != media-plugins/audacious-plugins
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
