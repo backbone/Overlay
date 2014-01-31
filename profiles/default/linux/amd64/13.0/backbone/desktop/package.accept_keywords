@@ -242,6 +242,7 @@ media-video/v4l2ucp ~amd64
 net-fs/cifs-utils ~amd64
 net-fs/curlftpfs ~amd64
 net-fs/smbnetfs ~amd64
+net-im/pidgin ~amd64
 <net-im/psi-0.16 ~amd64
 <net-libs/enet-1.3.6 ~amd64
 <net-libs/gssdp-0.15 ~amd64
