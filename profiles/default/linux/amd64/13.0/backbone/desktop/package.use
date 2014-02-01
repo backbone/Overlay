@@ -72,6 +72,7 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libmng static-libs lcms
 media-libs/libpng static-libs apng
 media-libs/libsdl joystick
+media-libs/libtxc_dxtn abi_x86_32
 media-libs/mediastreamer -X
 media-libs/mesa gbm gles1 gles2 -llvm openvg g3dvl xa
 media-libs/phonon gstreamer
