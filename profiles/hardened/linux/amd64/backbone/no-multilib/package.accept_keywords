@@ -159,7 +159,7 @@ sys-kernel/linux-headers ~amd64
 sys-libs/core-functions ~amd64
 sys-libs/glibc ~amd64
 sys-libs/tdb ~amd64
-=sys-libs/timezone-data-2013d ~amd64
+sys-libs/timezone-data ~amd64
 sys-fs/aufs3 ~amd64
 <sys-fs/aufs-util-3.9 ~amd64
 <sys-fs/aufs-headers-3.9 ~amd64
