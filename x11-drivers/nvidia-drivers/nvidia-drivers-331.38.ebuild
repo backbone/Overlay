@@ -176,6 +176,11 @@ src_prepare() {
 		epatch "${FILESDIR}"/${PN}-331.13-pax-usercopy.patch
 	fi
 
+	# fix: Unknown symbol acpi_os_wait_events_complete (err 0) on linux-3.13
+	if kernel_is ge 3 13 0 ; then
+		epatch "${FILESDIR}"/acpi_os_wait_events_complete.patch
+	fi
+
 	# Allow user patches so they can support RC kernels and whatever else
 	epatch_user
 }
