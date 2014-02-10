@@ -179,6 +179,7 @@ src_prepare() {
 	# fix: Unknown symbol acpi_os_wait_events_complete (err 0) on linux-3.13
 	if kernel_is ge 3 13 0 ; then
 		epatch "${FILESDIR}"/acpi_os_wait_events_complete-334.16.patch
+		epatch "${FILESDIR}"/optimus-334.16.patch
 	fi
 
 	# Allow user patches so they can support RC kernels and whatever else
