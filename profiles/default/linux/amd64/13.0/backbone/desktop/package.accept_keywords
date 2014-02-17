@@ -229,7 +229,6 @@ media-libs/glm ~amd64
 <media-libs/libvpx-1.2.0 ~amd64
 <media-libs/sk1libs-0.9.2 ~amd64
 <media-plugins/caps-plugins-0.9.10 ~amd64 # higher brokes alsaequal
-<media-plugins/caps-plugins-0.9.11 ~amd64
 media-plugins/gst-plugins-ffmpeg ~amd64
 <media-plugins/gst-plugins-v4l2-2 ~amd64
 media-sound/mp3unicode ~amd64
