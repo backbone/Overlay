@@ -32,6 +32,7 @@ dev-lang/php pdo sqlite curl gd sqlite3 xml flatfile mysql mysqli mysqlnd inifil
 dev-lang/python sqlite
 dev-libs/apr-util mysql
 dev-libs/boost python
+dev-libs/elfutils static-libs
 dev-libs/glib utils
 dev-libs/gmp pgo
 dev-libs/libgcrypt static-libs
