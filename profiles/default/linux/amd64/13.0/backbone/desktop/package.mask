@@ -1,4 +1,5 @@
 >=media-fonts/liberation-fonts-2.00.0
 >=gnome-base/gdm-3
+>=gnome-base/gsettings-desktop-schemas-3.10.1
 >=media-plugins/caps-plugins-0.9.10 # brokes alsaequal
 >=media-plugins/alsaequal-0.6-r1
