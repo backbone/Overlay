@@ -149,6 +149,7 @@ fi
 # no-graphite
 if [[ true != false
 && ${CATEGORY}/${PN} != undefined/undefined
+&& ${CATEGORY}/${PN} != www-client/firefox
 ]] ; then
     tmp="-floop-interchange -ftree-loop-distribution -floop-strip-mine -floop-block"
     CFLAGS="${CFLAGS} ${tmp}"
