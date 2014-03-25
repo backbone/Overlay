@@ -65,7 +65,7 @@ media-fonts/intlfonts bdf
 media-fonts/terminus-font a-like-o bolddiag quote ru-dv ru-g ru-i ru-k width pcf psf
 media-gfx/fbida curl fbcon gif pdf tiff
 media-gfx/gimp pdf svg tiff
-media-gfx/imagemagick png truetype
+media-gfx/imagemagick png svg truetype
 media-libs/avidemux-plugins qt4
 media-libs/freetype static-libs
 media-libs/gd fontconfig truetype jpeg png
