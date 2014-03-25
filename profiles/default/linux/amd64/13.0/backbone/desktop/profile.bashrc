@@ -73,6 +73,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != x11-misc/x11vnc
 && ${CATEGORY}/${PN} != x11-libs/gtkglext
 && ${CATEGORY}/${PN} != gnome-base/gvfs
+&& ${CATEGORY}/${PN} != app-text/aspell
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
