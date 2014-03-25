@@ -16,6 +16,7 @@ app-misc/sphinx mysql
 app-misc/tmux vim-syntax
 app-misc/vifm vim-plugin vim-syntax
 app-office/libreoffice-bin java
+app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rtf svg
 app-portage/eix sqlite zsh-completion
 app-portage/layman git mercurial subversion
 app-text/evince djvu dvi
