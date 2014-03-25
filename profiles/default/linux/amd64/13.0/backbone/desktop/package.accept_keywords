@@ -68,6 +68,7 @@ dev-java/jutils ~amd64
 dev-java/lwjgl ~amd64
 dev-java/jinput ~amd64
 <dev-games/irrlicht-1.9 ~amd64
+dev-lang/gnu-smalltalk ~amd64
 dev-lang/python-exec ~amd64
 dev-lang/spidermonkey ~amd64
 dev-lang/vala ~amd64
