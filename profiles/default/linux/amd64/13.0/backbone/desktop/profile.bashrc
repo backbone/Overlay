@@ -74,6 +74,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != x11-libs/gtkglext
 && ${CATEGORY}/${PN} != gnome-base/gvfs
 && ${CATEGORY}/${PN} != app-text/aspell
+&& ${CATEGORY}/${PN} != dev-libs/libsigsegv
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
