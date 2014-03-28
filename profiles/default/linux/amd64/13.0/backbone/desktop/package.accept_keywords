@@ -269,6 +269,7 @@ sci-geosciences/googleearth ~amd64
 <sys-apps/dtc-1.5 ~amd64
 <sys-apps/gcp-1.0 ~amd64
 sys-apps/gptfdisk ~amd64
+sys-apps/gsmartcontrol ~amd64
 =sys-apps/hardinform-9999 **
 sys-apps/man-db ~amd64
 sys-apps/microcode-data ~amd64
