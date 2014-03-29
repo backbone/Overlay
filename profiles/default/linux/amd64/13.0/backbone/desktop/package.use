@@ -126,7 +126,7 @@ sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
 sys-devel/gcc graphite lto mudflap
-sys-devel/llvm clang video_cards_radeon
+sys-devel/llvm clang
 sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs -thin
 sys-fs/ntfs3g ntfsprogs
