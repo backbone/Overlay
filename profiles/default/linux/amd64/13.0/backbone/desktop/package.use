@@ -135,6 +135,7 @@ sys-kernel/dracut device-mapper
 sys-kernel/geek-sources branding ck debian genpatches gentoo ice optimization zen
 >=sys-kernel/geek-sources-3.10.1 -branding -gentoo
 >=sys-kernel/geek-sources-3.11 branding gentoo
+sys-libs/glibc nscd
 sys-libs/talloc python
 sys-libs/zlib static-libs minizip
 sys-power/cpufreqd apm lm_sensors pmu
