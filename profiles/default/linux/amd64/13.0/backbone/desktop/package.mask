@@ -3,8 +3,3 @@
 >=gnome-base/gsettings-desktop-schemas-3.10.1
 >=media-plugins/caps-plugins-0.9.10 # brokes alsaequal
 >=media-plugins/alsaequal-0.6-r1
-
-# >=mesa-9.2 isn't compiled
-=media-libs/mesa-10.0.4
-=virtual/opengl-7.0-r1
-=x11-base/xorg-server-1.15.0
