@@ -168,6 +168,7 @@ sys-fs/aufs3 ~amd64
 <sys-process/procps-3.4 ~amd64
 sys-fs/mtpfs ~amd64
 <sys-fs/udev-209 ~amd64
+=virtual/libudev-208 ~amd64
 virtual/perl-Module-Load ~amd64
 virtual/pyparsing ~amd64
 <virtual/udev-209 ~amd64
