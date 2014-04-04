@@ -34,6 +34,8 @@ app-emulation/qemu ~amd64
 <app-emulation/virtualbox-modules-4.4.0 ~amd64
 app-emulation/wine ~amd64
 app-emulation/winetricks ~amd64
+<sci-mathematics/maxima-5.33 ~amd64
+<sci-mathematics/wxmaxima-14 ~amd64
 =sci-misc/labview-8.6.0 ~amd64
 app-misc/gnomecatalog ~amd64
 app-misc/nixnote ~amd64
@@ -88,6 +90,7 @@ dev-libs/libpeas ~amd64
 dev-libs/nspr ~amd64
 <dev-libs/nss-3.17 ~amd64
 dev-libs/vala-common ~amd64
+dev-lisp/gcl ~amd64
 <dev-lua/lgi-0.7 ~amd64
 dev-python/alembic ~amd64
 dev-python/amqplib ~amd64
@@ -212,6 +215,7 @@ games-util/steam-launcher ~amd64
 games-util/steam-meta ~amd64
 mail-client/thunderbird ~amd64
 mail-client/thunderbird-bin ~amd64
+<media-fonts/jsmath-2.0 ~amd64
 <media-gfx/gimp-2.9.0 ~amd64
 <media-gfx/splashutils-1.5.5 ~amd64
 media-gfx/shotwell ~amd64
