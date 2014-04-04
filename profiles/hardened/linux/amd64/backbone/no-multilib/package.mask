@@ -4,3 +4,4 @@
 >=media-plugins/caps-plugins-0.9.10 # brokes alsaequal
 >=media-plugins/alsaequal-0.6-r1
 =dev-python/alembic-0.6.3 # requires new sqlalchemy
+=dev-python/pbr-0.7.0 # conflicts with previous version requirements
