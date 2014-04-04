@@ -54,6 +54,7 @@ net-p2p/rtorrent xmlrpc
 net-print/hplip hpcups hpijs
 net-proxy/squid caps ssl-crtd tproxy
 net-wireless/hostapd logwatch
+sys-apps/busybox mdev
 sys-apps/util-linux static-libs tty-helpers
 sys-auth/consolekit policykit
 sys-auth/keystone mysql
