@@ -23,6 +23,7 @@ app-vim/cctree ~amd64
 app-vim/pathogen ~amd64
 app-vim/screen ~amd64
 <dev-games/irrlicht-1.9 ~amd64
+=dev-lang/php-5.5.11 ~amd64
 dev-lang/python-exec ~amd64
 dev-lang/vala ~amd64
 dev-libs/gnulib ~x64-freebsd
