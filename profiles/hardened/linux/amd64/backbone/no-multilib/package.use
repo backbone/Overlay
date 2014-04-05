@@ -30,7 +30,7 @@ games-action/minetest leveldb
 games-fps/urbanterror dedicated -server
 mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
 media-libs/gd fontconfig truetype jpeg png
-media-gfx/imagemagick png
+media-gfx/imagemagick jpeg png
 media-libs/lcms static-libs python
 media-libs/libjpeg-turbo static-libs
 media-libs/libpng static-libs apng
