@@ -217,6 +217,7 @@ mail-client/thunderbird ~amd64
 mail-client/thunderbird-bin ~amd64
 <media-fonts/jsmath-2.0 ~amd64
 <media-gfx/gimp-2.9.0 ~amd64
+=media-gfx/imagemagick-6.8.8.10 ~amd64
 <media-gfx/splashutils-1.5.5 ~amd64
 media-gfx/shotwell ~amd64
 <media-libs/avidemux-core-2.7
