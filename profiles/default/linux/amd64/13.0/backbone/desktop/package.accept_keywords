@@ -89,6 +89,7 @@ dev-libs/libmirage ~amd64
 dev-libs/libpeas ~amd64
 dev-libs/nspr ~amd64
 <dev-libs/nss-3.17 ~amd64
+=dev-libs/openssl-1.0.1g ~amd64
 dev-libs/vala-common ~amd64
 dev-lisp/gcl ~amd64
 <dev-lua/lgi-0.7 ~amd64
