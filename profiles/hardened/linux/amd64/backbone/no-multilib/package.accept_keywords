@@ -83,6 +83,7 @@ dev-python/python-cinderclient ~amd64
 dev-python/python-exec ~amd64
 dev-python/python-keyring ~amd64
 <dev-python/python-keystoneclient-0.4 ~amd64
+=dev-python/python-neutronclient-2.3.4 ~amd64
 <dev-python/python-novaclient-3 ~amd64
 dev-python/python-pam ~amd64
 <dev-python/python-quantumclient-2.3 ~amd64
