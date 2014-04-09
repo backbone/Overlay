@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/nvidia-drivers-334.21-r3.ebuild,v 1.3 2014/04/08 20:02:47 vapier Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/nvidia-drivers-334.21-r3.ebuild,v 1.4 2014/04/09 16:05:24 jer Exp $
 
 EAPI=5
 
@@ -176,8 +176,6 @@ src_prepare() {
 		ewarn "need support with these patches, contact the PaX team."
 		epatch "${FILESDIR}"/${PN}-331.13-pax-usercopy.patch
 	fi
-
-	epatch "${FILESDIR}"/${P}-linux-3.14.patch
 
 	# Allow user patches so they can support RC kernels and whatever else
 	epatch_user
