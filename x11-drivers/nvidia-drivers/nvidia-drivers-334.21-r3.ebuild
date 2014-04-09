@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/nvidia-drivers-334.21-r3.ebuild,v 1.1 2014/03/31 20:24:35 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/nvidia-drivers-334.21-r3.ebuild,v 1.3 2014/04/08 20:02:47 vapier Exp $
 
 EAPI=5
 
@@ -24,7 +24,7 @@ SRC_URI="
 
 LICENSE="GPL-2 NVIDIA-r2"
 SLOT="0"
-KEYWORDS="-* ~amd64 ~x86 ~amd64-fbsd ~x86-fbsd"
+KEYWORDS="-* amd64 x86 ~amd64-fbsd ~x86-fbsd"
 IUSE="acpi multilib kernel_FreeBSD kernel_linux pax_kernel +tools +X uvm"
 RESTRICT="bindist mirror strip"
 EMULTILIB_PKG="true"
@@ -158,15 +158,6 @@ pkg_setup() {
 	fi
 }
 
-src_unpack() {
-	if use kernel_FreeBSD; then
-		unpack ${A}
-	elif use kernel_linux; then
-		cd "${S}"
-		unpack_makeself
-	fi
-}
-
 src_prepare() {
 	# Please add a brief description for every added patch
 
@@ -185,6 +176,8 @@ src_prepare() {
 		ewarn "need support with these patches, contact the PaX team."
 		epatch "${FILESDIR}"/${PN}-331.13-pax-usercopy.patch
 	fi
+
+	epatch "${FILESDIR}"/${P}-linux-3.14.patch
 
 	# Allow user patches so they can support RC kernels and whatever else
 	epatch_user
