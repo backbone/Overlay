@@ -12,3 +12,12 @@
 # Optimus: Calling firefox leads to load nvidia.ko with crashing the module/kernel_memory.
 # Also infinite messages 'unsupported GPU in /var/log/messages' appears  sometimes.
 =x11-drivers/nvidia-drivers-337.12
+
+# Doesn't work with Linux 3.14
+=x11-drivers/nvidia-drivers-334.16
+=x11-drivers/nvidia-drivers-334.16-r2
+=x11-drivers/nvidia-drivers-334.16-r3
+=x11-drivers/nvidia-drivers-334.16-r4
+=x11-drivers/nvidia-drivers-334.16-r5
+=x11-drivers/nvidia-drivers-334.16-r6
+=x11-drivers/nvidia-drivers-334.16-r7
