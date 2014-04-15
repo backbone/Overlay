@@ -142,6 +142,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != media-libs/mesa
 && ${CATEGORY}/${PN} != app-emulation/wine
 && ${CATEGORY}/${PN} != dev-db/sqlite  # Required to emerge avidemux-core
+&& ${CATEGORY}/${PN} != net-libs/webkit-gtk # 2.2.6 isn't compiled on corka
 ]] ; then
     tmp="-fopenmp"
     CFLAGS="${CFLAGS} ${tmp}"
