@@ -90,6 +90,7 @@ dev-libs/libpeas ~amd64
 dev-libs/nspr ~amd64
 <dev-libs/nss-3.17 ~amd64
 =dev-libs/openssl-1.0.1g ~amd64
+<dev-libs/tinyxml2 ~amd64
 dev-libs/vala-common ~amd64
 dev-lisp/gcl ~amd64
 <dev-lua/lgi-0.7 ~amd64
@@ -183,6 +184,7 @@ dev-util/android-sdk-update-manager ~amd64
 <dev-util/anjuta-3.9.0 ~amd64
 dev-util/bdelta ~amd64
 dev-util/colormake ~amd64
+<dev-util/cppcheck-2.0 ~amd64
 <dev-util/gdbus-codegen-2.36 ~amd64
 dev-util/gource ~amd64
 <dev-util/kbuild-0.2 ~amd64
