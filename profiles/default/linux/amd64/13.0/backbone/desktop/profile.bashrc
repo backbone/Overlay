@@ -76,6 +76,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != app-text/aspell
 && ${CATEGORY}/${PN} != dev-libs/libsigsegv
 && ${CATEGORY}/${PN}-${PV} != sys-libs/db-4.5.20_p2
+&& ${CATEGORY}/${PN} != app-emulation/qemu
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
