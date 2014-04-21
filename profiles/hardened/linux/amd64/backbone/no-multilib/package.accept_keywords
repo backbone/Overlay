@@ -160,7 +160,7 @@ sys-devel/crossdev ~amd64
 sys-firmware/amd-ucode ~amd64
 =sys-firmware/ipxe-1.0.0_p20130624-r1 ~amd64
 sys-kernel/dracut ~amd64
-<sys-kernel/hardened-sources-3.14 ~amd64
+<sys-kernel/hardened-sources-3.15 ~amd64
 sys-kernel/linux-headers ~amd64
 sys-libs/core-functions ~amd64
 sys-libs/glibc ~amd64
