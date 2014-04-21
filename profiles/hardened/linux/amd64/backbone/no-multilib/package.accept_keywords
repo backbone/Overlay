@@ -81,11 +81,13 @@ dev-python/pycrypto ~amd64
 <dev-python/pyparsing-3.0 ~amd64
 dev-python/python-cinderclient ~amd64
 dev-python/python-exec ~amd64
+<dev-python/python-glanceclient-0.13 ~amd64
 dev-python/python-keyring ~amd64
 <dev-python/python-keystoneclient-0.4 ~amd64
 =dev-python/python-neutronclient-2.3.4 ~amd64
 <dev-python/python-novaclient-3 ~amd64
 dev-python/python-pam ~amd64
+<dev-python/python-swiftclient-1.10 ~amd64
 <dev-python/python-quantumclient-2.3 ~amd64
 dev-python/pytz ~amd64
 <dev-python/pyzmq-14 ~amd64
