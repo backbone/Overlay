@@ -43,7 +43,7 @@ app-misc/nixnote ~amd64
 app-misc/stardict-enru-dictset ~amd64
 <app-office/libreoffice-bin-4.2 ~amd64
 <app-office/libreoffice-l10n-4.2 ~amd64
-<app-office/lyx-2.1 ~amd64
+<app-office/lyx-2.2 ~amd64
 app-office/texmacs ~amd64
 app-office/texmaker ~amd64
 =app-office/texparser-9999 **
