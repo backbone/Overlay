@@ -76,6 +76,7 @@ media-libs/lcms static-libs python
 media-libs/libcanberra gtk
 media-libs/libjpeg-turbo static-libs
 media-libs/libmng static-libs lcms
+media-libs/libopenraw gtk
 media-libs/libpng static-libs apng
 media-libs/libsdl joystick
 media-libs/libtxc_dxtn abi_x86_32
@@ -168,3 +169,4 @@ x11-terms/rxvt-unicode 256-color alt-font-width perl -vanilla xft
 x11-themes/gtk-engines-equinox -animation -themes -icons
 x11-wm/ion3 proportional-tabs systray wallpaper
 xfce-base/thunar exif libnotify startup-notification udev -xfce_plugins_trash
+xfce-extra/tumbler ffmpeg gstreamer odf pdf raw
