@@ -5,3 +5,4 @@
 >=media-plugins/alsaequal-0.6-r1
 =dev-python/alembic-0.6.3 # requires new sqlalchemy
 =dev-python/pbr-0.7.0 # conflicts with previous version requirements
+=dev-python/alembic-0.6.4 # cann't upgrade
