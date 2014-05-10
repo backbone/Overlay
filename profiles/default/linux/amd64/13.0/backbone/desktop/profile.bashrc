@@ -130,6 +130,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-libs/icu # Liferea segfaults on double click
 && ${CATEGORY}/${PN} != dev-tex/luatex # luatex segfaults
 && ${CATEGORY}/${PN} != media-plugins/audacious-plugins
+&& ${CATEGORY}/${PN} != sys-fs/udev # Internal compiler error
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
