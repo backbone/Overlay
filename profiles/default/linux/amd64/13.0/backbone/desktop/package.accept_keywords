@@ -37,6 +37,7 @@ app-emulation/winetricks ~amd64
 <sci-mathematics/maxima-5.33 ~amd64
 <sci-mathematics/wxmaxima-14 ~amd64
 =sci-misc/labview-8.6.0 ~amd64
+<app-laptop/laptop-mode-tools-1.65 ~amd64
 app-misc/gnomecatalog ~amd64
 app-misc/nixnote ~amd64
 <app-misc/sphinx-2.1 ~amd64
@@ -235,6 +236,7 @@ media-libs/glm ~amd64
 <media-libs/gst-plugins-good-1.1 ~amd64
 <media-libs/gstreamer-1.1 ~amd64
 <media-libs/lcms-2 ~amd64
+<media-libs/libjpeg-turbo-1.4 ~amd64
 <media-libs/libpng-1.7 ~amd64
 <media-libs/libsdl2-2.1 ~amd64
 <media-libs/libvpx-1.2.0 ~amd64
