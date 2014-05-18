@@ -211,6 +211,7 @@ games-misc/asciiquarium ~amd64
 =games-puzzle/charley-9999 **
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
+<games-strategy/hedgewars-0.9.21 ~amd64
 games-strategy/zod-engine ~amd64
 games-strategy/zod-engine-data ~amd64
 games-util/steam-client-meta ~amd64
