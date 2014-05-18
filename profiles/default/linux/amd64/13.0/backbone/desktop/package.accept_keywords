@@ -266,6 +266,7 @@ net-im/pidgin ~amd64
 <net-libs/gssdp-0.15 ~amd64
 net-libs/libtorrent ~amd64
 net-libs/nodejs ~amd64
+<net-libs/opal-3.11 ~amd64
 <net-misc/freerdp-1.2 ~amd64
 net-misc/openvswitch ~amd64
 net-misc/rabbitmq-server ~amd64
