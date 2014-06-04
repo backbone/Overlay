@@ -60,6 +60,7 @@ app-portage/smart-live-rebuild ~amd64
 app-text/cuneiform ~amd64
 app-text/dvipsk ~amd64
 app-text/mht-rip ~amd64
+app-text/pdfedit ~amd64
 app-text/ps2pkm ~amd64
 app-text/texlive ~amd64
 app-text/texlive-core ~amd64
