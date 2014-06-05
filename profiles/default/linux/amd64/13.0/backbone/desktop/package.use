@@ -145,6 +145,8 @@ sys-libs/zlib static-libs minizip
 sys-power/cpufreqd apm lm_sensors pmu
 virtual/ffmpeg mp3 theora
 virtual/jpeg static-libs
+virtual/libudev static-libs
+virtual/libgudev static-libs
 virtual/opencl abi_x86_32
 virtual/udev gudev hwdb static-libs
 www-apps/dokuwiki gd vhosts
