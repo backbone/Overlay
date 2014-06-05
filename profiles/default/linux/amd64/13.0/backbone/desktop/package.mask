@@ -13,6 +13,7 @@
 # Also infinite messages 'unsupported GPU in /var/log/messages' appears  sometimes.
 =x11-drivers/nvidia-drivers-337.12
 =x11-drivers/nvidia-drivers-337.19
+=x11-drivers/nvidia-drivers-337.25
 
 # Doesn't work with Linux 3.14
 =x11-drivers/nvidia-drivers-334.16
