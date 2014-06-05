@@ -132,6 +132,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != media-plugins/audacious-plugins
 && ${CATEGORY}/${PN} != sys-fs/udev # Internal compiler error
 && ${CATEGORY}/${PN} != media-sound/mpd
+&& ${CATEGORY}/${PN} != app-antivirus/clamav # freshclam never completes
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
