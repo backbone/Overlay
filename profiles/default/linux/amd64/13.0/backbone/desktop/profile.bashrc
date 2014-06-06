@@ -171,6 +171,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != www-client/firefox
 && ${CATEGORY}/${PN} != x11-base/xorg-server # Artefacts in Dia (app-office/dia) when drawing an ellipse
 && ${CATEGORY}/${PN} != sys-devel/llvm
+&& ${CATEGORY}/${PN} != mail-client/thunderbird # striped images
 ]] ; then
     tmp="-ftree-vectorize"
     CFLAGS="${CFLAGS} ${tmp}"
