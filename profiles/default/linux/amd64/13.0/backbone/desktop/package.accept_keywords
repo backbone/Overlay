@@ -245,6 +245,7 @@ media-libs/glm ~amd64
 <media-libs/libcdr-0.0.17 ~amd64
 <media-libs/libjpeg-turbo-1.4 ~amd64
 <media-libs/libpng-1.7 ~amd64
+<media-libs/libsdl-1.2.16 ~amd64
 <media-libs/libsdl2-2.1 ~amd64
 <media-libs/libtheora-1.2 ~amd64
 <media-libs/libvpx-1.2.0 ~amd64
