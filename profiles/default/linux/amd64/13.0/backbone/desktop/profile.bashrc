@@ -147,6 +147,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != app-emulation/wine
 && ${CATEGORY}/${PN} != dev-db/sqlite  # Required to emerge avidemux-core
 && ${CATEGORY}/${PN} != net-libs/webkit-gtk # 2.2.6 isn't compiled on corka
+&& ${CATEGORY}/${PN}-${PV} != sys-devel/gcc-4.8.3 # configure: error: Link tests are not allowed after GCC_NO_EXECUTABLES
 ]] ; then
     tmp="-fopenmp"
     CFLAGS="${CFLAGS} ${tmp}"
