@@ -256,6 +256,7 @@ media-libs/glm ~amd64
 <media-libs/libvpx-1.2.0 ~amd64
 <media-libs/mediastreamer-2.10 ~amd64
 <media-libs/mesa-10.3.0 ~amd64
+<media-libs/phonon-4.8 ~amd64
 <media-libs/phonon-gstreamer-4.8 ~amd64
 <media-libs/sk1libs-0.9.2 ~amd64
 <media-plugins/caps-plugins-0.9.10 ~amd64 # higher brokes alsaequal
