@@ -6,6 +6,7 @@ app-admin/glance ~amd64
 =app-admin/network-profile-9999 **
 app-admin/paxtest ~amd64
 app-antivirus/clamav ~amd64
+app-antivirus/clamtk ~amd64
 app-arch/lrzip ~amd64
 <app-arch/p7zip-9.21 ~amd64
 app-benchmarks/gtkperf ~amd64
