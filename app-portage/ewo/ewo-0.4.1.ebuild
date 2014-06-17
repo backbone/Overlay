@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="5"
+
 inherit eutils
 
 DESCRIPTION="Emerge (-e) World Optimizer (EWO)"
@@ -15,6 +17,10 @@ RDEPEND="app-portage/genlop"
 DEPEND=""
 
 RESTRICT="primaryuri"
+
+src_prepare() {
+	epatch "${FILESDIR}/fix_empty_genlop_output.patch"
+}
 
 src_install() {
 	newsbin ${PN}.py ${PN} || die "Install failed"
