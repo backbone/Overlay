@@ -79,6 +79,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != app-emulation/qemu
 && ${CATEGORY}/${PN}-${PV} != sys-devel/gcc-4.8.3 # not enough memory on machines with < 8Gb RAM
 && ${CATEGORY}/${PN} != games-fps/urbanterror
+&& ${CATEGORY}/${PN} != net-wireless/wireless-tools
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
