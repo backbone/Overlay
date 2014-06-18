@@ -62,6 +62,7 @@ app-text/cuneiform ~amd64
 app-text/dvipsk ~amd64
 app-text/mht-rip ~amd64
 app-text/ps2pkm ~amd64
+<app-text/stardict-3.1 ~amd64
 app-text/texlive ~amd64
 app-text/texlive-core ~amd64
 app-vim/cctree ~amd64
