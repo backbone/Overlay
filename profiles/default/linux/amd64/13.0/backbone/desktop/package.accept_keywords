@@ -194,6 +194,7 @@ dev-util/colormake ~amd64
 <dev-util/cppcheck-2.0 ~amd64
 <dev-util/gdbus-codegen-2.41 ~amd64
 dev-util/gource ~amd64
+<dev-util/insight-6.9 ~amd64
 <dev-util/kbuild-0.2 ~amd64
 dev-util/nvidia-cuda-sdk ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
