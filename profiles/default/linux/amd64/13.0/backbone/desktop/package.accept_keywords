@@ -400,6 +400,7 @@ x11-misc/trayion ~amd64
 x11-misc/urxvt-perls ~amd64
 x11-misc/vdpauinfo ~amd64
 x11-misc/virtualgl ~amd64
+<x11-misc/xsri-2.2 ~amd64
 x11-plugins/pidgin-bot-sentry ~amd64
 <x11-plugins/vicious-2.2 ~amd64
 <x11-proto/fontsproto-2.2 ~amd64
