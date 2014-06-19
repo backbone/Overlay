@@ -40,6 +40,7 @@ src_prepare() {
 			   -e 's/ CodecID/ AVCodecID/g' \
 			   ext/libav/*.{c,h} || die
 		epatch "${FILESDIR}/${P}-ffmpeg2.patch"
+		epatch "${FILESDIR}/${P}-fix-memory-leak.patch"
 	fi
 }
 
