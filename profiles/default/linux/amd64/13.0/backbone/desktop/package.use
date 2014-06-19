@@ -152,7 +152,6 @@ virtual/udev gudev hwdb static-libs
 www-apps/dokuwiki gd vhosts
 www-apps/redmine fastcgi git imagemagick mercurial git mysql
 www-client/firefox custom-cflags custom-optimization gstreamer -pgo system-icu system-jpeg system-sqlite
-=www-client/firefox-30.0 -gstreamer # memory leakage on YouTube
 www-client/links gpm
 www-plugins/adobe-flash abi_x86_32
 www-servers/lighttpd php fastcgi mysql -minimal
