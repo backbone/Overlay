@@ -408,3 +408,4 @@ x11-themes/gtk-engines-equinox ~amd64
 x11-themes/gtk-engines-clearlooks:3 ~amd64
 <x11-wm/awesome-3.6 ~amd64
 x11-wm/ion3 ~amd64
+=xfce-base/thunar-9999 **
