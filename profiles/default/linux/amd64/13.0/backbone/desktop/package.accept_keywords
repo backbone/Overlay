@@ -411,6 +411,7 @@ x11-drivers/nvidia-drivers ~amd64
 <x11-libs/cairo-1.13 ~amd64
 =x11-libs/libdrm-2.4.54 ~amd64
 <x11-libs/libva-1.4 ~amd64
+<x11-libs/libva-intel-driver-1.4 ~amd64
 <x11-libs/libva-vdpau-driver-0.8 ~amd64
 <x11-libs/libXfont-1.4.9 ~amd64
 <x11-libs/pango-1.37 ~amd64
