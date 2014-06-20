@@ -15,6 +15,9 @@
 =x11-drivers/nvidia-drivers-337.19
 =x11-drivers/nvidia-drivers-337.25
 
+# Optimus: unable to handle kernel NULL pointer
+=x11-drivers/nvidia-drivers-340.17
+
 # Doesn't work with Linux 3.14
 =x11-drivers/nvidia-drivers-334.16
 =x11-drivers/nvidia-drivers-334.16-r2
