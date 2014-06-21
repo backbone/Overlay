@@ -59,6 +59,7 @@ app-portage/ewo ~amd64
 app-portage/getdelta ~amd64
 app-portage/smart-live-rebuild ~amd64
 app-text/cuneiform ~amd64
+<app-text/dos2unix-6.1 ~amd64
 app-text/dvipsk ~amd64
 app-text/mht-rip ~amd64
 app-text/ps2pkm ~amd64
