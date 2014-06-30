@@ -92,7 +92,7 @@ dev-libs/libpipeline ~amd64
 dev-libs/libgee ~amd64
 dev-libs/libmirage ~amd64
 dev-libs/libpeas ~amd64
-<dev-libs/lzo-2.07 ~amd64
+<dev-libs/lzo-2.09 ~amd64
 <dev-libs/nettle-2.8 ~amd64
 dev-libs/nspr ~amd64
 <dev-libs/nss-3.17 ~amd64
