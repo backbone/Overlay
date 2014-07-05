@@ -39,6 +39,7 @@ app-emulation/winetricks ~amd64
 <sci-mathematics/wxmaxima-14 ~amd64
 =sci-misc/labview-8.6.0 ~amd64
 <app-laptop/laptop-mode-tools-1.65 ~amd64
+<app-misc/fdupes-1.52 ~amd64
 app-misc/gnomecatalog ~amd64
 app-misc/nixnote ~amd64
 <app-misc/sphinx-2.1 ~amd64
