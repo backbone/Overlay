@@ -342,6 +342,7 @@ net-misc/tor ~amd64
 <net-news/liferea-1.11 ~amd64
 net-p2p/deluge ~amd64
 <net-p2p/rtorrent-1.0.0 ~amd64
+<net-print/cups-1.8 ~amd64
 <net-proxy/squid-3.4 ~amd64
 net-proxy/tinyproxy ~amd64
 <net-voip/linphone-3.7 ~amd64
