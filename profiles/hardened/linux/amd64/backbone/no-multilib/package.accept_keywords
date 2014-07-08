@@ -29,6 +29,8 @@ dev-lang/python-exec ~amd64
 dev-lang/vala ~amd64
 dev-libs/gnulib ~x64-freebsd
 dev-libs/leveldb ~amd64
+<dev-libs/glib-2.41 ~amd64
+<dev-libs/libgee-0.15 ~amd64
 dev-libs/libpipeline ~amd64
 <dev-libs/lzo-2.09 ~amd64
 <dev-libs/openssl-1.1 ~amd64
@@ -116,6 +118,7 @@ dev-python/webob ~amd64
 dev-python/xhtml2pdf ~amd64
 dev-util/bdelta ~amd64
 dev-util/colormake ~amd64
+<dev-util/gdbus-codegen-2.41 ~amd64
 =dev-util/valadoc-9999 **
 dev-util/valgrind ~amd64
 <dev-vcs/git-2 ~amd64
