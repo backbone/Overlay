@@ -26,3 +26,7 @@
 =x11-drivers/nvidia-drivers-334.16-r5
 =x11-drivers/nvidia-drivers-334.16-r6
 =x11-drivers/nvidia-drivers-334.16-r7
+
+# Optimus: continious writing errors to syslog
+# Cann't unload the module after ~100 x optirun
+=x11-drivers/nvidia-drivers-340.24
