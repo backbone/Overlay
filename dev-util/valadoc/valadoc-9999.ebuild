@@ -17,7 +17,7 @@ IUSE=""
 
 RDEPEND="dev-lang/vala
 	>=dev-libs/glib-2.12:2
-	>=dev-libs/libgee-0.5:0
+	>=dev-libs/libgee-0.5
 	>=media-gfx/graphviz-2.16
 	x11-libs/gdk-pixbuf:2
 	>=x11-libs/gtk+-2.10:2"
