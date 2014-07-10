@@ -1,36 +1,38 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=4
-inherit autotools git-2
+GCONF_DEBUG="no"
 
-DESCRIPTION="a documentation generator for Vala source code"
-HOMEPAGE="https://live.gnome.org/Valadoc"
-EGIT_REPO_URI="git://git.gnome.org/valadoc"
-EGIT_BOOTSTRAP="eautoreconf"
+inherit vala gnome2-live
+
+DESCRIPTION="A documentation generator for generating API documentation from Vala source code"
+HOMEPAGE="http://live.gnome.org/Valadoc"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-RDEPEND="dev-lang/vala
-	>=dev-libs/glib-2.12
-	>=dev-libs/libgee-0.5
-	>=media-gfx/graphviz-2.16
-	x11-libs/gdk-pixbuf
-	>=x11-libs/gtk+-2.10"
-DEPEND="${RDEPEND}
-	virtual/pkgconfig"
+DEPEND="dev-lang/vala:0.12
+		dev-libs/libgee
+		media-gfx/graphviz
+		dev-libs/glib:2
+		x11-libs/gtk+:2
+		x11-libs/gdk-pixbuf:2"
+RDEPEND="${DEPEND}"
 
-DOCS=( AUTHORS MAINTAINERS THANKS )
+DOCS="AUTHORS ChangeLog MAINTAINERS NEWS README THANKS"
 
-src_configure() {
-	VALAC="$(type -p valac)" econf --disable-static
+VALA_REQUIRED_VERSION="0.12"
+
+src_prepare() {
+	vala_src_prepare
+	gnome2-live_src_prepare
 }
 
-src_install() {
-	default
-	find "${ED}" -name "*.la" -type f -exec rm -rf {} + || die
+pkg_postinst() {
+	vala_pkg_postinst
+	gnome2-live_pkg_postinst
 }
