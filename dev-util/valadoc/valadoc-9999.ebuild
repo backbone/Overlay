@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="dev-lang/vala:0.12
+DEPEND="dev-lang/vala
 		dev-libs/libgee
 		media-gfx/graphviz
 		dev-libs/glib:2
