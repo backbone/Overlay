@@ -24,5 +24,3 @@ S="${PN}"
 src_install() {
 	cp -rf "${S}/usr" "${D}/"
 }
-
-
