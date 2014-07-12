@@ -237,6 +237,7 @@ mail-client/thunderbird-bin ~amd64
 <media-gfx/graphite2-1.3 ~amd64
 <media-gfx/graphviz-2.37 ~amd64
 =media-gfx/imagemagick-6.8.8.10 ~amd64
+<media-gfx/splash-themes-gentoo-2015 ~amd64
 <media-gfx/splashutils-1.5.5 ~amd64
 media-gfx/shotwell ~amd64
 <media-libs/avidemux-core-2.7
