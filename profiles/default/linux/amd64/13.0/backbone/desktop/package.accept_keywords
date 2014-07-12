@@ -1,8 +1,7 @@
 app-accessibility/festival-ru ~amd64
-app-admin/eselect-vala ~amd64
 app-admin/cpuset ~amd64
+app-admin/eselect-vala ~amd64
 =app-admin/gentoo-upgrade-9999 **
-app-admin/glance ~amd64
 =app-admin/network-profile-9999 **
 app-admin/paxtest ~amd64
 app-antivirus/clamav ~amd64
@@ -46,6 +45,7 @@ app-portage/ewo ~amd64
 =app-portage/findcruftfiles-9999 **
 app-portage/getdelta ~amd64
 app-portage/smart-live-rebuild ~amd64
+app-shells/bash-completion ~amd64
 app-text/cuneiform ~amd64
 app-text/dos2unix ~amd64
 app-text/dvipsk ~amd64
@@ -76,10 +76,10 @@ dev-libs/isl ~amd64
 dev-libs/jthread ~amd64
 dev-libs/kpathsea ~amd64
 dev-libs/leveldb ~amd64
-dev-libs/libpipeline ~amd64
 dev-libs/libgee ~amd64
 dev-libs/libmirage ~amd64
 dev-libs/libpeas ~amd64
+dev-libs/libpipeline ~amd64
 dev-libs/lzo ~amd64
 dev-libs/nettle ~amd64
 dev-libs/nspr ~amd64
@@ -107,9 +107,9 @@ dev-python/gst-python ~amd64
 dev-python/html5lib ~amd64
 dev-python/httplib2 ~amd64
 dev-python/iso8601 ~amd64
-dev-python/jsonschema ~amd64
 dev-python/jsonpatch ~amd64
 dev-python/jsonpointer ~amd64
+dev-python/jsonschema ~amd64
 dev-python/kombu ~amd64
 dev-python/libvirt-python ~amd64
 dev-python/mock ~amd64
@@ -132,9 +132,7 @@ dev-python/pycrypto ~amd64
 dev-python/pyPdf ~amd64
 dev-python/pygobject ~amd64
 dev-python/pyparsing ~amd64
-dev-python/python-cinderclient ~amd64
 dev-python/python-exec ~amd64
-dev-python/python-glanceclient ~amd64
 dev-python/python-keyring ~amd64
 dev-python/python-keystoneclient ~amd64
 dev-python/python-novaclient ~amd64
@@ -268,7 +266,7 @@ media-libs/speex ~amd64
 media-libs/vo-aacenc ~amd64
 media-libs/x264 ~amd64
 media-libs/xvid ~amd64
-media-plugins/caps-plugins ~amd64 # higher brokes alsaequal
+<media-plugins/caps-plugins-0.9.10 ~amd64 # higher brokes alsaequal
 media-plugins/gst-plugins-alsa ~amd64
 media-plugins/gst-plugins-dts ~amd64
 media-plugins/gst-plugins-faad ~amd64
@@ -327,6 +325,7 @@ net-libs/nodejs ~amd64
 net-libs/opal ~amd64
 net-libs/ortp ~amd64
 net-misc/freerdp ~amd64
+net-misc/netifrc ~amd64
 net-misc/openvswitch ~amd64
 net-misc/rabbitmq-server ~amd64
 net-misc/remmina ~amd64
@@ -347,6 +346,7 @@ sys-apps/gcp ~amd64
 sys-apps/gptfdisk ~amd64
 sys-apps/gsmartcontrol ~amd64
 =sys-apps/hardinform-9999 **
+sys-apps/kmod ~amd64
 sys-apps/man-db ~amd64
 sys-apps/microcode-data ~amd64
 <sys-apps/portage-2.3 **
@@ -354,11 +354,8 @@ sys-apps/sandbox ~amd64
 sys-apps/sysvinit ~amd64
 =sys-apps/uksmstat-9999 **
 sys-apps/util-linux ~amd64
-sys-auth/keystone ~amd64
 sys-boot/efibootmgr ~amd64
 sys-boot/os-prober ~amd64
-sys-cluster/nova ~amd64
-sys-cluster/quantum ~amd64
 sys-devel/clang ~amd64
 sys-devel/crossdev ~amd64
 sys-devel/gcc ~amd64
@@ -367,20 +364,15 @@ sys-devel/prelink ~amd64
 sys-firmware/amd-ucode ~amd64
 sys-firmware/ipxe ~amd64
 sys-firmware/seabios ~amd64
-sys-fs/aufs3 ~amd64
-sys-fs/aufs-util ~amd64
-sys-fs/aufs-headers ~amd64
 sys-fs/e4rat ~amd64
 sys-fs/mtpfs ~amd64
 sys-fs/simple-mtpfs ~amd64
 sys-fs/vhba ~amd64
 sys-kernel/backbone-sources ~amd64
 sys-kernel/dracut ~amd64
-sys-kernel/geek-sources ~amd64
 sys-kernel/genkernel ~amd64
 sys-kernel/linux-firmware ~amd64
 sys-kernel/linux-headers ~amd64
-sys-kernel/pf-sources ~amd64
 sys-libs/core-functions ~amd64
 sys-libs/glibc ~amd64
 sys-libs/libseccomp ~amd64
