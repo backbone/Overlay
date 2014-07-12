@@ -81,6 +81,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != games-fps/urbanterror
 && ${CATEGORY}/${PN} != net-wireless/wireless-tools
 && ${CATEGORY}/${PN} != dev-util/insight
+&& ${CATEGORY}/${PN} != sys-kernel/dracut
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
