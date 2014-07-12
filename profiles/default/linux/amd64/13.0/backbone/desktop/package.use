@@ -60,6 +60,7 @@ gnome-extra/nm-applet gconf modemmanager
 gnome-extra/zenity libnotify
 mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-sqlite
 games-action/minetest leveldb
+games-fps/doom3 roe
 games-util/steam-client-meta flash trayicon
 games-util/steam-games-meta s3tc
 mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
