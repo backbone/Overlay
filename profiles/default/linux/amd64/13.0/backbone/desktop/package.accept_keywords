@@ -233,6 +233,7 @@ games-util/steam-meta ~amd64
 mail-client/thunderbird ~amd64
 mail-client/thunderbird-bin ~amd64
 <media-fonts/jsmath-2.0 ~amd64
+<media-gfx/fbgrab-1.3 ~amd64
 <media-gfx/gimp-2.9.0 ~amd64
 <media-gfx/graphite2-1.3 ~amd64
 <media-gfx/graphviz-2.37 ~amd64
