@@ -138,6 +138,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != sys-fs/udev # Internal compiler error
 && ${CATEGORY}/${PN} != media-sound/mpd
 && ${CATEGORY}/${PN} != app-antivirus/clamav # freshclam never completes
+&& ${CATEGORY}/${PN} != media-video/cinelerra # out of memory on compilation
 ]] ; then
     tmp="-floop-parallelize-all"
     CFLAGS="${CFLAGS} ${tmp}"
