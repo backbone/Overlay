@@ -75,3 +75,5 @@ virtual/jpeg static-libs
 virtual/udev static-libs
 www-misc/zoneminder ffmpeg
 www-servers/lighttpd php fastcgi mysql -minimal -cgi
+x11-libs/cairo X
+x11-libs/gdk-pixbuf X
