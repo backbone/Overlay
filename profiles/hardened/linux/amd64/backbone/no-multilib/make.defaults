@@ -43,7 +43,7 @@ USE="${USE} alsa audio dts -esd -jingle mad mikmod -nas \
 USE="${USE} -dvb -dvdr -ffmpeg fftw -ipod -quicktime v4l v4l2 video -xvmc"
 
 # graphics
-USE="${USE} -aalib -gphoto2 imagemagick jpg -X"
+USE="${USE} -aalib -gphoto2 imagemagick jpg"
 
 # arc
 USE="${USE} bzip2 gzip"
