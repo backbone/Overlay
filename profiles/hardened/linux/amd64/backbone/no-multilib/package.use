@@ -9,7 +9,7 @@ app-misc/tmux vim-syntax
 app-portage/eix sqlite zsh-completion
 app-text/wgetpaste zsh-completion
 dev-db/mysql -perl
-dev-lang/php pdo sqlite cgi cli curl gd sqlite3 xml flatfile mysql mysqli mysqlnd inifile pcntl sockets sysvipc tokenizer truetype xmlreader xmlwriter xpm zip exif xmlrpc xsl
+dev-lang/php cgi cli curl exif gd flatfile imap inifile mysql mysqli pcntl pdo sockets sqlite sysvipc tokenizer truetype xml xmlreader xmlrpc xmlwriter xpm xslt zip
 dev-lang/python sqlite
 dev-libs/apr-util mysql
 dev-libs/boost python
@@ -29,6 +29,7 @@ dev-vcs/mercurial zsh-completion
 games-action/minetest leveldb
 games-fps/urbanterror dedicated -server
 mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
+mail-mta/postfix dovecot-sasl
 media-libs/gd fontconfig truetype jpeg png
 media-gfx/imagemagick jpeg png
 media-libs/lcms static-libs python
