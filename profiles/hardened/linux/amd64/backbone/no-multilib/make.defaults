@@ -76,7 +76,7 @@ USE="${USE} -consolekit daemon -dbus -hal logrotate"
 USE="${USE} xmlrpc"
 
 # networking
-USE="${USE} -bluetooth -imap -lirc -networkmanager"
+USE="${USE} -bluetooth -lirc -networkmanager"
 
 # db
 USE="${USE} -freetds -mssql -sybase-ct"
