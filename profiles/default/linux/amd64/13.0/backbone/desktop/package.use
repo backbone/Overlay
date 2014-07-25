@@ -135,7 +135,7 @@ sys-devel/llvm clang
 sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs -thin
 sys-fs/ntfs3g ntfsprogs
-sys-fs/udev extras gudev hwdb static-libs
+sys-fs/udev extras gudev hwdb introspection static-libs
 sys-kernel/dracut device-mapper
 sys-kernel/geek-sources branding ck debian genpatches gentoo ice optimization zen
 >=sys-kernel/geek-sources-3.10.1 -branding -gentoo
@@ -148,7 +148,7 @@ sys-power/cpufreqd apm lm_sensors pmu
 virtual/ffmpeg mp3 theora
 virtual/jpeg static-libs
 virtual/libudev static-libs
-virtual/libgudev static-libs
+virtual/libgudev introspection static-libs
 virtual/opencl abi_x86_32
 virtual/udev gudev hwdb static-libs
 www-apps/dokuwiki gd vhosts
@@ -173,5 +173,5 @@ x11-misc/virtualgl abi_x86_32
 x11-terms/rxvt-unicode 256-color alt-font-width perl -vanilla xft
 x11-themes/gtk-engines-equinox -animation -themes -icons
 x11-wm/ion3 proportional-tabs systray wallpaper
-xfce-base/thunar exif libnotify startup-notification udev -xfce_plugins_trash
+xfce-base/thunar exif libnotify startup-notification udev udisks -xfce_plugins_trash
 xfce-extra/tumbler ffmpeg gstreamer odf pdf raw
