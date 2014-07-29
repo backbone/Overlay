@@ -13,9 +13,9 @@ HOMEPAGE="http://www.xfce.org/projects/ http://thunar.xfce.org/"
 LICENSE="GPL-2 LGPL-2"
 SLOT="0"
 KEYWORDS=""
-IUSE="+dbus debug exif libnotify pcre startup-notification test +xfce_plugins_trash udev"
+IUSE="+dbus debug exif libnotify pcre startup-notification test udisks +xfce_plugins_trash"
 
-GVFS_DEPEND=">=gnome-base/gvfs-1.10.1"
+GVFS_DEPEND=">=gnome-base/gvfs-1.18.3"
 COMMON_DEPEND=">=dev-lang/perl-5.6
 	>=dev-libs/glib-2.30
 	>=x11-libs/gdk-pixbuf-2.14
@@ -29,13 +29,16 @@ COMMON_DEPEND=">=dev-lang/perl-5.6
 	libnotify? ( >=x11-libs/libnotify-0.7 )
 	pcre? ( >=dev-libs/libpcre-6 )
 	startup-notification? ( x11-libs/startup-notification )
-	udev? ( virtual/udev[gudev] )
+	udisks? ( virtual/libgudev:= )
 	xfce_plugins_trash? ( >=xfce-base/xfce4-panel-4.10 )"
 RDEPEND="${COMMON_DEPEND}
 	>=dev-util/desktop-file-utils-0.20-r1
 	x11-misc/shared-mime-info
 	dbus? ( ${GVFS_DEPEND} )
-	udev? ( || ( ${GVFS_DEPEND}[udisks,udev] ${GVFS_DEPEND}[gdu,udev] ) )
+	udisks? (
+		virtual/udev
+		${GVFS_DEPEND}[udisks,udev]
+		)
 	xfce_plugins_trash? ( ${GVFS_DEPEND} )"
 DEPEND="${COMMON_DEPEND}
 	dev-util/intltool
