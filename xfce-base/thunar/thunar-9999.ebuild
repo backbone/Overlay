@@ -53,7 +53,7 @@ pkg_setup() {
 		--docdir="${EPREFIX}"/usr/share/doc/${PF}
 		$(use_enable dbus)
 		$(use_enable startup-notification)
-		$(use_enable udev gudev)
+		$(use_enable udisks gudev)
 		$(use_enable libnotify notifications)
 		$(xfconf_use_debug)
 		$(use_enable exif)
