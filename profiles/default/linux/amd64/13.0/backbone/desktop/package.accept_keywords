@@ -346,6 +346,7 @@ sys-apps/baobab ~amd64
 sys-apps/bleachbit ~amd64
 sys-apps/dtc ~amd64
 sys-apps/gcp ~amd64
+sys-apps/gentoo-functions ~amd64
 sys-apps/gptfdisk ~amd64
 sys-apps/gsmartcontrol ~amd64
 =sys-apps/hardinform-9999 **

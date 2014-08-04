@@ -148,6 +148,7 @@ net-proxy/squid ~amd64
 net-proxy/tinyproxy ~amd64
 perl-core/Module-Load ~amd64
 sys-apps/gcp ~amd64
+sys-apps/gentoo-functions ~amd64
 sys-apps/gptfdisk ~amd64
 sys-apps/hwids ~amd64
 sys-apps/kmod ~amd64
