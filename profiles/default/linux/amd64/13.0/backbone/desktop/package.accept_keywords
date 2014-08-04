@@ -1,9 +1,11 @@
 app-accessibility/festival-ru ~amd64
 app-admin/cpuset ~amd64
+app-admin/eselect-python ~amd64
 app-admin/eselect-vala ~amd64
 =app-admin/gentoo-upgrade-9999 **
 =app-admin/network-profile-9999 **
 app-admin/paxtest ~amd64
+app-admin/python-updater ~amd64
 app-antivirus/clamav ~amd64
 app-antivirus/clamtk ~amd64
 app-arch/lrzip ~amd64

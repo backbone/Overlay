@@ -1,10 +1,12 @@
 app-accessibility/festival-ru ~amd64
 app-admin/cpuset ~amd64
+app-admin/eselect-python ~amd64
 app-admin/eselect-vala ~amd64
 =app-admin/gentoo-upgrade-9999 **
 app-admin/glance ~amd64
 =app-admin/htpasswd-9999 **
 app-admin/paxtest ~amd64
+app-admin/python-updater ~amd64
 app-antivirus/clamav ~amd64
 app-arch/lbzip2 ~amd64
 app-arch/p7zip ~amd64
