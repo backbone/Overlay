@@ -151,6 +151,7 @@ sys-apps/gcp ~amd64
 sys-apps/gentoo-functions ~amd64
 sys-apps/gptfdisk ~amd64
 sys-apps/hwids ~amd64
+sys-apps/install-xattr ~amd64
 sys-apps/kmod ~amd64
 sys-apps/man-db ~amd64
 sys-apps/microcode-data ~amd64

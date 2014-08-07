@@ -350,6 +350,7 @@ sys-apps/gentoo-functions ~amd64
 sys-apps/gptfdisk ~amd64
 sys-apps/gsmartcontrol ~amd64
 =sys-apps/hardinform-9999 **
+sys-apps/install-xattr ~amd64
 sys-apps/kmod ~amd64
 sys-apps/man-db ~amd64
 sys-apps/microcode-data ~amd64
