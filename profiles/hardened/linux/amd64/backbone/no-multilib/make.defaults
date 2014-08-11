@@ -58,7 +58,7 @@ USE="${USE} -gnome -gnome2 -gnome-keyring -kde -nautilus -semantic-desktop -xscr
 USE="${USE} -tslib"
 
 # security
-USE="${USE} -acl -kerberos pam"
+USE="${USE} -kerberos pam"
 
 # power
 USE="${USE} acpi"
