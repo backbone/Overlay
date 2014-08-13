@@ -31,3 +31,4 @@
 # Cann't unload the module after ~100 x optirun
 =x11-drivers/nvidia-drivers-340.24
 =x11-drivers/nvidia-drivers-343.13
+=x11-drivers/nvidia-drivers-343.13-r1
