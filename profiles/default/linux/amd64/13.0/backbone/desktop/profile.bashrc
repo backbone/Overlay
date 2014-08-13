@@ -83,6 +83,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-util/insight
 && ${CATEGORY}/${PN} != sys-kernel/dracut
 && ${CATEGORY}/${PN} != media-video/vlc
+&& ${CATEGORY}/${PN} != dev-db/mysql
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
