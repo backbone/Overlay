@@ -82,6 +82,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != net-wireless/wireless-tools
 && ${CATEGORY}/${PN} != dev-util/insight
 && ${CATEGORY}/${PN} != sys-kernel/dracut
+&& ${CATEGORY}/${PN} != media-video/vlc
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
