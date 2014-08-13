@@ -31,7 +31,6 @@ dev-java/sun-jdk -examples
 dev-java/swt cairo
 dev-lang/php pdo sqlite curl gd sqlite3 xml flatfile mysql mysqli mysqlnd inifile pcntl sockets sysvipc tokenizer truetype xmlreader xmlwriter xpm zip exif cgi xmlrpc xsl
 dev-lang/python sqlite
-dev-libs/apr-util mysql
 dev-libs/boost python
 dev-util/cppcheck qt4
 dev-libs/elfutils static-libs
