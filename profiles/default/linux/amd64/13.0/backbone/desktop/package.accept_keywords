@@ -221,6 +221,7 @@ games-util/steam-games-meta ~amd64
 games-util/steam-launcher ~amd64
 games-util/steam-meta ~amd64
 gnome-base/gconf ~amd64
+mail-client/geary ~amd64
 mail-client/thunderbird ~amd64
 mail-client/thunderbird-bin ~amd64
 media-fonts/jsmath ~amd64
