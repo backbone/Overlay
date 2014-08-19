@@ -84,6 +84,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != sys-kernel/dracut
 && ${CATEGORY}/${PN} != media-video/vlc
 && ${CATEGORY}/${PN} != dev-db/mysql
+&& ${CATEGORY}/${PN} != app-admin/haskell-updater
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
