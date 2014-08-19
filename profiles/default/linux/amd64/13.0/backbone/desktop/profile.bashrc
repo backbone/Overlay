@@ -84,6 +84,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != sys-kernel/dracut
 && ${CATEGORY}/${PN} != media-video/vlc
 && ${CATEGORY}/${PN} != dev-db/mysql
+&& ${CATEGORY}/${PN} != dev-lang/ghc
 && ${CATEGORY}/${PN} != app-admin/haskell-updater
 ]] ; then
     tmp="-flto=4"
