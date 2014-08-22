@@ -86,6 +86,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-db/mysql
 && ${CATEGORY}/${PN} != dev-lang/ghc
 && ${CATEGORY}/${PN} != app-admin/haskell-updater
+&& ${CATEGORY}/${PN} != sys-fs/lvm2
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
