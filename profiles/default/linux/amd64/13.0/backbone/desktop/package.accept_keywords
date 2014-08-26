@@ -361,6 +361,7 @@ sys-apps/microcode-data ~amd64
 <sys-apps/portage-2.3 **
 sys-apps/sandbox ~amd64
 sys-apps/sysvinit ~amd64
+sys-apps/texinfo ~amd64
 =sys-apps/uksmstat-9999 **
 sys-apps/util-linux ~amd64
 sys-boot/efibootmgr ~amd64
