@@ -364,6 +364,7 @@ sys-apps/sysvinit ~amd64
 sys-apps/texinfo ~amd64
 =sys-apps/uksmstat-9999 **
 sys-apps/util-linux ~amd64
+sys-block/whdd ~amd64
 sys-boot/efibootmgr ~amd64
 sys-boot/os-prober ~amd64
 sys-devel/clang ~amd64
