@@ -87,6 +87,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-lang/ghc
 && ${CATEGORY}/${PN} != app-admin/haskell-updater
 && ${CATEGORY}/${PN} != sys-fs/lvm2
+&& ${CATEGORY}/${PN} != dev-util/dialog
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
