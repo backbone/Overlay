@@ -109,7 +109,7 @@ net-misc/rsync xattr
 net-misc/remmina freerdp
 net-misc/spice-gtk gstreamer gtk3
 net-misc/tightvnc server
-net-misc/wicd gtk
+net-misc/wicd gtk libnotify
 net-news/liferea libnotify
 net-p2p/deluge geoip gtk libnotify setproctitle sound webinterface
 net-p2p/eiskaltdcpp gtk sqlite xmlrpc qt4
