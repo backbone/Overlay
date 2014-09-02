@@ -54,6 +54,7 @@ app-text/cuneiform ~amd64
 app-text/dos2unix ~amd64
 app-text/dvipsk ~amd64
 app-text/mht-rip ~amd64
+app-text/pastebinit ~amd64
 app-text/ps2pkm ~amd64
 app-text/stardict ~amd64
 app-text/texlive ~amd64
@@ -104,6 +105,7 @@ dev-python/chardet ~amd64
 dev-python/cliff ~amd64
 dev-python/cmd2 ~amd64
 dev-python/colorama ~amd64
+dev-python/configobj ~amd64
 dev-python/d2to1 ~amd64
 dev-python/eventlet ~amd64
 dev-python/greenlet ~amd64
