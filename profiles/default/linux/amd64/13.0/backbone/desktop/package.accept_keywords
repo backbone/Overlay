@@ -373,6 +373,7 @@ sys-boot/os-prober ~amd64
 sys-devel/clang ~amd64
 sys-devel/crossdev ~amd64
 sys-devel/gcc ~amd64
+sys-devel/gettext ~amd64
 sys-devel/llvm ~amd64
 sys-devel/prelink ~amd64
 sys-firmware/amd-ucode ~amd64
