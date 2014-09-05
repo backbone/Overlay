@@ -316,6 +316,7 @@ net-analyzer/ntop ~amd64
 net-analyzer/wireshark ~amd64
 net-fs/cifs-utils ~amd64
 net-fs/curlftpfs ~amd64
+net-dialup/rp-pppoe ~amd64
 net-fs/smbnetfs ~amd64
 net-im/pidgin ~amd64
 net-im/psi ~amd64
