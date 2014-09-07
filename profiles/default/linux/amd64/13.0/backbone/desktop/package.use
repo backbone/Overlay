@@ -2,7 +2,7 @@ app-admin/glance mysql
 app-arch/bzip2 static-libs
 app-arch/unzip natspec
 app-arch/zip natspec
-app-crypt/gcr gtk
+app-crypt/gcr gtk vala
 app-editors/gedit python
 app-editors/gvim gtk cscope netbeans
 app-editors/nano justify slang
