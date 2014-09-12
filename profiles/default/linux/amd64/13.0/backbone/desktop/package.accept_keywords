@@ -418,6 +418,7 @@ x11-libs/cairo ~amd64
 x11-libs/gdk-pixbuf ~amd64
 x11-libs/gtk+ ~amd64
 x11-libs/libdrm ~amd64
+x11-libs/libfm ~amd64
 x11-libs/libva ~amd64
 x11-libs/libva-intel-driver ~amd64
 x11-libs/libva-vdpau-driver ~amd64
@@ -427,6 +428,7 @@ x11-libs/pango ~amd64
 x11-libs/tslib ~amd64
 x11-libs/xcb-util-cursor ~amd64
 x11-misc/bumblebee ~amd64
+x11-misc/pcmanfm ~amd64
 =x11-misc/primus-9999 **
 x11-misc/trayion ~amd64
 x11-misc/urxvt-perls ~amd64
