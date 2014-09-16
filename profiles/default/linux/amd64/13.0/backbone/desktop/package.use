@@ -93,6 +93,7 @@ media-sound/sox amr mad
 media-tv/v4l-utils qt4
 media-video/avidemux gtk aften libsamplerate mp3 qt4
 media-video/ffmpeg aac network hardcoded-tables mp3 rtmp theora amr vpx speex schroedinger dirac faac gsm vorbis xvid mikmod
+media-video/ffmpegthumbnailer gnome gtk
 media-video/lives libvisual matroska theora
 media-video/mjpg-streamer input_uvc
 media-video/mplayer a52 aalib -ass -libass bluray bs2b cdio dv dvd dvdnav faad fbcon ladspa libcaca libmpeg2 live mpg123 pvr quicktime real rtc shm tga theora toolame tremar -truetype twolame win32codecs xanim xvmc xv
