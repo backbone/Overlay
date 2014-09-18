@@ -32,6 +32,7 @@ app-emulation/winetricks ~amd64
 sci-mathematics/maxima ~amd64
 sci-mathematics/wxmaxima ~amd64
 sci-misc/labview ~amd64
+sci-misc/qcad ~amd64
 app-laptop/laptop-mode-tools ~amd64
 app-laptop/samsung-tools ~amd64
 app-misc/fdupes ~amd64
