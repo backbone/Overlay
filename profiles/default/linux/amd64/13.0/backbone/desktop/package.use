@@ -69,6 +69,7 @@ media-fonts/terminus-font a-like-o bolddiag quote ru-dv ru-g ru-i ru-k width pcf
 media-gfx/fbida curl fbcon gif pdf tiff
 media-gfx/gimp pdf svg tiff
 media-gfx/imagemagick png svg truetype
+media-gfx/librecad tools
 media-libs/avidemux-plugins qt4
 media-libs/freetype static-libs
 media-libs/gd fontconfig truetype jpeg png
