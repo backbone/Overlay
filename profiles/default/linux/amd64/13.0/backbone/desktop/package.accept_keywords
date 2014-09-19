@@ -56,6 +56,8 @@ app-text/cuneiform ~amd64
 app-text/dos2unix ~amd64
 app-text/dvipsk ~amd64
 app-text/mht-rip ~amd64
+app-text/poppler ~amd64
+app-text/poppler-data ~amd64
 app-text/pastebinit ~amd64
 app-text/ps2pkm ~amd64
 app-text/stardict ~amd64
@@ -80,6 +82,7 @@ dev-libs/gnulib ~x64-freebsd
 dev-libs/gobject-introspection ~amd64
 dev-libs/gobject-introspection-common ~amd64
 dev-libs/isl ~amd64
+dev-libs/icu ~amd64
 dev-libs/jthread ~amd64
 dev-libs/kpathsea ~amd64
 dev-libs/leveldb ~amd64
