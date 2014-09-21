@@ -35,3 +35,6 @@
 
 # Optimus: cann't 'rmmod/modprobe -r' after ~1000 times of 'primus ls' runs.
 =x11-drivers/nvidia-drivers-340.32
+
+# Couldn't load the driver module: 310M GPU not supported and no other info
+=x11-drivers/nvidia-drivers-343.22-r2
