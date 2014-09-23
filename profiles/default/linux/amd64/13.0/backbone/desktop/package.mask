@@ -4,37 +4,28 @@
 >=media-plugins/caps-plugins-0.9.10 # brokes alsaequal
 >=media-plugins/alsaequal-0.6-r1
 
-# Optimus: Calling firefox leads to load nvidia.ko
-=x11-drivers/nvidia-drivers-334.21
-=x11-drivers/nvidia-drivers-334.21-r2
-=x11-drivers/nvidia-drivers-334.21-r3
+# 310M Optimus: Calling firefox leads to load nvidia.ko
+~x11-drivers/nvidia-drivers-334.21
 
-# Optimus: Calling firefox leads to load nvidia.ko with crashing the module/kernel_memory.
+# 310M Optimus: Calling firefox leads to load nvidia.ko with crashing the module/kernel_memory.
 # Also infinite messages 'unsupported GPU in /var/log/messages' appears  sometimes.
-=x11-drivers/nvidia-drivers-337.12
-=x11-drivers/nvidia-drivers-337.19
-=x11-drivers/nvidia-drivers-337.25
+~x11-drivers/nvidia-drivers-337.12
+~x11-drivers/nvidia-drivers-337.19
+~x11-drivers/nvidia-drivers-337.25
 
-# Optimus: unable to handle kernel NULL pointer
-=x11-drivers/nvidia-drivers-340.17
+# 310M Optimus: unable to handle kernel NULL pointer
+~x11-drivers/nvidia-drivers-340.17
 
 # Doesn't work with Linux 3.14
-=x11-drivers/nvidia-drivers-334.16
-=x11-drivers/nvidia-drivers-334.16-r2
-=x11-drivers/nvidia-drivers-334.16-r3
-=x11-drivers/nvidia-drivers-334.16-r4
-=x11-drivers/nvidia-drivers-334.16-r5
-=x11-drivers/nvidia-drivers-334.16-r6
-=x11-drivers/nvidia-drivers-334.16-r7
+~x11-drivers/nvidia-drivers-334.16
 
-# Optimus: continious writing errors to syslog
+# 310M Optimus: continious writing errors to syslog
 # Cann't unload the module after ~100 x optirun
-=x11-drivers/nvidia-drivers-340.24
-=x11-drivers/nvidia-drivers-343.13
-=x11-drivers/nvidia-drivers-343.13-r1
+~x11-drivers/nvidia-drivers-340.24
+~x11-drivers/nvidia-drivers-343.13
 
-# Optimus: cann't 'rmmod/modprobe -r' after ~1000 times of 'primus ls' runs.
-=x11-drivers/nvidia-drivers-340.32
+# 310M Optimus: cann't 'rmmod/modprobe -r' after ~1000 times of 'primus ls' runs.
+~x11-drivers/nvidia-drivers-340.32
 
-# Couldn't load the driver module: 310M GPU not supported and no other info
+# 310M Optimus: Couldn't load the driver module: 310M GPU not supported and no other info
 ~x11-drivers/nvidia-drivers-343.22
