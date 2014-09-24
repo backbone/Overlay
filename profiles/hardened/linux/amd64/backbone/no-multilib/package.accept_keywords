@@ -67,6 +67,7 @@ dev-python/kombu ~amd64
 dev-python/libvirt-python ~amd64
 dev-python/mock ~amd64
 dev-python/mox ~amd64
+dev-python/netaddr ~amd64
 dev-python/nosehtmloutput ~amd64
 dev-python/nosexcover ~amd64
 dev-python/oauth2 ~amd64
