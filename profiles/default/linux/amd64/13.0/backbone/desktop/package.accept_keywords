@@ -72,6 +72,7 @@ dev-java/jutils ~amd64
 dev-java/lwjgl ~amd64
 dev-java/jinput ~amd64
 dev-games/irrlicht ~amd64
+dev-games/physfs ~amd64
 dev-lang/gnu-smalltalk ~amd64
 dev-lang/python-exec ~amd64
 dev-lang/spidermonkey ~amd64
@@ -220,6 +221,7 @@ games-fps/urbanterror ~amd64
 games-fps/xonotic ~amd64
 games-misc/asciiquarium ~amd64
 =games-puzzle/charley-9999 **
+games-puzzle/neverball ~amd64
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
 games-strategy/hedgewars ~amd64
@@ -277,6 +279,7 @@ media-libs/phonon ~amd64
 media-libs/phonon-gstreamer ~amd64
 media-libs/phonon-vlc ~amd64
 media-libs/schroedinger ~amd64
+media-libs/sdl2-ttf ~amd64
 media-libs/sk1libs ~amd64
 media-libs/speex ~amd64
 media-libs/vo-aacenc ~amd64
