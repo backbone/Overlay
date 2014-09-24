@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-libs/libgee/libgee-0.15.92,v 1.8 2014/09/15 08:18:37 ago Exp $
+# $Header: /var/cvsroot/gentoo-x86/dev-libs/libgee/libgee-0.16.0,v 1.8 2014/09/15 08:18:37 ago Exp $
 
 EAPI="5"
 GCONF_DEBUG="no"
