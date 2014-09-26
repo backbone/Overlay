@@ -3,6 +3,7 @@
 >=gnome-base/gsettings-desktop-schemas-3.10.1
 >=media-plugins/caps-plugins-0.9.10 # brokes alsaequal
 >=media-plugins/alsaequal-0.6-r1
+=dev-lisp/gcl-2.6.11 # long compilation time
 
 # 310M Optimus: Calling firefox leads to load nvidia.ko
 ~x11-drivers/nvidia-drivers-334.21
