@@ -51,7 +51,7 @@ app-portage/ewo ~amd64
 app-portage/genlop ~amd64
 app-portage/getdelta ~amd64
 app-portage/smart-live-rebuild ~amd64
-~app-shells/bash-4.2_p50 ~amd64
+~app-shells/bash-4.2_p52 ~amd64
 app-shells/bash-completion ~amd64
 app-text/cuneiform ~amd64
 app-text/dos2unix ~amd64
