@@ -25,6 +25,7 @@ app-text/ghostscript-gpl cups
 app-text/poppler cairo qt4
 app-text/stardict festival gucharmap pronounce -espeak
 app-text/wgetpaste zsh-completion
+app-text/yagf pdf
 dev-db/sqlite secure-delete unlock-notify
 dev-java/antlr java
 dev-java/icedtea-bin nsplugin

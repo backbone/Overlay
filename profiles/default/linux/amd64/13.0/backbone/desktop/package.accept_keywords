@@ -64,6 +64,7 @@ app-text/ps2pkm ~amd64
 app-text/stardict ~amd64
 app-text/texlive ~amd64
 app-text/texlive-core ~amd64
+app-text/yagf ~amd64
 app-vim/cctree ~amd64
 app-vim/clewn ~amd64
 app-vim/pathogen ~amd64
