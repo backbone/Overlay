@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.28.ebuild,v 1.1 2014/06/29 00:42:47 tetromino Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.28.ebuild,v 1.1 2014/10/05 13:17:36 ryao Exp $
 
 EAPI="5"
 
@@ -24,9 +24,7 @@ fi
 
 GV="2.24"
 MV="4.5.2"
-PULSE_PATCHES="winepulse-patches-1.7.21"
-COMPHOLIOV="1.7.25"
-COMPHOLIO_PATCHES="wine-compholio-daily-${COMPHOLIOV}"
+COMPHOLIO_P="wine-compholio-${PV}"
 WINE_GENTOO="wine-gentoo-2013.06.24"
 DESCRIPTION="Free implementation of Windows(tm) on Unix"
 HOMEPAGE="http://www.winehq.org/"
@@ -36,8 +34,8 @@ SRC_URI="${SRC_URI}
 		abi_x86_64? ( mirror://sourceforge/${PN}/Wine%20Gecko/${GV}/wine_gecko-${GV}-x86_64.msi )
 	)
 	mono? ( mirror://sourceforge/${PN}/Wine%20Mono/${MV}/wine-mono-${MV}.msi )
-	pipelight? ( https://github.com/compholio/wine-compholio-daily/archive/v${COMPHOLIOV}.tar.gz -> ${COMPHOLIO_PATCHES}.tar.gz )
-	pulseaudio? ( http://dev.gentoo.org/~tetromino/distfiles/${PN}/${PULSE_PATCHES}.tar.bz2 )
+	pipelight? ( https://github.com/compholio/wine-compholio-daily/archive/v${PV}.tar.gz -> ${COMPHOLIO_P}.tar.gz )
+	pulseaudio? ( https://github.com/compholio/wine-compholio-daily/archive/v${PV}.tar.gz -> ${COMPHOLIO_P}.tar.gz )
 	http://dev.gentoo.org/~tetromino/distfiles/${PN}/${WINE_GENTOO}.tar.bz2"
 
 LICENSE="LGPL-2.1"
@@ -46,7 +44,6 @@ IUSE="+abi_x86_32 +abi_x86_64 +alsa capi cups custom-cflags dos elibc_glibc +fon
 REQUIRED_USE="|| ( abi_x86_32 abi_x86_64 )
 	test? ( abi_x86_32 )
 	elibc_glibc? ( threads )
-	gstreamer? ( pulseaudio )
 	mono? ( abi_x86_32 )
 	osmesa? ( opengl )" #286560
 # winepulse patches needed for gstreamer due to http://bugs.winehq.org/show_bug.cgi?id=30557
@@ -295,14 +292,8 @@ src_unpack() {
 		unpack ${MY_P}.tar.bz2
 	fi
 
-	use pulseaudio && unpack "${PULSE_PATCHES}.tar.bz2"
-	if use pipelight; then
-		unpack "${COMPHOLIO_PATCHES}.tar.gz"
-		# we use a separate pulseaudio patchset
-		rm -r "${COMPHOLIO_PATCHES}/patches/06-winepulse" || die
-		# ... and need special tools for binary patches
-		mv "${COMPHOLIO_PATCHES}/patches/10-Missing_Fonts" "${T}" || die
-	fi
+	use pipelight || use pulseaudio && unpack "${COMPHOLIO_P}.tar.gz"
+
 	unpack "${WINE_GENTOO}.tar.bz2"
 
 	l10n_find_plocales_changes "${S}/po" "" ".po"
@@ -317,31 +308,38 @@ src_prepare() {
 		"${FILESDIR}"/${PN}-1.7.12-osmesa-check.patch #429386
 		"${FILESDIR}"/${PN}-1.6-memset-O3.patch #480508
 	)
-	use pulseaudio && PATCHES+=(
-		"../${PULSE_PATCHES}"/*.patch #421365
-	)
+	local COMPHOLIO_MAKE_ARGS="-W fonts-Missing_Fonts.ok"
+
+	use pulseaudio || COMPHOLIO_MAKE_ARGS="${COMPHOLIO_MAKE_ARGS} -W winepulse-PulseAudio_Support.ok"
 	if use gstreamer; then
 		# See http://bugs.winehq.org/show_bug.cgi?id=30557
 		ewarn "Applying experimental patch to fix GStreamer support. Note that"
 		ewarn "this patch has been reported to cause crashes in certain games."
 
-		PATCHES+=( "../${PULSE_PATCHES}"/gstreamer/*.patch )
+		PATCHES+=( "${FILESDIR}/${PN}-1.7.28-gstreamer-v4.patch" )
 	fi
 	if use pipelight; then
 		ewarn "Applying the unofficial Compholio patchset for Pipelight support,"
 		ewarn "which is unsupported by Wine developers. Please don't report bugs"
 		ewarn "to Wine bugzilla unless you can reproduce them with USE=-pipelight"
 
-		PATCHES+=(
-			"../${COMPHOLIO_PATCHES}/patches"/*/*.patch #507950
-			"../${COMPHOLIO_PATCHES}/patches/patch-list.patch"
-		)
+		# epatch doesn't support binary patches and we ship our own pulse patches
+		emake -C "${WORKDIR}/${COMPHOLIO_P}/patches" \
+			$(echo ${COMPHOLIO_MAKE_ARGS}) \
+		    series
+
+		PATCHES+=( $(sed -e "s:^:${WORKDIR}/${COMPHOLIO_P}/patches/:" \
+		    "${WORKDIR}/${COMPHOLIO_P}/patches/series") )
+
 		# epatch doesn't support binary patches
 		ebegin "Applying Compholio font patches"
-		for f in "${T}/10-Missing_Fonts"/*.patch; do
-			"../${COMPHOLIO_PATCHES}/debian/tools/gitapply.sh" < "${f}" || die "Failed to apply Compholio font patches"
+		for f in "${WORKDIR}/${COMPHOLIO_P}/patches/fonts-Missing_Fonts"/*.patch; do
+			"../${COMPHOLIO_P}/debian/tools/gitapply.sh" < "${f}" \
+			    || die "Failed to apply ${f}"
 		done
 		eend
+	elif use pulseaudio; then
+		PATCHES+=( "../${COMPHOLIO_P}/patches/winepulse-PulseAudio_Support"/*.patch )
 	fi
 	autotools-utils_src_prepare
 
@@ -392,6 +390,7 @@ multilib_src_configure() {
 		$(use_with opengl)
 		$(use_with osmesa)
 		$(use_with oss)
+		--without-pcap
 		$(use_with png)
 		$(use_with threads pthread)
 		$(use_with scanner sane)
