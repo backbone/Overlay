@@ -420,6 +420,7 @@ www-client/firefox-bin ~amd64
 www-client/httrack ~amd64
 www-plugins/adobe-flash ~amd64
 www-plugins/gecko-mediaplayer ~amd64
+www-plugins/mozplugger ~amd64
 www-servers/lighttpd ~amd64
 www-servers/thin ~amd64
 <x11-base/xorg-server-1.15.99 ~amd64
