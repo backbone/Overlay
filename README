@@ -10,13 +10,13 @@ Using Backbone's Profiles
 Default Desktop/Laptop Profile
 ------------------------------
 /etc/portage/make.profile/parent:
-/usr/portage/profiles/default/linux/amd64/13.0
+/var/portage/portage/profiles/default/linux/amd64/13.0
 /var/portage/layman/backbone/profiles/desktop
 
 Extreme Desktop/Laptop Profile
 ------------------------------
 /etc/portage/make.profile/parent:
-/usr/portage/profiles/default/linux/amd64/13.0
+/var/portage/portage/profiles/default/linux/amd64/13.0
 /var/portage/layman/backbone/profiles/extreme
 
 Hardened Server Profile
