@@ -1,3 +1,5 @@
+CUSTOM_PROFILE="yes"
+
 CFLAGS="-O2 -pipe -march=native"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="-Wl,-O1 -Wl,--as-needed"
