@@ -28,8 +28,32 @@ Hardened Server Profile
 /var/portage/layman/backbone/profiles/server
 
 
+Repositories Priorities
+=======================
+
+My /etc/portage/repos.conf/gentoo.conf:
+
+[DEFAULT]
+main-repo = gentoo
+
+[gentoo]
+priority = -1000
+
+[local_overlay]
+priority = -999
+
+[backbone]
+priority = -999
+
+
 Remarks
 =======
 
-Also for Desktops/Laptops I'm using backbone-sources:
+For Desktops/Laptops I'm using backbone-sources:
 https://redmine.backbone.ws/projects/backbone-sources/wiki/Wiki.
+
+For Gentoo/Kernel Upgrading I'm using app-admin/gentoo-upgrade package scripts.
+
+For the whole system rebuild I recommend app-portage/ewo package.
+
+For finding cruft files I'm using app-portage/findcruftfiles (do filter output carefully).
