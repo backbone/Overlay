@@ -14,7 +14,9 @@ Default Desktop/Laptop Profile
 /var/portage/layman/backbone/profiles/desktop
 
 Extreme Desktop/Laptop Profile
-------------------------------
+--------------------------------------------------------
+I'm using it for myself. Not all packages are ready for the profile.
+Look at profiles/extreme/profile.bashrc for the exclusions I've added.
 /etc/portage/make.profile/parent:
 /var/portage/portage/profiles/default/linux/amd64/13.0
 /var/portage/layman/backbone/profiles/extreme
@@ -29,4 +31,5 @@ Hardened Server Profile
 Remarks
 =======
 
-Also for Desktops/Laptops I recommend to use backbone-sources.
+Also for Desktops/Laptops I'm using backbone-sources:
+https://redmine.backbone.ws/projects/backbone-sources/wiki/Wiki.
