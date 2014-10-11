@@ -37,6 +37,7 @@ My /etc/portage/repos.conf/gentoo.conf:
 main-repo = gentoo
 
 [gentoo]
+sync-type = git
 priority = -1000
 
 [local_overlay]
