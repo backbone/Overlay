@@ -375,6 +375,7 @@ sys-apps/kmod ~amd64
 sys-apps/man-db ~amd64
 sys-apps/microcode-data ~amd64
 <sys-apps/portage-2.3 **
+sys-apps/qingy ~amd64
 sys-apps/sandbox ~amd64
 sys-apps/sysvinit ~amd64
 sys-apps/texinfo ~amd64

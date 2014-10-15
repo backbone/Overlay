@@ -129,6 +129,7 @@ sci-mathematics/maxima gcl latex
 sci-visualization/gnuplot wxwidgets
 sys-auth/consolekit policykit
 sys-auth/keystone mysql
+sys-apps/qingy gpm opensslcrypt
 sys-apps/util-linux static-libs tty-helpers
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
