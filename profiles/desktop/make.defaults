@@ -31,7 +31,7 @@ RUBY_TARGETS="ruby20"
 USE="${USE} custom-cflags graphite"
 
 # gpu
-USE="${USE} directfb dri dri2 fbcon fbcondecor fbosd opengl vaapi webgl"
+USE="${USE} dri dri2 fbcon fbcondecor fbosd opengl vaapi webgl"
 
 # fonts
 USE="${USE} cairo cleartype -lcdfilter truetype unicode"
