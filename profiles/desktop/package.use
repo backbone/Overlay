@@ -165,7 +165,7 @@ x11-base/xorg-server xvfb
 x11-drivers/nvidia-drivers gtk multilib uvm
 x11-drivers/xf86-video-intel glamor uxa
 x11-libs/cairo X
-x11-libs/cairo directfb glitz opengl svg xcb drm openvg
+x11-libs/cairo glitz opengl svg xcb drm openvg
 x11-libs/gdk-pixbuf X tiff
 >=x11-libs/gtk+-3 examples
 x11-libs/libdrm libkms

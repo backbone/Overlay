@@ -32,7 +32,7 @@ PYTHON_TARGETS="python2_7 python3_2 python3_3"
 USE="${USE} custom-cflags"
 
 # gpu
-#USE="${USE} directfb dri dri2 fbcon fbcondecor fbosd opengl opencl vaapi"
+#USE="${USE} dri dri2 fbcon fbcondecor fbosd opengl opencl vaapi"
 
 # fonts
 USE="${USE} -cairo -cleartype -lcdfilter unicode"
