@@ -56,7 +56,7 @@ USE="${USE} -aqua -gtk2 -gtkhtml ncurses -neXt -qt -qt3 qt3support -qt-static"
 USE="${USE} -gnome2 -gnome-keyring -kde -nautilus -semantic-desktop xscreensaver"
 
 # input
-USE="${USE} tslib"
+USE="${USE} gpm tslib"
 
 # power
 USE="${USE} acpi"
