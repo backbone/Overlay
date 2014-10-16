@@ -71,6 +71,7 @@ media-gfx/fbida curl fbcon gif pdf tiff
 media-gfx/gimp pdf svg tiff
 media-gfx/imagemagick png svg truetype
 media-gfx/librecad tools
+media-gfx/splashutils gpm
 media-libs/avidemux-plugins qt4
 media-libs/freetype static-libs
 media-libs/gd fontconfig truetype jpeg png
@@ -147,6 +148,7 @@ sys-kernel/geek-sources branding ck debian genpatches gentoo ice optimization ze
 >=sys-kernel/geek-sources-3.11 branding gentoo
 sys-kernel/genkernel premount
 sys-libs/glibc nscd
+sys-libs/gpm static-libs
 sys-libs/talloc python
 sys-libs/zlib static-libs minizip
 sys-power/cpufreqd apm lm_sensors pmu
