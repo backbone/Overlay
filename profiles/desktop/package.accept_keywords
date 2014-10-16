@@ -84,6 +84,7 @@ dev-libs/glib ~amd64
 dev-libs/gnulib ~x64-freebsd
 dev-libs/gobject-introspection ~amd64
 dev-libs/gobject-introspection-common ~amd64
+=dev-libs/gobject-plugin-9999 **
 dev-libs/isl ~amd64
 dev-libs/icu ~amd64
 dev-libs/jthread ~amd64
