@@ -170,7 +170,7 @@ x11-libs/cairo glitz opengl svg xcb drm openvg
 x11-libs/gdk-pixbuf X tiff
 >=x11-libs/gtk+-3 examples
 x11-libs/libdrm libkms
-x11-libs/libfm exif udisks vala
+x11-libs/libfm exif gtk udisks vala
 x11-libs/qt-gui cups
 x11-libs/qt-qt3support kde
 x11-libs/qt-webkit kde
