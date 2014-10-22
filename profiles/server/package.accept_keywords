@@ -56,6 +56,7 @@ dev-python/ecdsa ~amd64
 dev-python/dogpile-cache ~amd64
 dev-python/dogpile-core ~amd64
 dev-python/eventlet ~amd64
+dev-python/futures ~amd64
 dev-python/greenlet ~amd64
 dev-python/httplib2 ~amd64
 dev-python/imaging ~amd64
@@ -69,6 +70,7 @@ dev-python/libvirt-python ~amd64
 dev-python/mock ~amd64
 dev-python/mox ~amd64
 dev-python/netaddr ~amd64
+dev-python/networkx ~amd64
 dev-python/nosehtmloutput ~amd64
 dev-python/nosexcover ~amd64
 dev-python/oauth2 ~amd64
@@ -106,12 +108,14 @@ dev-python/pyzmq ~amd64
 dev-python/repoze-lru ~amd64
 dev-python/requests ~amd64
 dev-python/routes ~amd64
+dev-python/rtslib-fb ~amd64
 dev-python/setuptools-git ~amd64
 dev-python/six ~amd64
 dev-python/stevedore ~amd64
 dev-python/sqlalchemy ~amd64
 dev-python/sqlalchemy-migrate ~amd64
 dev-python/suds ~amd64
+dev-python/taskflow ~amd64
 dev-python/tempita ~amd64
 dev-python/termcolor ~amd64
 dev-python/urllib3 ~amd64
@@ -164,8 +168,10 @@ sys-auth/keystone ~amd64
 sys-boot/efibootmgr ~amd64
 sys-boot/os-prober ~amd64
 sys-block/whdd ~amd64
+sys-cluster/cinder ~amd64
 sys-cluster/neutron ~amd64
 sys-cluster/nova ~amd64
+sys-cluster/swift ~amd64
 sys-devel/crossdev ~amd64
 sys-devel/gcc ~amd64
 sys-firmware/amd-ucode ~amd64

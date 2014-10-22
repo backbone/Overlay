@@ -61,8 +61,11 @@ sys-auth/consolekit policykit
 sys-auth/keystone mysql
 sys-block/parted device-mapper
 sys-boot/grub device-mapper
+sys-cluster/cinder mysql
+sys-cluster/neutron dhcp l3 linuxbridge metadata openvswitch server sqlite
 sys-cluster/nova mysql
 sys-cluster/neutron mysql
+sys-cluster/swift account container object proxy
 sys-devel/llvm clang
 sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs -thin
