@@ -3,7 +3,7 @@ app-admin/cpuset ~amd64
 app-admin/eselect-python ~amd64
 app-admin/eselect-vala ~amd64
 =app-admin/gentoo-upgrade-9999 **
-app-admin/glance ~amd64
+=app-admin/glance-2014.1.9999 **
 =app-admin/htpasswd-9999 **
 app-admin/paxtest ~amd64
 app-admin/python-updater ~amd64
@@ -52,6 +52,9 @@ dev-python/cliff ~amd64
 dev-python/cmd2 ~amd64
 dev-python/colorama ~amd64
 dev-python/d2to1 ~amd64
+dev-python/django-appconf ~amd64
+dev-python/django-compressor ~amd64
+dev-python/django-openstack-auth ~amd64
 dev-python/ecdsa ~amd64
 dev-python/dogpile-cache ~amd64
 dev-python/dogpile-core ~amd64
@@ -66,6 +69,7 @@ dev-python/jsonpointer ~amd64
 dev-python/jsonrpclib ~amd64
 dev-python/jsonschema ~amd64
 dev-python/kombu ~amd64
+dev-python/lesscpy ~amd64
 dev-python/libvirt-python ~amd64
 dev-python/mock ~amd64
 dev-python/mox ~amd64
@@ -93,9 +97,11 @@ dev-python/py-bcrypt ~amd64
 dev-python/pycadf ~amd64
 dev-python/pycrypto ~amd64
 dev-python/pyparsing ~amd64
+dev-python/python-ceilometerclient ~amd64
 dev-python/python-cinderclient ~amd64
 dev-python/python-exec ~amd64
 dev-python/python-glanceclient ~amd64
+dev-python/python-heatclient ~amd64
 dev-python/python-keyring ~amd64
 dev-python/python-keystoneclient ~amd64
 dev-python/python-neutronclient ~amd64
@@ -103,6 +109,7 @@ dev-python/python-novaclient ~amd64
 dev-python/python-pam ~amd64
 dev-python/python-quantumclient ~amd64
 dev-python/python-swiftclient ~amd64
+dev-python/python-troveclient ~amd64
 dev-python/pytz ~amd64
 dev-python/pyzmq ~amd64
 dev-python/repoze-lru ~amd64
@@ -119,6 +126,7 @@ dev-python/taskflow ~amd64
 dev-python/tempita ~amd64
 dev-python/termcolor ~amd64
 dev-python/urllib3 ~amd64
+dev-python/versiontools ~amd64
 dev-python/warlock ~amd64
 dev-python/webob ~amd64
 dev-python/websockify ~amd64
@@ -144,6 +152,7 @@ media-plugins/gst-plugins-ffmpeg ~amd64
 media-sound/mp3unicode ~amd64
 media-video/ffmpeg ~amd64
 net-analyzer/ntop ~amd64
+net-im/pyicq-t ~amd64
 net-libs/libtorrent ~amd64
 net-libs/nodejs ~amd64
 net-misc/netifrc ~amd64
@@ -168,10 +177,11 @@ sys-auth/keystone ~amd64
 sys-boot/efibootmgr ~amd64
 sys-boot/os-prober ~amd64
 sys-block/whdd ~amd64
-sys-cluster/cinder ~amd64
-sys-cluster/neutron ~amd64
-sys-cluster/nova ~amd64
-sys-cluster/swift ~amd64
+=sys-cluster/cinder-2014.1.9999 **
+=sys-cluster/neutron-2014.1.9999 **
+=sys-cluster/nova-2014.1.9999 **
+=sys-cluster/openstack-meta-2014.1.9999 **
+=sys-cluster/swift-2014.1.9999 **
 sys-devel/crossdev ~amd64
 sys-devel/gcc ~amd64
 sys-firmware/amd-ucode ~amd64
