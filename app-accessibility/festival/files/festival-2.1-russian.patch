@@ -1,0 +1,26 @@
+--- lib/languages.scm	2002-04-20 01:47:23.000000000 +0400
++++ lib/languages.scm	2014-10-24 12:00:20.283268003 +0400
+@@ -39,6 +39,14 @@
+ ;;;  new voices will become automatically available.
+ ;;;
+ 
++(define (language_russian)
++  "(language_russian)
++  Set up language parameters for Russian."
++  (set! male1 voice_msu_ru_nsh_clunits)
++  (male1)
++  (Parameter.set 'Language 'russian)
++)
++
+ (define (language_british_english)
+ "(language_british_english)
+ Set up language parameters for British English."
+@@ -111,6 +119,8 @@
+     (language_castillian_spanish))
+    ((equal? language 'klingon)
+     (language_klingon))
++   ((equal? language 'russian)
++    (language_russian))
+    (t
+     (print "Unsupported language, using English")
+     (language_british_english))))
