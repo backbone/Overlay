@@ -1,4 +1,7 @@
+app-accessibility/festival ~amd64
 app-accessibility/festival-ru ~amd64
+app-accessibility/pidgin-festival ~amd64
+app-accessibility/speech-tools ~amd64
 app-admin/cpuset ~amd64
 app-admin/eselect-python ~amd64
 app-admin/eselect-vala ~amd64
