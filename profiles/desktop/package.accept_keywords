@@ -93,6 +93,7 @@ dev-libs/icu ~amd64
 dev-libs/jthread ~amd64
 dev-libs/kpathsea ~amd64
 dev-libs/leveldb ~amd64
+<dev-libs/libevdev-1.3 ~amd64
 dev-libs/libgee ~amd64
 dev-libs/libmirage ~amd64
 dev-libs/libpeas ~amd64
@@ -447,7 +448,11 @@ x11-libs/libvdpau ~amd64
 x11-libs/libXfont ~amd64
 x11-libs/pango ~amd64
 x11-libs/tslib ~amd64
+<x11-libs/xcb-util-0.5 ~amd64
 x11-libs/xcb-util-cursor ~amd64
+<x11-libs/xcb-util-image-0.5 ~amd64
+<x11-libs/xcb-util-keysyms-0.5 ~amd64
+<x11-libs/xcb-util-renderutil-0.4 ~amd64
 x11-misc/bumblebee ~amd64
 x11-misc/pcmanfm ~amd64
 =x11-misc/primus-9999 **
