@@ -18,7 +18,7 @@ app-misc/tmux vim-syntax
 app-misc/vifm vim-plugin vim-syntax
 app-office/libreoffice-bin java
 app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rcs rtf svg
-app-portage/eix sqlite zsh-completion
+app-portage/eix optimization strong-optimization sqlite zsh-completion
 app-portage/layman git mercurial subversion
 app-text/evince djvu dvi
 app-text/ghostscript-gpl cups
