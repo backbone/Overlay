@@ -436,6 +436,7 @@ www-servers/thin ~amd64
 x11-drivers/nvidia-drivers ~amd64
 =x11-drivers/snail-9999 **
 x11-drivers/xf86-input-evdev ~amd64
+x11-drivers/xf86-video-intel ~amd64
 x11-libs/cairo ~amd64
 x11-libs/gdk-pixbuf ~amd64
 x11-libs/gtk+ ~amd64
