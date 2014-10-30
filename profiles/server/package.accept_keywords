@@ -198,6 +198,7 @@ sys-libs/timezone-data ~amd64
 sys-power/powertop ~amd64
 sys-process/procps ~amd64
 sys-fs/mtpfs ~amd64
+sys-fs/udev ~amd64
 virtual/perl-Module-Load ~amd64
 virtual/pyparsing ~amd64
 www-apps/novnc ~amd64
