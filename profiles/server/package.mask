@@ -1,3 +1,7 @@
 >=media-plugins/caps-plugins-0.9.10 # brokes alsaequal
 >=media-plugins/alsaequal-0.6-r1
 =dev-python/routes-2.0 # blocks upgrade of sys-cluster/nova
+
+# Waiting for udev to be fully populated
+# udev-217,udev-init-scripts-27,openrc-0.12.4
+=sys-apps/kmod-18-r2
