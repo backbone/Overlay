@@ -88,6 +88,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != app-admin/haskell-updater
 && ${CATEGORY}/${PN} != sys-fs/lvm2
 && ${CATEGORY}/${PN} != dev-util/dialog
+&& ${CATEGORY}/${PN} != dev-python/pyorbit
 ]] ; then
     tmp="-flto=4"
     CFLAGS="${CFLAGS} ${tmp}"
