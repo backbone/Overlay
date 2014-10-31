@@ -171,7 +171,6 @@ sys-apps/install-xattr ~amd64
 sys-apps/kmod ~amd64
 sys-apps/man-db ~amd64
 sys-apps/microcode-data ~amd64
-<sys-apps/openrc-0.14 ~amd64
 <sys-apps/portage-2.3 **
 sys-apps/util-linux ~amd64
 sys-auth/keystone ~amd64
@@ -200,7 +199,6 @@ sys-power/powertop ~amd64
 sys-process/procps ~amd64
 sys-fs/mtpfs ~amd64
 <sys-fs/udev-218 ~amd64
-<sys-fs/udev-init-scripts-28 ~amd64
 virtual/perl-Module-Load ~amd64
 virtual/pyparsing ~amd64
 www-apps/novnc ~amd64

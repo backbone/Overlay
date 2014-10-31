@@ -381,7 +381,6 @@ sys-apps/install-xattr ~amd64
 sys-apps/kmod ~amd64
 sys-apps/man-db ~amd64
 sys-apps/microcode-data ~amd64
-<sys-apps/openrc-0.14 ~amd64
 <sys-apps/portage-2.3 **
 sys-apps/qingy ~amd64
 sys-apps/sandbox ~amd64
@@ -406,7 +405,6 @@ sys-fs/e4rat ~amd64
 sys-fs/mtpfs ~amd64
 sys-fs/simple-mtpfs ~amd64
 <sys-fs/udev-218 ~amd64
-<sys-fs/udev-init-scripts-28 ~amd64
 sys-fs/vhba ~amd64
 sys-kernel/backbone-sources ~amd64
 sys-kernel/dracut ~amd64
