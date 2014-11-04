@@ -25,6 +25,8 @@ app-portage/smart-live-rebuild ~amd64
 app-shells/bash-completion ~amd64
 app-text/cuneiform ~amd64
 app-text/dos2unix ~amd64
+app-text/dvipsk ~amd64
+app-text/ps2pkm ~amd64
 app-text/texlive ~amd64
 app-text/texlive-core ~amd64
 app-vim/cctree ~amd64
@@ -35,6 +37,7 @@ dev-lang/python-exec ~amd64
 dev-lang/vala ~amd64
 dev-libs/glib ~amd64
 dev-libs/gnulib ~x64-freebsd
+dev-libs/kpathsea ~amd64
 dev-libs/leveldb ~amd64
 dev-libs/libgee ~amd64
 dev-libs/libpipeline ~amd64
@@ -134,6 +137,7 @@ dev-python/webob ~amd64
 dev-python/websockify ~amd64
 dev-python/webtest ~amd64
 dev-python/xhtml2pdf ~amd64
+dev-tex/bibtexu ~amd64
 dev-texlive/texlive-basic ~amd64
 dev-texlive/texlive-fontsextra ~amd64
 dev-texlive/texlive-fontsrecommended ~amd64
