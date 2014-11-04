@@ -200,6 +200,7 @@ sys-process/procps ~amd64
 sys-fs/mtpfs ~amd64
 virtual/perl-Module-Load ~amd64
 virtual/pyparsing ~amd64
+=www-apps/horizon-2014.1.9999 **
 www-apps/novnc ~amd64
 www-apps/tt-rss ~amd64
 www-misc/zoneminder ~amd64
