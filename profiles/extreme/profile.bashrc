@@ -161,6 +161,7 @@ if [[ true != false
 && ${CATEGORY}/${PN} != dev-db/sqlite  # Required to emerge avidemux-core
 && ${CATEGORY}/${PN} != net-libs/webkit-gtk # 2.2.6 isn't compiled on corka
 && ${CATEGORY}/${PN}-${PV} != sys-devel/gcc-4.8.3 # configure: error: Link tests are not allowed after GCC_NO_EXECUTABLES
+&& ${CATEGORY}/${PN} != sys-libs/readline # dev-lisp/gcl-2.6.{11,12} compilation goes to infinite loop in raw_pre_gcl
 ]] ; then
     tmp="-fopenmp"
     CFLAGS="${CFLAGS} ${tmp}"
