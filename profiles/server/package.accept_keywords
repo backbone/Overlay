@@ -115,6 +115,7 @@ dev-python/python-pam ~amd64
 dev-python/python-quantumclient ~amd64
 dev-python/python-swiftclient ~amd64
 dev-python/python-troveclient ~amd64
+dev-python/pyjwt ~amd64
 dev-python/pytz ~amd64
 dev-python/pyzmq ~amd64
 dev-python/repoze-lru ~amd64
