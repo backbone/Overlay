@@ -1,7 +1,6 @@
 >=media-fonts/liberation-fonts-2.00.0
 >=gnome-base/gsettings-desktop-schemas-3.10.1
 =dev-lisp/gcl-2.6.11 # long compilation time
-=dev-lisp/gcl-2.6.12 # long compilation time
 
 # Waiting for udev to be fully populated
 # udev-217,udev-init-scripts-27,openrc-0.12.4
