@@ -15,7 +15,9 @@ Default Desktop/Laptop Profile
 
 Extreme Desktop/Laptop Profile
 --------------------------------------------------------
-I'm using it for myself. Not all packages are ready for the profile.
+Warning! Using this profile is unsafe as it could lead
+to undefined behaviour of several packages!
+Not all packages are ready for the profile.
 Look at profiles/extreme/profile.bashrc for the exclusions I've added.
 /etc/portage/make.profile/parent:
 /var/portage/portage/profiles/default/linux/amd64/13.0

@@ -1,3 +1,6 @@
+# Warning! Using this profile is unsafe as it could lead
+# to undefined behaviour of several packages!
+
 # no-lto
 if [[ true != false
 && ${CATEGORY}/${PN} != sys-apps/sandbox
