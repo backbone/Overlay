@@ -82,6 +82,7 @@ dev-lang/gnu-smalltalk ~amd64
 dev-lang/python-exec ~amd64
 dev-lang/spidermonkey ~amd64
 dev-lang/vala ~amd64
+<dev-libs/boost-1.56 ~amd64
 dev-libs/cloog ~amd64
 dev-libs/glib ~amd64
 dev-libs/gnulib ~x64-freebsd
@@ -196,6 +197,7 @@ dev-texlive/texlive-texinfo ~amd64
 dev-util/android-sdk-update-manager ~amd64
 dev-util/anjuta ~amd64
 dev-util/bdelta ~amd64
+<dev-util/boost-build-1.56 ~amd64
 dev-util/colormake ~amd64
 dev-util/cppcheck ~amd64
 dev-util/gdbus-codegen ~amd64
