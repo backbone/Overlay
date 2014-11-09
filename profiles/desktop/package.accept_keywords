@@ -273,6 +273,7 @@ media-libs/libcdr ~amd64
 media-libs/libjpeg-turbo ~amd64
 media-libs/libmad ~amd64
 media-libs/libmpeg2 ~amd64
+~media-libs/libmtp-1.1.8 ~amd64
 media-libs/libpng ~amd64
 media-libs/libsamplerate ~amd64
 media-libs/libsdl ~amd64
@@ -282,6 +283,7 @@ media-libs/libv4l ~amd64
 media-libs/libvpx ~amd64
 media-libs/mediastreamer ~amd64
 media-libs/mesa ~amd64
+~media-libs/netpbm-10.66.00 ~amd64
 media-libs/phonon ~amd64
 media-libs/phonon-gstreamer ~amd64
 media-libs/phonon-vlc ~amd64
@@ -354,6 +356,7 @@ net-libs/libtorrent ~amd64
 net-libs/nodejs ~amd64
 net-libs/opal ~amd64
 net-libs/ortp ~amd64
+~net-libs/ptlib-2.10.11 ~amd64
 net-misc/freerdp ~amd64
 net-misc/netifrc ~amd64
 net-misc/openvswitch ~amd64
