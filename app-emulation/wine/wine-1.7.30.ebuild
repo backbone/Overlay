@@ -1,6 +1,6 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.28.ebuild,v 1.1 2014/10/05 13:17:36 ryao Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.30.ebuild,v 1.1 2014/10/25 20:37:44 ryao Exp $
 
 EAPI="5"
 
@@ -24,7 +24,7 @@ fi
 
 GV="2.24"
 MV="4.5.2"
-COMPHOLIO_P="wine-compholio-${PV}"
+COMPHOLIO_P="wine-staging-${PV}"
 WINE_GENTOO="wine-gentoo-2013.06.24"
 DESCRIPTION="Free implementation of Windows(tm) on Unix"
 HOMEPAGE="http://www.winehq.org/"
@@ -34,8 +34,8 @@ SRC_URI="${SRC_URI}
 		abi_x86_64? ( mirror://sourceforge/${PN}/Wine%20Gecko/${GV}/wine_gecko-${GV}-x86_64.msi )
 	)
 	mono? ( mirror://sourceforge/${PN}/Wine%20Mono/${MV}/wine-mono-${MV}.msi )
-	pipelight? ( https://github.com/compholio/wine-compholio-daily/archive/v${PV}.tar.gz -> ${COMPHOLIO_P}.tar.gz )
-	pulseaudio? ( https://github.com/compholio/wine-compholio-daily/archive/v${PV}.tar.gz -> ${COMPHOLIO_P}.tar.gz )
+	pipelight? ( https://github.com/wine-compholio/wine-staging/archive/v${PV}.tar.gz -> ${COMPHOLIO_P}.tar.gz )
+	pulseaudio? ( https://github.com/wine-compholio/wine-staging/archive/v${PV}.tar.gz -> ${COMPHOLIO_P}.tar.gz )
 	http://dev.gentoo.org/~tetromino/distfiles/${PN}/${WINE_GENTOO}.tar.bz2"
 
 LICENSE="LGPL-2.1"
@@ -46,7 +46,6 @@ REQUIRED_USE="|| ( abi_x86_32 abi_x86_64 )
 	elibc_glibc? ( threads )
 	mono? ( abi_x86_32 )
 	osmesa? ( opengl )" #286560
-# winepulse patches needed for gstreamer due to http://bugs.winehq.org/show_bug.cgi?id=30557
 
 # FIXME: the test suite is unsuitable for us; many tests require net access
 # or fail due to Xvfb's opengl limitations.
