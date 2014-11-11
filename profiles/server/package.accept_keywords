@@ -85,8 +85,11 @@ dev-python/oauth2 ~amd64
 dev-python/oauthlib ~amd64
 dev-python/openstack-nose-plugin ~amd64
 dev-python/oslo-config ~amd64
+dev-python/oslo-i18n ~amd64
 dev-python/oslo-messaging ~amd64
 dev-python/oslo-rootwrap ~amd64
+dev-python/oslo-serialization ~amd64
+dev-python/oslo-utils ~amd64
 dev-python/oslo-vmware ~amd64
 dev-python/paramiko ~amd64
 dev-python/passlib ~amd64
@@ -94,6 +97,7 @@ dev-python/paste ~amd64
 dev-python/pastedeploy ~amd64
 dev-python/pbr ~amd64
 dev-python/pep8 ~amd64
+dev-python/posix_ipc ~amd64
 dev-python/prettytable ~amd64
 dev-python/progressbar ~amd64
 dev-python/py-amqp ~amd64
