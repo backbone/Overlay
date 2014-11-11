@@ -198,6 +198,7 @@ sys-apps/microcode-data ~amd64
 <sys-apps/portage-2.3 **
 sys-apps/util-linux ~amd64
 sys-auth/keystone ~amd64
+=sys-auth/keystone-2014.1.9999 **
 sys-boot/efibootmgr ~amd64
 sys-boot/os-prober ~amd64
 sys-block/whdd ~amd64
