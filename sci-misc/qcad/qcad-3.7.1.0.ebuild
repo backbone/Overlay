@@ -68,7 +68,7 @@ src_install () {
     dobin ${FILESDIR}/qcad
 
     insinto /usr/lib/${PN}/
-    doins -r scripts fonts patterns
+    doins -r scripts fonts patterns libraries linetypes ts
     insopts -m0755
     doins release/*
     doins -r plugins
