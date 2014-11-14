@@ -3,6 +3,7 @@ app-arch/bzip2 static-libs
 app-arch/unzip natspec
 app-arch/zip natspec
 app-editors/vim perl python vim-pager cscope
+app-emulation/libvirt qemu virt-network
 app-misc/mc samba edit sftp slang -ncurses
 app-misc/sphinx mysql
 app-misc/tmux vim-syntax
@@ -41,7 +42,7 @@ media-sound/mpd flac aac vorbis mikmod inotify lame libsamplerate mpg123 musepac
 media-sound/ncmpcpp outputs taglib visualizer
 media-sound/sox mad
 media-video/ffmpeg network v4l vpx
-net-dns/dnsmasq dhcp-tools
+net-dns/dnsmasq dhcp-tools script
 net-fs/cifs-utils upcall
 net-fs/samba cups quota winbind
 net-ftp/frox transparent
