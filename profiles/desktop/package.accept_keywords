@@ -98,6 +98,7 @@ dev-libs/libgee ~amd64
 dev-libs/libmirage ~amd64
 dev-libs/libpeas ~amd64
 dev-libs/libpipeline ~amd64
+dev-libs/libwacom ~amd64
 dev-libs/lzo ~amd64
 dev-libs/nettle ~amd64
 dev-libs/nspr ~amd64
@@ -434,11 +435,13 @@ www-plugins/gecko-mediaplayer ~amd64
 www-plugins/mozplugger ~amd64
 www-servers/lighttpd ~amd64
 www-servers/thin ~amd64
-<x11-base/xorg-server-1.15.99 ~amd64
+<x11-base/xorg-drivers-1.17 ~amd64
+<x11-base/xorg-server-1.17 ~amd64
 x11-drivers/nvidia-drivers ~amd64
 =x11-drivers/snail-9999 **
 x11-drivers/xf86-input-evdev ~amd64
 ~x11-drivers/xf86-input-synaptics-1.8.1 ~amd64
+x11-drivers/xf86-input-wacom ~amd64
 x11-drivers/xf86-video-intel ~amd64
 x11-libs/cairo ~amd64
 x11-libs/gdk-pixbuf ~amd64
@@ -468,6 +471,7 @@ x11-misc/xsri ~amd64
 x11-plugins/pidgin-bot-sentry ~amd64
 x11-plugins/vicious ~amd64
 x11-proto/fontsproto ~amd64
+x11-proto/xproto ~amd64
 x11-themes/gtk-engines:3 ~amd64
 x11-themes/gtk-engines-equinox ~amd64
 x11-themes/gtk-engines-clearlooks:3 ~amd64
