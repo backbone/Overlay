@@ -6,6 +6,7 @@
 # Waiting for udev to be fully populated
 # udev-217,udev-init-scripts-27,openrc-0.12.4
 =sys-apps/kmod-18-r2
+=sys-apps/kmod-19
 
 # 310M Optimus: Calling firefox leads to load nvidia.ko
 ~x11-drivers/nvidia-drivers-334.21
