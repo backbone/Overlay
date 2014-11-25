@@ -98,7 +98,7 @@ dev-libs/libgee ~amd64
 dev-libs/libmirage ~amd64
 dev-libs/libpeas ~amd64
 dev-libs/libpipeline ~amd64
-dev-libs/libtasn ~amd64
+dev-libs/libtasn1 ~amd64
 dev-libs/libwacom ~amd64
 dev-libs/lzo ~amd64
 dev-libs/nettle ~amd64
