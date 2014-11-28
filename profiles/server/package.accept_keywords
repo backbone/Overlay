@@ -217,6 +217,7 @@ sys-kernel/hardened-sources ~amd64
 sys-kernel/linux-firmware ~amd64
 sys-kernel/linux-headers ~amd64
 sys-libs/core-functions ~amd64
+sys-libs/efivar ~amd64
 sys-libs/glibc ~amd64
 sys-libs/tdb ~amd64
 sys-libs/timezone-data ~amd64
