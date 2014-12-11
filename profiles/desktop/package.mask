@@ -3,6 +3,7 @@
 =dev-lisp/gcl-2.6.11 # long compilation time
 =app-emulation/wine-1.7.29 # Artifacts in Gothic 3 after windows switch/minimization
 =net-misc/freerdp-1.2.0_beta1_pre20141115 # Remmina 1.1.* won't compile with freerdp-1.2.*
+=x11-base/xorg-server-1.16.2.901 # Can not upgrade Xorg input drivers
 
 # Waiting for udev to be fully populated
 # udev-217,udev-init-scripts-27,openrc-0.12.4
