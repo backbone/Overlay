@@ -1,3 +1,6 @@
+# Manually control kernel version
+>=sys-kernel/hardened-sources-3.18
+
 =dev-python/routes-2.0 # blocks upgrade of sys-cluster/nova
 
 # Waiting for udev to be fully populated
