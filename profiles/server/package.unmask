@@ -1,3 +1,6 @@
 # Unmask Vala 0.26.1
 =dev-lang/vala-0.26.1
 =dev-libs/vala-common-0.26.1
+
+# Unmask Libgee-0.16.1
+=dev-libs/libgee-0.16.1
