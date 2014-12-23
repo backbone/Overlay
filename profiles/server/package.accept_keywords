@@ -178,6 +178,7 @@ media-libs/libpng ~amd64
 media-plugins/gst-plugins-ffmpeg ~amd64
 media-sound/mp3unicode ~amd64
 media-video/ffmpeg ~amd64
+net-analyzer/hping ~amd64
 net-analyzer/ntop ~amd64
 net-im/pyicq-t ~amd64
 net-libs/libtorrent ~amd64

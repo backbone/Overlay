@@ -333,6 +333,7 @@ media-video/mplayer2 ~amd64
 media-video/mpv ~amd64
 media-video/nvidia-settings ~amd64
 media-video/v4l2ucp ~amd64
+net-analyzer/hping ~amd64
 net-analyzer/ntop ~amd64
 net-analyzer/wireshark ~amd64
 net-fs/cifs-utils ~amd64
