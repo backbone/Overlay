@@ -472,6 +472,8 @@ x11-plugins/pidgin-bot-sentry ~amd64
 x11-plugins/vicious ~amd64
 x11-proto/fontsproto ~amd64
 x11-proto/xproto ~amd64
+x11-themes/adwaita-icon-theme ~amd64
+x11-themes/gnome-themes-standard ~amd64
 x11-themes/gtk-engines:3 ~amd64
 x11-themes/gtk-engines-equinox ~amd64
 x11-themes/gtk-engines-clearlooks:3 ~amd64
