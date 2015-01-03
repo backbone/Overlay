@@ -41,6 +41,7 @@ sci-misc/qcad ~amd64
 app-laptop/laptop-mode-tools ~amd64
 app-laptop/samsung-tools ~amd64
 app-misc/fdupes ~amd64
+app-misc/fslint ~amd64
 app-misc/gnomecatalog ~amd64
 app-misc/nixnote ~amd64
 app-misc/stardict-enru-dictset ~amd64
