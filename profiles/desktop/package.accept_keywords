@@ -3,6 +3,7 @@ app-accessibility/festival-ru ~amd64
 app-accessibility/pidgin-festival ~amd64
 app-accessibility/speech-tools ~amd64
 app-admin/cpuset ~amd64
+app-admin/eselect-opengl ~amd64
 app-admin/eselect-python ~amd64
 app-admin/eselect-vala ~amd64
 =app-admin/gentoo-upgrade-9999 **
@@ -471,6 +472,7 @@ x11-misc/xsri ~amd64
 x11-plugins/pidgin-bot-sentry ~amd64
 x11-plugins/vicious ~amd64
 x11-proto/fontsproto ~amd64
+x11-proto/glproto ~amd64
 x11-proto/xproto ~amd64
 x11-themes/adwaita-icon-theme ~amd64
 x11-themes/gnome-themes-standard ~amd64
