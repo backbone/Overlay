@@ -88,6 +88,7 @@ media-libs/mediastreamer -X
 media-libs/mesa dri3 gbm gles1 gles2 -llvm openvg g3dvl xa
 media-libs/phonon gstreamer
 media-libs/sdl-mixer midi mp3 mod timidity
+media-plugins/audacious-plugins flac lame libsamplerate midi mp3
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg
 media-sound/mpd flac aac vorbis mikmod inotify lame libsamplerate mpg123 musepack sqlite twolame
 media-sound/ncmpcpp clock outputs taglib visualizer
@@ -164,7 +165,7 @@ www-client/firefox custom-cflags custom-optimization gstreamer -pgo system-icu s
 www-plugins/adobe-flash abi_x86_32
 www-servers/lighttpd php fastcgi mysql -minimal
 x11-base/xorg-server xvfb
-x11-drivers/nvidia-drivers gtk multilib uvm
+x11-drivers/nvidia-drivers gtk gtk3 multilib uvm
 x11-drivers/xf86-video-intel glamor uxa
 x11-libs/cairo X
 x11-libs/cairo glitz opengl svg xcb drm openvg
