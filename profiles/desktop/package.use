@@ -95,6 +95,7 @@ media-sound/ncmpcpp clock outputs taglib visualizer
 media-sound/sonata -trayicon
 media-sound/sox amr mad
 media-tv/v4l-utils qt4
+media-libs/sdl-image gif
 media-video/avidemux gtk aften libsamplerate mp3 qt4
 media-video/ffmpeg aac network hardcoded-tables mp3 rtmp theora amr vpx speex schroedinger dirac faac gsm vorbis xvid mikmod
 media-video/ffmpegthumbnailer gnome gtk
