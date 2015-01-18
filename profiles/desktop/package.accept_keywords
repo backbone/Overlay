@@ -313,6 +313,7 @@ media-plugins/gst-plugins-meta ~amd64
 media-plugins/gst-plugins-mpeg2dec ~amd64
 media-plugins/gst-plugins-ogg ~amd64
 media-plugins/gst-plugins-soup ~amd64
+media-plugins/gst-plugins-vaapi ~amd64
 media-plugins/gst-plugins-v4l2 ~amd64
 media-plugins/gst-plugins-vorbis ~amd64
 media-plugins/gst-plugins-vp8 ~amd64
