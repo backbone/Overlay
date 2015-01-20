@@ -71,6 +71,7 @@ media-gfx/fbida curl fbcon gif pdf tiff
 media-gfx/gimp pdf svg tiff
 media-gfx/imagemagick png svg truetype
 media-gfx/librecad tools
+media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt4
 media-libs/freetype static-libs
 media-libs/gd fontconfig truetype jpeg png
@@ -89,20 +90,23 @@ media-libs/mesa dri3 gbm gles1 gles2 -llvm openvg g3dvl xa
 media-libs/phonon gstreamer
 media-libs/sdl-mixer midi mp3 mod timidity
 media-plugins/audacious-plugins flac lame libsamplerate midi mp3
-media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg
+media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
 =media-plugins/gst-plugins-meta-1.0-r3 -vaapi # Green video in HTML5
 media-sound/mpd flac aac vorbis mikmod inotify lame libsamplerate mpg123 musepack sqlite twolame
 media-sound/ncmpcpp clock outputs taglib visualizer
 media-sound/sonata -trayicon
 media-sound/sox amr mad
 media-tv/v4l-utils qt4
+media-tv/xbmc vaapi
 media-libs/sdl-image gif
-media-video/avidemux gtk aften libsamplerate mp3 qt4
-media-video/ffmpeg aac network hardcoded-tables mp3 rtmp theora amr vpx speex schroedinger dirac faac gsm vorbis xvid mikmod
+media-video/avidemux gtk aften libsamplerate mp3 qt4 vaapi
+media-video/ffmpeg aac network hardcoded-tables mp3 rtmp theora amr vpx speex schroedinger dirac faac gsm vaapi vorbis xvid mikmod
 media-video/ffmpegthumbnailer gnome gtk
 media-video/lives libvisual matroska theora
 media-video/mjpg-streamer input_uvc
 media-video/mplayer a52 aalib -ass -libass bluray bs2b cdio dv dvd dvdnav faad fbcon ladspa libcaca libmpeg2 live mpg123 pvr quicktime real rtc shm tga theora toolame tremar -truetype twolame win32codecs xanim xvmc xv
+media-video/mpv vaapi
+media-video/vlc vaapi
 net-analyzer/wireshark adns geoip smi
 net-fs/cifs-utils -acl upcall
 net-fs/samba cups quota winbind
@@ -155,7 +159,7 @@ sys-libs/gpm static-libs
 sys-libs/talloc python
 sys-libs/zlib static-libs minizip
 sys-power/cpufreqd apm lm_sensors pmu
-virtual/ffmpeg mp3 theora
+virtual/ffmpeg mp3 theora vaapi
 virtual/jpeg static-libs
 virtual/libudev static-libs
 virtual/libgudev introspection static-libs
