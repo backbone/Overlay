@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.34.ebuild,v 1.1 2015/01/01 21:01:23 ryao Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.35.ebuild,v 1.1 2015/01/01 21:01:23 ryao Exp $
 
 EAPI="5"
 
@@ -24,7 +24,7 @@ fi
 
 GV="2.34"
 MV="4.5.4"
-COMPHOLIO_P="wine-staging-${PV}"
+COMPHOLIO_P="wine-staging-1.7.34"
 WINE_GENTOO="wine-gentoo-2013.06.24"
 DESCRIPTION="Free implementation of Windows(tm) on Unix"
 HOMEPAGE="http://www.winehq.org/"
