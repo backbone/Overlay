@@ -29,7 +29,7 @@ RUBY_TARGETS="ruby20"
 PYTHON_TARGETS="python2_7 python3_2 python3_3"
 
 # cpu
-USE="${USE} custom-cflags smp"
+USE="${USE} custom-cflags mpi smp"
 
 # gpu
 #USE="${USE} dri dri2 fbcon fbcondecor fbosd opengl opencl vaapi"

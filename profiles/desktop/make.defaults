@@ -28,7 +28,7 @@ PORTAGE_ELOG_SYSTEM="save"
 RUBY_TARGETS="ruby20"
 
 # cpu
-USE="${USE} custom-cflags graphite smp"
+USE="${USE} custom-cflags graphite mpi smp"
 
 # gpu
 USE="${USE} dri dri2 fbcon fbcondecor fbosd opengl webgl"
