@@ -298,6 +298,7 @@ media-libs/speex ~amd64
 media-libs/vo-aacenc ~amd64
 media-libs/x264 ~amd64
 media-libs/xvid ~amd64
+media-plugins/audacious-plugins ~amd64
 <media-plugins/caps-plugins-0.9.10 ~amd64 # higher brokes alsaequal
 media-plugins/gst-plugins-alsa ~amd64
 media-plugins/gst-plugins-dts ~amd64
@@ -322,6 +323,7 @@ media-plugins/gst-plugins-x264 ~amd64
 media-plugins/gst-plugins-xvid ~amd64
 media-plugins/gst-plugins-xvideo ~amd64
 media-plugins/mediastreamer-x264 ~amd64
+media-sound/audacious ~amd64
 media-sound/exaile ~amd64
 media-sound/gsm ~amd64
 media-sound/jack-audio-connection-kit ~amd64
