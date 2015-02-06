@@ -268,8 +268,12 @@ media-libs/glm ~amd64
 media-libs/gmtk ~amd64
 media-libs/gst-plugins-bad ~amd64
 media-libs/gst-plugins-base ~amd64
+media-plugins/gst-plugins-cdparanoia ~amd64
 media-libs/gst-plugins-good ~amd64
+media-plugins/gst-plugins-libmms ~amd64
+media-plugins/gst-plugins-taglib ~amd64
 media-libs/gst-plugins-ugly ~amd64
+media-plugins/gst-plugins-vpx ~amd64
 media-libs/gstreamer ~amd64
 media-libs/harfbuzz ~amd64
 media-libs/lcms ~amd64
