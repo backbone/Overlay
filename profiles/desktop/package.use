@@ -159,7 +159,7 @@ sys-libs/gpm static-libs
 sys-libs/talloc python
 sys-libs/zlib static-libs minizip
 sys-power/cpufreqd apm lm_sensors pmu
-virtual/ffmpeg mp3 theora vaapi
+virtual/ffmpeg -libav mp3 theora vaapi
 virtual/jpeg static-libs
 virtual/libudev static-libs
 virtual/libgudev introspection static-libs
