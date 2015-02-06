@@ -410,6 +410,7 @@ sys-boot/os-prober ~amd64
 sys-devel/bison ~amd64
 sys-devel/clang ~amd64
 sys-devel/crossdev ~amd64
+<sys-devel/gcc-4.10 ~amd64
 sys-devel/gettext ~amd64
 sys-devel/llvm ~amd64
 sys-devel/prelink ~amd64

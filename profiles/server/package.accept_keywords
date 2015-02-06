@@ -216,6 +216,7 @@ sys-block/whdd ~amd64
 =sys-cluster/openstack-meta-2014.1.9999 **
 =sys-cluster/swift-2014.1.9999 **
 sys-devel/crossdev ~amd64
+<sys-devel/gcc-4.10 ~amd64
 sys-firmware/amd-ucode ~amd64
 sys-firmware/ipxe ~amd64
 sys-kernel/dracut ~amd64
