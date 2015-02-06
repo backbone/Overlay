@@ -62,6 +62,7 @@ gnome-extra/zenity libnotify
 mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-libvpx system-sqlite
 games-action/minetest leveldb
 games-fps/doom3 roe
+games-strategy/warzone2100 videos
 games-util/steam-client-meta flash trayicon
 games-util/steam-games-meta s3tc
 mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog

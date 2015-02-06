@@ -234,6 +234,7 @@ games-puzzle/neverball ~amd64
 games-strategy/0ad ~amd64
 games-strategy/0ad-data ~amd64
 games-strategy/hedgewars ~amd64
+games-strategy/warzone2100 ~amd64
 games-strategy/zod-engine ~amd64
 games-strategy/zod-engine-data ~amd64
 games-util/steam-client-meta ~amd64
