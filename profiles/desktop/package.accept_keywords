@@ -154,7 +154,7 @@ dev-python/prettytable ~amd64
 dev-python/progressbar ~amd64
 dev-python/py-amqp ~amd64
 dev-python/pycrypto ~amd64
-dev-python/pycryptography ~amd64
+dev-python/cryptography ~amd64
 dev-python/pygobject ~amd64
 dev-python/pyopenssl ~amd64
 dev-python/pyparsing ~amd64
