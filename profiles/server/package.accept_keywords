@@ -176,6 +176,7 @@ games-action/minetest_common ~amd64
 games-fps/urbanterror ~amd64
 mail-filter/dovecot-antispam ~amd64
 mail-filter/dovecot_deleted_to_trash ~amd64
+media-gfx/graphviz ~amd64
 media-libs/freetype ~amd64
 media-libs/libpng ~amd64
 <media-plugins/caps-plugins-0.9.10 ~amd64 # higher brokes alsaequal
