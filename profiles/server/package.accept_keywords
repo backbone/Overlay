@@ -43,6 +43,7 @@ dev-libs/kpathsea ~amd64
 dev-libs/leveldb ~amd64
 dev-libs/libgee ~amd64
 dev-libs/libpipeline ~amd64
+dev-libs/libuv ~amd64
 dev-libs/lzo ~amd64
 dev-libs/openssl ~amd64
 dev-libs/vala-common ~amd64
