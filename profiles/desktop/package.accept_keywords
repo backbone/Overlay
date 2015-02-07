@@ -123,6 +123,7 @@ dev-python/cmd2 ~amd64
 dev-python/colorama ~amd64
 dev-python/configobj ~amd64
 dev-python/d2to1 ~amd64
+dev-python/enum34 ~amd64
 dev-python/eventlet ~amd64
 dev-python/fixtures ~amd64
 dev-python/greenlet ~amd64
@@ -153,9 +154,11 @@ dev-python/prettytable ~amd64
 dev-python/progressbar ~amd64
 dev-python/py-amqp ~amd64
 dev-python/pycrypto ~amd64
-dev-python/pyPdf ~amd64
+dev-python/pycryptography ~amd64
 dev-python/pygobject ~amd64
+dev-python/pyopenssl ~amd64
 dev-python/pyparsing ~amd64
+dev-python/pyPdf ~amd64
 dev-python/python-exec ~amd64
 dev-python/python-keyring ~amd64
 dev-python/python-keystoneclient ~amd64
