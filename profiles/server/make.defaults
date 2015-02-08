@@ -42,7 +42,7 @@ USE="${USE} alsa audio dts -esd -jingle mad mikmod -nas \
             -osc -oss -pulseaudio"
 
 # multimedia (video+audio)
-USE="${USE} -dvb -dvdr -ffmpeg fftw -ipod -quicktime v4l v4l2 video -xvmc"
+USE="${USE} -dvb -dvdr -ffmpeg fftw -ipod -libav -quicktime v4l v4l2 video -xvmc"
 
 # graphics
 USE="${USE} -aalib -gphoto2 imagemagick jpg"

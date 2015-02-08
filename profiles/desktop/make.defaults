@@ -41,7 +41,7 @@ USE="${USE} aac alsa amr audio dts -esd faac gsm jack -jingle mad mikmod -nas \
             ogg -osc -oss -pulseaudio speex vorbis"
 
 # multimedia (video+audio)
-USE="${USE} dirac -dvb -dvdr encode fftw -ipod -quicktime schroedinger v4l v4l2 video vpx x264 xvid xvmc"
+USE="${USE} dirac -dvb -dvdr encode fftw -ipod -libav -quicktime schroedinger v4l v4l2 video vpx x264 xvid xvmc"
 
 # graphics
 USE="${USE} -aalib -gphoto2 imagemagick jpg jpeg png sdl X"
