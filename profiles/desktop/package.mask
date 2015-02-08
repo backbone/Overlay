@@ -1,41 +1,12 @@
 >=media-fonts/liberation-fonts-2.00.0
 >=gnome-base/gsettings-desktop-schemas-3.10.1
-=dev-lisp/gcl-2.6.11 # long compilation time
-=app-emulation/wine-1.7.29 # Artifacts in Gothic 3 after windows switch/minimization
 =net-misc/freerdp-1.2.0_beta1_pre20141115 # Remmina 1.1.* won't compile with freerdp-1.2.*
-=x11-base/xorg-server-1.16.2.901 # Can not upgrade Xorg input drivers
 
 # Waiting for udev to be fully populated
 # udev-217,udev-init-scripts-27,openrc-0.12.4
 =sys-apps/kmod-18-r2
 =sys-apps/kmod-19
 
-# 310M Optimus: Calling firefox leads to load nvidia.ko
-~x11-drivers/nvidia-drivers-334.21
-
-# 310M Optimus: Calling firefox leads to load nvidia.ko with crashing the module/kernel_memory.
-# Also infinite messages 'unsupported GPU in /var/log/messages' appears  sometimes.
-~x11-drivers/nvidia-drivers-337.12
-~x11-drivers/nvidia-drivers-337.19
-~x11-drivers/nvidia-drivers-337.25
-
-# 310M Optimus: unable to handle kernel NULL pointer
-~x11-drivers/nvidia-drivers-340.17
-
-# Doesn't work with Linux 3.14
-~x11-drivers/nvidia-drivers-334.16
-
-# 310M Optimus: continious writing errors to syslog
-# Cann't unload the module after ~100 x optirun
-~x11-drivers/nvidia-drivers-340.24
-~x11-drivers/nvidia-drivers-343.13
-~x11-drivers/nvidia-drivers-346.16
-
-# 310M Optimus: cann't 'rmmod/modprobe -r' after ~1000 times of 'primus ls' runs.
-~x11-drivers/nvidia-drivers-340.32
-
 # 310M Optimus: Couldn't load the driver module: 310M GPU not supported and no other info
-~x11-drivers/nvidia-drivers-343.22
 ~x11-drivers/nvidia-drivers-343.36
-~x11-drivers/nvidia-drivers-346.22
 ~x11-drivers/nvidia-drivers-346.35
