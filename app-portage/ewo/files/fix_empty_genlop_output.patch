@@ -1,9 +1,11 @@
 --- ewo.py	2010-01-29 18:44:36.000000000 +0300
-+++ ewo.py	2014-06-17 12:40:43.714055586 +0400
-@@ -67,6 +67,11 @@
++++ ewo.py	2015-02-08 10:51:06.136410426 +0300
+@@ -66,7 +66,12 @@
+ def get_latest_sync_date():
  	raw_genlop_pattern = re.compile('\s+rsync\'ed at >>> ([^\s]+.*)')
  
- 	raw_genlop = commands.getstatusoutput('genlop -rn | tail -n3')
+-	raw_genlop = commands.getstatusoutput('genlop -rn | tail -n3')
++	raw_genlop = commands.getstatusoutput('genlop -rn | tail -n3 | sed "s~    Git pulled~rsync\'ed~"')
 +
 +	# Fixing empty genlop output
 +	if raw_genlop[1] == "":
