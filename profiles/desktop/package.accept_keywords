@@ -315,7 +315,7 @@ media-plugins/gst-plugins-ffmpeg ~amd64
 media-plugins/gst-plugins-flac ~amd64
 media-plugins/gst-plugins-gconf ~amd64
 media-plugins/gst-plugins-jack ~amd64
-media-plugins/gst-plugins-libav ~amd64
+<media-plugins/gst-plugins-libav-1.4.5 ~amd64
 media-plugins/gst-plugins-libnice ~amd64
 media-plugins/gst-plugins-mad ~amd64
 media-plugins/gst-plugins-meta ~amd64
