@@ -87,7 +87,7 @@ media-libs/libsdl joystick
 media-libs/libtxc_dxtn abi_x86_32
 media-libs/libvpx postproc
 media-libs/mediastreamer -X
-media-libs/mesa dri3 gbm gles1 gles2 -llvm openvg g3dvl xa
+media-libs/mesa d3d9 dri3 g3dvl gbm gles1 gles2 -llvm openvg vaapi xa
 media-libs/phonon gstreamer
 media-libs/sdl-mixer midi mp3 mod timidity
 media-plugins/audacious-plugins flac fluidsynth lame libsamplerate midi mp3
