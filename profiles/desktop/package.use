@@ -43,6 +43,7 @@ dev-libs/libgpg-error static-libs
 dev-libs/libxml2 python
 dev-libs/lzo static-libs
 dev-libs/popt static-libs
+dev-libs/xerces-c icu
 dev-libs/xmlrpc-c abyss
 dev-perl/GD png
 dev-python/sqlalchemy mysql
@@ -74,6 +75,7 @@ media-gfx/imagemagick png svg truetype
 media-gfx/librecad tools
 media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt4
+media-libs/coin doc
 media-libs/freetype static-libs
 media-libs/gd fontconfig truetype jpeg png
 media-libs/harfbuzz icu
@@ -144,7 +146,7 @@ sys-apps/util-linux static-libs tty-helpers
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
-sys-devel/gcc graphite lto mudflap
+sys-devel/gcc fortran graphite lto mudflap
 sys-devel/gdb expat lzma multitarget
 sys-devel/llvm clang
 sys-fs/aufs3 kernel-patch ramfs

@@ -3,6 +3,7 @@ app-accessibility/festival-ru ~amd64
 app-accessibility/pidgin-festival ~amd64
 app-accessibility/speech-tools ~amd64
 app-admin/cpuset ~amd64
+app-admin/eselect-opencascade ~amd64
 app-admin/eselect-opengl ~amd64
 app-admin/eselect-python ~amd64
 app-admin/eselect-vala ~amd64
@@ -35,6 +36,7 @@ app-emulation/virtualbox-extpack-oracle ~amd64
 app-emulation/virtualbox-modules ~amd64
 app-emulation/wine ~amd64
 app-emulation/winetricks ~amd64
+sci-libs/opencascade ~amd64
 sci-mathematics/maxima ~amd64
 sci-mathematics/wxmaxima ~amd64
 sci-misc/labview ~amd64
@@ -127,6 +129,7 @@ dev-lua/lgi ~amd64
 dev-python/alembic ~amd64
 dev-python/amqplib ~amd64
 dev-python/anyjson ~amd64
+dev-python/appdirs ~amd64
 dev-python/Babel ~amd64
 dev-python/boto ~amd64
 dev-python/charade ~amd64
@@ -163,12 +166,15 @@ dev-python/paste ~amd64
 dev-python/pastedeploy ~amd64
 dev-python/pbr ~amd64
 dev-python/pep8 ~amd64
+dev-python/pivy ~amd64
 dev-python/prettytable ~amd64
 dev-python/progressbar ~amd64
 dev-python/py-amqp ~amd64
 dev-python/pycrypto ~amd64
 dev-python/cryptography ~amd64
+dev-python/pycollada ~amd64
 dev-python/pygobject ~amd64
+dev-python/pyopencl ~amd64
 dev-python/pyopenssl ~amd64
 dev-python/pyparsing ~amd64
 dev-python/pyPdf ~amd64
@@ -179,6 +185,7 @@ dev-python/python-novaclient ~amd64
 dev-python/python-pam ~amd64
 dev-python/python-quantumclient ~amd64
 dev-python/python-swiftclient ~amd64
+dev-python/pytools ~amd64
 dev-python/pytz ~amd64
 dev-python/reportlab ~amd64
 dev-python/repoze-lru ~amd64
@@ -263,6 +270,7 @@ mail-client/thunderbird ~amd64
 mail-client/thunderbird-bin ~amd64
 media-fonts/jsmath ~amd64
 media-gfx/fbgrab ~amd64
+media-gfx/freecad ~amd64
 media-gfx/gimp ~amd64
 media-gfx/graphite2 ~amd64
 media-gfx/graphviz ~amd64
@@ -319,6 +327,7 @@ media-libs/raptor ~amd64
 media-libs/schroedinger ~amd64
 media-libs/sdl2-ttf ~amd64
 media-libs/sk1libs ~amd64
+media-libs/SoQt ~amd64
 media-libs/speex ~amd64
 media-libs/vo-aacenc ~amd64
 media-libs/x264 ~amd64
@@ -405,6 +414,7 @@ net-proxy/tinyproxy ~amd64
 net-voip/linphone ~amd64
 sci-biology/foldingathome ~amd64
 sci-geosciences/googleearth ~amd64
+sci-libs/gts ~amd64
 sys-apps/baobab ~amd64
 sys-apps/bleachbit ~amd64
 sys-apps/dtc ~amd64
