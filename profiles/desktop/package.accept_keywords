@@ -269,6 +269,7 @@ mail-client/geary ~amd64
 mail-client/thunderbird ~amd64
 mail-client/thunderbird-bin ~amd64
 media-fonts/jsmath ~amd64
+media-gfx/blender ~amd64
 media-gfx/fbgrab ~amd64
 media-gfx/freecad ~amd64
 media-gfx/gimp ~amd64
@@ -416,6 +417,7 @@ net-voip/linphone ~amd64
 sci-biology/foldingathome ~amd64
 sci-geosciences/googleearth ~amd64
 sci-libs/gts ~amd64
+sci-libs/ldl ~amd64
 sys-apps/baobab ~amd64
 sys-apps/bleachbit ~amd64
 sys-apps/dtc ~amd64
