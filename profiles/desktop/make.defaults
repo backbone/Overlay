@@ -62,7 +62,7 @@ USE="${USE} gpm tslib"
 USE="${USE} acpi"
 
 # develop
-USE="${USE} bash-completion cscope -debug -fortran \
+USE="${USE} bash-completion cscope -debug \
             -lua -mono pch \
             -tcl -tidy -tk -tokenizer \
             vim-syntax"

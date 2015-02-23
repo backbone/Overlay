@@ -63,7 +63,7 @@ USE="${USE} -tslib"
 USE="${USE} acpi"
 
 # develop
-USE="${USE} bash-completion cscope -debug -fortran -java \
+USE="${USE} bash-completion cscope -debug -java \
             -introspection -lua -mono pch \
             -tcl -tidy -tk \
             vim-syntax"
