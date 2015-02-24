@@ -1,0 +1,24 @@
+--- kernel/nv-drm.c	2015-02-24 19:23:26.392658708 +0300
++++ kernel/nv-drm.c	2015-02-24 19:22:16.653237994 +0300
+@@ -18,6 +18,10 @@
+ 
+ #include <drm/drmP.h>
+ 
++#if LINUX_VERSION_CODE >= KERNEL_VERSION(3,18,0)
++#include <drm/drm_gem.h>
++#endif
++
+ extern nv_linux_state_t *nv_linux_devices;
+ 
+ struct nv_gem_object {
+@@ -124,6 +128,10 @@
+     .gem_prime_vmap = nv_gem_prime_vmap,
+     .gem_prime_vunmap = nv_gem_prime_vunmap,
+ 
++#if LINUX_VERSION_CODE >= KERNEL_VERSION(3,18,0)
++ .set_busid = drm_pci_set_busid,
++#endif
++
+     .name = "nvidia-drm",
+     .desc = "NVIDIA DRM driver",
+     .date = "20130102",

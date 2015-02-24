@@ -1,6 +1,6 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/nvidia-drivers-331.89.ebuild,v 1.4 2014/08/08 12:29:02 jer Exp $
+# $Header: /var/cvsroot/gentoo-x86/x11-drivers/nvidia-drivers/nvidia-drivers-331.113.ebuild,v 1.3 2015/02/09 07:35:58 jer Exp $
 
 EAPI=5
 
@@ -54,7 +54,7 @@ RDEPEND="
 		x11-libs/pango[X]
 	)
 	X? (
-		<x11-base/xorg-server-1.16.99
+		<x11-base/xorg-server-1.17.99:=
 		>=x11-libs/libvdpau-0.3-r1
 		multilib? (
 			|| (
@@ -82,11 +82,11 @@ pkg_pretend() {
 		die "Unexpected \${DEFAULT_ABI} = ${DEFAULT_ABI}"
 	fi
 
-	if use kernel_linux && kernel_is ge 3 16 ; then
+	if use kernel_linux && kernel_is ge 3 18 ; then
 		ewarn "Gentoo supports kernels which are supported by NVIDIA"
 		ewarn "which are limited to the following kernels:"
-		ewarn "<sys-kernel/gentoo-sources-3.16"
-		ewarn "<sys-kernel/vanilla-sources-3.16"
+		ewarn "<sys-kernel/gentoo-sources-3.18"
+		ewarn "<sys-kernel/vanilla-sources-3.18"
 		ewarn ""
 		ewarn "You are free to utilize epatch_user to provide whatever"
 		ewarn "support you feel is appropriate, but will not receive"
@@ -172,6 +172,10 @@ src_prepare() {
 			eerror "You must build this against 2.6.9 or higher kernels."
 		fi
 
+		if kernel_is gt 2 18 0 ; then
+			epatch "${FILESDIR}"/3.18_kernel.patch
+		fi
+
 		# If greater than 2.6.5 use M= instead of SUBDIR=
 #		convert_to_m "${NV_SRC}"/Makefile.kbuild
 	fi
@@ -181,6 +185,7 @@ src_prepare() {
 		ewarn "use a standard kernel should you have issues. Should you"
 		ewarn "need support with these patches, contact the PaX team."
 		epatch "${FILESDIR}"/${PN}-331.13-pax-usercopy.patch
+		epatch "${FILESDIR}"/${PN}-337.12-pax-constify.patch
 	fi
 
 	# Allow user patches so they can support RC kernels and whatever else
@@ -337,6 +342,8 @@ src_install() {
 		doman nvidia-modprobe.1.gz
 		doman nvidia-persistenced.1.gz
 		newinitd "${FILESDIR}/nvidia-smi.init" nvidia-smi
+		newconfd "${FILESDIR}/nvidia-persistenced.conf" nvidia-persistenced
+		newinitd "${FILESDIR}/nvidia-persistenced.init" nvidia-persistenced
 	fi
 
 	if use tools; then
