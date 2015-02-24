@@ -153,6 +153,7 @@ dev-python/jsonpointer ~amd64
 dev-python/jsonschema ~amd64
 dev-python/kombu ~amd64
 dev-python/libvirt-python ~amd64
+dev-python/matplotlib ~amd64
 dev-python/mock ~amd64
 dev-python/mox ~amd64
 dev-python/nosehtmloutput ~amd64
