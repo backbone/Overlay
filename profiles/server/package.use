@@ -35,6 +35,7 @@ media-libs/gd fontconfig truetype jpeg png
 media-gfx/imagemagick jpeg png
 media-libs/lcms static-libs python
 media-libs/libjpeg-turbo static-libs
+media-libs/libmediainfo curl
 media-libs/libpng static-libs apng
 media-libs/libsdl X opengl
 media-libs/mesa -llvm
@@ -42,6 +43,7 @@ media-sound/mpd flac aac vorbis mikmod inotify lame libsamplerate mpg123 musepac
 media-sound/ncmpcpp outputs taglib visualizer
 media-sound/sox mad
 media-video/ffmpeg network v4l vpx
+media-video/mediainfo curl
 net-dns/dnsmasq dhcp-tools script
 net-fs/cifs-utils upcall
 net-fs/samba cups quota winbind
