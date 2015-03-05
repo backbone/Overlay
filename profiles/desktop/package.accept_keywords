@@ -61,6 +61,7 @@ app-portage/genlop ~amd64
 app-portage/getdelta ~amd64
 app-portage/smart-live-rebuild ~amd64
 =app-shells/bash-completion-2.1-r91 ~amd64
+app-shells/gentoo-zsh-completions ~amd64
 app-text/cuneiform ~amd64
 app-text/dos2unix ~amd64
 app-text/dvipsk ~amd64
