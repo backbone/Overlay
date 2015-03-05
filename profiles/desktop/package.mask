@@ -10,6 +10,7 @@
 # 310M Optimus: Couldn't load the driver module: 310M GPU not supported and no other info
 ~x11-drivers/nvidia-drivers-343.36
 ~x11-drivers/nvidia-drivers-346.35
+~x11-drivers/nvidia-drivers-346.47
 
 # 310M Optimus BUG: unable to handle kernel NULL pointer dereference at (null)
 ~x11-drivers/nvidia-drivers-340.76
