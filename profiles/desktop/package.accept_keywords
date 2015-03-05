@@ -87,6 +87,7 @@ app-vim/cctree ~amd64
 app-vim/clewn ~amd64
 app-vim/pathogen ~amd64
 app-vim/screen ~amd64
+app-vim/youcompleteme ~amd64
 dev-db/sqlite ~amd64
 dev-java/jutils ~amd64
 dev-java/lwjgl ~amd64
