@@ -373,7 +373,7 @@ media-tv/kodi ~amd64
 media-tv/xbmc ~amd64
 media-video/avidemux ~amd64
 media-video/cinelerra ~amd64
-<media-video/ffmpeg-2.3 ~amd64 # Pidgin segfaults with 2.3
+media-video/ffmpeg ~amd64
 media-video/gnome-mplayer ~amd64
 media-video/lives ~amd64
 media-video/mplayer2 ~amd64
