@@ -498,6 +498,7 @@ x11-libs/gdk-pixbuf ~amd64
 x11-libs/gtk+ ~amd64
 x11-libs/libdrm ~amd64
 x11-libs/libfm ~amd64
+x11-libs/libfm-extra ~amd64
 x11-libs/libva ~amd64
 x11-libs/libva-intel-driver ~amd64
 x11-libs/libva-vdpau-driver ~amd64
