@@ -369,6 +369,7 @@ media-sound/jack-audio-connection-kit ~amd64
 media-sound/lame ~amd64
 media-sound/mp3unicode ~amd64
 media-sound/sonata ~amd64
+media-tv/kodi ~amd64
 media-tv/xbmc ~amd64
 media-video/avidemux ~amd64
 media-video/cinelerra ~amd64

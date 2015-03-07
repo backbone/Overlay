@@ -107,6 +107,7 @@ media-sound/ncmpcpp clock outputs taglib visualizer
 media-sound/sonata -trayicon
 media-sound/sox amr mad
 media-tv/v4l-utils qt4
+media-tv/kodi vaapi
 media-tv/xbmc vaapi
 media-libs/sdl-image gif
 media-video/avidemux gtk aften libsamplerate mp3 qt4 vaapi
