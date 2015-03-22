@@ -53,7 +53,7 @@ src_install() {
 	doman ${PN}.1
 
 	# The custom Perl modules
-	perlinfo
+	perl_set_version
 	insinto "${VENDOR_LIB}/ClamTk"
 	doins lib/*.pm
 
