@@ -1,30 +1,23 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 2014 Julian Ospald <hasufell@posteo.de>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=5
-inherit games
 
 MY_P=zod_linux-${PV:0:4}-${PV:4:2}-${PV:6:2}
 DESCRIPTION="Zod engine data files"
-HOMEPAGE="http://zod.sourceforge.net/"
-SRC_URI="${MY_P}.tar.gz"
+HOMEPAGE=""
+SRC_URI="mirror://sourceforge/zod/linux_releases/${MY_P}.tar.gz"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-RESTRICT="fetch bindist"
+RESTRICT="bindist"
 
 RDEPEND="~games-strategy/zod-engine-${PV}"
 
 S=${WORKDIR}/zod_engine
-
-pkg_nofetch() {
-	einfo "Please download the latest linux tarball from"
-	einfo "the homepage and move it to ${DISTDIR}"
-	echo
-}
 
 src_prepare() {
 	# remove unused files
@@ -37,7 +30,7 @@ src_compile() {
 }
 
 src_install() {
-	insinto "${GAMES_DATADIR}/zod-engine"
+	insinto "/usr/share/zod-engine"
 	doins -r assets blank_maps *.map default_settings.txt *map_list.txt
-	prepgamesdirs
 }
+
