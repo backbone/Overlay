@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -10,30 +10,36 @@ DESCRIPTION="A frontend for ClamAV using Gtk2-perl"
 HOMEPAGE="http://clamtk.sourceforge.net/"
 SRC_URI="https://bitbucket.org/dave_theunsub/clamtk/downloads/${P}.tar.gz"
 
-LICENSE="Artistic GPL-2"
+LICENSE="|| ( Artistic GPL-1+ )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-LANGS="af ar ast bg bs ca cs da de el_GR en_GB es eu fi fo fr gl he hr hu id it ja ko lt mr ms nb nl nn pl pt_BR pt ro ru sk sl sv te th tr ug uk uz zh_CN zh_TW"
-IUSE="nls"
+LANGS="af ar ast az bg bs ca cs da de el_GR en_AU en_CA en_GB es eu fi fo fr ga
+	gl he hr hu id it ja ko lt lv mr ms nb nl_BE nl nn pa pl pt_BR pt ro ru sk
+	sl sr@latin sv ta te th tr ug uk uz zh_CN zh_TW"
+IUSE=""
 for i in ${LANGS}; do
 	IUSE="${IUSE} linguas_${i}"
 done
 
 DEPEND=""
-RDEPEND=">=dev-perl/gtk2-perl-1.140
-	dev-perl/libwww-perl
-	dev-perl/Date-Calc
-	dev-util/desktop-file-utils
+RDEPEND="
 	>=app-antivirus/clamav-0.95
-	nls? ( dev-perl/Locale-gettext )
-	virtual/udev
 	dev-perl/JSON
-	dev-perl/Text-CSV"
+	dev-perl/LWP-Protocol-https
+	dev-perl/Locale-gettext
+	dev-perl/Text-CSV
+	dev-perl/glib-perl
+	dev-perl/gtk2-perl
+	dev-perl/libwww-perl
+	virtual/perl-Digest-SHA
+	virtual/perl-MIME-Base64
+	virtual/perl-Time-Piece
+"
 
 src_unpack() {
 	unpack ${A}
-	cd "${S}"
+	cd "${S}" || die "cd failed"
 	gunzip ${PN}.1.gz || die "gunzip failed"
 }
 
@@ -43,18 +49,16 @@ src_install() {
 	doicon images/* || die "doicon failed"
 	domenu ${PN}.desktop || die "domenu failed"
 
-	dodoc CHANGES README
+	dodoc CHANGES README DISCLAIMER
 	doman ${PN}.1
 
 	# The custom Perl modules
 	perlinfo
-	insinto ${VENDOR_LIB}/ClamTk
+	insinto "${VENDOR_LIB}/ClamTk"
 	doins lib/*.pm
 
-	if use nls; then
-		local l
-		for l in $LANGS; do
-			use "linguas_${l}" && domo "po/${l}.mo"
-		done
-	fi
+	local l
+	for l in ${LANGS}; do
+		use "linguas_${l}" && domo "po/${l}.mo"
+	done
 }
