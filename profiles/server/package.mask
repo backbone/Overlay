@@ -7,3 +7,4 @@
 =sys-apps/kmod-19
 
 =net-libs/nodejs-0.12.0 # emerge failed
+=net-libs/nodejs-0.12.1 # emerge failed
