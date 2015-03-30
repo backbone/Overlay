@@ -274,6 +274,7 @@ mail-client/geary ~amd64
 mail-client/thunderbird ~amd64
 mail-client/thunderbird-bin ~amd64
 media-fonts/jsmath ~amd64
+media-fonts/liberation-fonts ~amd64
 media-gfx/blender ~amd64
 media-gfx/fbgrab ~amd64
 media-gfx/freecad ~amd64
