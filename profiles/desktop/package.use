@@ -48,6 +48,7 @@ dev-libs/libxslt abi_x86_32
 dev-libs/lzo static-libs
 dev-libs/nspr abi_x86_32
 dev-libs/nss abi_x86_32
+dev-libs/openssl abi_x86_32
 dev-libs/popt static-libs
 dev-libs/xerces-c icu
 dev-libs/xmlrpc-c abyss
