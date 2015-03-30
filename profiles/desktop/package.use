@@ -210,6 +210,7 @@ virtual/libudev abi_x86_32 static-libs
 virtual/libgudev introspection static-libs
 virtual/opencl abi_x86_32
 virtual/opengl abi_x86_32
+virtual/pkgconfig abi_x86_32
 virtual/udev gudev hwdb static-libs
 www-apps/dokuwiki gd vhosts
 www-apps/redmine fastcgi git imagemagick mercurial git mysql
