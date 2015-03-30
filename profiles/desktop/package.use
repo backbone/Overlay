@@ -1,5 +1,5 @@
 app-admin/glance mysql
-app-arch/bzip2 static-libs
+app-arch/bzip2 abi_x86_32 static-libs
 app-arch/unzip natspec
 app-arch/zip natspec
 app-crypt/gcr gtk vala
@@ -27,7 +27,7 @@ app-text/poppler cairo qt4
 app-text/stardict festival gucharmap pronounce -espeak
 app-text/wgetpaste zsh-completion
 app-text/yagf pdf
-dev-db/sqlite secure-delete unlock-notify
+dev-db/sqlite abi_x86_32 secure-delete unlock-notify
 dev-java/antlr java
 dev-java/icedtea-bin nsplugin
 dev-java/sun-jdk -examples
@@ -37,12 +37,17 @@ dev-lang/python sqlite
 dev-libs/boost python
 dev-util/cppcheck qt4
 dev-libs/elfutils static-libs
-dev-libs/glib utils
+dev-libs/expat abi_x86_32
+dev-libs/glib abi_x86_32 utils
 dev-libs/gmp pgo
+dev-libs/libffi abi_x86_32
 dev-libs/libgcrypt static-libs
 dev-libs/libgpg-error static-libs
-dev-libs/libxml2 python
+dev-libs/libxml2 abi_x86_32 python
+dev-libs/libxslt abi_x86_32
 dev-libs/lzo static-libs
+dev-libs/nspr abi_x86_32
+dev-libs/nss abi_x86_32
 dev-libs/popt static-libs
 dev-libs/xerces-c icu
 dev-libs/xmlrpc-c abyss
@@ -80,28 +85,35 @@ media-gfx/fbida curl fbcon gif pdf tiff
 media-gfx/gimp pdf svg tiff
 media-gfx/imagemagick png svg truetype
 media-gfx/librecad tools
+media-libs/alsa-lib abi_x86_32
 media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt4
 media-libs/coin doc
+media-libs/freeglut abi_x86_32
 media-libs/freetype static-libs
 media-libs/gd fontconfig truetype jpeg png
+media-libs/glu abi_x86_32
 media-libs/harfbuzz icu
-media-libs/lcms static-libs python
+media-libs/lcms abi_x86_32 static-libs python
 media-libs/libcanberra gtk
-media-libs/libjpeg-turbo static-libs
+media-libs/libjpeg-turbo abi_x86_32 static-libs
 media-libs/libmng static-libs lcms
 media-libs/libopenraw gtk
 media-libs/libpng static-libs apng
 media-libs/libsdl joystick
 media-libs/libtxc_dxtn abi_x86_32
+media-libs/libv4l abi_x86_32
 media-libs/libvpx postproc
 media-libs/mediastreamer -X
-media-libs/mesa d3d9 dri3 g3dvl gbm gles1 gles2 -llvm openvg vaapi xa
+media-libs/mesa abi_x86_32 d3d9 dri3 g3dvl gbm gles1 gles2 -llvm openvg vaapi xa
+media-libs/openal abi_x86_32
 media-libs/phonon gstreamer
 media-libs/sdl-mixer midi mp3 mod timidity
+media-libs/tiff abi_x86_32
 media-plugins/audacious-plugins flac fluidsynth lame libsamplerate midi mp3
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
 =media-plugins/gst-plugins-meta-1.0-r3 -vaapi # Green video in HTML5
+media-sound/gsm abi_x86_32
 media-sound/mpd flac aac vorbis mikmod inotify lame libsamplerate mpg123 musepack sqlite twolame
 media-sound/ncmpcpp clock outputs taglib visualizer
 media-sound/sonata -trayicon
@@ -148,34 +160,44 @@ sci-mathematics/maxima gcl latex
 sci-visualization/gnuplot wxwidgets
 sys-auth/consolekit policykit
 sys-auth/keystone mysql
+sys-apps/attr abi_x86_32
+sys-apps/dbus abi_x86_32
 sys-apps/portage git
 sys-apps/qingy opensslcrypt
-sys-apps/util-linux static-libs tty-helpers
+sys-apps/util-linux abi_x86_32 static-libs tty-helpers
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
 sys-devel/gcc fortran graphite lto mudflap
 sys-devel/gdb expat lzma multitarget
+sys-devel/gettext abi_x86_32
 sys-devel/llvm clang
 sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs -thin
 sys-fs/ntfs3g ntfsprogs
-sys-fs/udev extras gudev hwdb introspection static-libs
+sys-fs/udev abi_x86_32 extras gudev hwdb introspection static-libs
 sys-kernel/dracut device-mapper
 sys-kernel/geek-sources branding ck debian genpatches gentoo ice optimization zen
 >=sys-kernel/geek-sources-3.10.1 -branding -gentoo
 >=sys-kernel/geek-sources-3.11 branding gentoo
 sys-kernel/genkernel premount
 sys-libs/glibc nscd
-sys-libs/gpm static-libs
+sys-libs/gpm abi_x86_32 static-libs
+sys-libs/ncurses abi_x86_32
+sys-libs/readline abi_x86_32
 sys-libs/talloc python
-sys-libs/zlib static-libs minizip
+sys-libs/zlib abi_x86_32 static-libs minizip
 sys-power/cpufreqd apm lm_sensors pmu
 virtual/ffmpeg -libav mp3 theora vaapi
-virtual/jpeg static-libs
+virtual/glu abi_x86_32
+virtual/jpeg abi_x86_32 static-libs
+virtual/libffi abi_x86_32
+virtual/libiconv abi_x86_32
+virtual/libintl abi_x86_32
 virtual/libudev static-libs
 virtual/libgudev introspection static-libs
 virtual/opencl abi_x86_32
+virtual/opengl abi_x86_32
 virtual/udev gudev hwdb static-libs
 www-apps/dokuwiki gd vhosts
 www-apps/redmine fastcgi git imagemagick mercurial git mysql
@@ -188,9 +210,16 @@ x11-drivers/xf86-video-intel glamor uxa
 x11-libs/cairo X
 x11-libs/cairo glitz opengl svg xcb drm openvg
 x11-libs/gdk-pixbuf X tiff
->=x11-libs/gtk+-3 examples
-x11-libs/libdrm libkms
+x11-libs/gtk+ abi_x86_32 examples
+x11-libs/libdrm abi_x86_32 libkms
 x11-libs/libfm exif gtk udisks vala
+x11-libs/libva abi_x86_32
+x11-libs/libvdpau abi_x86_32
+x11-libs/libX11 abi_x86_32
+x11-libs/libXmu abi_x86_32
+x11-libs/libXt abi_x86_32
+x11-libs/libXv abi_x86_32
+x11-libs/libXxf86vm abi_x86_32
 x11-libs/qt-gui cups
 x11-libs/qt-qt3support kde
 x11-libs/qt-webkit kde
