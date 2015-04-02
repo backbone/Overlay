@@ -8,3 +8,4 @@
 
 =net-libs/nodejs-0.12.0 # emerge failed
 =net-libs/nodejs-0.12.1 # emerge failed
+=net-libs/nodejs-0.12.2 # emerge failed
