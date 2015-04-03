@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.39.ebuild,v 1.1 2015/03/08 07:00:24 tetromino Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.40,v 1.1 2015/03/22 19:58:44 tetromino Exp $
 
 EAPI="5"
 
@@ -44,8 +44,8 @@ if [[ ${PV} == "9999" ]] ; then
 	STAGING_EGIT_REPO_URI="git://github.com/wine-compholio/wine-staging.git"
 else
 	SRC_URI="${SRC_URI}
-	staging? ( https://github.com/wine-compholio/wine-staging/archive/v${PV}.tar.gz -> ${STAGING_P}.tar.gz )
-	pulseaudio? ( https://github.com/wine-compholio/wine-staging/archive/v${PV}.tar.gz -> ${STAGING_P}.tar.gz )"
+	staging? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.39.tar.gz -> ${STAGING_P}.tar.gz )
+	pulseaudio? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.39.tar.gz -> ${STAGING_P}.tar.gz )"
 fi
 
 LICENSE="LGPL-2.1"
@@ -336,15 +336,17 @@ src_prepare() {
 		ewarn "Applying experimental patch to fix GStreamer support. Note that"
 		ewarn "this patch has been reported to cause crashes in certain games."
 
-		# Wine-Staging 1.7.39 "ntdll: Fix race-condition when threads are killed
-		# during shutdown" patch prevents the gstreamer patch from applying cleanly.
+		# Wine-Staging 1.7.38 "ntdll: Fix race-condition when threads are killed
+		# during shutdown" patch and "Added patch to implement shared memory
+		# wineserver communication for various user32 functions" prevents the
+		# gstreamer patch from applying cleanly.
 		# So undo the staging patch, apply gstreamer, then re-apply rebased staging
 		# patch on top.
 		if use staging; then
 			PATCHES+=(
-				"${FILESDIR}/${PN}-1.7.39-gstreamer-v5-staging-pre.patch"
+				"${FILESDIR}/${PN}-1.7.40-gstreamer-v5-staging-pre.patch"
 				"${WORKDIR}/${GST_P}.patch"
-				"${FILESDIR}/${PN}-1.7.39-gstreamer-v5-staging-post.patch" )
+				"${FILESDIR}/${PN}-1.7.40-gstreamer-v5-staging-post.patch" )
 		else
 			PATCHES+=( "${WORKDIR}/${GST_P}.patch" )
 		fi
