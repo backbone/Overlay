@@ -89,6 +89,7 @@ app-vim/clewn ~amd64
 app-vim/pathogen ~amd64
 app-vim/screen ~amd64
 app-vim/youcompleteme ~amd64
+<dev-cpp/libcmis-0.6 ~amd64
 dev-db/sqlite ~amd64
 dev-java/jutils ~amd64
 dev-java/lwjgl ~amd64
@@ -235,6 +236,7 @@ dev-util/gdbus-codegen ~amd64
 dev-util/gource ~amd64
 dev-util/insight ~amd64
 dev-util/kbuild ~amd64
+<dev-util/mdds-0.13 ~amd64
 dev-util/nvidia-cuda-sdk ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
 dev-util/pkgconfig ~amd64
@@ -316,6 +318,7 @@ media-libs/libmad ~amd64
 media-libs/libmpeg2 ~amd64
 ~media-libs/libmtp-1.1.8 ~amd64
 media-libs/libfreehand ~amd64
+media-libs/libpagemaker ~amd64
 media-libs/libpng ~amd64
 dev-libs/librevenge ~amd64
 media-libs/libsamplerate ~amd64
