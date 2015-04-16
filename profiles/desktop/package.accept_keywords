@@ -513,6 +513,7 @@ x11-libs/libvdpau ~amd64
 x11-libs/libXfont ~amd64
 x11-libs/pango ~amd64
 x11-libs/tslib ~amd64
+<x11-libs/wxGTK-4 ~amd64
 <x11-libs/xcb-util-0.5 ~amd64
 x11-libs/xcb-util-cursor ~amd64
 <x11-libs/xcb-util-image-0.5 ~amd64
