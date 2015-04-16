@@ -13,6 +13,7 @@
 ~x11-drivers/nvidia-drivers-346.47
 ~x11-drivers/nvidia-drivers-346.59
 ~x11-drivers/nvidia-drivers-349.12
+~x11-drivers/nvidia-drivers-349.16
 
 # 310M Optimus BUG: unable to handle kernel NULL pointer dereference at (null)
 ~x11-drivers/nvidia-drivers-340.76
