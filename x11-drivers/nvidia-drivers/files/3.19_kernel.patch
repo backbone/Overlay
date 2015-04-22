@@ -1,0 +1,11 @@
+--- kernel/nv-linux.h	2015-04-22 11:10:14.949036334 +0300
++++ kernel/nv-linux.h	2015-04-22 11:09:08.609580754 +0300
+@@ -1860,4 +1860,8 @@
+ #define NV_VGX_HYPER
+ #endif
+ 
++#if LINUX_VERSION_CODE >= KERNEL_VERSION(3, 19, 0)
++#define f_dentry f_path.dentry
++#endif
++
+ #endif  /* _NV_LINUX_H_ */
