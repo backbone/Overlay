@@ -43,6 +43,7 @@ dev-libs/expat abi_x86_32
 dev-libs/glib abi_x86_32 utils
 dev-libs/gmp abi_x86_32 pgo
 dev-libs/icu abi_x86_32
+dev-libs/libcroco abi_x86_32
 dev-libs/libffi abi_x86_32
 dev-libs/libgcrypt abi_x86_32 static-libs
 dev-libs/libgpg-error abi_x86_32 static-libs
@@ -76,6 +77,7 @@ dev-util/pkgconfig abi_x86_32
 dev-vcs/git perl cgi
 dev-vcs/mercurial zsh-completion
 gnome-base/gvfs udisks
+gnome-base/librsvg abi_x86_32
 gnome-extra/nm-applet gconf modemmanager
 gnome-extra/zenity libnotify
 mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-libvpx system-sqlite
