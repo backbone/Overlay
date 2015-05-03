@@ -114,13 +114,14 @@ dev-libs/icu ~amd64
 dev-libs/jthread ~amd64
 dev-libs/kpathsea ~amd64
 dev-libs/leveldb ~amd64
-
 <dev-libs/libevdev-1.3 ~amd64
+dev-libs/libixion ~amd64
 dev-libs/libgee ~amd64
 dev-libs/libmirage ~amd64
 dev-libs/liborcus ~amd64
 dev-libs/libpeas ~amd64
 dev-libs/libpipeline ~amd64
+dev-libs/librevenge ~amd64
 dev-libs/libtasn1 ~amd64
 dev-libs/libwacom ~amd64
 dev-libs/lzo ~amd64
@@ -314,7 +315,6 @@ media-libs/gstreamer ~amd64
 media-libs/harfbuzz ~amd64
 media-libs/lcms ~amd64
 media-libs/libcdr ~amd64
-dev-libs/libixion ~amd64
 media-libs/libjpeg-turbo ~amd64
 media-libs/libmad ~amd64
 media-libs/libmpeg2 ~amd64
@@ -322,7 +322,6 @@ media-libs/libmpeg2 ~amd64
 media-libs/libfreehand ~amd64
 media-libs/libpagemaker ~amd64
 media-libs/libpng ~amd64
-dev-libs/librevenge ~amd64
 media-libs/libsamplerate ~amd64
 media-libs/libsdl ~amd64
 media-libs/libsdl2 ~amd64
