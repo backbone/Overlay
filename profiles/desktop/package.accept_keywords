@@ -314,6 +314,7 @@ media-plugins/gst-plugins-vpx ~amd64
 media-libs/gstreamer ~amd64
 media-libs/harfbuzz ~amd64
 media-libs/lcms ~amd64
+<media-libs/libass-0.13 ~amd64
 media-libs/libcdr ~amd64
 media-libs/libjpeg-turbo ~amd64
 media-libs/libmad ~amd64
