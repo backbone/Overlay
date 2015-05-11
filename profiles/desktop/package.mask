@@ -7,5 +7,3 @@
 
 # 310M Optimus BUG: unable to handle kernel NULL pointer dereference at (null)
 ~x11-drivers/nvidia-drivers-340.76
-
-=sys-devel/bison-3.0.4-r1 # broken build
