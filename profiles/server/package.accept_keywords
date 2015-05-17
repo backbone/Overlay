@@ -232,6 +232,7 @@ sys-devel/crossdev ~amd64
 <sys-devel/gcc-4.10 ~amd64
 sys-firmware/amd-ucode ~amd64
 sys-firmware/ipxe ~amd64
+~sys-firmware/seabios-1.7.5 ~amd64
 sys-kernel/dracut ~amd64
 sys-kernel/genkernel ~amd64
 sys-kernel/hardened-sources ~amd64
