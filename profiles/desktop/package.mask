@@ -8,3 +8,8 @@
 
 # 310M Optimus BUG: unable to handle kernel NULL pointer dereference at (null)
 ~x11-drivers/nvidia-drivers-340.76
+
+# Temporary masking higher slots for successful upgrading
+app-text/poppler:0/52
+dev-libs/icu:0/55
+>=media-libs/libvpx-1.4
