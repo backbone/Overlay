@@ -8,5 +8,4 @@
 
 # Temporary masking higher slots for successful upgrading
 app-text/poppler:0/52
-dev-libs/icu:0/55
 >=media-libs/libvpx-1.4
