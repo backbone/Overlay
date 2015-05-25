@@ -1,12 +1,2 @@
 # Manually control kernel version
 >=sys-kernel/hardened-sources-3.19
-
-# Waiting for udev to be fully populated
-# udev-217,udev-init-scripts-27,openrc-0.12.4
-=sys-apps/kmod-18-r2
-=sys-apps/kmod-19
-
-=net-libs/nodejs-0.12.0 # emerge failed
-=net-libs/nodejs-0.12.1 # emerge failed
-=net-libs/nodejs-0.12.2 # emerge failed
-=net-libs/nodejs-0.12.2-r1 # emerge failed

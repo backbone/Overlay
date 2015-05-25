@@ -171,6 +171,7 @@ dev-texlive/texlive-texinfo ~amd64
 dev-util/bdelta ~amd64
 dev-util/colormake ~amd64
 dev-util/gdbus-codegen ~amd64
+dev-util/gtk-update-icon-cache ~amd64
 =dev-util/valadoc-9999 **
 dev-util/valgrind ~amd64
 <dev-vcs/git-2 ~amd64
