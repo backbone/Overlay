@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.42.ebuild,v 1.1 2015/04/19 03:45:33 tetromino Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.44.ebuild,v 1.1 2015/05/18 04:59:26 tetromino Exp $
 
 EAPI="5"
 
@@ -11,7 +11,7 @@ PLOCALE_BACKUP="en"
 inherit autotools-utils eutils fdo-mime flag-o-matic gnome2-utils l10n multilib multilib-minimal pax-utils toolchain-funcs virtualx
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI="git://source.winehq.org/git/wine.git"
+	EGIT_REPO_URI="git://source.winehq.org/git/wine.git http://source.winehq.org/git/wine.git"
 	EGIT_BRANCH="master"
 	inherit git-r3
 	SRC_URI=""
@@ -25,7 +25,7 @@ fi
 
 GV="2.36"
 MV="4.5.6"
-STAGING_P="wine-staging-${PV}"
+STAGING_P="wine-staging-1.4.43"
 STAGING_DIR="${WORKDIR}/${STAGING_P}"
 WINE_GENTOO="wine-gentoo-2015.03.07"
 GST_P="wine-1.7.34-gstreamer-v5"
@@ -44,8 +44,8 @@ if [[ ${PV} == "9999" ]] ; then
 	STAGING_EGIT_REPO_URI="git://github.com/wine-compholio/wine-staging.git"
 else
 	SRC_URI="${SRC_URI}
-	staging? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.42 -> ${STAGING_P}.tar.gz )
-	pulseaudio? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.42 -> ${STAGING_P}.tar.gz )"
+	staging? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.43.tar.gz -> ${STAGING_P}.tar.gz )
+	pulseaudio? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.43.tar.gz -> ${STAGING_P}.tar.gz )"
 fi
 
 LICENSE="LGPL-2.1"
@@ -282,6 +282,13 @@ usr/share/applications/wine-winecfg.desktop"
 wine_build_environment_check() {
 	[[ ${MERGE_TYPE} = "binary" ]] && return 0
 
+	# bug #549768
+	if [[ $(gcc-major-version) = 5 ]]; then
+		eerror "You need gcc-4.x to build wine; see https://bugs.gentoo.org/549768"
+		eerror
+		return 1
+	fi
+
 	if use abi_x86_64 && [[ $(( $(gcc-major-version) * 100 + $(gcc-minor-version) )) -lt 404 ]]; then
 		eerror "You need gcc-4.4+ to build 64-bit wine"
 		eerror
@@ -344,9 +351,9 @@ src_prepare() {
 		# patch on top.
 		if use staging; then
 			PATCHES+=(
-				"${FILESDIR}/${PN}-1.7.40-gstreamer-v5-staging-pre.patch"
+				"${FILESDIR}/${PN}-1.7.39-gstreamer-v5-staging-pre.patch"
 				"${WORKDIR}/${GST_P}.patch"
-				"${FILESDIR}/${PN}-1.7.40-gstreamer-v5-staging-post.patch" )
+				"${FILESDIR}/${PN}-1.7.39-gstreamer-v5-staging-post.patch" )
 		else
 			PATCHES+=( "${WORKDIR}/${GST_P}.patch" )
 		fi
