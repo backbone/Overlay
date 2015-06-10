@@ -36,6 +36,7 @@ dev-java/sun-jdk -examples
 dev-java/swt cairo
 dev-lang/php pdo sqlite curl gd sqlite3 xml flatfile mysql mysqli mysqlnd inifile pcntl sockets sysvipc tokenizer truetype xmlreader xmlwriter xpm zip exif cgi xmlrpc xsl
 dev-lang/python sqlite
+dev-libs/atk abi_x86_32
 dev-libs/boost python
 dev-util/cppcheck qt4
 dev-libs/elfutils static-libs
@@ -108,6 +109,7 @@ media-libs/glu abi_x86_32
 media-libs/harfbuzz abi_x86_32 icu
 media-libs/lcms abi_x86_32 static-libs python
 media-libs/libcanberra gtk
+media-libs/libepoxy abi_x86_32
 media-libs/libjpeg-turbo abi_x86_32 static-libs
 media-libs/libmng static-libs lcms
 media-libs/libopenraw gtk
