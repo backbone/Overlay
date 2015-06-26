@@ -180,6 +180,10 @@ src_prepare() {
 			epatch "${FILESDIR}"/3.19_kernel.patch
 		fi
 
+		if kernel_is gt 4 0 0 ; then
+			epatch "${FILESDIR}"/4.0_kernel.patch
+		fi
+
 		# If greater than 2.6.5 use M= instead of SUBDIR=
 #		convert_to_m "${NV_SRC}"/Makefile.kbuild
 	fi
