@@ -38,7 +38,7 @@ app-vim/screen ~amd64
 app-vim/youcompleteme ~amd64
 dev-games/irrlicht ~amd64
 dev-lang/python-exec ~amd64
-<dev-lang/php-5.6 ~amd64 # security fixes
+<dev-lang/php-5.7 ~amd64 # security fixes
 dev-lang/vala ~amd64
 dev-libs/glib ~amd64
 dev-libs/gnulib ~x64-freebsd
