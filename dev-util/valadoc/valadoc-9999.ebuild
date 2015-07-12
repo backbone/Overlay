@@ -17,7 +17,7 @@ KEYWORDS=""
 IUSE=""
 
 RDEPEND="
-	>=dev-lang/vala-0.20:0.20
+	>=dev-lang/vala-0.20
 	>=dev-libs/glib-2.24:2
 	>=dev-libs/libgee-0.8:0.8
 	>=media-gfx/graphviz-2.16
