@@ -1,0 +1,62 @@
+diff -Nur xbmc-14.1-Helix.orig/Makefile.in xbmc-14.1-Helix.new/Makefile.in
+--- xbmc-14.1-Helix.orig/Makefile.in	2015-01-29 23:57:10.000000000 +0100
++++ xbmc-14.1-Helix.new/Makefile.in	2015-03-29 13:13:12.564456208 +0200
+@@ -191,7 +191,6 @@
+ PAPCODECS_DIRS= \
+ 	lib/nosefart \
+ 	lib/timidity \
+-	lib/libsidplay2 \
+ 	lib/stsound/StSoundLibrary \
+ 	lib/snesapu/SNES/SNESAPU \
+ 	lib/vgmstream
+@@ -433,7 +432,7 @@
+ 	$(MAKE) -C lib/timidity
+ 	$(MAKE) -C lib/nosefart
+ ifneq ($(findstring arm-osx,@ARCH@), arm-osx)
+-	$(MAKE) -C lib/libsidplay2
++#	$(MAKE) -C lib/libsidplay2
+ endif
+ ifeq (@USE_ASAP_CODEC@,1)
+   ifneq ($(findstring osx,@ARCH@), osx)
+diff -Nur xbmc-14.1-Helix.orig/configure.in xbmc-14.1-Helix.new/configure.in
+--- xbmc-14.1-Helix.orig/configure.in	2015-01-29 23:57:10.000000000 +0100
++++ xbmc-14.1-Helix.new/configure.in	2015-03-29 13:18:54.094451741 +0200
+@@ -1152,6 +1152,9 @@
+ PKG_CHECK_MODULES([TAGLIB],  [taglib >= 1.8],
+   [INCLUDES="$INCLUDES $TAGLIB_CFLAGS"; LIBS="$LIBS $TAGLIB_LIBS"],
+   AC_MSG_ERROR($missing_library))
++PKG_CHECK_MODULES([SIDPLAY],  [libsidplay2],
++  [INCLUDES="$INCLUDES $SIDPLAY_CFLAGS"; LIBS="$LIBS $SIDPLAY_LIBS"],
++  AC_MSG_ERROR($missing_library))
+ 
+ if test "$use_optical_drive" = "yes"; then
+   PKG_CHECK_MODULES([CDIO],       [libcdio],
+@@ -1243,6 +1246,7 @@
+ XB_FIND_SONAME([MODPLUG],     [modplug])
+ XB_FIND_SONAME([ASS],         [ass])
+ XB_FIND_SONAME([MPEG2],       [mpeg2])
++XB_FIND_SONAME([SIDPLAY2],    [sidplay2])
+ 
+ # WebServer
+ if test "$use_webserver" = "yes"; then
+@@ -2448,7 +2452,6 @@
+     lib/timidity/Makefile \
+     lib/asap/Makefile \
+     lib/nosefart/Makefile \
+-    lib/libsidplay2/Makefile \
+     lib/vgmstream/Makefile \
+     lib/snesapu/SNES/SNESAPU/Makefile \
+     lib/stsound/StSoundLibrary/Makefile \
+diff -Nur xbmc-14.1-Helix.orig/xbmc/DllPaths_generated.h.in xbmc-14.1-Helix.new/xbmc/DllPaths_generated.h.in
+--- xbmc-14.1-Helix.orig/xbmc/DllPaths_generated.h.in	2015-01-29 23:57:10.000000000 +0100
++++ xbmc-14.1-Helix.new/xbmc/DllPaths_generated.h.in	2015-03-29 13:19:41.124451123 +0200
+@@ -54,7 +54,7 @@
+ #define DLL_PATH_MODULE_CODEC  "special://xbmcbin/system/players/paplayer/dumb-@ARCH@.so"
+ #define DLL_PATH_MPC_CODEC     "special://xbmcbin/system/players/paplayer/libmpcdec-@ARCH@.so"
+ #define DLL_PATH_NSF_CODEC     "special://xbmcbin/system/players/paplayer/nosefart-@ARCH@.so"
+-#define DLL_PATH_SID_CODEC     "special://xbmcbin/system/players/paplayer/libsidplay2-@ARCH@.so"
++#define DLL_PATH_SID_CODEC     "@SIDPLAY2_SONAME@"
+ #define DLL_PATH_SPC_CODEC     "special://xbmcbin/system/players/paplayer/SNESAPU-@ARCH@.so"
+ #define DLL_PATH_VGM_CODEC     "special://xbmcbin/system/players/paplayer/vgmstream-@ARCH@.so"
+ #define DLL_PATH_WAVPACK_CODEC "@WAVPACK_SONAME@"
+

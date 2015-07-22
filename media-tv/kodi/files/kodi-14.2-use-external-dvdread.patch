@@ -1,0 +1,126 @@
+diff -Nur xbmc-14.1-Helix.orig/bootstrap.mk xbmc-14.1-Helix.new/bootstrap.mk
+--- xbmc-14.1-Helix.orig/bootstrap.mk	2015-03-29 14:04:47.011082386 +0200
++++ xbmc-14.1-Helix.new/bootstrap.mk	2015-03-29 16:47:34.189335973 +0200
+@@ -8,7 +8,6 @@
+ BOOTSTRAP_SUBDIRS += lib/libdvd/libdvdcss/configure.ac
+ DVD_CSS=lib/libdvd/libdvdcss/configure
+ endif
+-BOOTSTRAP_SUBDIRS += lib/libdvd/libdvdread/configure.ac
+ BOOTSTRAP_SUBDIRS += lib/libdvd/libdvdnav/configure.ac
+ 
+ ifneq ($(wildcard pvr-addons/Makefile.am),)
+@@ -18,10 +17,6 @@
+ BOOTSTRAP_TARGETS=$(basename $(BOOTSTRAP_SUBDIRS))
+ all: $(BOOTSTRAP_TARGETS)
+ 
+-#preserve order for libdvd. dvdcss (if present) -> dvdread -> dvdnav.
+-lib/libdvd/libdvdread/configure: $(DVD_CSS)
+-lib/libdvd/libdvdnav/configure: lib/libdvd/libdvdread/configure
+-
+ %: %.ac
+ 	autoreconf -vif $(@D)
+ 	-@rm -rf $(@D)/autom4te.cache
+diff -Nur xbmc-14.1-Helix.orig/configure.in xbmc-14.1-Helix.new/configure.in
+--- xbmc-14.1-Helix.orig/configure.in	2015-03-29 14:04:45.591082404 +0200
++++ xbmc-14.1-Helix.new/configure.in	2015-03-29 22:08:05.119084347 +0200
+@@ -1155,6 +1155,9 @@
+ PKG_CHECK_MODULES([SIDPLAY],  [libsidplay2],
+   [INCLUDES="$INCLUDES $SIDPLAY_CFLAGS"; LIBS="$LIBS $SIDPLAY_LIBS"],
+   AC_MSG_ERROR($missing_library))
++PKG_CHECK_MODULES([DVDREAD],  [dvdread],
++  [INCLUDES="$INCLUDES $DVDREAD_CFLAGS"; LIBS="$LIBS $DVDREAD_LIBS"],
++  AC_MSG_ERROR($missing_library))
+ 
+ if test "$use_optical_drive" = "yes"; then
+   PKG_CHECK_MODULES([CDIO],       [libcdio],
+@@ -2684,27 +2687,9 @@
+     --with-pic
+ ], [$SKIP_CONFIG_DVDCSS])
+ 
+-XB_CONFIG_MODULE([lib/libdvd/libdvdread], [
+-  ./configure2 \
+-    --extra-cflags="$CFLAGS $DVDREAD_CFLAGS -I`pwd`/../libdvdcss/src $DROID_DVDLIB_SEEK64" \
+-    --prefix="${prefix}" --includedir="${includedir}" --libdir="${libdir}" --datadir="${datadir}" \
+-    --host=$host_alias \
+-    --build=$build_alias \
+-    --target=$target_alias \      
+-    --enable-static \
+-    --disable-shared \
+-    --disable-strip \
+-    --disable-opts \
+-    --cc="$CC" &&
+-  mkdir -p `pwd`/../includes/dvdread
+-  cp `pwd`/../libdvdread/src/*.h `pwd`/../includes/dvdread
+-  cp `pwd`/../libdvdread/src/dvdread/*.h `pwd`/../includes/dvdread
+-], [0])
+-
+ XB_CONFIG_MODULE([lib/libdvd/libdvdnav], [
+   ./configure2 \
+     --extra-cflags="$CFLAGS $DVDREAD_CFLAGS -I`pwd`/../includes $DROID_DVDLIB_SEEK64" \
+-    --extra-ldflags="-L`pwd`/../libdvdread/obj" \
+     --with-dvdread-config="`pwd`/../dvdread-config" \
+     --prefix="${prefix}" --includedir="${includedir}" --libdir="${libdir}" --datadir="${datadir}" \
+     --host=$host_alias \
+diff -Nur xbmc-14.1-Helix.orig/lib/libdvd/Makefile.in xbmc-14.1-Helix.new/lib/libdvd/Makefile.in
+--- xbmc-14.1-Helix.orig/lib/libdvd/Makefile.in	2015-03-29 14:04:46.297749062 +0200
++++ xbmc-14.1-Helix.new/lib/libdvd/Makefile.in	2015-03-29 22:09:58.232416198 +0200
+@@ -5,8 +5,7 @@
+ 
+ SYSDIR=@abs_top_srcdir@/system/players/dvdplayer
+ SOS= libdvdnav-$(ARCH).so
+-DIRS=	libdvdread \
+-	libdvdnav
++DIRS=	libdvdnav
+ 
+ WRAPPER=@abs_top_srcdir@/xbmc/cores/DllLoader/exports/wrapper.o
+ WRAPPER_MACH_ALIAS=@abs_top_srcdir@/xbmc/cores/DllLoader/exports/wrapper_mach_alias
+@@ -48,9 +47,9 @@
+ 	$(CC) $(LDFLAGS) -Wl,-alias_list,$(WRAPPER_MACH_ALIAS) -o $@ \
+ 		$(WRAPPER) libdvdcss/src/*.o $(BUNDLE1_O)
+ 
+-$(SYSDIR)/libdvdnav-$(ARCH).so: $($(WRAPPER)) $(DVDCSS_A) libdvdread/obj/libdvdread.a libdvdnav/obj/libdvdnav.a
++$(SYSDIR)/libdvdnav-$(ARCH).so: $($(WRAPPER)) $(DVDCSS_A) libdvdnav/obj/libdvdnav.a
+ 	$(CC) $(LDFLAGS) -Wl,-alias_list,$(WRAPPER_MACH_ALIAS) -o $@ \
+-		$(WRAPPER) $(DVDCSS_O) libdvdread/obj/*.o libdvdnav/obj/*.o $(BUNDLE1_O)
++		$(WRAPPER) $(DVDCSS_O) libdvdnav/obj/*.o $(BUNDLE1_O)
+ 
+ else
+ 
+@@ -59,10 +58,10 @@
+ 		libdvdcss/src/*.o -Wl,--unresolved-symbols=ignore-all -lm \
+ 		`cat $(WRAPPER:.o=.def)` $(WRAPPER)
+ 
+-$(SYSDIR)/libdvdnav-$(ARCH).so: $(WRAPPER) $(DVDCSS_A) libdvdread/obj/libdvdread.a libdvdnav/obj/libdvdnav.a
+-	$(CC) -o $@ $(LDFLAGS) -Wl,--soname,$@ $(DVDCSS_O) libdvdread/obj/*.o libdvdnav/obj/*.o -lm \
++$(SYSDIR)/libdvdnav-$(ARCH).so: $(WRAPPER) $(DVDCSS_A) libdvdnav/obj/libdvdnav.a
++	$(CC) -o $@ $(LDFLAGS) -Wl,--soname,$@ $(DVDCSS_O) libdvdnav/obj/*.o -lm \
+ 		-Wl,--unresolved-symbols=ignore-all \
+-		`cat $(WRAPPER:.o=.def)` $(WRAPPER)
++		`cat $(WRAPPER:.o=.def)` $(WRAPPER) -ldvdread
+ 
+ endif
+ 
+@@ -70,10 +69,6 @@
+ libdvdcss: compile
+ 	$(MAKE) -C $@
+ 
+-libdvdread/obj/libdvdread.a: libdvdread;
+-libdvdread: compile
+-	$(MAKE) -C $@
+-
+ libdvdnav/obj/libdvdnav.a: libdvdnav;
+ libdvdnav: compile
+ 	$(MAKE) -C $@
+diff -Nur xbmc-14.1-Helix.orig/xbmc/cores/dvdplayer/DVDInputStreams/DllDvdNav.h xbmc-14.1-Helix.new/xbmc/cores/dvdplayer/DVDInputStreams/DllDvdNav.h
+--- xbmc-14.1-Helix.orig/xbmc/cores/dvdplayer/DVDInputStreams/DllDvdNav.h	2015-03-29 14:04:45.834415734 +0200
++++ xbmc-14.1-Helix.new/xbmc/cores/dvdplayer/DVDInputStreams/DllDvdNav.h	2015-03-29 22:11:12.095748564 +0200
+@@ -34,6 +34,8 @@
+  #define HAVE_CONFIG_H
+  #endif
+ 
++ // pull in Kodi's config h instead of dvdnav's one
++ #include "xbmc/config.h"
+  #include "dvdnav/dvdnav_internal.h"
+  #include "dvdnav/vm.h"
+  #include "dvdnav/dvd_types.h"
+

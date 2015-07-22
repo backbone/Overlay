@@ -1,0 +1,154 @@
+diff -Nur xbmc-14.1-Helix.orig/Makefile.in xbmc-14.1-Helix.new/Makefile.in
+--- xbmc-14.1-Helix.orig/Makefile.in	2015-03-29 13:22:15.207782443 +0200
++++ xbmc-14.1-Helix.new/Makefile.in	2015-03-29 13:24:11.881114247 +0200
+@@ -203,7 +203,6 @@
+ LIB_DIRS=\
+ 	lib/cximage-6.0 \
+ 	lib/libexif \
+-	lib/libhdhomerun \
+ 	lib/cpluff \
+ 	lib/xbmc-dll-symbols
+ 
+@@ -424,8 +423,6 @@
+ 	$(MAKE) -C lib/libexif
+ cmyth: dllloader
+ 	$(MAKE) -C lib/cmyth
+-libhdhomerun: dllloader
+-	$(MAKE) -C lib/libhdhomerun
+ papcodecs: dllloader dvdpcodecs
+ 	test -d system/players/paplayer || mkdir system/players/paplayer
+ 	$(MAKE) -C lib/vgmstream
+@@ -453,7 +450,7 @@
+ 
+ codecs: papcodecs dvdpcodecs dvdpextcodecs
+ 
+-libs: $(LIBSSE4) libhdhomerun imagelib libexif system/libcpluff-@ARCH@.so $(CMYTH)
++libs: $(LIBSSE4) imagelib libexif system/libcpluff-@ARCH@.so $(CMYTH)
+ 
+ externals: codecs libs visualizations screensavers libaddon pvraddons
+ 
+diff -Nur xbmc-14.1-Helix.orig/configure.in xbmc-14.1-Helix.new/configure.in
+--- xbmc-14.1-Helix.orig/configure.in	2015-03-29 13:22:15.131115777 +0200
++++ xbmc-14.1-Helix.new/configure.in	2015-03-29 13:33:17.384440443 +0200
+@@ -1246,6 +1246,7 @@
+ XB_FIND_SONAME([MODPLUG],     [modplug])
+ XB_FIND_SONAME([ASS],         [ass])
+ XB_FIND_SONAME([MPEG2],       [mpeg2])
++XB_FIND_SONAME([HDHOMERUN],   [hdhomerun])
+ XB_FIND_SONAME([SIDPLAY2],    [sidplay2])
+ 
+ # WebServer
+@@ -2467,7 +2468,6 @@
+     lib/libexif/Makefile \
+     lib/libXDAAP/Makefile \
+     lib/cmyth/Makefile \
+-    lib/libhdhomerun/Makefile \
+     lib/libsquish/Makefile \
+     lib/cximage-6.0/Makefile \
+     lib/libUPnP/Makefile \
+diff -Nur xbmc-14.1-Helix.orig/xbmc/DllPaths_generated.h.in xbmc-14.1-Helix.new/xbmc/DllPaths_generated.h.in
+--- xbmc-14.1-Helix.orig/xbmc/DllPaths_generated.h.in	2015-03-29 13:22:15.334449107 +0200
++++ xbmc-14.1-Helix.new/xbmc/DllPaths_generated.h.in	2015-03-29 13:34:43.741105982 +0200
+@@ -28,7 +28,7 @@
+ #define DLL_PATH_CPLUFF        "special://xbmcbin/system/libcpluff-@ARCH@.so"
+ #define DLL_PATH_IMAGELIB      "special://xbmcbin/system/ImageLib-@ARCH@.so"
+ #define DLL_PATH_LIBEXIF       "special://xbmcbin/system/libexif-@ARCH@.so"
+-#define DLL_PATH_LIBHDHOMERUN  "special://xbmcbin/system/hdhomerun-@ARCH@.so"
++#define DLL_PATH_LIBHDHOMERUN  "@HDHOMERUN_SONAME@"
+ #define DLL_PATH_MEDIAINFO     "special://xbmcbin/system/mediainfo-@ARCH@.so"
+ #define DLL_PATH_LIBCMYTH      "special://xbmcbin/system/libcmyth-@ARCH@.so"
+ 
+diff -Nur xbmc-14.1-Helix.orig/xbmc/filesystem/DllHDHomeRun.h xbmc-14.1-Helix.new/xbmc/filesystem/DllHDHomeRun.h
+--- xbmc-14.1-Helix.orig/xbmc/filesystem/DllHDHomeRun.h	2015-03-29 13:22:15.421115773 +0200
++++ xbmc-14.1-Helix.new/xbmc/filesystem/DllHDHomeRun.h	2015-03-29 13:37:08.767771175 +0200
+@@ -20,7 +20,7 @@
+  */
+ 
+ #include "DynamicDll.h"
+-#include "lib/libhdhomerun/hdhomerun.h"
++#include <hdhomerun/hdhomerun.h>
+ 
+ class DllHdHomeRunInterface
+ {
+@@ -41,30 +41,55 @@
+ 
+ class DllHdHomeRun : public DllDynamic, public DllHdHomeRunInterface
+ {
+-  DECLARE_DLL_WRAPPER(DllHdHomeRun, DLL_PATH_LIBHDHOMERUN)
+-  DEFINE_METHOD5(int, discover_find_devices_custom, (uint32_t p1, uint32_t p2, uint32_t p3, struct hdhomerun_discover_device_t p4[], int p5))
+-  DEFINE_METHOD2(struct hdhomerun_device_t*, device_create_from_str, (const char* p1, struct hdhomerun_debug_t *p2))
+-  DEFINE_METHOD1(void, device_destroy, (struct hdhomerun_device_t* p1))
+-  DEFINE_METHOD1(int, device_stream_start, (struct hdhomerun_device_t* p1))
+-  DEFINE_METHOD3(uint8_t*, device_stream_recv, (struct hdhomerun_device_t* p1, size_t p2, size_t* p3))
+-  DEFINE_METHOD1(void, device_stream_stop, (struct hdhomerun_device_t* p1))
+-  DEFINE_METHOD2(int, device_set_tuner_channel, (struct hdhomerun_device_t *p1, const char *p2))
+-  DEFINE_METHOD2(int, device_set_tuner_program, (struct hdhomerun_device_t *p1, const char *p2))
+-  DEFINE_METHOD2(int, device_set_tuner_from_str, (struct hdhomerun_device_t *p1, const char *p2))
+-  DEFINE_METHOD2(void, device_set_tuner, (struct hdhomerun_device_t *p1, unsigned int p2))
+-  DEFINE_METHOD3(int, device_get_tuner_status, (struct hdhomerun_device_t *p1, char **p2, struct hdhomerun_tuner_status_t *p3));
+-  BEGIN_METHOD_RESOLVE()
+-    RESOLVE_METHOD_RENAME(hdhomerun_discover_find_devices_custom, discover_find_devices_custom)
+-    RESOLVE_METHOD_RENAME(hdhomerun_device_create_from_str, device_create_from_str)
+-    RESOLVE_METHOD_RENAME(hdhomerun_device_destroy, device_destroy)
+-    RESOLVE_METHOD_RENAME(hdhomerun_device_stream_start, device_stream_start)
+-    RESOLVE_METHOD_RENAME(hdhomerun_device_stream_recv, device_stream_recv)
+-    RESOLVE_METHOD_RENAME(hdhomerun_device_stream_stop, device_stream_stop)
+-    RESOLVE_METHOD_RENAME(hdhomerun_device_set_tuner_channel, device_set_tuner_channel)
+-    RESOLVE_METHOD_RENAME(hdhomerun_device_set_tuner_program, device_set_tuner_program)
+-    RESOLVE_METHOD_RENAME(hdhomerun_device_set_tuner_from_str, device_set_tuner_from_str)
+-    RESOLVE_METHOD_RENAME(hdhomerun_device_set_tuner, device_set_tuner)
+-    RESOLVE_METHOD_RENAME(hdhomerun_device_get_tuner_status, device_get_tuner_status)
+-  END_METHOD_RESOLVE()
++  virtual ~DllHdHomeRun () {};
++
++  virtual int discover_find_devices_custom (uint32_t p1, uint32_t p2, uint32_t p3, struct hdhomerun_discover_device_t p4[], int p5)
++    { return ::hdhomerun_discover_find_devices_custom (p1, p2, p3, p4, p5); }
++
++  virtual struct hdhomerun_device_t *device_create_from_str (const char* p1, struct hdhomerun_debug_t *p2)
++    { return ::hdhomerun_device_create_from_str (p1, p2); }
++
++  virtual void device_destroy (struct hdhomerun_device_t* p1)
++    { ::hdhomerun_device_destroy (p1); }
++
++  virtual int device_stream_start (struct hdhomerun_device_t* p1)
++    { return ::hdhomerun_device_stream_start (p1); }
++
++
++  virtual uint8_t *device_stream_recv (struct hdhomerun_device_t* p1, size_t p2, size_t* p3)
++    { 
++      uint8_t *retval;
++
++      size_t tmp = *p3;
++      retval = ::hdhomerun_device_stream_recv (p1, p2, &tmp);
++      *p3 = tmp;
++
++      return retval;
++    }
++
++  virtual void device_stream_stop (struct hdhomerun_device_t* p1)
++    { ::hdhomerun_device_stream_stop (p1); }
++
++  virtual int device_set_tuner_channel (struct hdhomerun_device_t *p1, const char *p2)
++    { return ::hdhomerun_device_set_tuner_channel (p1, p2); }
++
++  virtual int device_set_tuner_program (struct hdhomerun_device_t *p1, const char *p2)
++    { return ::hdhomerun_device_set_tuner_program (p1, p2); }
++
++
++  virtual int device_set_tuner_from_str (struct hdhomerun_device_t *p1, const char *p2)
++    { return ::hdhomerun_device_set_tuner_from_str (p1, p2); }
++
++
++  virtual void device_set_tuner (struct hdhomerun_device_t *p1, unsigned int p2)
++    { ::hdhomerun_device_set_tuner (p1, p2); }
++
++  virtual int device_get_tuner_status (struct hdhomerun_device_t *p1, char **p2, struct hdhomerun_tuner_status_t *p3)
++    { return ::hdhomerun_device_get_tuner_status (p1, p2, p3); }
++
++  // DLL faking.
++  virtual bool ResolveExports() { return true; }
++  virtual bool Load() { return true; }
++  virtual void Unload() {}
+ };
+ 
+
