@@ -25,8 +25,6 @@ PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
 PORTAGE_ELOG_CLASSES="warn error log"
 PORTAGE_ELOG_SYSTEM="save"
 
-PYTHON_TARGETS="python2_7 python3_4"
-
 # cpu
 USE="${USE} custom-cflags mpi smp"
 
