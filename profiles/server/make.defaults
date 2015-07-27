@@ -26,7 +26,7 @@ PORTAGE_ELOG_CLASSES="warn error log"
 PORTAGE_ELOG_SYSTEM="save"
 
 RUBY_TARGETS="ruby20"
-PYTHON_TARGETS="python2_7 python3_2 python3_3"
+PYTHON_TARGETS="python2_7 python3_2 python3_3 python3_4"
 
 # cpu
 USE="${USE} custom-cflags mpi smp"
