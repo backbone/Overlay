@@ -427,6 +427,7 @@ net-print/cups ~amd64
 net-proxy/squid ~amd64
 net-proxy/tinyproxy ~amd64
 net-voip/linphone ~amd64
+net-wireless/bluez ~amd64
 sci-biology/foldingathome ~amd64
 sci-geosciences/googleearth ~amd64
 sci-libs/gts ~amd64
