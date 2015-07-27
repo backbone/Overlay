@@ -61,10 +61,6 @@ dev-libs/popt static-libs
 dev-libs/xerces-c icu
 dev-libs/xmlrpc-c abyss
 dev-perl/GD png
-dev-python/chardet python_targets_python3_4
-dev-python/numpy python_targets_python3_4
-dev-python/requests python_targets_python3_4
-dev-python/setuptools python_targets_python3_4
 dev-python/sqlalchemy mysql
 dev-qt/qt-creator android autotools cmake fakevim git valgrind
 dev-util/anjuta vala
@@ -91,7 +87,7 @@ games-util/steam-games-meta s3tc
 mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
 media-fonts/intlfonts bdf
 media-fonts/terminus-font a-like-o bolddiag quote ru-dv ru-g ru-i ru-k width pcf psf
-media-gfx/blender ffmpeg python_targets_python3_4
+media-gfx/blender ffmpeg
 media-gfx/fbida curl fbcon gif pdf tiff
 media-gfx/gimp pdf svg tiff
 media-gfx/graphite2 abi_x86_32
@@ -277,7 +273,7 @@ x11-proto/randrproto abi_x86_32
 x11-proto/recordproto abi_x86_32
 x11-proto/renderproto abi_x86_32
 x11-proto/videoproto abi_x86_32
-x11-proto/xcb-proto abi_x86_32 python_targets_python3_4
+x11-proto/xcb-proto abi_x86_32
 x11-proto/xextproto abi_x86_32
 x11-proto/xf86bigfontproto abi_x86_32
 x11-proto/xf86driproto abi_x86_32
