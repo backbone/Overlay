@@ -72,7 +72,7 @@ USE="${USE} consolekit daemon dbus -hal logrotate samba syslog"
 USE="${USE} cgi xmlrpc"
 
 # networking
-USE="${USE} -bluetooth -imap -lirc -networkmanager -nis"
+USE="${USE} -imap -lirc -networkmanager -nis"
 
 # db
 USE="${USE} -freetds -mssql -sybase-ct"
