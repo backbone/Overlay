@@ -42,7 +42,7 @@ DEPEND="${RDEPEND}
 	dev-util/intltool
 	virtual/pkgconfig"
 
-DOCS="AUTHORS ChangeLog README"
+DOCS="AUTHORS ChangeLog"
 
 S="${WORKDIR}"/${MY_P}
 
