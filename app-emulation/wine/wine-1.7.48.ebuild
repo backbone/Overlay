@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.47.ebuild,v 1.1 2015/06/30 02:59:17 np-hardass Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.48.ebuild,v 1.1 2015/07/18 20:19:37 np-hardass Exp $
 
 EAPI="5"
 
@@ -44,8 +44,8 @@ if [[ ${PV} == "9999" ]] ; then
 	STAGING_EGIT_REPO_URI="git://github.com/wine-compholio/wine-staging.git"
 else
 	SRC_URI="${SRC_URI}
-	staging? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.46.tar.gz -> ${STAGING_P}.tar.gz )
-	pulseaudio? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.46.tar.gz -> ${STAGING_P}.tar.gz )"
+	staging? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.47.tar.gz -> ${STAGING_P}.tar.gz )
+	pulseaudio? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.47.tar.gz -> ${STAGING_P}.tar.gz )"
 fi
 
 LICENSE="LGPL-2.1"
@@ -246,6 +246,7 @@ src_prepare() {
 		ewarn "unless you can reproduce them with USE=-staging"
 
 		local STAGING_EXCLUDE=""
+		STAGING_EXCLUDE="${STAGING_EXCLUDE} -W ntdll-Revert_Security_Cookie" # only necessary in this version
 		use pipelight || STAGING_EXCLUDE="${STAGING_EXCLUDE} -W Pipelight"
 
 		# Launch wine-staging patcher in a subshell, using epatch as a backend, and gitapply.sh as a backend for binary patches
