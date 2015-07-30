@@ -25,7 +25,7 @@ PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
 PORTAGE_ELOG_CLASSES="warn error log"
 PORTAGE_ELOG_SYSTEM="save"
 
-RUBY_TARGETS=""
+RUBY_TARGETS="-*"
 
 # cpu
 USE="${USE} custom-cflags graphite mpi smp"
