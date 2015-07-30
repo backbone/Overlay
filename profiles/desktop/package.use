@@ -80,6 +80,7 @@ gnome-extra/zenity libnotify
 mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-libvpx system-sqlite
 games-action/minetest leveldb
 games-fps/doom3 roe
+games-simulation/crrcsim portaudio
 games-strategy/0ad sound
 games-strategy/warzone2100 videos
 games-util/steam-client-meta flash trayicon
