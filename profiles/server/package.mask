@@ -1,3 +1,2 @@
 # Manually control kernel version
 >=sys-kernel/hardened-sources-4.1
-=sys-kernel/genkernel-3.4.51.3

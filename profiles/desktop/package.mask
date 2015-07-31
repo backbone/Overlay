@@ -10,4 +10,3 @@ media-libs/libvpx:0/2
 dev-libs/boost:0/1.56.0
 =app-office/libreoffice-bin-4.4.3.2-r1
 =app-office/libreoffice-bin-4.4.4.3
-=sys-kernel/genkernel-3.4.51.3
