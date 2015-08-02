@@ -43,6 +43,7 @@ app-misc/fslint ~amd64
 app-misc/gnomecatalog ~amd64
 app-misc/nixnote ~amd64
 app-misc/stardict-enru-dictset ~amd64
+app-misc/tmux ~amd64
 app-office/libreoffice-bin ~amd64
 app-office/libreoffice-l10n ~amd64
 app-office/lyx ~amd64

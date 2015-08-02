@@ -16,6 +16,7 @@ app-editors/vim-core ~amd64
 app-emulation/libvirt ~amd64
 app-emulation/qemu ~amd64
 app-misc/sphinx ~amd64
+app-misc/tmux ~amd64
 app-portage/deltup ~amd64
 app-portage/eix ~amd64
 app-portage/ewo ~amd64
