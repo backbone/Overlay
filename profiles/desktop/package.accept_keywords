@@ -79,6 +79,8 @@ app-text/ps2pkm ~amd64
 app-text/stardict ~amd64
 app-text/texlive ~amd64
 app-text/texlive-core ~amd64
+app-text/ttf2pk2 ~amd64
+app-text/xdvik ~amd64
 app-text/yagf ~amd64
 app-vim/cctree ~amd64
 app-vim/clewn ~amd64
@@ -212,9 +214,10 @@ dev-python/websockify ~amd64
 dev-python/webtest ~amd64
 dev-python/xhtml2pdf ~amd64
 dev-tex/bibtexu ~amd64
+dev-tex/latex-beamer ~amd64
+dev-tex/latex2rtf ~amd64
 dev-tex/luatex ~amd64
 dev-tex/pscyr ~amd64
-dev-tex/latex2rtf ~amd64
 dev-texlive/texlive-basic ~amd64
 dev-texlive/texlive-fontsextra ~amd64
 dev-texlive/texlive-fontsrecommended ~amd64
