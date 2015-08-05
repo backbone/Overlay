@@ -62,6 +62,7 @@ app-shells/zsh-completions ~amd64
 app-text/cuneiform ~amd64
 app-text/dos2unix ~amd64
 app-text/dvipsk ~amd64
+app-text/lcdf-typetools ~amd64
 app-text/libabw ~amd64
 app-text/libebook ~amd64
 app-text/libetonyek ~amd64
