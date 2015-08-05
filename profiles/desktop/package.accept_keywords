@@ -243,6 +243,7 @@ dev-util/kbuild ~amd64
 <dev-util/mdds-0.13 ~amd64
 dev-util/nvidia-cuda-sdk ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
+dev-util/perf ~amd64
 dev-util/pkgconfig ~amd64
 =dev-util/valadoc-9999 **
 dev-util/valgrind ~amd64
