@@ -170,6 +170,7 @@ net-voip/linphone gtk
 net-voip/ekiga gstreamer gtk
 net-wireless/hostapd logwatch
 sci-geosciences/googleearth qt-bundled
+sci-libs/opencascade -vtk
 sci-mathematics/maxima gcl latex
 sci-visualization/gnuplot wxwidgets
 sys-auth/consolekit policykit
