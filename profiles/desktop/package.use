@@ -11,7 +11,7 @@ app-editors/gvim gtk cscope netbeans python
 app-editors/nano justify slang
 app-editors/vim perl python vim-pager cscope
 app-emulation/fuse gtk
-app-emulation/qemu fdt qemu-ifup spice vde qemu_softmmu_targets_i386 qemu_softmmu_targets_x86_64 qemu_user_targets_i386 qemu_user_targets_x86_64
+app-emulation/qemu fdt qemu-ifup vde qemu_softmmu_targets_i386 qemu_softmmu_targets_x86_64 qemu_user_targets_i386 qemu_user_targets_x86_64
 app-emulation/virtualbox additions extensions qt4
 app-emulation/wine -gstreamer openal -win64
 app-laptop/laptop-mode-tools bluetooth
