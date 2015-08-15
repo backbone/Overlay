@@ -45,6 +45,7 @@ media-sound/sox mad
 media-video/ffmpeg network v4l vpx
 media-video/mediainfo curl
 net-dns/dnsmasq dhcp-tools script
+net-firewall/iptables conntrack
 net-fs/cifs-utils upcall
 net-fs/samba cups quota winbind
 net-ftp/frox transparent

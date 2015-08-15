@@ -113,6 +113,7 @@ dev-python/prettytable ~amd64
 dev-python/progressbar ~amd64
 dev-python/py-amqp ~amd64
 dev-python/py-bcrypt ~amd64
+<dev-python/pyasn1-0.2 ~amd64
 dev-python/pycadf ~amd64
 dev-python/pycrypto ~amd64
 dev-python/cryptography ~amd64

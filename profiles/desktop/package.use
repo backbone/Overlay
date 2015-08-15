@@ -143,6 +143,7 @@ media-video/mplayer a52 aalib -ass -libass bluray bs2b cdio dv dvd dvdnav faad f
 media-video/mpv -lua -luajit vaapi
 media-video/vlc vaapi
 net-analyzer/wireshark adns geoip smi
+net-firewall/iptables conntrack
 net-fs/cifs-utils -acl upcall
 net-fs/samba cups quota winbind
 net-ftp/pure-ftpd charconv sysquota

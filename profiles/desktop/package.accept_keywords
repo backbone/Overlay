@@ -182,7 +182,9 @@ dev-python/pivy ~amd64
 dev-python/prettytable ~amd64
 dev-python/progressbar ~amd64
 dev-python/py-amqp ~amd64
+<dev-python/pyasn1-0.2 ~amd64
 dev-python/pycrypto ~amd64
+<dev-python/cffi-1.2 ~amd64
 dev-python/cryptography ~amd64
 dev-python/pycollada ~amd64
 dev-python/pygobject ~amd64
