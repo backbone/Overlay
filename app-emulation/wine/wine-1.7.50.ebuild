@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.49.ebuild,v 1.1 2015/07/18 20:19:37 np-hardass Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.50,v 1.1 2015/07/18 20:19:37 np-hardass Exp $
 
 EAPI="5"
 
@@ -44,8 +44,8 @@ if [[ ${PV} == "9999" ]] ; then
 	STAGING_EGIT_REPO_URI="git://github.com/wine-compholio/wine-staging.git"
 else
 	SRC_URI="${SRC_URI}
-	staging? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.48.tar.gz -> ${STAGING_P}.tar.gz )
-	pulseaudio? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.48.tar.gz -> ${STAGING_P}.tar.gz )"
+	staging? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.49.tar.gz -> ${STAGING_P}.tar.gz )
+	pulseaudio? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.49.tar.gz -> ${STAGING_P}.tar.gz )"
 fi
 
 LICENSE="LGPL-2.1"
