@@ -54,7 +54,6 @@ src_unpack() {
 
 src_prepare() {
 	epatch \
-		"${FILESDIR}"/${PN}-0.4.10-shared-irrlicht.patch \
 		"${FILESDIR}"/${PN}-0.4.10-as-needed.patch
 
 	# correct gettext behavior
