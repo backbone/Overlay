@@ -241,6 +241,7 @@ dev-util/bdelta ~amd64
 <dev-util/boost-build-1.56 ~amd64
 dev-util/colormake ~amd64
 dev-util/cppcheck ~amd64
+dev-util/d-feet ~amd64
 dev-util/gdbus-codegen ~amd64
 dev-util/gource ~amd64
 dev-util/gtk-update-icon-cache ~amd64
