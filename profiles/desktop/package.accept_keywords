@@ -512,6 +512,7 @@ www-plugins/gecko-mediaplayer ~amd64
 www-plugins/mozplugger ~amd64
 www-servers/lighttpd ~amd64
 www-servers/thin ~amd64
+<x11-apps/xhost-1.1 ~amd64
 <x11-base/xorg-drivers-1.17 ~amd64
 <x11-base/xorg-server-1.17 ~amd64
 x11-drivers/nvidia-drivers ~amd64
