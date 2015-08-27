@@ -11,8 +11,8 @@ diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
 index a1fee7a..a72bd4a 100644
 --- a/src/CMakeLists.txt
 +++ b/src/CMakeLists.txt
-@@ -497,19 +497,19 @@ if(BUILD_CLIENT)
- 	set(client_LIBS
+@@ -427,18 +427,18 @@ if(BUILD_CLIENT)
+ 	set(minetest_LIBS
  		${PROJECT_NAME}
  		${ZLIB_LIBRARIES}
 -		${IRRLICHT_LIBRARY}
@@ -28,7 +28,6 @@ index a1fee7a..a72bd4a 100644
  		${SOUND_LIBRARIES}
  		${SQLITE3_LIBRARY}
  		${LUA_LIBRARY}
- 		${GMP_LIBRARY}
  		${JSON_LIBRARY}
 -		${OPENGLES2_LIBRARIES}
  		${PLATFORM_LIBS}
