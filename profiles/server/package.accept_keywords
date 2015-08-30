@@ -30,6 +30,7 @@ app-shells/zsh-completions ~amd64
 app-text/cuneiform ~amd64
 app-text/dos2unix ~amd64
 app-text/dvipsk ~amd64
+app-text/manpager ~amd64
 app-text/ps2pkm ~amd64
 app-text/texlive ~amd64
 app-text/texlive-core ~amd64

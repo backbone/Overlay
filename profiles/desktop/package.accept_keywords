@@ -72,6 +72,7 @@ app-text/libwpd ~amd64
 app-text/libwpg ~amd64
 app-text/libwps ~amd64
 app-text/libodfgen ~amd64
+app-text/manpager ~amd64
 app-text/mht-rip ~amd64
 app-text/poppler ~amd64
 app-text/poppler-data ~amd64
