@@ -6,4 +6,6 @@
 # Temporary masking higher slots for successful upgrading
 app-text/poppler:0/52
 app-text/poppler:0/53
+app-text/poppler:0/54
 media-libs/libvpx:0/2
+media-gfx/imagemagick:6.9.2.0
