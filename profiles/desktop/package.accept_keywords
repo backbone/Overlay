@@ -107,6 +107,8 @@ dev-lang/vala ~amd64
 dev-libs/cloog ~amd64
 dev-libs/glib ~amd64
 dev-libs/gmp ~amd64
+dev-libs/go-fuse ~amd64
+=dev-libs/go-usb-9999 **
 dev-libs/gnulib ~x64-freebsd
 dev-libs/gobject-introspection ~amd64
 dev-libs/gobject-introspection-common ~amd64
@@ -295,6 +297,7 @@ media-gfx/blender ~amd64
 media-gfx/fbgrab ~amd64
 media-gfx/freecad ~amd64
 media-gfx/gimp ~amd64
+media-gfx/gphotofs ~amd64
 media-gfx/graphite2 ~amd64
 media-gfx/graphviz ~amd64
 media-gfx/imagemagick ~amd64
@@ -483,6 +486,8 @@ sys-firmware/amd-ucode ~amd64
 sys-firmware/ipxe ~amd64
 sys-firmware/seabios ~amd64
 sys-fs/e4rat ~amd64
+=sys-fs/go-mtpfs-9999 **
+sys-fs/jmtpfs ~amd64
 sys-fs/mtpfs ~amd64
 sys-fs/simple-mtpfs ~amd64
 sys-fs/vhba ~amd64

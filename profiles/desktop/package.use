@@ -73,7 +73,7 @@ dev-util/nvidia-cuda-toolkit debugger profiler
 dev-util/pkgconfig abi_x86_32
 dev-vcs/git perl cgi
 dev-vcs/mercurial zsh-completion
-gnome-base/gvfs udisks
+gnome-base/gvfs mtp udisks
 gnome-base/librsvg abi_x86_32
 gnome-extra/nm-applet gconf modemmanager
 gnome-extra/zenity libnotify
