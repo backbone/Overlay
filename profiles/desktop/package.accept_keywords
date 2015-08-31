@@ -330,7 +330,7 @@ media-libs/libcdr ~amd64
 media-libs/libjpeg-turbo ~amd64
 media-libs/libmad ~amd64
 media-libs/libmpeg2 ~amd64
-~media-libs/libmtp-1.1.8 ~amd64
+media-libs/libmtp ~amd64
 media-libs/libfreehand ~amd64
 media-libs/libpagemaker ~amd64
 media-libs/libpng ~amd64
