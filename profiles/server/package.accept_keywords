@@ -5,6 +5,7 @@ app-admin/eselect-vala ~amd64
 =app-admin/gentoo-upgrade-9999 **
 =app-admin/glance-2014.1.9999 **
 =app-admin/htpasswd-9999 **
+app-admin/logcheck ~amd64
 app-admin/paxtest ~amd64
 app-admin/python-updater ~amd64
 app-antivirus/clamav ~amd64
