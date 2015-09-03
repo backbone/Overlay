@@ -97,6 +97,7 @@ media-gfx/librecad tools
 media-libs/alsa-lib abi_x86_32
 media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt4
+media-libs/audiofile abi_x86_32
 media-libs/coin doc
 media-libs/fontconfig abi_x86_32
 media-libs/freeglut abi_x86_32
@@ -111,7 +112,8 @@ media-libs/libjpeg-turbo abi_x86_32 static-libs
 media-libs/libmng static-libs lcms
 media-libs/libopenraw gtk
 media-libs/libpng abi_x86_32 static-libs apng
-media-libs/libsdl joystick
+media-libs/libsdl abi_x86_32 joystick
+media-libs/libsdl2 abi_x86_32 haptic
 media-libs/libtxc_dxtn abi_x86_32
 media-libs/libv4l abi_x86_32
 media-libs/libvpx postproc
@@ -119,7 +121,9 @@ media-libs/mediastreamer -X
 media-libs/mesa abi_x86_32 d3d9 dri3 g3dvl gbm gles1 gles2 -llvm openvg vaapi xa
 media-libs/openal abi_x86_32
 media-libs/phonon gstreamer
+media-libs/sdl-image abi_x86_32 gif
 media-libs/sdl-mixer midi mp3 mod timidity
+media-libs/sdl2-image abi_x86_32
 media-libs/tiff abi_x86_32
 media-plugins/audacious-plugins flac fluidsynth lame libsamplerate midi mp3
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
@@ -133,7 +137,6 @@ media-sound/sox amr mad
 media-tv/v4l-utils qt4
 media-tv/kodi vaapi
 media-tv/xbmc vaapi
-media-libs/sdl-image gif
 media-video/avidemux gtk aften libsamplerate mp3 qt4 vaapi
 media-video/ffmpeg aac network hardcoded-tables mp3 rtmp theora amr vpx speex schroedinger dirac faac gsm vaapi vorbis xvid mikmod
 media-video/ffmpegthumbnailer gnome gtk
