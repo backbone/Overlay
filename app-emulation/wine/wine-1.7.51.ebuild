@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-emulation/wine/wine-1.7.50,v 1.1 2015/07/18 20:19:37 np-hardass Exp $
+# $Id$
 
 EAPI="5"
 
@@ -23,9 +23,9 @@ else
 	S=${WORKDIR}/${MY_P}
 fi
 
-GV="2.36"
+GV="2.40"
 MV="4.5.6"
-STAGING_P="wine-staging-${PV}"
+STAGING_P="wine-staging-1.7.50" #${PV}"
 STAGING_DIR="${WORKDIR}/${STAGING_P}"
 WINE_GENTOO="wine-gentoo-2015.03.07"
 GST_P="wine-1.7.34-gstreamer-v5"
@@ -37,15 +37,15 @@ SRC_URI="${SRC_URI}
 		abi_x86_64? ( mirror://sourceforge/${PN}/Wine%20Gecko/${GV}/wine_gecko-${GV}-x86_64.msi )
 	)
 	mono? ( mirror://sourceforge/${PN}/Wine%20Mono/${MV}/wine-mono-${MV}.msi )
-	gstreamer? ( http://dev.gentoo.org/~tetromino/distfiles/${PN}/${GST_P}.patch.bz2 )
-	http://dev.gentoo.org/~tetromino/distfiles/${PN}/${WINE_GENTOO}.tar.bz2"
+	gstreamer? ( https://dev.gentoo.org/~tetromino/distfiles/${PN}/${GST_P}.patch.bz2 )
+	https://dev.gentoo.org/~tetromino/distfiles/${PN}/${WINE_GENTOO}.tar.bz2"
 
 if [[ ${PV} == "9999" ]] ; then
 	STAGING_EGIT_REPO_URI="git://github.com/wine-compholio/wine-staging.git"
 else
 	SRC_URI="${SRC_URI}
-	staging? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.49.tar.gz -> ${STAGING_P}.tar.gz )
-	pulseaudio? ( https://github.com/wine-compholio/wine-staging/archive/v1.7.49.tar.gz -> ${STAGING_P}.tar.gz )"
+	staging? ( https://github.com/wine-compholio/wine-staging/archive/v${PV}.tar.gz -> ${STAGING_P}.tar.gz )
+	pulseaudio? ( https://github.com/wine-compholio/wine-staging/archive/v${PV}.tar.gz -> ${STAGING_P}.tar.gz )"
 fi
 
 LICENSE="LGPL-2.1"
@@ -58,6 +58,7 @@ REQUIRED_USE="|| ( abi_x86_32 abi_x86_64 )
 	pipelight? ( staging )
 	s3tc? ( staging )
 	vaapi? ( staging )
+	?? ( gstreamer staging )
 	osmesa? ( opengl )" #286560
 
 # FIXME: the test suite is unsuitable for us; many tests require net access
@@ -67,7 +68,7 @@ RESTRICT="test"
 COMMON_DEPEND="
 	truetype? ( >=media-libs/freetype-2.0.0[${MULTILIB_USEDEP}] )
 	capi? ( net-dialup/capi4k-utils )
-	ncurses? ( >=sys-libs/ncurses-5.2:=[${MULTILIB_USEDEP}] )
+	ncurses? ( >=sys-libs/ncurses-5.2:0=[${MULTILIB_USEDEP}] )
 	udisks? ( sys-apps/dbus[${MULTILIB_USEDEP}] )
 	fontconfig? ( media-libs/fontconfig:=[${MULTILIB_USEDEP}] )
 	gphoto2? ( media-libs/libgphoto2:=[${MULTILIB_USEDEP}] )
@@ -165,8 +166,10 @@ wine_build_environment_check() {
 	[[ ${MERGE_TYPE} = "binary" ]] && return 0
 
 	# bug #549768
-	if [[ $(gcc-major-version) = 5 ]]; then
-		eerror "You need gcc-4.x to build wine; see https://bugs.gentoo.org/549768"
+	if use abi_x86_64 && [[ $(gcc-major-version) = 5 ]]; then
+		eerror "64-bit wine cannot be built with gcc-5.1 or 5.2 due to compiler bugs;"
+		eerror "you may use gcc-config to select an older compiler version."
+		eerror "See https://bugs.gentoo.org/549768"
 		eerror
 		return 1
 	fi
@@ -219,7 +222,6 @@ src_prepare() {
 		"${FILESDIR}"/${PN}-1.4_rc2-multilib-portage.patch #395615
 		"${FILESDIR}"/${PN}-1.7.12-osmesa-check.patch #429386
 		"${FILESDIR}"/${PN}-1.6-memset-O3.patch #480508
-		#"${FILESDIR}"/${PN}-1.7.47-critical-security-cookie-fix.patch # only necessary for this version, upstream #38895
 	)
 	if use gstreamer; then
 		# See http://bugs.winehq.org/show_bug.cgi?id=30557
@@ -247,7 +249,6 @@ src_prepare() {
 		ewarn "unless you can reproduce them with USE=-staging"
 
 		local STAGING_EXCLUDE=""
-		STAGING_EXCLUDE="${STAGING_EXCLUDE} -W ntdll-Revert_Security_Cookie" # only necessary in this version
 		use pipelight || STAGING_EXCLUDE="${STAGING_EXCLUDE} -W Pipelight"
 
 		# Launch wine-staging patcher in a subshell, using epatch as a backend, and gitapply.sh as a backend for binary patches
