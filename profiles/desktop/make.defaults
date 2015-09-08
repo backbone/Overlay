@@ -53,7 +53,7 @@ USE="${USE} bzip2 gzip"
 USE="${USE} -aqua -gtk2 -gtkhtml ncurses -neXt -qt -qt3 qt3support -qt-static"
 
 # desktop
-USE="${USE} -gnome2 -gnome-keyring -kde -nautilus -semantic-desktop xscreensaver"
+USE="${USE} -gnome2 -kde -nautilus -semantic-desktop xscreensaver"
 
 # input
 USE="${USE} gpm tslib"
