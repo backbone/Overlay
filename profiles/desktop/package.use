@@ -77,7 +77,7 @@ dev-vcs/mercurial zsh-completion
 gnome-base/gvfs mtp udisks
 gnome-base/librsvg abi_x86_32
 gnome-extra/nm-applet gconf modemmanager
-gnome-extra/zenity libnotify
+gnome-extra/zenity libnotify -webkit
 mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-libvpx system-sqlite
 games-action/minetest leveldb
 games-fps/doom3 roe
