@@ -5,6 +5,7 @@ app-arch/bzip2 abi_x86_32 static-libs
 app-arch/unzip natspec
 app-arch/zip natspec
 app-crypt/gcr gtk vala
+app-crypt/pinentry gnome-keyring
 app-crypt/qca gpg openssl
 app-editors/gedit python
 app-editors/gvim gtk cscope netbeans python
