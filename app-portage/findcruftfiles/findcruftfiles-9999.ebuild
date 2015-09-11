@@ -17,7 +17,7 @@ fi
 
 DESCRIPTION="Automated Gentoo upgrading"
 
-HOMEPAGE="https://chili.backbone.ws/projects/findcruftfiles"
+HOMEPAGE="https://redmine.backbone.ws/projects/findcruftfiles"
 
 SLOT="0"
 
