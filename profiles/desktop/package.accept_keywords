@@ -384,6 +384,7 @@ media-plugins/gst-plugins-x264 ~amd64
 media-plugins/gst-plugins-xvid ~amd64
 media-plugins/gst-plugins-xvideo ~amd64
 media-plugins/mediastreamer-x264 ~amd64
+media-sound/apulse ~amd64
 media-sound/audacious ~amd64
 media-sound/audacity ~amd64
 media-sound/exaile ~amd64
