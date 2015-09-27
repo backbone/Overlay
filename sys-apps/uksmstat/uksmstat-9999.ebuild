@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=4
-inherit git-2
+inherit git-2 cmake-utils
 DESCRIPTION="Small tool to show UKSM statistics."
 HOMEPAGE="http://github.com/pfactum/uksmstat"
 EGIT_REPO_URI="https://github.com/pfactum/uksmstat.git"
@@ -16,7 +16,3 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-src_install() {
-dosbin uksmstat/uksmstat || die "Install failed"
-dodoc README.md || die "Install failed"
-}
