@@ -7,6 +7,7 @@ inherit git-2
 DESCRIPTION="Small tool to show UKSM statistics."
 HOMEPAGE="http://github.com/pfactum/uksmstat"
 EGIT_REPO_URI="https://github.com/pfactum/uksmstat.git"
+EGIT_HAS_SUBMODULES=true
 
 LICENSE="GPL-3"
 SLOT="0"
