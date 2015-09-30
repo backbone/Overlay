@@ -202,6 +202,7 @@ net-analyzer/hping ~amd64
 net-analyzer/ntop ~amd64
 net-im/pyicq-t ~amd64
 <net-libs/gnutls-4 ~amd64
+<net-libs/http-parser-2.6 ~amd64
 net-libs/libtorrent ~amd64
 net-libs/nodejs ~amd64
 net-misc/netifrc ~amd64
