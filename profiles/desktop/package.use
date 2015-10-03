@@ -210,6 +210,7 @@ sys-kernel/geek-sources branding ck debian genpatches gentoo ice optimization ze
 >=sys-kernel/geek-sources-3.10.1 -branding -gentoo
 >=sys-kernel/geek-sources-3.11 branding gentoo
 sys-kernel/genkernel premount
+sys-libs/binutils-libs abi_x86_32
 sys-libs/glibc nscd
 sys-libs/gpm abi_x86_32 static-libs
 sys-libs/ncurses abi_x86_32

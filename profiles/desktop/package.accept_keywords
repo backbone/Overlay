@@ -3,6 +3,7 @@ app-accessibility/festival-ru ~amd64
 app-accessibility/pidgin-festival ~amd64
 app-accessibility/speech-tools ~amd64
 app-admin/cpuset ~amd64
+<app-admin/eselect-1.5 ~amd64
 app-admin/eselect-opencascade ~amd64
 app-admin/eselect-opengl ~amd64
 app-admin/eselect-python ~amd64
@@ -478,10 +479,12 @@ sys-apps/util-linux ~amd64
 sys-block/whdd ~amd64
 sys-boot/efibootmgr ~amd64
 sys-boot/os-prober ~amd64
+<sys-devel/binutils-config-6 ~amd64
 sys-devel/bison ~amd64
 sys-devel/clang ~amd64
 sys-devel/crossdev ~amd64
 <sys-devel/gcc-4.10 ~amd64
+<sys-devel/gdb-7.11 ~amd64
 sys-devel/gettext ~amd64
 sys-devel/llvm ~amd64
 sys-devel/prelink ~amd64
@@ -499,6 +502,7 @@ sys-kernel/dracut ~amd64
 sys-kernel/genkernel ~amd64
 sys-kernel/linux-firmware ~amd64
 sys-kernel/linux-headers ~amd64
+<sys-libs/binutils-libs-3 ~amd64
 sys-libs/core-functions ~amd64
 sys-libs/glibc ~amd64
 sys-libs/libseccomp ~amd64
