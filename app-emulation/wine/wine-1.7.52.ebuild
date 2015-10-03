@@ -25,7 +25,7 @@ fi
 
 GV="2.40"
 MV="4.5.6"
-STAGING_P="wine-staging-1.7.50" #${PV}"
+STAGING_P="wine-staging-1.7.51" #${PV}"
 STAGING_DIR="${WORKDIR}/${STAGING_P}"
 WINE_GENTOO="wine-gentoo-2015.03.07"
 GST_P="wine-1.7.34-gstreamer-v5"
