@@ -1,5 +1,6 @@
 app-accessibility/festival-ru ~amd64
 app-admin/cpuset ~amd64
+<app-admin/eselect-1.5 ~amd64
 app-admin/eselect-python ~amd64
 app-admin/eselect-vala ~amd64
 =app-admin/gentoo-upgrade-9999 **
@@ -237,8 +238,10 @@ sys-block/whdd ~amd64
 =sys-cluster/nova-2014.1.9999 **
 =sys-cluster/openstack-meta-2014.1.9999 **
 =sys-cluster/swift-2014.1.9999 **
+<sys-devel/binutils-config-6 ~amd64
 sys-devel/crossdev ~amd64
 <sys-devel/gcc-4.10 ~amd64
+<sys-devel/gdb-7.11 ~amd64
 sys-firmware/amd-ucode ~amd64
 sys-firmware/ipxe ~amd64
 ~sys-firmware/seabios-1.7.5 ~amd64
@@ -247,6 +250,7 @@ sys-kernel/genkernel ~amd64
 sys-kernel/hardened-sources ~amd64
 sys-kernel/linux-firmware ~amd64
 sys-kernel/linux-headers ~amd64
+<sys-libs/binutils-libs-3 ~amd64
 sys-libs/core-functions ~amd64
 sys-libs/efivar ~amd64
 sys-libs/glibc ~amd64
