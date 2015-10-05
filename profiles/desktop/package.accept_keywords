@@ -336,6 +336,7 @@ media-libs/libjpeg-turbo ~amd64
 media-libs/libmad ~amd64
 media-libs/libmpeg2 ~amd64
 media-libs/libmtp ~amd64
+=media-libs/libfilteraudio-9999 **
 media-libs/libfreehand ~amd64
 media-libs/libpagemaker ~amd64
 media-libs/libpng ~amd64
@@ -432,6 +433,8 @@ net-libs/nodejs ~amd64
 net-libs/opal ~amd64
 net-libs/ortp ~amd64
 ~net-libs/ptlib-2.10.11 ~amd64
+=net-libs/tox-9999 **
+=net-im/utox-9999 **
 net-misc/freerdp ~amd64
 net-misc/netifrc ~amd64
 net-misc/openvswitch ~amd64
