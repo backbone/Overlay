@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit multilib-build git-2
+inherit multilib-build git-r3
 
 DESCRIPTION="Faster OpenGL offloading for Bumblebee"
 HOMEPAGE="https://github.com/amonakov/primus"

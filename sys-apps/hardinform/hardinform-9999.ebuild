@@ -6,7 +6,7 @@ EAPI=4
 
 EGIT_REPO_URI="git://github.com/inish777/hardinform.git"
 
-[[ 9999 == ${PV} ]] && vcs=git-2
+[[ 9999 == ${PV} ]] && vcs=git-r3
 
 inherit eutils cmake-utils $vcs
 

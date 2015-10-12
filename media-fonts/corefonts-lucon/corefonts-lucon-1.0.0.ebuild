@@ -8,7 +8,7 @@ inherit eutils
 
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://git.backbone.ws/linux-fonts/corefonts-lucon.git"}
-	inherit git-2
+	inherit git-r3
 	KEYWORDS=""
 else
 	SRC_URI="https://git.backbone.ws/linux-fonts/corefonts-lucon/archive-tarball/v${PV} -> corefonts-lucon-${PV}.tar.gz"

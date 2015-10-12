@@ -8,8 +8,7 @@ inherit cmake-utils
 
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://git.backbone.ws/gobject/plugin.git"}
-	EGIT_HAS_SUBMODULES=true
-	inherit git-2
+	inherit git-r3
 	KEYWORDS=""
 else
 	#SRC_URI="ftp://ftp.backbone.ws/projects/gobject-plugin/${P}.tar.bz2"

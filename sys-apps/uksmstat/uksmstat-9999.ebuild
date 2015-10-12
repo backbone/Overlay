@@ -3,11 +3,10 @@
 # $Header: $
 
 EAPI=4
-inherit git-2 cmake-utils
+inherit git-r3 cmake-utils
 DESCRIPTION="Small tool to show UKSM statistics."
 HOMEPAGE="http://github.com/pfactum/uksmstat"
 EGIT_REPO_URI="https://github.com/pfactum/uksmstat.git"
-EGIT_HAS_SUBMODULES=true
 
 LICENSE="GPL-3"
 SLOT="0"

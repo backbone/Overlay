@@ -6,7 +6,7 @@ EAPI=4
 
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://github.com/masterfri/Charley.git"}
-	inherit git-2
+	inherit git-r3
 	KEYWORDS=""
 else
 	SRC_URI="https://github.com/masterfri/charley/archive/${P}.zip"

@@ -8,7 +8,7 @@ inherit eutils
 
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://github.com/albinoloverats/stderred.git"}
-	inherit git-2
+	inherit git-r3
 	KEYWORDS=""
 else
 	SRC_URI=""
