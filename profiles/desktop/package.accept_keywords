@@ -172,6 +172,7 @@ dev-python/libvirt-python ~amd64
 dev-python/matplotlib ~amd64
 dev-python/mock ~amd64
 dev-python/mox ~amd64
+<dev-python/ndg-httpsclient-0.5 ~amd64
 dev-python/nosehtmloutput ~amd64
 dev-python/nosexcover ~amd64
 dev-python/oauthlib ~amd64
