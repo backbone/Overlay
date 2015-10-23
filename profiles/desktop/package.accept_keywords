@@ -442,6 +442,7 @@ net-misc/openvswitch ~amd64
 net-misc/rabbitmq-server ~amd64
 net-misc/remmina ~amd64
 net-misc/tor ~amd64
+net-misc/youtube-dl ~amd64
 <net-misc/wget-1.17 ~amd64
 net-news/liferea ~amd64
 net-p2p/deluge ~amd64
