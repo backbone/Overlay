@@ -226,6 +226,7 @@ dev-tex/bibtexu ~amd64
 dev-tex/latex-beamer ~amd64
 dev-tex/latex2rtf ~amd64
 dev-tex/luatex ~amd64
+<dev-tex/pgf-3.1 ~amd64
 dev-tex/pscyr ~amd64
 dev-texlive/texlive-basic ~amd64
 dev-texlive/texlive-fontsextra ~amd64
