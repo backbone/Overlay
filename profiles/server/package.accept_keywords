@@ -160,6 +160,7 @@ dev-python/websockify ~amd64
 dev-python/webtest ~amd64
 dev-python/xhtml2pdf ~amd64
 dev-tex/bibtexu ~amd64
+<dev-tex/pgf-3.1 ~amd64
 dev-texlive/texlive-basic ~amd64
 dev-texlive/texlive-fontsextra ~amd64
 dev-texlive/texlive-fontsrecommended ~amd64
