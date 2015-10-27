@@ -135,6 +135,7 @@ media-plugins/audacious-plugins flac fluidsynth lame libsamplerate midi mp3
 media-plugins/gst-plugins-base abi_x86_32
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
 =media-plugins/gst-plugins-meta-1.0-r3 -vaapi # Green video in HTML5
+=media-plugins/gst-plugins-meta-1.6 -vaapi    # Green video in HTML5
 media-sound/audacity mp3
 media-sound/exaile cddb libnotify
 media-sound/gsm abi_x86_32
