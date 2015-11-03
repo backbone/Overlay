@@ -152,6 +152,7 @@ dev-python/cliff ~amd64
 dev-python/cmd2 ~amd64
 dev-python/colorama ~amd64
 dev-python/configobj ~amd64
+dev-python/cycler ~amd64
 dev-python/d2to1 ~amd64
 dev-python/enum34 ~amd64
 dev-python/eventlet ~amd64
@@ -217,6 +218,7 @@ dev-python/stevedore ~amd64
 dev-python/termcolor ~amd64
 dev-python/urllib3 ~amd64
 dev-python/urwid ~amd64
+dev-python/versioneer ~amd64
 dev-python/warlock ~amd64
 dev-python/webob ~amd64
 dev-python/websockify ~amd64
