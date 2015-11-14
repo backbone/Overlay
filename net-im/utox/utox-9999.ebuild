@@ -1,15 +1,15 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
-inherit eutils fdo-mime git-2 gnome2-utils toolchain-funcs
+inherit eutils fdo-mime git-r3 gnome2-utils toolchain-funcs
 
 DESCRIPTION="Lightweight Tox client"
-HOMEPAGE="https://github.com/notsecure/uTox"
-EGIT_REPO_URI="git://github.com/notsecure/uTox.git
-	https://github.com/notsecure/uTox.git"
+HOMEPAGE="http://utox.org"
+EGIT_REPO_URI="git://github.com/GrayHatter/uTox.git
+	https://github.com/GrayHatter/uTox.git"
 
 LICENSE="GPL-3"
 SLOT="0"
