@@ -245,6 +245,7 @@ dev-texlive/texlive-pstricks ~amd64
 dev-texlive/texlive-science ~amd64
 dev-texlive/texlive-texinfo ~amd64
 dev-util/android-sdk-update-manager ~amd64
+dev-util/android-tools ~amd64
 dev-util/anjuta ~amd64
 dev-util/bdelta ~amd64
 <dev-util/boost-build-1.56 ~amd64
