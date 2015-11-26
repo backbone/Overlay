@@ -550,6 +550,7 @@ x11-libs/libva-intel-driver ~amd64
 x11-libs/libva-vdpau-driver ~amd64
 x11-libs/libvdpau ~amd64
 x11-libs/libXfont ~amd64
+<x11-libs/libXrandr-1.6 ~amd64
 x11-libs/pango ~amd64
 x11-libs/tslib ~amd64
 <x11-libs/wxGTK-4 ~amd64
@@ -570,6 +571,7 @@ x11-plugins/pidgin-bot-sentry ~amd64
 x11-plugins/vicious ~amd64
 x11-proto/fontsproto ~amd64
 x11-proto/glproto ~amd64
+<x11-proto/randrproto-1.6 ~amd64
 x11-proto/xproto ~amd64
 x11-themes/adwaita-icon-theme ~amd64
 x11-themes/gnome-themes-standard ~amd64
