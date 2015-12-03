@@ -42,7 +42,6 @@ src_prepare() {
 	# Fix bashisms and do not direct useful output to /dev/null (bug #536320)
 	# Remove global logrotate settings (bug #549856)
 	epatch \
-		"${FILESDIR}"/${PN}-0.9.2-initd.patch \
 		"${FILESDIR}"/${PN}-0.9.2-logrotate.patch
 
 	distutils-r1_src_prepare
