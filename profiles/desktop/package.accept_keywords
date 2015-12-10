@@ -101,7 +101,7 @@ dev-java/jinput ~amd64
 dev-games/irrlicht ~amd64
 dev-games/physfs ~amd64
 dev-lang/gnu-smalltalk ~amd64
-dev-lang/python-exec ~amd64
+<dev-lang/python-exec-2.1 ~amd64
 dev-lang/spidermonkey ~amd64
 dev-lang/vala ~amd64
 <dev-libs/atk-2.17 ~amd64
