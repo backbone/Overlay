@@ -12,3 +12,4 @@ app-text/poppler:0/56
 app-text/poppler:0/57
 media-libs/libvpx:0/2
 media-gfx/imagemagick:6.9.2.0
+=virtual/libgudev-230
