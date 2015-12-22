@@ -44,6 +44,7 @@ media-sound/ncmpcpp outputs taglib visualizer
 media-sound/sox mad
 media-video/ffmpeg network v4l vpx
 media-video/mediainfo curl
+net-analyzer/rrdtool graph
 net-dns/dnsmasq dhcp-tools script
 net-firewall/iptables conntrack
 net-fs/cifs-utils upcall
