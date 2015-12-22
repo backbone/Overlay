@@ -43,13 +43,14 @@ dev-libs/boost python
 dev-util/cppcheck qt4
 dev-libs/elfutils static-libs
 dev-libs/expat abi_x86_32
-dev-libs/glib abi_x86_32 utils
+dev-libs/glib abi_x86_32 static-libs utils
 dev-libs/gmp abi_x86_32 pgo
 dev-libs/icu abi_x86_32
 dev-libs/libcroco abi_x86_32
 dev-libs/libffi abi_x86_32
 dev-libs/libgcrypt abi_x86_32 static-libs
 dev-libs/libgpg-error abi_x86_32 static-libs
+dev-libs/libgudev introspection static-libs
 dev-libs/libpthread-stubs abi_x86_32
 dev-libs/libtasn1 abi_x86_32
 dev-libs/libxml2 abi_x86_32 python
@@ -215,6 +216,7 @@ sys-kernel/genkernel premount
 sys-libs/binutils-libs abi_x86_32
 sys-libs/glibc nscd
 sys-libs/gpm abi_x86_32 static-libs
+sys-libs/libcap abi_x86_32
 sys-libs/ncurses abi_x86_32
 sys-libs/readline abi_x86_32
 sys-libs/talloc python
