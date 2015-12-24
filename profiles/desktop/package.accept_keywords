@@ -350,7 +350,7 @@ media-libs/libv4l ~amd64
 media-libs/libvisio ~amd64
 media-libs/libvpx ~amd64
 media-libs/mediastreamer ~amd64
-media-libs/mesa ~amd64
+<media-libs/mesa-11.1 ~amd64
 ~media-libs/netpbm-10.66.00 ~amd64
 media-libs/phonon ~amd64
 media-libs/phonon-gstreamer ~amd64
