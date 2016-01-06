@@ -37,6 +37,7 @@ app-emulation/virtualbox-extpack-oracle ~amd64
 app-emulation/virtualbox-modules ~amd64
 app-emulation/wine ~amd64
 app-emulation/winetricks ~amd64
+<app-eselect/eselect-java-0.3 ~amd64
 app-laptop/laptop-mode-tools ~amd64
 app-laptop/samsung-tools ~amd64
 app-misc/c_rehash ~amd64

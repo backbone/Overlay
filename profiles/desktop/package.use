@@ -33,6 +33,7 @@ app-text/yagf pdf
 dev-db/sqlite abi_x86_32 secure-delete unlock-notify
 dev-java/antlr java
 dev-java/icedtea-bin nsplugin
+dev-java/icedtea-web nsplugin
 dev-java/sun-jdk -examples
 dev-java/swt cairo
 dev-lang/orc abi_x86_32
