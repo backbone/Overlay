@@ -96,7 +96,7 @@ app-vim/youcompleteme ~amd64
 <dev-cpp/libcmis-0.6 ~amd64
 dev-db/sqlite ~amd64
 dev-java/icedtea-bin ~amd64
-dev-java/icedtea-web ~amd64
+<dev-java/icedtea-web-1.6 ~amd64
 dev-java/jutils ~amd64
 dev-java/lwjgl ~amd64
 dev-java/jinput ~amd64
