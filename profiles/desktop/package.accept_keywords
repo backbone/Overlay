@@ -148,6 +148,7 @@ dev-python/anyjson ~amd64
 dev-python/appdirs ~amd64
 dev-python/Babel ~amd64
 dev-python/boto ~amd64
+<dev-python/cffi-1.5 ~amd64
 dev-python/charade ~amd64
 dev-python/chardet ~amd64
 dev-python/cliff ~amd64
