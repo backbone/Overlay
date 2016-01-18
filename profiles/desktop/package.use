@@ -62,6 +62,7 @@ dev-libs/nspr abi_x86_32
 dev-libs/nss abi_x86_32
 dev-libs/openssl abi_x86_32
 dev-libs/popt static-libs
+dev-libs/protobuf python
 dev-libs/xerces-c icu
 dev-libs/xmlrpc-c abyss
 dev-perl/GD png

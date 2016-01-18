@@ -313,6 +313,7 @@ media-gfx/graphviz ~amd64
 media-gfx/imagemagick ~amd64
 media-gfx/inkscape ~amd64
 media-gfx/librecad ~amd64
+media-gfx/mypaint ~amd64
 media-gfx/splash-themes-gentoo ~amd64
 media-gfx/splashutils ~amd64
 media-gfx/splash-themes-gentoo ~amd64
