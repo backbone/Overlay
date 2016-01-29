@@ -15,6 +15,7 @@ app-arch/p7zip ~amd64
 app-editors/gvim ~amd64
 app-editors/vim ~amd64
 app-editors/vim-core ~amd64
+<app-eselect/eselect-php-0.10 ~amd64
 app-emulation/libvirt ~amd64
 app-emulation/qemu ~amd64
 app-misc/c_rehash ~amd64
