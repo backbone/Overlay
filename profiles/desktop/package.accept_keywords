@@ -540,7 +540,7 @@ www-servers/thin ~amd64
 <x11-base/xorg-server-1.17 ~amd64
 x11-drivers/nvidia-drivers ~amd64
 =x11-drivers/snail-9999 **
-x11-drivers/xf86-input-evdev ~amd64
+<x11-drivers/xf86-input-evdev-2.10 ~amd64
 ~x11-drivers/xf86-input-synaptics-1.8.1 ~amd64
 x11-drivers/xf86-input-wacom ~amd64
 x11-drivers/xf86-video-intel ~amd64

@@ -5,3 +5,4 @@
 
 # Temporary masking higher slots for successful upgrading
 >=app-text/poppler-0.33
+dev-libs/icu:0/56
