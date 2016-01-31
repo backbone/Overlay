@@ -379,14 +379,15 @@ media-plugins/gst-plugins-gconf ~amd64
 <media-plugins/gst-plugins-jack-1.7 ~amd64
 <media-plugins/gst-plugins-libav-1.7 ~amd64
 media-plugins/gst-plugins-libnice ~amd64
-<media-plugins/gst-plugins-vpx-1.7 ~amd64
 <media-plugins/gst-plugins-mad-1.7 ~amd64
 <media-plugins/gst-plugins-meta-1.7 ~amd64
 <media-plugins/gst-plugins-mpeg2dec-1.7 ~amd64
 media-plugins/gst-plugins-ogg ~amd64
 <media-plugins/gst-plugins-soup-1.7 ~amd64
 <media-plugins/gst-plugins-v4l2-1.7 ~amd64
+<media-plugins/gst-plugins-vaapi-0.8 ~amd64
 media-plugins/gst-plugins-vorbis ~amd64
+<media-plugins/gst-plugins-vpx-1.7 ~amd64
 media-plugins/gst-plugins-vp8 ~amd64
 media-plugins/gst-plugins-x ~amd64
 <media-plugins/gst-plugins-x264-1.7 ~amd64
