@@ -284,6 +284,7 @@ x11-libs/pixman abi_x86_32
 x11-libs/qt-gui cups
 x11-libs/qt-qt3support kde
 x11-libs/qt-webkit kde
+x11-libs/wxGTK tiff
 x11-misc/primus abi_x86_32
 x11-misc/virtualgl abi_x86_32
 x11-proto/compositeproto abi_x86_32

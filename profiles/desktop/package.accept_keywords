@@ -29,6 +29,7 @@ app-editors/vim-core ~amd64
 app-emulation/crossover-bin ~amd64
 app-emulation/emul-linux-x86-opengl ~amd64
 app-emulation/libvirt ~amd64
+app-emulation/playonlinux ~amd64
 app-emulation/qemu ~amd64
 app-emulation/spice-protocol ~amd64
 app-emulation/virtualbox ~amd64
