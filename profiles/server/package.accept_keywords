@@ -48,7 +48,7 @@ dev-games/irrlicht ~amd64
 dev-lang/vala ~amd64
 dev-libs/libgee ~amd64
 <dev-libs/libpipeline-1.5 ~amd64
-<dev-libs/libuv-1.8 ~amd64
+<dev-libs/libuv-1.9 ~amd64
 <dev-libs/lzo-2.1 ~amd64
 <dev-libs/openssl-1.1 ~amd64
 dev-libs/vala-common ~amd64
@@ -199,7 +199,7 @@ net-analyzer/hping ~amd64
 net-analyzer/ntop ~amd64
 net-im/pyicq-t ~amd64
 <net-libs/gnutls-4 ~amd64
-<net-libs/http-parser-2.6 ~amd64
+<net-libs/http-parser-2.7 ~amd64
 net-libs/libtorrent ~amd64
 net-libs/nodejs ~amd64
 <net-misc/netifrc-0.4 ~amd64
