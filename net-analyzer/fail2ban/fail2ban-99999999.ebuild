@@ -39,11 +39,6 @@ src_prepare() {
 	# Replace /var/run with /run, but not in the top source directory
 	sed -i -e 's|/var\(/run/fail2ban\)|\1|g' $( find . -type f -mindepth 2 ) || die
 
-	# Fix bashisms and do not direct useful output to /dev/null (bug #536320)
-	# Remove global logrotate settings (bug #549856)
-	epatch \
-		"${FILESDIR}"/${PN}-0.9.2-logrotate.patch
-
 	distutils-r1_src_prepare
 }
 
