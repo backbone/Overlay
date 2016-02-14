@@ -126,7 +126,7 @@ media-libs/libv4l abi_x86_32
 media-libs/libvorbis abi_x86_32
 media-libs/libvpx postproc
 media-libs/mediastreamer -X
-media-libs/mesa abi_x86_32 d3d9 dri3 g3dvl gbm gles1 gles2 -llvm openvg vaapi xa
+media-libs/mesa abi_x86_32 d3d9 dri3 g3dvl gbm -gles1 -gles2 -llvm openvg vaapi xa
 media-libs/mlt xml qt4 ffmpeg kdenlive melt
 media-libs/openal abi_x86_32
 media-libs/phonon gstreamer
