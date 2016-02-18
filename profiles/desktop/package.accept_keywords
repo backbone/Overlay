@@ -310,7 +310,7 @@ media-gfx/fbgrab ~amd64
 media-gfx/freecad ~amd64
 media-gfx/gimp ~amd64
 media-gfx/gphotofs ~amd64
-media-gfx/graphite2 ~amd64
+<media-gfx/graphite2-1.3 ~amd64
 media-gfx/graphviz ~amd64
 media-gfx/imagemagick ~amd64
 media-gfx/inkscape ~amd64
@@ -338,7 +338,6 @@ media-libs/gstreamer ~amd64
 media-libs/harfbuzz ~amd64
 media-libs/lcms ~amd64
 <media-libs/libass-0.13 ~amd64
-media-libs/libcdr ~amd64
 media-libs/libjpeg-turbo ~amd64
 media-libs/libmad ~amd64
 media-libs/libmpeg2 ~amd64
