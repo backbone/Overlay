@@ -262,7 +262,7 @@ dev-util/gource ~amd64
 dev-util/gtk-update-icon-cache ~amd64
 dev-util/insight ~amd64
 dev-util/kbuild ~amd64
-<dev-util/mdds-0.13 ~amd64
+<dev-util/mdds-1.2 ~amd64
 dev-util/nvidia-cuda-sdk ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
 dev-util/perf ~amd64
