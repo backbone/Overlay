@@ -110,6 +110,7 @@ dev-lang/vala ~amd64
 <dev-libs/atk-2.17 ~amd64
 <dev-libs/boost-1.56 ~amd64
 dev-libs/cloog ~amd64
+dev-libs/crossguid ~amd64
 dev-libs/glib ~amd64
 dev-libs/gmp ~amd64
 dev-libs/go-fuse ~amd64
@@ -397,6 +398,7 @@ media-plugins/gst-plugins-xvideo ~amd64
 media-sound/apulse ~amd64
 media-sound/audacious ~amd64
 media-sound/audacity ~amd64
+media-sound/dcadec ~amd64
 media-sound/exaile ~amd64
 media-sound/gsm ~amd64
 media-sound/jack-audio-connection-kit ~amd64
