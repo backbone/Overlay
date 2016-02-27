@@ -510,7 +510,7 @@ sys-fs/jmtpfs ~amd64
 sys-fs/mtpfs ~amd64
 sys-fs/simple-mtpfs ~amd64
 sys-fs/vhba ~amd64
-sys-kernel/backbone-sources ~amd64
+<sys-kernel/backbone-sources-4.4 ~amd64
 sys-kernel/dracut ~amd64
 sys-kernel/genkernel ~amd64
 sys-kernel/linux-firmware ~amd64
