@@ -138,7 +138,6 @@ dev-libs/lzo ~amd64
 dev-libs/nettle ~amd64
 dev-libs/nspr ~amd64
 dev-libs/nss ~amd64
-dev-libs/openssl ~amd64
 dev-libs/rasqal ~amd64
 dev-libs/tinyxml2 ~amd64
 dev-libs/vala-common ~amd64
