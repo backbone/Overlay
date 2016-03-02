@@ -553,7 +553,7 @@ x11-libs/libdrm ~amd64
 x11-libs/libfm ~amd64
 x11-libs/libfm-extra ~amd64
 x11-libs/libva ~amd64
-x11-libs/libva-intel-driver ~amd64
+<x11-drivers/xf86-video-intel-2.99.917_p20160224 ~amd64
 x11-libs/libva-vdpau-driver ~amd64
 x11-libs/libvdpau ~amd64
 x11-libs/libXfont ~amd64
