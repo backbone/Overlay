@@ -9,6 +9,7 @@
 <app-admin/python-updater-1 ~amd64
 <app-antivirus/clamav-1 ~amd64
 <app-antivirus/clamtk-6 ~amd64
+<app-arch/lbzip2-2.6 ~amd64
 <app-arch/lrzip-1 ~amd64
 <app-arch/p7zip-16 ~amd64
 <app-benchmarks/gtkperf-1 ~amd64
@@ -219,6 +220,7 @@
 <sys-apps/gcp-1 ~amd64
 <sys-apps/gptfdisk-1.1 ~amd64
 =sys-apps/hardinform-9999 **
+<sys-apps/hwids-20170101 ~amd64
 <sys-apps/i2c-tools-3.2 ~amd64
 <sys-apps/kmod-23 ~amd64
 <sys-apps/microcode-data-20170101 ~amd64
