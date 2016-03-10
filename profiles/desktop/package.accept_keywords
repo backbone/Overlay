@@ -86,7 +86,7 @@
 <dev-libs/vala-common-1 ~amd64
 <dev-lisp/gcl-2.7 ~amd64
 <dev-python/Babel-2.3 ~amd64
-<dev-python/cffi-1.5 ~amd64
+<dev-python/cffi-1.6 ~amd64
 <dev-python/chardet-2.4 ~amd64
 <dev-python/cycler-1 ~amd64
 <dev-python/enum34-1.2 ~amd64
