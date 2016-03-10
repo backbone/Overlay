@@ -1,7 +1,1 @@
 >=media-fonts/liberation-fonts-2.00.0
-
-# 310M Optimus BUG: unable to handle kernel NULL pointer dereference at (null)
-~x11-drivers/nvidia-drivers-340.76
-
-# Temporary masking higher slots for successful upgrading
->=app-text/poppler-0.33
