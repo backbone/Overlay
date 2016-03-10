@@ -60,6 +60,7 @@ net-p2p/rtorrent xmlrpc
 net-print/hplip hpcups hpijs
 net-proxy/squid caps ssl-crtd tproxy
 net-wireless/hostapd logwatch
+sci-libs/fftw mpi
 sys-apps/busybox mdev
 sys-apps/portage git
 sys-apps/util-linux static-libs tty-helpers
