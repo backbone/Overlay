@@ -120,7 +120,6 @@ dev-libs/gobject-introspection ~amd64
 dev-libs/gobject-introspection-common ~amd64
 =dev-libs/gobject-plugin-9999 **
 dev-libs/isl ~amd64
-dev-libs/icu ~amd64
 dev-libs/jthread ~amd64
 dev-libs/kpathsea ~amd64
 dev-libs/leveldb ~amd64
