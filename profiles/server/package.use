@@ -80,7 +80,6 @@ sys-fs/lvm2 static-libs -thin
 sys-fs/ntfs3g ntfsprogs
 sys-fs/udev extras static-libs
 sys-kernel/dracut device-mapper
-sys-libs/binutils-libs abi_x86_32
 sys-libs/glibc nscd
 sys-libs/talloc python
 sys-libs/zlib minizip
