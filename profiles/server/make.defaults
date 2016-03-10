@@ -28,7 +28,7 @@ PORTAGE_ELOG_SYSTEM="save"
 RUBY_TARGETS="-*"
 
 # cpu
-USE="${USE} smp"
+USE="${USE} mpi smp"
 
 # fonts
 USE="${USE} -cairo"
@@ -43,4 +43,4 @@ USE="${USE} -debug -introspection vim-syntax"
 USE="${USE} daemon"
 
 # other
-USE="${USE} device-mapper -static-libs threads"
+USE="${USE} device-mapper natspec -static-libs threads"
