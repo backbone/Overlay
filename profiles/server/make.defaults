@@ -43,4 +43,4 @@ USE="${USE} -debug -introspection vim-syntax"
 USE="${USE} daemon"
 
 # other
-USE="${USE} -static-libs threads"
+USE="${USE} device-mapper -static-libs threads"

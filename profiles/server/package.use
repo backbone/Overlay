@@ -1,92 +1,33 @@
-app-admin/glance mysql
-app-arch/bzip2 static-libs
 app-arch/unzip natspec
 app-arch/zip natspec
-app-editors/vim perl python vim-pager cscope
-app-emulation/libvirt qemu virt-network
-app-misc/mc samba edit sftp slang -ncurses
+app-editors/vim cscope perl python vim-pager
+app-emulation/libvirt virt-network
+app-misc/mc samba sftp
 app-misc/sphinx mysql
-app-misc/tmux vim-syntax
-app-portage/eix sqlite zsh-completion
-app-text/wgetpaste zsh-completion
-dev-db/mysql -perl
-dev-lang/php cgi cli curl exif gd flatfile imap inifile mysql mysqli pcntl pdo sockets sqlite sysvipc tokenizer truetype xml xmlreader xmlrpc xmlwriter xpm xslt zip
+app-portage/eix sqlite
+dev-lang/php cgi curl gd mysql mysqli pcntl pdo truetype
 dev-lang/python sqlite
-dev-libs/apr-util mysql
-dev-libs/boost mpi python
-dev-libs/glib utils
+dev-libs/boost mpi
 dev-libs/gmp pgo
-dev-libs/libgcrypt static-libs
-dev-libs/libgpg-error static-libs
-dev-libs/libxml2 python icu
-dev-libs/lzo static-libs
-dev-libs/popt static-libs
-dev-libs/xmlrpc-c abyss
-dev-perl/GD png
-dev-python/sqlalchemy mysql
-dev-util/anjuta vala
-dev-vcs/git perl -python
-dev-vcs/mercurial zsh-completion
+dev-libs/libxml2 icu python
+dev-vcs/git -python
 games-action/minetest leveldb
 games-fps/urbanterror dedicated -server
-mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
 mail-mta/postfix dovecot-sasl
 media-libs/gd fontconfig truetype jpeg png
 media-gfx/imagemagick fftw jpeg png
-media-libs/lcms static-libs python
-media-libs/libjpeg-turbo static-libs
-media-libs/libmediainfo curl
-media-libs/libpng static-libs apng
-media-libs/libsdl X opengl
+media-libs/libpng apng
 media-libs/mesa -llvm
-media-sound/mpd flac aac vorbis mikmod inotify lame libsamplerate mpg123 musepack sqlite twolame
-media-sound/ncmpcpp outputs taglib visualizer
-media-sound/sox mad
-media-video/ffmpeg network v4l vpx
-media-video/mediainfo curl
-net-analyzer/rrdtool graph
-net-dns/dnsmasq dhcp-tools script
+media-video/ffmpeg v4l
+net-dns/dnsmasq script
 net-firewall/iptables conntrack
-net-fs/cifs-utils upcall
-net-fs/samba cups quota winbind
-net-ftp/frox transparent
+net-fs/samba quota
 net-ftp/pure-ftpd sysquota
 net-im/ejabberd mod_muc mod_proxy65 mod_irc mod_pubsub
-net-libs/xulrunner custom-optimization
-net-misc/openvswitch -modules -python_single_target_python2_7
-net-misc/rsync xattr
-net-p2p/eiskaltdcpp -cli xmlrpc -emoticons
+net-misc/openvswitch -modules
 net-p2p/rtorrent xmlrpc
-net-print/hplip hpcups hpijs
-net-proxy/squid caps ssl-crtd tproxy
-net-wireless/hostapd logwatch
 sci-libs/fftw mpi
-sys-apps/busybox mdev
-sys-apps/portage git
-sys-apps/util-linux static-libs tty-helpers
-sys-auth/consolekit policykit
-sys-auth/keystone mysql
-sys-block/parted device-mapper
-sys-boot/grub device-mapper
-sys-cluster/ceph tcmalloc radosgw
-sys-cluster/cinder mysql
-sys-cluster/neutron dhcp l3 linuxbridge metadata openvswitch server sqlite
-sys-cluster/nova mysql
-sys-cluster/neutron mysql
-sys-cluster/openstack-meta cinder glance keystone neutron nova swift horizon
-sys-cluster/swift account container object proxy
-sys-devel/llvm clang
-sys-fs/aufs3 kernel-patch ramfs
-sys-fs/lvm2 static-libs -thin
-sys-fs/ntfs3g ntfsprogs
-sys-fs/udev extras static-libs
-sys-kernel/dracut device-mapper
+sys-apps/util-linux tty-helpers
+sys-fs/lvm2 -thin
 sys-libs/glibc nscd
-sys-libs/talloc python
-sys-libs/zlib minizip
-virtual/jpeg static-libs
-virtual/udev static-libs
-www-misc/zoneminder ffmpeg
-www-servers/lighttpd php fastcgi mysql -minimal -cgi
-x11-libs/cairo X
-x11-libs/gdk-pixbuf X
+www-servers/lighttpd php
