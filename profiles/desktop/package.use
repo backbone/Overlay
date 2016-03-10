@@ -253,7 +253,7 @@ virtual/pkgconfig abi_x86_32
 virtual/udev gudev hwdb static-libs
 www-apps/dokuwiki gd vhosts
 www-apps/redmine fastcgi git imagemagick mercurial git mysql
-www-client/firefox custom-cflags custom-optimization gstreamer -pgo system-icu system-jpeg system-libvpx system-sqlite
+www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-icu system-jpeg system-libevent system-libvpx system-sqlite
 www-plugins/adobe-flash abi_x86_32
 www-servers/lighttpd php fastcgi mysql -minimal
 x11-base/xorg-server kdrive xvfb
