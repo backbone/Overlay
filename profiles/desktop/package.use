@@ -16,7 +16,7 @@ app-editors/vim perl python vim-pager cscope
 app-emulation/fuse gtk
 app-emulation/qemu fdt qemu-ifup vde qemu_softmmu_targets_i386 qemu_softmmu_targets_x86_64 qemu_user_targets_i386 qemu_user_targets_x86_64
 app-emulation/virtualbox additions extensions qt4
-app-emulation/wine -gstreamer openal staging -win64
+app-emulation/wine gstreamer openal prelink s3tc staging vaapi
 app-laptop/laptop-mode-tools bluetooth
 app-misc/mc samba edit sftp slang -ncurses
 app-misc/sphinx mysql
