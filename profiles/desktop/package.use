@@ -1,12 +1,8 @@
-app-accessibility/at-spi2-atk abi_x86_32
-app-accessibility/at-spi2-core abi_x86_32
 app-admin/glance mysql
-app-arch/bzip2 abi_x86_32 static-libs
+app-arch/bzip2 static-libs
 app-arch/unzip natspec
 app-arch/zip natspec
 app-crypt/gcr gtk vala
-app-crypt/mit-krb5 abi_x86_32
-app-crypt/p11-kit abi_x86_32
 app-crypt/pinentry gnome-keyring
 app-crypt/qca gpg openssl
 app-editors/gedit python
@@ -32,39 +28,24 @@ app-text/poppler cairo qt4
 app-text/stardict festival gucharmap pronounce -espeak
 app-text/wgetpaste zsh-completion
 app-text/yagf pdf
-dev-db/sqlite abi_x86_32 secure-delete unlock-notify
+dev-db/sqlite secure-delete unlock-notify
 dev-java/antlr java
 dev-java/icedtea-bin nsplugin
 dev-java/icedtea-web nsplugin
 dev-java/sun-jdk -examples
 dev-java/swt cairo
-dev-lang/orc abi_x86_32
 dev-lang/php pdo sqlite curl gd sqlite3 xml flatfile mysql mysqli mysqlnd inifile pcntl sockets sysvipc tokenizer truetype xmlreader xmlwriter xpm zip exif cgi xmlrpc xsl
 dev-lang/python sqlite
-dev-libs/atk abi_x86_32
 dev-libs/boost python
 dev-util/cppcheck qt4
 dev-libs/elfutils static-libs
-dev-libs/expat abi_x86_32
-dev-libs/glib abi_x86_32 static-libs utils
-dev-libs/gmp abi_x86_32 pgo
-dev-libs/icu abi_x86_32
-dev-libs/libcroco abi_x86_32
-dev-libs/libev abi_x86_32
-dev-libs/libffi abi_x86_32
-dev-libs/libgcrypt abi_x86_32 static-libs
-dev-libs/libgpg-error abi_x86_32 static-libs
+dev-libs/glib static-libs utils
+dev-libs/gmp pgo
+dev-libs/libgcrypt static-libs
+dev-libs/libgpg-error static-libs
 dev-libs/libgudev introspection static-libs
-dev-libs/libpthread-stubs abi_x86_32
-dev-libs/libtasn1 abi_x86_32
-dev-libs/libverto abi_x86_32
-dev-libs/libxml2 abi_x86_32 python
-dev-libs/libxslt abi_x86_32
-dev-libs/lzo abi_x86_32 static-libs
-dev-libs/nettle abi_x86_32
-dev-libs/nspr abi_x86_32
-dev-libs/nss abi_x86_32
-dev-libs/openssl abi_x86_32
+dev-libs/libxml2 python
+dev-libs/lzo static-libs
 dev-libs/popt static-libs
 dev-libs/protobuf python
 dev-libs/xerces-c icu
@@ -72,11 +53,6 @@ dev-libs/xmlrpc-c abyss
 dev-perl/GD png
 dev-python/sqlalchemy mysql
 dev-qt/qt-creator android autotools cmake fakevim git valgrind
-dev-qt/qt3support abi_x86_32
-dev-qt/qtcore abi_x86_32
-dev-qt/qtgui abi_x86_32
-dev-qt/qtscript abi_x86_32
-dev-qt/qtsql abi_x86_32
 dev-util/anjuta vala
 dev-util/cmake vim-syntax
 dev-util/geany-plugins enchant gtkspell
@@ -84,11 +60,9 @@ dev-util/gtk-doc highlight vim
 dev-util/nemiver memoryview
 dev-util/nvidia-cuda-sdk cuda opencl examples
 dev-util/nvidia-cuda-toolkit debugger profiler
-dev-util/pkgconfig abi_x86_32
 dev-vcs/git perl cgi
 dev-vcs/mercurial zsh-completion
 gnome-base/gvfs mtp udisks
-gnome-base/librsvg abi_x86_32
 gnome-extra/nm-applet gconf modemmanager
 gnome-extra/zenity libnotify -webkit
 mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-libvpx system-sqlite
@@ -105,47 +79,30 @@ media-fonts/terminus-font a-like-o bolddiag quote ru-dv ru-g ru-i ru-k width pcf
 media-gfx/blender ffmpeg
 media-gfx/fbida curl fbcon gif pdf tiff
 media-gfx/gimp pdf svg tiff
-media-gfx/graphite2 abi_x86_32
 media-gfx/imagemagick png svg truetype
 media-gfx/librecad tools
-media-libs/alsa-lib abi_x86_32
 media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt4
-media-libs/audiofile abi_x86_32
 media-libs/coin doc
-media-libs/fontconfig abi_x86_32
-media-libs/freeglut abi_x86_32
-media-libs/freetype abi_x86_32 static-libs
+media-libs/freetype static-libs
 media-libs/gd fontconfig truetype jpeg png
-media-libs/glew abi_x86_32
-media-libs/glu abi_x86_32
-media-libs/gstreamer abi_x86_32
-media-libs/harfbuzz abi_x86_32 icu
-media-libs/lcms abi_x86_32 static-libs python
+media-libs/harfbuzz icu
+media-libs/lcms static-libs python
 media-libs/libcanberra gtk
-media-libs/libepoxy abi_x86_32
-media-libs/libjpeg-turbo abi_x86_32 static-libs
+media-libs/libjpeg-turbo static-libs
 media-libs/libmng static-libs lcms
-media-libs/libogg abi_x86_32
 media-libs/libopenraw gtk
-media-libs/libpng abi_x86_32 static-libs apng
-media-libs/libsdl abi_x86_32 joystick
-media-libs/libsdl2 abi_x86_32 haptic
-media-libs/libtxc_dxtn abi_x86_32
-media-libs/libv4l abi_x86_32
-media-libs/libvorbis abi_x86_32
+media-libs/libpng static-libs apng
+media-libs/libsdl joystick
+media-libs/libsdl2 haptic
 media-libs/libvpx postproc
 media-libs/mediastreamer -X
-media-libs/mesa abi_x86_32 d3d9 dri3 g3dvl gbm -gles1 -gles2 -llvm openvg vaapi xa
+media-libs/mesa d3d9 dri3 g3dvl gbm -gles1 -gles2 -llvm openvg vaapi xa
 media-libs/mlt xml qt4 ffmpeg kdenlive melt
-media-libs/openal abi_x86_32
 media-libs/phonon gstreamer
-media-libs/sdl-image abi_x86_32 gif
+media-libs/sdl-image gif
 media-libs/sdl-mixer midi mp3 mod timidity
-media-libs/sdl2-image abi_x86_32
-media-libs/tiff abi_x86_32
 media-plugins/audacious-plugins cue ffmpeg flac fluidsynth gtk3 lame libsamplerate midi mp3
-media-plugins/gst-plugins-base abi_x86_32
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
 =media-plugins/gst-plugins-meta-1.0-r3 -vaapi # Green video in HTML5
 =media-plugins/gst-plugins-meta-1.6 -vaapi    # Green video in HTML5
@@ -154,9 +111,7 @@ media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
 media-sound/audacity mp3
 media-sound/audacious gtk3 mp3
 media-sound/exaile cddb libnotify
-media-sound/gsm abi_x86_32
 media-sound/mpd flac aac vorbis mikmod inotify lame libsamplerate mpg123 musepack sqlite twolame
-media-sound/mpg123 abi_x86_32
 media-sound/ncmpcpp clock outputs taglib visualizer
 media-sound/sonata -trayicon
 media-sound/sox amr mad
@@ -172,18 +127,15 @@ media-video/mplayer a52 aalib -ass -libass bluray bs2b cdio dv dvd dvdnav faad f
 media-video/mpv -lua -luajit vaapi
 media-video/vlc vaapi
 net-analyzer/wireshark adns geoip smi
-net-nds/openldap abi_x86_32
 net-firewall/iptables conntrack
 net-fs/cifs-utils -acl upcall
 net-fs/samba cups quota winbind
 net-ftp/pure-ftpd charconv sysquota
 net-im/pidgin gnutls gtk
-net-libs/gnutls abi_x86_32
 net-libs/opal h224 sip sipim x264 xml
 net-libs/ptlib xml wav
 net-libs/rb_libtorrent python
 net-libs/xulrunner custom-optimization
-net-misc/curl abi_x86_32
 net-misc/networkmanager connection-sharing gnutlsmodemmanager resolvconf vala
 net-misc/openvswitch -modules -python_single_target_python2_7
 net-misc/rsync xattr
@@ -195,7 +147,6 @@ net-news/liferea libnotify
 net-p2p/deluge geoip gtk libnotify setproctitle sound webinterface
 net-p2p/eiskaltdcpp gtk sqlite xmlrpc qt4
 net-p2p/transmission gtk
-net-print/cups abi_x86_32
 net-print/hplip hpcups hpijs
 net-proxy/squid caps ssl-crtd tproxy
 net-voip/linphone gtk
@@ -207,119 +158,50 @@ sci-mathematics/maxima gcl latex
 sci-visualization/gnuplot wxwidgets
 sys-auth/consolekit policykit
 sys-auth/keystone mysql
-sys-apps/attr abi_x86_32
-sys-apps/dbus abi_x86_32
-sys-apps/keyutils abi_x86_32
 sys-apps/portage git
 sys-apps/qingy opensslcrypt
-sys-apps/util-linux abi_x86_32 static-libs tty-helpers
+sys-apps/util-linux static-libs tty-helpers
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
 sys-devel/gcc fortran graphite lto mudflap
 sys-devel/gdb expat lzma multitarget
-sys-devel/gettext abi_x86_32
 sys-devel/llvm clang
 sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs -thin
 sys-fs/ntfs3g ntfsprogs
-sys-fs/udev abi_x86_32 extras gudev hwdb introspection static-libs
+sys-fs/udev extras gudev hwdb introspection static-libs
 sys-kernel/dracut device-mapper
 sys-kernel/geek-sources branding ck debian genpatches gentoo ice optimization zen
 >=sys-kernel/geek-sources-3.10.1 -branding -gentoo
 >=sys-kernel/geek-sources-3.11 branding gentoo
 sys-kernel/genkernel premount
-sys-libs/binutils-libs abi_x86_32
-sys-libs/e2fsprogs-libs abi_x86_32
 sys-libs/glibc nscd
-sys-libs/gpm abi_x86_32 static-libs
-sys-libs/libcap abi_x86_32
-sys-libs/ncurses abi_x86_32
-sys-libs/readline abi_x86_32
+sys-libs/gpm static-libs
 sys-libs/talloc python
-sys-libs/zlib abi_x86_32 static-libs minizip
+sys-libs/zlib static-libs minizip
 sys-power/cpufreqd apm lm_sensors pmu
 virtual/ffmpeg -libav mp3 theora vaapi
-virtual/glu abi_x86_32
-virtual/jpeg abi_x86_32 static-libs
-virtual/libffi abi_x86_32
-virtual/libiconv abi_x86_32
-virtual/libintl abi_x86_32
-virtual/libudev abi_x86_32 static-libs
+virtual/jpeg static-libs
+virtual/libudev static-libs
 virtual/libgudev introspection static-libs
-virtual/opencl abi_x86_32
-virtual/opengl abi_x86_32
-virtual/pkgconfig abi_x86_32
 virtual/udev gudev hwdb static-libs
 www-apps/dokuwiki gd vhosts
 www-apps/redmine fastcgi git imagemagick mercurial git mysql
 www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-icu system-jpeg system-libevent system-libvpx system-sqlite
-www-plugins/adobe-flash abi_x86_32
 www-servers/lighttpd php fastcgi mysql -minimal
 x11-base/xorg-server kdrive xvfb
 x11-drivers/nvidia-drivers gtk gtk3 multilib uvm
 x11-drivers/xf86-video-intel glamor uxa
-x11-libs/cairo abi_x86_32 glitz opengl svg xcb drm openvg X
-x11-libs/gdk-pixbuf abi_x86_32 X tiff
-x11-libs/gtk+ abi_x86_32 examples
-x11-libs/libdrm abi_x86_32 libkms
+x11-libs/cairo glitz opengl svg xcb drm openvg X
+x11-libs/gdk-pixbuf X tiff
+x11-libs/gtk+ examples
+x11-libs/libdrm libkms
 x11-libs/libfm exif gtk udisks vala
-x11-libs/libICE abi_x86_32
-x11-libs/libpciaccess abi_x86_32
-x11-libs/libSM abi_x86_32
-x11-libs/libva abi_x86_32
-x11-libs/libva-intel-driver abi_x86_32
-x11-libs/libva-vdpau-driver abi_x86_32
-x11-libs/libvdpau abi_x86_32
-x11-libs/libX11 abi_x86_32
-x11-libs/libXScrnSaver abi_x86_32
-x11-libs/libXau abi_x86_32
-x11-libs/libxcb abi_x86_32
-x11-libs/libXcomposite abi_x86_32
-x11-libs/libXmu abi_x86_32
-x11-libs/libXcursor abi_x86_32
-x11-libs/libXdamage abi_x86_32
-x11-libs/libXdmcp abi_x86_32
-x11-libs/libXext abi_x86_32
-x11-libs/libXfixes abi_x86_32
-x11-libs/libXft abi_x86_32
-x11-libs/libXi abi_x86_32
-x11-libs/libXrandr abi_x86_32
-x11-libs/libXrender abi_x86_32
-x11-libs/libxshmfence abi_x86_32
-x11-libs/libXt abi_x86_32
-x11-libs/libXtst abi_x86_32
-x11-libs/libXv abi_x86_32
-x11-libs/libXvMC abi_x86_32
-x11-libs/libXxf86vm abi_x86_32
-x11-libs/pango abi_x86_32
-x11-libs/pixman abi_x86_32
 x11-libs/qt-gui cups
 x11-libs/qt-qt3support kde
 x11-libs/qt-webkit kde
 x11-libs/wxGTK tiff
-x11-misc/primus abi_x86_32
-x11-misc/virtualgl abi_x86_32
-x11-proto/compositeproto abi_x86_32
-x11-proto/damageproto abi_x86_32
-x11-proto/dri2proto abi_x86_32
-x11-proto/dri3proto abi_x86_32
-x11-proto/fixesproto abi_x86_32
-x11-proto/glproto abi_x86_32
-x11-proto/inputproto abi_x86_32
-x11-proto/kbproto abi_x86_32
-x11-proto/presentproto abi_x86_32
-x11-proto/randrproto abi_x86_32
-x11-proto/recordproto abi_x86_32
-x11-proto/renderproto abi_x86_32
-x11-proto/scrnsaverproto abi_x86_32
-x11-proto/videoproto abi_x86_32
-x11-proto/xcb-proto abi_x86_32
-x11-proto/xextproto abi_x86_32
-x11-proto/xf86bigfontproto abi_x86_32
-x11-proto/xf86driproto abi_x86_32
-x11-proto/xf86vidmodeproto abi_x86_32
-x11-proto/xproto abi_x86_32
 x11-terms/rxvt-unicode 256-color alt-font-width perl -vanilla xft
 x11-themes/gtk-engines-equinox -animation -themes -icons
 x11-wm/ion3 proportional-tabs systray wallpaper
