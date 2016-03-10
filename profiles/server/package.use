@@ -13,7 +13,7 @@ dev-db/mysql -perl
 dev-lang/php cgi cli curl exif gd flatfile imap inifile mysql mysqli pcntl pdo sockets sqlite sysvipc tokenizer truetype xml xmlreader xmlrpc xmlwriter xpm xslt zip
 dev-lang/python sqlite
 dev-libs/apr-util mysql
-dev-libs/boost python
+dev-libs/boost mpi python
 dev-libs/glib utils
 dev-libs/gmp pgo
 dev-libs/libgcrypt static-libs
@@ -32,7 +32,7 @@ games-fps/urbanterror dedicated -server
 mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
 mail-mta/postfix dovecot-sasl
 media-libs/gd fontconfig truetype jpeg png
-media-gfx/imagemagick jpeg png
+media-gfx/imagemagick fftw jpeg png
 media-libs/lcms static-libs python
 media-libs/libjpeg-turbo static-libs
 media-libs/libmediainfo curl

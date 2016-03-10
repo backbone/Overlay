@@ -28,57 +28,19 @@ PORTAGE_ELOG_SYSTEM="save"
 RUBY_TARGETS="-*"
 
 # cpu
-USE="${USE} custom-cflags mpi smp"
-
-# gpu
-#USE="${USE} dri dri2 fbcon fbcondecor fbosd opengl opencl vaapi"
+USE="${USE} smp"
 
 # fonts
-USE="${USE} -cairo -cleartype -lcdfilter unicode"
+USE="${USE} -cairo"
 
 # audio
-USE="${USE} alsa audio dts -esd -jingle mad mikmod -nas \
-            -osc -oss -pulseaudio"
-
-# multimedia (video+audio)
-USE="${USE} -dvb -dvdr -ffmpeg fftw -ipod -libav -quicktime v4l v4l2 video -xvmc"
-
-# graphics
-USE="${USE} -aalib -gphoto2 imagemagick jpg"
-
-# arc
-USE="${USE} bzip2 gzip"
-
-# toolkits
-USE="${USE} -aqua -gtk -gtk2 -gtkhtml ncurses -neXt -qt -qt3 qt3support -qt4 -qt-static"
-
-# desktop
-USE="${USE} -gnome -gnome2 -gnome-keyring -kde -nautilus -semantic-desktop -xscreensaver"
-
-# input
-USE="${USE} -tslib"
-
-# power
-USE="${USE} acpi"
+USE="${USE} alsa"
 
 # develop
-USE="${USE} bash-completion cscope -debug -java \
-            -introspection -lua -mono pch \
-            -tcl -tidy -tk \
-            vim-syntax"
+USE="${USE} -debug -introspection vim-syntax"
 
 # daemons
-USE="${USE} -consolekit daemon -dbus -hal logrotate"
-
-# web
-USE="${USE} xmlrpc"
-
-# networking
-USE="${USE} -bluetooth -lirc -networkmanager"
-
-# db
-USE="${USE} -freetds -mssql -sybase-ct"
+USE="${USE} daemon"
 
 # other
-USE="${USE} -bindist -examples -freetds -gpm inotify -ipod -multilib -old-linux nptl \
-            -smartcard -static-libs threads xattr"
+USE="${USE} -static-libs threads"
