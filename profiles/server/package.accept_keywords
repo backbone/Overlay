@@ -4,10 +4,8 @@
 <app-admin/logcheck-1.4 ~amd64
 <app-admin/paxtest-1 ~amd64
 <app-admin/python-updater-1 ~amd64
-<app-antivirus/clamav-1 ~amd64
 <app-arch/lbzip2-2.6 ~amd64
 <app-arch/p7zip-16 ~amd64
-<app-editors/gvim-7.5 ~amd64
 <app-editors/vim-7.5 ~amd64
 <app-editors/vim-core-7.5 ~amd64
 <app-portage/deltup-1 ~amd64
@@ -20,11 +18,7 @@
 <app-shells/gentoo-zsh-completions-20170101 ~amd64
 <app-shells/zsh-completions-1 ~amd64
 <app-text/dos2unix-7.4 ~amd64
-<app-text/dvipsk-6 ~amd64
-<app-text/ps2pkm-1.8 ~amd64
-<app-vim/cctree-2 ~amd64
 <app-vim/screen-2 ~amd64
-<app-vim/youcompleteme-20170101 ~amd64
 <dev-lang/php-5.7 ~amd64 # security fixes
 <dev-lang/vala-1 ~amd64
 <dev-libs/libgee-1 ~amd64
@@ -38,12 +32,8 @@
 <dev-python/ipaddress-1.1 ~amd64
 <dev-python/pyasn1-0.2 ~amd64
 <dev-python/cryptography-1.3 ~amd64
-<dev-tex/bibtexu-4 ~amd64
 <dev-util/colormake-1 ~amd64
-<dev-util/perf-5 ~amd64
 =dev-util/valadoc-9999 **
-<dev-util/valgrind-3.12 ~amd64
-<dev-vcs/gitstats-1 ~amd64
 <games-action/minetest-1 ~amd64
 <games-action/minetest_game-1 ~amd64
 <games-fps/urbanterror-5 ~amd64
@@ -52,12 +42,9 @@
 <media-libs/freetype-2.7 ~amd64
 <media-libs/libmediainfo-1 ~amd64
 <media-libs/libpng-1.7 ~amd64
-<media-plugins/caps-plugins-0.9.10 ~amd64 # higher brokes alsaequal
-<media-sound/mp3unicode-2 ~amd64
 <media-video/ffmpeg-2.9 ~amd64
 <media-video/mediainfo-1 ~amd64
 =net-analyzer/fail2ban-99999999 **
-<net-analyzer/hping-4 ~amd64
 <net-analyzer/ntop-6 ~amd64
 <net-libs/gnutls-3.4 ~amd64
 <net-libs/http-parser-2.7 ~amd64
@@ -69,11 +56,9 @@
 <sys-apps/gcp-1 ~amd64
 <sys-apps/gptfdisk-1.1 ~amd64
 <sys-apps/hwids-20170101 ~amd64
-<sys-apps/i2c-tools-3.2 ~amd64
 <sys-apps/microcode-data-20170101 ~amd64
 <sys-apps/portage-2.3 **
 <sys-apps/util-linux-2.28 ~amd64
-<sys-block/whdd-3 ~amd64
 <sys-devel/binutils-config-6 ~amd64
 <sys-devel/gcc-4.10 ~amd64
 <sys-kernel/genkernel-3.5 ~amd64
