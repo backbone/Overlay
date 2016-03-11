@@ -1,201 +1,79 @@
-app-arch/bzip2 static-libs
 app-arch/unzip natspec
 app-arch/zip natspec
-app-crypt/gcr gtk vala
 app-crypt/pinentry gnome-keyring
-app-crypt/qca gpg openssl
-app-editors/gedit python
-app-editors/gvim gtk cscope netbeans python
-app-editors/nano justify slang
-app-editors/vim perl python vim-pager cscope
-app-emulation/fuse gtk
-app-emulation/qemu fdt qemu-ifup vde qemu_softmmu_targets_i386 qemu_softmmu_targets_x86_64 qemu_user_targets_i386 qemu_user_targets_x86_64
-app-emulation/virtualbox additions extensions qt4
-app-emulation/wine -abi_x86_32 gstreamer openal prelink s3tc staging vaapi
+app-crypt/qca gpg
+app-editors/gvim gtk cscope python
+app-editors/vim cscope perl python vim-pager
+app-emulation/wine gstreamer openal prelink s3tc staging vaapi
 app-laptop/laptop-mode-tools bluetooth
-app-misc/mc samba edit sftp slang -ncurses
-app-misc/tmux vim-syntax
-app-misc/vifm vim-plugin vim-syntax
+app-misc/mc samba sftp
 app-office/libreoffice-bin java
 app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rcs rtf svg
-app-portage/eix optimization strong-optimization sqlite zsh-completion
-app-portage/layman git mercurial subversion
+app-portage/eix optimization strong-optimization sqlite
+app-portage/layman mercurial subversion
 app-text/evince djvu dvi
-app-text/ghostscript-gpl cups
-app-text/poppler cairo qt4
-app-text/stardict festival gucharmap pronounce -espeak
-app-text/wgetpaste zsh-completion
+app-text/stardict espeak pronounce spell
 app-text/yagf pdf
-dev-db/sqlite secure-delete unlock-notify
-dev-java/antlr java
-dev-java/icedtea-bin nsplugin
-dev-java/icedtea-web nsplugin
-dev-java/sun-jdk -examples
-dev-java/swt cairo
+dev-db/sqlite secure-delete
 dev-lang/python sqlite
-dev-libs/boost python
-dev-libs/elfutils static-libs
 dev-libs/glib static-libs utils
 dev-libs/gmp pgo
-dev-libs/libgcrypt static-libs
-dev-libs/libgpg-error static-libs
-dev-libs/libgudev introspection static-libs
 dev-libs/libxml2 python
-dev-libs/lzo static-libs
-dev-libs/popt static-libs
-dev-libs/protobuf python
-dev-libs/xerces-c icu
-dev-libs/xmlrpc-c abyss
-dev-perl/GD png
-dev-qt/qt-creator android autotools cmake fakevim git valgrind
-dev-qt/qtwebkit -abi_x86_32
-dev-tex/html2latex imagemagick
 dev-util/anjuta vala
-dev-util/cmake vim-syntax
-dev-util/cppcheck qt4
-dev-util/geany-plugins enchant gtkspell
-dev-util/gtk-doc highlight vim
-dev-util/nemiver memoryview
-dev-util/nvidia-cuda-sdk cuda opencl examples
-dev-util/nvidia-cuda-toolkit debugger profiler
-dev-vcs/git perl cgi
-dev-vcs/mercurial zsh-completion
 gnome-base/gvfs mtp udisks
-gnome-extra/nm-applet gconf modemmanager
-gnome-extra/zenity libnotify -webkit
 mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-libvpx system-sqlite
-games-action/minetest leveldb
-games-fps/doom3 roe
 games-simulation/crrcsim portaudio
 games-strategy/0ad sound
 games-strategy/warzone2100 videos
 games-util/steam-client-meta flash trayicon
 games-util/steam-games-meta s3tc
-mail-mta/exim dnsdb domainkeys exiscan-acl gnutls mbx nis spf srs syslog
-media-fonts/intlfonts bdf
-media-fonts/terminus-font a-like-o bolddiag quote ru-dv ru-g ru-i ru-k width pcf psf
+media-fonts/terminus-font a-like-o quote ru-dv ru-g ru-i ru-k
 media-gfx/blender ffmpeg
-media-gfx/fbida curl fbcon gif pdf tiff
 media-gfx/gimp pdf svg tiff
-media-gfx/imagemagick png svg truetype
-media-gfx/librecad tools
-media-libs/avidemux-core vaapi
-media-libs/avidemux-plugins qt4
-media-libs/coin doc
-media-libs/freetype static-libs
-media-libs/gd fontconfig truetype jpeg png
+media-gfx/imagemagick svg
 media-libs/harfbuzz icu
-media-libs/lcms static-libs python
-media-libs/libcanberra gtk
 media-libs/libjpeg-turbo static-libs
-media-libs/libmng static-libs lcms
-media-libs/libopenraw gtk
-media-libs/libpng static-libs apng
-media-libs/libsdl joystick
-media-libs/libsdl2 haptic
+media-libs/libpng apng
 media-libs/libvpx postproc
-media-libs/mediastreamer -X
 media-libs/mesa d3d9 dri3 g3dvl gbm -gles1 -gles2 -llvm openvg vaapi xa xvmc
-media-libs/mlt xml qt4 ffmpeg kdenlive melt
-media-libs/phonon gstreamer
 media-libs/sdl-image gif
 media-libs/sdl-mixer midi mp3 mod timidity
 media-plugins/audacious-plugins cue ffmpeg flac fluidsynth gtk3 lame libsamplerate midi mp3
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
-=media-plugins/gst-plugins-meta-1.0-r3 -vaapi # Green video in HTML5
-=media-plugins/gst-plugins-meta-1.6 -vaapi    # Green video in HTML5
-=media-plugins/gst-plugins-meta-1.6.1 -vaapi    # Green video in HTML5
 =media-plugins/gst-plugins-meta-1.6.3 -vaapi    # Green video in several HTML5 videos on YouTube
 media-sound/audacity mp3
 media-sound/audacious gtk3 mp3
-media-sound/exaile cddb libnotify
-media-sound/mpd flac aac vorbis mikmod inotify lame libsamplerate mpg123 musepack sqlite twolame
-media-sound/ncmpcpp clock outputs taglib visualizer
-media-sound/sonata -trayicon
-media-sound/sox amr mad
 media-tv/v4l-utils qt4
 media-tv/kodi vaapi
-media-tv/xbmc vaapi
-media-video/avidemux gtk aften libsamplerate mp3 qt4 vaapi
-media-video/ffmpeg aac network hardcoded-tables mp3 rtmp theora amr vpx speex schroedinger dirac faac gsm vaapi vorbis xvid mikmod
+media-video/avidemux vaapi
+media-video/ffmpeg aacplus faac libv4l mp3 schroedinger theora vaapi
 media-video/ffmpegthumbnailer gnome gtk
-media-video/lives libvisual matroska theora
-media-video/mjpg-streamer input_uvc
-media-video/mplayer a52 aalib -ass -libass bluray bs2b cdio dv dvd dvdnav faad fbcon ladspa libcaca libmpeg2 live mpg123 pvr quicktime real rtc shm tga theora toolame tremar -truetype twolame win32codecs xanim xvmc xv
 media-video/mpv encode -lua -luajit vaapi
 media-video/vlc schroedinger vaapi
 net-analyzer/wireshark adns geoip smi
 net-firewall/iptables conntrack
-net-fs/cifs-utils -acl upcall
-net-fs/samba cups quota winbind
-net-ftp/pure-ftpd charconv sysquota
-net-im/pidgin gnutls gtk
-net-libs/opal h224 sip sipim x264 xml
-net-libs/ptlib xml wav
-net-libs/rb_libtorrent python
-net-libs/xulrunner custom-optimization
-net-misc/networkmanager connection-sharing gnutlsmodemmanager resolvconf vala
-net-misc/openvswitch -modules -python_single_target_python2_7
-net-misc/rsync xattr
 net-misc/remmina freerdp
-net-misc/spice-gtk gstreamer gtk3
 net-misc/tightvnc server
-net-misc/wicd gtk libnotify
-net-news/liferea libnotify
+net-misc/wicd libnotify
 net-p2p/deluge geoip gtk libnotify setproctitle sound webinterface
-net-p2p/eiskaltdcpp gtk sqlite xmlrpc qt4
 net-p2p/transmission gtk
-net-print/hplip hpcups hpijs
-net-proxy/squid caps ssl-crtd tproxy
 net-voip/linphone gtk
-net-voip/ekiga gstreamer gtk
-net-wireless/hostapd logwatch
-sci-geosciences/googleearth qt-bundled
 sci-libs/opencascade -vtk
-sci-mathematics/maxima gcl latex
-sci-visualization/gnuplot wxwidgets
-sys-auth/consolekit policykit
-sys-apps/portage git
-sys-apps/qingy opensslcrypt
-sys-apps/util-linux static-libs tty-helpers
+sys-apps/util-linux tty-helpers
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
-sys-devel/clang -abi_x86_32
-sys-devel/gcc fortran graphite lto mudflap
 sys-devel/gdb expat lzma multitarget
-sys-devel/llvm -abi_x86_32 clang
-sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs -thin
-sys-fs/ntfs3g ntfsprogs
-sys-fs/udev extras gudev hwdb introspection static-libs
-sys-kernel/genkernel premount
+sys-fs/udev static-libs
 sys-libs/glibc nscd
-sys-libs/gpm static-libs
-sys-libs/talloc python
-sys-libs/zlib static-libs minizip
-sys-power/cpufreqd apm lm_sensors pmu
+sys-libs/zlib minizip
 virtual/ffmpeg -libav mp3 theora vaapi
-virtual/jpeg static-libs
-virtual/libudev static-libs
-virtual/libgudev introspection static-libs
-virtual/udev gudev hwdb static-libs
-www-apps/dokuwiki gd vhosts
 www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-icu system-jpeg system-libevent system-libvpx system-sqlite
-x11-base/xorg-server kdrive xvfb
-x11-drivers/nvidia-drivers gtk gtk3 multilib uvm
-x11-drivers/xf86-video-intel glamor uxa xvmc
-x11-libs/cairo glitz opengl svg xcb drm openvg X
-x11-libs/gdk-pixbuf X tiff
-x11-libs/gtk+ examples
+x11-drivers/nvidia-drivers uvm
+x11-drivers/xf86-video-intel uxa xvmc
+x11-base/xorg-server kdrive
+x11-libs/cairo xcb
 x11-libs/libdrm libkms
-x11-libs/libfm exif gtk udisks vala
-x11-libs/qt-gui cups
-x11-libs/qt-qt3support kde
-x11-libs/qt-webkit kde
 x11-libs/wxGTK tiff
-x11-terms/rxvt-unicode 256-color alt-font-width perl -vanilla xft
-x11-themes/gtk-engines-equinox -animation -themes -icons
-x11-wm/ion3 proportional-tabs systray wallpaper
-xfce-base/thunar exif libnotify startup-notification udev udisks -xfce_plugins_trash
-xfce-extra/tumbler ffmpeg gstreamer odf pdf raw
+x11-terms/rxvt-unicode 256-color alt-font-width -vanilla xft
