@@ -15,7 +15,7 @@ media-libs/gd fontconfig truetype jpeg png
 media-gfx/imagemagick fftw jpeg png
 media-libs/libpng apng
 media-libs/mesa -llvm
-media-video/ffmpeg v4l
+media-video/ffmpeg v4l vpx
 net-dns/dnsmasq script
 net-firewall/iptables conntrack
 net-fs/samba quota
