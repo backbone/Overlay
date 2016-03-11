@@ -23,7 +23,7 @@ net-ftp/pure-ftpd sysquota
 net-im/ejabberd mod_muc mod_proxy65 mod_irc mod_pubsub
 net-misc/openvswitch -modules
 net-p2p/rtorrent xmlrpc
-net-proxy/squid logrotate tproxy
+net-proxy/squid caps logrotate tproxy
 sys-apps/util-linux tty-helpers
 sys-fs/lvm2 -thin
 sys-libs/glibc nscd
