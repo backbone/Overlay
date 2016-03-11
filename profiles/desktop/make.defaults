@@ -28,57 +28,40 @@ PORTAGE_ELOG_SYSTEM="save"
 RUBY_TARGETS="-*"
 
 # cpu
-USE="${USE} custom-cflags graphite mpi smp"
+USE="${USE} custom-cflags mpi smp"
 
 # gpu
-USE="${USE} dri dri2 fbcon fbcondecor fbosd opengl webgl"
+USE="${USE} fbcon opengl"
 
 # fonts
-USE="${USE} cairo cleartype -lcdfilter truetype unicode"
+USE="${USE} cairo truetype"
 
 # audio
-USE="${USE} aac alsa amr audio dts -esd faac gsm jack -jingle mad mikmod -nas \
-            ogg -osc -oss -pulseaudio speex vorbis"
+USE="${USE} aac alsa amr dts gsm jack mad mikmod ogg -pulseaudio speex vorbis"
 
 # multimedia (video+audio)
-USE="${USE} dirac -dvb -dvdr encode fftw -ipod -libav -quicktime schroedinger v4l v4l2 video vpx x264 xvid xvmc"
+USE="${USE} fftw v4l video vpx x264 xvid"
 
 # graphics
-USE="${USE} -aalib -gphoto2 imagemagick jpg jpeg png sdl X"
-
-# arc
-USE="${USE} bzip2 gzip"
+USE="${USE} jpeg png sdl X"
 
 # toolkits
-USE="${USE} -aqua -gtk2 -gtkhtml ncurses -neXt -qt -qt3 qt3support -qt-static"
+USE="${USE} qt3support"
 
 # desktop
-USE="${USE} -gnome2 -kde -nautilus -semantic-desktop xscreensaver"
+USE="${USE} xscreensaver"
 
 # input
-USE="${USE} gpm tslib"
+USE="${USE} gpm"
 
 # power
 USE="${USE} acpi"
 
 # develop
-USE="${USE} bash-completion cscope -debug \
-            -lua -mono pch \
-            -tcl -tidy -tk -tokenizer \
-            vim-syntax"
+USE="${USE} -debug -mono pch vim-syntax"
 
 # daemons
-USE="${USE} consolekit daemon dbus -hal logrotate samba syslog"
-
-# web
-USE="${USE} cgi xmlrpc"
-
-# networking
-USE="${USE} -imap -lirc -networkmanager -nis"
-
-# db
-USE="${USE} -freetds -mssql -sybase-ct"
+USE="${USE} dbus"
 
 # other
-USE="${USE} -bindist -freetds inotify -ipod -old-linux nptl \
-            -smartcard threads xattr"
+USE="${USE} threads"

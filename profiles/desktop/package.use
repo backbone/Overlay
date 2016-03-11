@@ -1,4 +1,3 @@
-app-admin/glance mysql
 app-arch/bzip2 static-libs
 app-arch/unzip natspec
 app-arch/zip natspec
@@ -12,10 +11,9 @@ app-editors/vim perl python vim-pager cscope
 app-emulation/fuse gtk
 app-emulation/qemu fdt qemu-ifup vde qemu_softmmu_targets_i386 qemu_softmmu_targets_x86_64 qemu_user_targets_i386 qemu_user_targets_x86_64
 app-emulation/virtualbox additions extensions qt4
-app-emulation/wine gstreamer openal prelink s3tc staging vaapi
+app-emulation/wine -abi_x86_32 gstreamer openal prelink s3tc staging vaapi
 app-laptop/laptop-mode-tools bluetooth
 app-misc/mc samba edit sftp slang -ncurses
-app-misc/sphinx mysql
 app-misc/tmux vim-syntax
 app-misc/vifm vim-plugin vim-syntax
 app-office/libreoffice-bin java
@@ -34,10 +32,8 @@ dev-java/icedtea-bin nsplugin
 dev-java/icedtea-web nsplugin
 dev-java/sun-jdk -examples
 dev-java/swt cairo
-dev-lang/php pdo sqlite curl gd sqlite3 xml flatfile mysql mysqli mysqlnd inifile pcntl sockets sysvipc tokenizer truetype xmlreader xmlwriter xpm zip exif cgi xmlrpc xsl
 dev-lang/python sqlite
 dev-libs/boost python
-dev-util/cppcheck qt4
 dev-libs/elfutils static-libs
 dev-libs/glib static-libs utils
 dev-libs/gmp pgo
@@ -51,10 +47,12 @@ dev-libs/protobuf python
 dev-libs/xerces-c icu
 dev-libs/xmlrpc-c abyss
 dev-perl/GD png
-dev-python/sqlalchemy mysql
 dev-qt/qt-creator android autotools cmake fakevim git valgrind
+dev-qt/qtwebkit -abi_x86_32
+dev-tex/html2latex imagemagick
 dev-util/anjuta vala
 dev-util/cmake vim-syntax
+dev-util/cppcheck qt4
 dev-util/geany-plugins enchant gtkspell
 dev-util/gtk-doc highlight vim
 dev-util/nemiver memoryview
@@ -97,7 +95,7 @@ media-libs/libsdl joystick
 media-libs/libsdl2 haptic
 media-libs/libvpx postproc
 media-libs/mediastreamer -X
-media-libs/mesa d3d9 dri3 g3dvl gbm -gles1 -gles2 -llvm openvg vaapi xa
+media-libs/mesa d3d9 dri3 g3dvl gbm -gles1 -gles2 -llvm openvg vaapi xa xvmc
 media-libs/mlt xml qt4 ffmpeg kdenlive melt
 media-libs/phonon gstreamer
 media-libs/sdl-image gif
@@ -124,8 +122,8 @@ media-video/ffmpegthumbnailer gnome gtk
 media-video/lives libvisual matroska theora
 media-video/mjpg-streamer input_uvc
 media-video/mplayer a52 aalib -ass -libass bluray bs2b cdio dv dvd dvdnav faad fbcon ladspa libcaca libmpeg2 live mpg123 pvr quicktime real rtc shm tga theora toolame tremar -truetype twolame win32codecs xanim xvmc xv
-media-video/mpv -lua -luajit vaapi
-media-video/vlc vaapi
+media-video/mpv encode -lua -luajit vaapi
+media-video/vlc schroedinger vaapi
 net-analyzer/wireshark adns geoip smi
 net-firewall/iptables conntrack
 net-fs/cifs-utils -acl upcall
@@ -157,24 +155,20 @@ sci-libs/opencascade -vtk
 sci-mathematics/maxima gcl latex
 sci-visualization/gnuplot wxwidgets
 sys-auth/consolekit policykit
-sys-auth/keystone mysql
 sys-apps/portage git
 sys-apps/qingy opensslcrypt
 sys-apps/util-linux static-libs tty-helpers
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
+sys-devel/clang -abi_x86_32
 sys-devel/gcc fortran graphite lto mudflap
 sys-devel/gdb expat lzma multitarget
-sys-devel/llvm clang
+sys-devel/llvm -abi_x86_32 clang
 sys-fs/aufs3 kernel-patch ramfs
 sys-fs/lvm2 static-libs -thin
 sys-fs/ntfs3g ntfsprogs
 sys-fs/udev extras gudev hwdb introspection static-libs
-sys-kernel/dracut device-mapper
-sys-kernel/geek-sources branding ck debian genpatches gentoo ice optimization zen
->=sys-kernel/geek-sources-3.10.1 -branding -gentoo
->=sys-kernel/geek-sources-3.11 branding gentoo
 sys-kernel/genkernel premount
 sys-libs/glibc nscd
 sys-libs/gpm static-libs
@@ -187,12 +181,10 @@ virtual/libudev static-libs
 virtual/libgudev introspection static-libs
 virtual/udev gudev hwdb static-libs
 www-apps/dokuwiki gd vhosts
-www-apps/redmine fastcgi git imagemagick mercurial git mysql
 www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-icu system-jpeg system-libevent system-libvpx system-sqlite
-www-servers/lighttpd php fastcgi mysql -minimal
 x11-base/xorg-server kdrive xvfb
 x11-drivers/nvidia-drivers gtk gtk3 multilib uvm
-x11-drivers/xf86-video-intel glamor uxa
+x11-drivers/xf86-video-intel glamor uxa xvmc
 x11-libs/cairo glitz opengl svg xcb drm openvg X
 x11-libs/gdk-pixbuf X tiff
 x11-libs/gtk+ examples
