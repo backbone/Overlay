@@ -63,6 +63,7 @@
 <sys-devel/gcc-4.10 ~amd64
 <sys-kernel/genkernel-3.5 ~amd64
 <sys-kernel/hardened-sources-4.2 ~amd64
+<sys-kernel/linux-firmware-20170101 ~amd64
 <sys-kernel/linux-headers-5 ~amd64
 <sys-libs/binutils-libs-3 ~amd64
 <sys-libs/timezone-data-2017 ~amd64
