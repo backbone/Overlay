@@ -45,7 +45,7 @@ media-sound/audacity mp3
 media-sound/audacious gtk3 mp3
 media-tv/v4l-utils qt4
 media-tv/kodi vaapi
-media-video/avidemux vaapi
+media-video/avidemux qt4 vaapi
 media-video/ffmpeg aacplus faac libv4l mp3 schroedinger theora vaapi
 media-video/ffmpegthumbnailer gnome gtk
 media-video/mpv encode -lua -luajit vaapi
