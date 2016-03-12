@@ -16,6 +16,7 @@ app-text/stardict espeak pronounce spell
 app-text/yagf pdf
 dev-db/sqlite secure-delete
 dev-lang/python sqlite
+dev-libs/elfutils static-libs
 dev-libs/glib static-libs utils
 dev-libs/gmp pgo
 dev-libs/libxml2 python
