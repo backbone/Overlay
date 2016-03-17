@@ -34,7 +34,6 @@
 <dev-python/cryptography-1.3 ~amd64
 <dev-util/colormake-1 ~amd64
 =dev-util/valadoc-9999 **
-<dev-vcs/git-2.8 ~amd64 # https://www.opennet.ru/opennews/art.shtml?num=44052
 <games-action/minetest-1 ~amd64
 <games-action/minetest_game-1 ~amd64
 <games-fps/urbanterror-5 ~amd64
