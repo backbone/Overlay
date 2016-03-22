@@ -190,7 +190,6 @@
 <media-video/ffmpeg-2.9 ~amd64
 <media-video/lives-2 ~amd64
 <media-video/mpv-1 ~amd64
-<media-video/nvidia-settings-341 ~amd64
 <media-video/v4l2ucp-3 ~amd64
 <media-video/vlc-2.3 ~amd64
 <net-analyzer/hping-4 ~amd64
