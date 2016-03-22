@@ -54,7 +54,7 @@ RDEPEND="
 		x11-libs/pango[X]
 	)
 	X? (
-		<x11-base/xorg-server-1.19.99:=
+		<x11-base/xorg-server-1.17.99:=
 		>=x11-libs/libvdpau-0.3-r1
 		multilib? (
 			|| (
