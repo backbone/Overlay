@@ -62,6 +62,7 @@ net-p2p/transmission gtk
 net-voip/linphone gtk
 sci-libs/opencascade -vtk
 sys-apps/util-linux tty-helpers
+sys-auth/consolekit pm-utils policykit
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
