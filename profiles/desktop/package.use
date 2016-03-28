@@ -20,6 +20,7 @@ dev-libs/elfutils static-libs
 dev-libs/glib static-libs utils
 dev-libs/gmp pgo
 dev-libs/libxml2 python
+dev-libs/libpcre pcre16
 <dev-qt/qtwebkit-5 -gstreamer
 dev-util/anjuta vala
 gnome-base/gvfs mtp udisks
@@ -67,6 +68,7 @@ sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
 sys-devel/gdb expat lzma multitarget
+sys-devel/llvm clang
 sys-fs/lvm2 static-libs -thin
 sys-fs/udev static-libs
 sys-libs/glibc nscd
