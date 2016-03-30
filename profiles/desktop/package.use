@@ -55,6 +55,7 @@ media-video/mpv encode -lua -luajit vaapi
 media-video/vlc schroedinger vaapi
 net-analyzer/wireshark adns geoip smi
 net-firewall/iptables conntrack
+net-fs/samba aio
 net-misc/remmina freerdp
 net-misc/tightvnc server
 net-misc/wicd libnotify
@@ -72,6 +73,9 @@ sys-devel/llvm clang
 sys-fs/lvm2 static-libs -thin
 sys-fs/udev static-libs
 sys-libs/glibc nscd
+sys-libs/ntdb nscd
+sys-libs/tdb nscd
+sys-libs/tevent nscd
 sys-libs/zlib minizip
 virtual/ffmpeg -libav mp3 theora vaapi
 www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-icu system-jpeg system-libevent system-libvpx system-sqlite
