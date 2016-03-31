@@ -83,7 +83,7 @@ www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 syste
 x11-drivers/nvidia-drivers uvm
 x11-drivers/xf86-video-intel uxa xvmc
 x11-base/xorg-server kdrive
-x11-libs/cairo xcb
+x11-libs/cairo xcb xlib-xcb
 x11-libs/libdrm libkms
 x11-libs/wxGTK -gstreamer tiff
 x11-terms/rxvt-unicode 256-color alt-font-width -vanilla xft
