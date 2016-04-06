@@ -48,7 +48,7 @@
 <net-analyzer/ntop-6 ~amd64
 <net-libs/gnutls-3.4 ~amd64
 <net-libs/http-parser-2.7 ~amd64
-<net-libs/nodejs-64 ~amd64
+<net-libs/nodejs-5.10 ~amd64
 <net-misc/netifrc-0.4 ~amd64
 <net-misc/openvpn-2.4 ~amd64
 <net-misc/openvswitch-2.5 ~amd64
