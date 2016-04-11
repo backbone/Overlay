@@ -19,6 +19,7 @@ dev-lang/python sqlite
 dev-libs/elfutils static-libs
 dev-libs/glib static-libs utils
 dev-libs/gmp pgo
+dev-libs/libgudev introspection static-libs
 dev-libs/libxml2 python
 dev-libs/libpcre pcre16
 <dev-qt/qtwebkit-5 -gstreamer
@@ -75,15 +76,18 @@ sys-fs/udev static-libs
 sys-libs/glibc nscd
 sys-libs/ntdb nscd
 sys-libs/tdb nscd
-sys-libs/tevent nscd
+sys-libs/tevent nscd python
 sys-libs/zlib minizip
 virtual/ffmpeg -libav mp3 theora vaapi
+virtual/libgudev introspection
+virtual/libudev static-libs
 www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-icu system-jpeg system-libevent system-libvpx system-sqlite
 <www-client/opera-35 -gstreamer
 x11-drivers/nvidia-drivers uvm
 x11-drivers/xf86-video-intel uxa xvmc
 x11-base/xorg-server kdrive
 x11-libs/cairo xcb xlib-xcb
+>=x11-libs/gtk+-3 examples
 x11-libs/libdrm libkms
 x11-libs/wxGTK -gstreamer tiff
 x11-terms/rxvt-unicode 256-color alt-font-width -vanilla xft
