@@ -45,9 +45,6 @@ USE="${USE} fftw v4l video vpx x264 xvid"
 # graphics
 USE="${USE} jpeg png sdl X"
 
-# toolkits
-USE="${USE} qt3support"
-
 # desktop
 USE="${USE} xscreensaver"
 
