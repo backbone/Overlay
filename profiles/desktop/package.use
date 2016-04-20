@@ -40,6 +40,7 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libpng apng
 media-libs/libvpx postproc
 media-libs/mesa d3d9 dri3 g3dvl gbm -gles1 -gles2 -llvm openvg vaapi xa xvmc
+media-libs/mlt ffmpeg kdenlive melt qt4 xml
 media-libs/sdl-image gif
 media-libs/sdl-mixer midi mp3 mod timidity
 media-plugins/audacious-plugins cue ffmpeg flac fluidsynth gtk3 lame libsamplerate midi mp3
