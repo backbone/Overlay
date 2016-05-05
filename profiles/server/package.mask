@@ -1,2 +1,2 @@
 # Manually control kernel version
->=sys-kernel/hardened-sources-4.2
+>=sys-kernel/hardened-sources-4.5
