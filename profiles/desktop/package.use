@@ -58,6 +58,7 @@ media-video/vlc schroedinger vaapi
 net-analyzer/wireshark adns geoip smi
 net-firewall/iptables conntrack
 net-fs/samba aio
+net-misc/iputils tracepath
 net-misc/remmina freerdp
 net-misc/tightvnc server
 net-misc/wicd libnotify
@@ -65,6 +66,7 @@ net-p2p/deluge geoip gtk libnotify setproctitle sound webinterface
 net-p2p/transmission gtk
 net-voip/linphone gtk
 sci-libs/opencascade -vtk
+sys-apps/gawk mpfr
 sys-apps/util-linux tty-helpers
 sys-auth/consolekit pm-utils policykit
 sys-boot/grub device-mapper
