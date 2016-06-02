@@ -1,5 +1,4 @@
 >=media-fonts/liberation-fonts-2.00.0
-=net-libs/webkit-gtk-2.4.10 # requires ruby, why?
 =app-text/poppler-0.42.0 # avoid portage warnings (older required by libreoffice-bin)
 >=kde-apps/khelpcenter-5 # too many new qt-packages to install
 =dev-libs/icu-57.1 # not all packages ready for using new icu
