@@ -58,6 +58,8 @@ media-video/vlc schroedinger vaapi
 net-analyzer/wireshark adns geoip smi
 net-firewall/iptables conntrack
 net-fs/samba aio
+net-libs/rb_libtorrent python
+<net-libs/rb_libtorrent-1.1 -python_targets_python3_4 -python_targets_python3_5 python_targets_python2_7 # workaround
 net-misc/iputils tracepath
 net-misc/remmina freerdp
 net-misc/tightvnc server
