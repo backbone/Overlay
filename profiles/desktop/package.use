@@ -22,6 +22,7 @@ dev-libs/gmp pgo
 dev-libs/libgudev introspection static-libs
 dev-libs/libxml2 python
 dev-libs/libpcre pcre16
+dev-libs/nss cacert
 <dev-qt/qtwebkit-5 -gstreamer
 dev-util/anjuta vala
 gnome-base/gvfs mtp udisks
@@ -35,6 +36,7 @@ media-fonts/terminus-font a-like-o quote ru-dv ru-g ru-i ru-k
 media-gfx/blender ffmpeg
 media-gfx/gimp pdf svg tiff
 media-gfx/imagemagick svg
+media-libs/gd fontconfig
 media-libs/harfbuzz icu
 media-libs/libjpeg-turbo static-libs
 media-libs/libpng apng
@@ -89,7 +91,7 @@ virtual/libudev static-libs
 www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-icu system-jpeg system-libevent system-libvpx system-sqlite
 <www-client/opera-35 -gstreamer
 x11-drivers/nvidia-drivers uvm
-x11-drivers/xf86-video-intel uxa xvmc
+x11-drivers/xf86-video-intel dri3 uxa xvmc
 x11-base/xorg-server kdrive
 x11-libs/cairo xcb xlib-xcb
 >=x11-libs/gtk+-3 examples
