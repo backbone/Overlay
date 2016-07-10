@@ -12,7 +12,7 @@ DESCRIPTION="X.Org driver for Intel cards"
 
 KEYWORDS="~amd64 ~x86 ~amd64-fbsd -x86-fbsd"
 IUSE="debug dri3 +sna +udev uxa xvmc"
-COMMIT_ID="c28e62f94f15c9f5c4fb0744588f08ae18e4a9b5"
+COMMIT_ID="26f8ab5429a554801641415f0ab3b2d68cea1d00"
 SRC_URI="https://cgit.freedesktop.org/xorg/driver/xf86-video-intel/snapshot/${COMMIT_ID}.tar.xz -> ${P}.tar.xz"
 
 S=${WORKDIR}/${COMMIT_ID}
@@ -25,7 +25,7 @@ RDEPEND="x11-libs/libXext
 	>=x11-libs/pixman-0.27.1
 	>=x11-libs/libdrm-2.4.29[video_cards_intel]
 	dri3? (
-		>=x11-base/xorg-server-1.17
+		>=x11-base/xorg-server-1.18
 	)
 	sna? (
 		>=x11-base/xorg-server-1.10
