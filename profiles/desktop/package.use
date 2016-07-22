@@ -39,6 +39,7 @@ media-gfx/imagemagick svg
 media-libs/gd fontconfig
 media-libs/harfbuzz icu
 media-libs/libjpeg-turbo static-libs
+media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libvpx postproc
 media-libs/mesa d3d9 dri3 g3dvl gbm -gles1 -gles2 -llvm openvg vaapi xa xvmc
