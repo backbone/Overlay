@@ -60,6 +60,7 @@
 <app-vim/clewn-3 ~amd64
 <app-vim/screen-2 ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
+<dev-db/sqlite-3.14 ~amd64
 <dev-java/jinput-3 ~amd64
 <dev-lang/gnu-smalltalk-4 ~amd64
 <dev-lang/spidermonkey-1.9 ~amd64
@@ -253,6 +254,7 @@
 <sys-power/upower-1 ~amd64
 <sys-process/parallel-20160101 ~amd64
 <sys-process/procps-3.4 ~amd64
+www-client/firefox ~amd64
 <www-plugins/mozplugger-3 ~amd64
 =x11-drivers/snail-9999 **
 <x11-drivers/xf86-input-wacom-1 ~amd64
