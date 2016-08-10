@@ -253,7 +253,6 @@
 <sys-power/upower-1 ~amd64
 <sys-process/parallel-20160101 ~amd64
 <sys-process/procps-3.4 ~amd64
-<www-client/firefox-38.8 ~amd64
 <www-plugins/mozplugger-3 ~amd64
 =x11-drivers/snail-9999 **
 <x11-drivers/xf86-input-wacom-1 ~amd64
