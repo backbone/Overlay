@@ -5,5 +5,4 @@
 =dev-libs/icu-57.1 # not all packages ready for using new icu
 =app-office/libreoffice-bin-5.1.2.2-r1 # temporary mask as it requires new poppler/icu while other packages do not require
 >=kde-apps/kdenlive-15 # requires media-libs/mlt +qt5
-=www-client/firefox-45.2.0 # Problems with html5 after sleep mode + doesn't play several video formats
 =app-office/libreoffice-bin-5.1.4.2 # poppler, icu blockings
