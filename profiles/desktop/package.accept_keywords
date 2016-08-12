@@ -239,6 +239,7 @@
 <sys-devel/gettext-0.20 ~amd64
 <sys-devel/llvm-4 ~amd64
 <sys-devel/prelink-20140101 ~amd64
+sys-fs/android-file-transfer ~amd64
 =sys-fs/go-mtpfs-9999 **
 <sys-fs/jmtpfs-1 ~amd64
 <sys-fs/mtpfs-1.2 ~amd64
