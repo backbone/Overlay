@@ -26,7 +26,7 @@ dev-libs/nss cacert
 <dev-qt/qtwebkit-5 -gstreamer
 dev-util/anjuta vala
 gnome-base/gvfs mtp udisks
-mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-icu system-jpeg system-libvpx system-sqlite
+mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
 games-simulation/crrcsim portaudio
 games-strategy/0ad sound
 games-strategy/warzone2100 videos
@@ -90,7 +90,7 @@ sys-libs/zlib minizip
 virtual/ffmpeg -libav mp3 theora vaapi
 virtual/libgudev introspection
 virtual/libudev static-libs
-www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-icu system-jpeg system-libevent system-libvpx system-sqlite
+www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
 <www-client/opera-35 -gstreamer
 x11-drivers/nvidia-drivers uvm
 x11-drivers/xf86-video-intel dri3 uxa xvmc
