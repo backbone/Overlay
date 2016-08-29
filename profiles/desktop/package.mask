@@ -6,3 +6,4 @@
 =app-office/libreoffice-bin-5.1.2.2-r1 # temporary mask as it requires new poppler/icu while other packages do not require
 >=kde-apps/kdenlive-15 # requires media-libs/mlt +qt5
 =app-office/libreoffice-bin-5.1.4.2 # poppler, icu blockings
+>=x11-drivers/nvidia-drivers-353
