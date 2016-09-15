@@ -7,6 +7,7 @@ dev-lang/php cgi curl gd mysql mysqli pcntl pdo truetype
 dev-lang/python sqlite
 dev-libs/gmp pgo
 dev-libs/libxml2 icu python
+dev-perl/GD png
 dev-vcs/git -python
 games-action/minetest leveldb
 games-fps/urbanterror dedicated -server
