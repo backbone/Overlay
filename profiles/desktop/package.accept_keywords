@@ -262,7 +262,7 @@ www-client/firefox ~amd64
 <x11-apps/xrandr-1.6 ~amd64
 <x11-base/xorg-drivers-1.19 ~amd64
 <x11-base/xorg-server-1.19 ~amd64
-<x11-drivers/nvidia-drivers-353 ~amd64
+x11-drivers/nvidia-drivers ~amd64
 <x11-drivers/xf86-input-evdev-2.11 ~amd64
 =x11-drivers/snail-9999 **
 <x11-drivers/xf86-input-wacom-1 ~amd64
