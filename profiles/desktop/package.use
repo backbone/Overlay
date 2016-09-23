@@ -92,7 +92,7 @@ virtual/libgudev introspection
 virtual/libudev static-libs
 www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
 <www-client/opera-35 -gstreamer
-x11-drivers/nvidia-drivers uvm
+x11-drivers/nvidia-drivers -kms uvm
 x11-drivers/xf86-video-intel dri3 uxa xvmc
 x11-base/xorg-server kdrive
 x11-libs/cairo xcb
