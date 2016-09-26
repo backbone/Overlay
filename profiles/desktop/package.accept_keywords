@@ -194,6 +194,7 @@
 <media-video/v4l2ucp-3 ~amd64
 <media-video/vlc-2.3 ~amd64
 <net-analyzer/hping-4 ~amd64
+<net-analyzer/nethogs-0.9 ~amd64
 <net-fs/cifs-utils-6.7 ~amd64
 <net-fs/smbnetfs-1 ~amd64
 <net-im/pidgin-2.11 ~amd64

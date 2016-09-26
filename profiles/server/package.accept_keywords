@@ -45,6 +45,7 @@
 <media-video/ffmpeg-2.9 ~amd64
 <media-video/mediainfo-1 ~amd64
 =net-analyzer/fail2ban-99999999 **
+<net-analyzer/nethogs-0.9 ~amd64
 <net-analyzer/ntop-6 ~amd64
 <net-libs/gnutls-3.4 ~amd64
 <net-libs/http-parser-2.7 ~amd64
