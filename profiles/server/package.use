@@ -13,6 +13,7 @@ games-action/minetest leveldb
 games-fps/urbanterror dedicated -server
 mail-mta/postfix dovecot-sasl
 media-libs/gd fontconfig truetype jpeg png
+media-gfx/graphviz pdf
 media-gfx/imagemagick fftw jpeg png
 media-libs/libpng apng
 media-libs/mesa -llvm
