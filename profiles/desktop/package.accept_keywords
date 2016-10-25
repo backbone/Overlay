@@ -123,6 +123,7 @@
 <dev-texlive/texlive-science-2016 ~amd64
 <dev-util/android-tools-6 ~amd64
 <dev-util/bdelta-1 ~amd64
+<dev-util/cmake-3.7 ~amd64
 <dev-util/colormake-1 ~amd64
 <dev-util/cppcheck-2 ~amd64
 <dev-util/mdds-1.3 ~amd64
@@ -149,7 +150,7 @@
 <games-util/steam-launcher-2 ~amd64
 <games-util/steam-meta-1 ~amd64
 <media-fonts/liberation-fonts-2 ~amd64
-<media-gfx/blender-3 ~amd64
+<media-gfx/blender-2.78 ~amd64
 <media-gfx/freecad-1 ~amd64
 <media-gfx/gphotofs-1 ~amd64
 <media-gfx/imagemagick-7 ~amd64
@@ -236,6 +237,7 @@
 <sys-devel/binutils-config-6 ~amd64
 <sys-devel/boost-m4-0.5 ~amd64
 <sys-devel/clang-4 ~amd64
+<sys-devel/clang-runtime-3.10 ~amd64
 <sys-devel/gcc-4.10 ~amd64
 <sys-devel/gettext-0.20 ~amd64
 <sys-devel/llvm-4 ~amd64
@@ -251,6 +253,7 @@ sys-fs/android-file-transfer ~amd64
 <sys-kernel/linux-headers-5 ~amd64
 <sys-libs/binutils-libs-3 ~amd64
 <sys-libs/glibc-2.23 ~amd64
+<sys-libs/libomp-3.10 ~amd64
 <sys-libs/libseccomp-2.4 ~amd64
 <sys-libs/timezone-data-2017 ~amd64
 <sys-power/powertop-2.9 ~amd64
