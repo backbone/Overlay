@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI="5"
-inherit base autotools eutils readme.gentoo user systemd
+EAPI="6"
+inherit autotools eutils readme.gentoo-r1 user systemd
 
 DESCRIPTION="Lightweight high-performance web server"
 HOMEPAGE="http://www.lighttpd.net/"
@@ -12,7 +12,7 @@ SRC_URI="http://download.lighttpd.net/lighttpd/releases-1.4.x/${P}.tar.xz"
 LICENSE="BSD GPL-2"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sh ~sparc ~x86 ~sparc-fbsd ~x86-fbsd"
-IUSE="bzip2 doc fam gdbm ipv6 kerberos ldap libev libressl lua minimal mmap memcache mysql pcre php rrdtool selinux ssl test webdav xattr zlib"
+IUSE="bzip2 doc fam gdbm ipv6 kerberos ldap libev libressl lua minimal mmap memcached mysql pcre php rrdtool selinux ssl test webdav xattr zlib"
 
 REQUIRED_USE="kerberos? ( ssl !libressl )"
 
@@ -23,7 +23,7 @@ CDEPEND="
 	ldap?     ( >=net-nds/openldap-2.1.26 )
 	libev?    ( >=dev-libs/libev-4.01 )
 	lua?      ( >=dev-lang/lua-5.1:= )
-	memcache? ( dev-libs/libmemcache )
+	memcached? ( dev-libs/libmemcache )
 	mysql?    ( >=virtual/mysql-4.0 )
 	pcre?     ( >=dev-libs/libpcre-3.1 )
 	php?      ( dev-lang/php:*[cgi] )
@@ -38,7 +38,7 @@ CDEPEND="
 		sys-fs/e2fsprogs
 	)
 	xattr? ( kernel_linux? ( sys-apps/attr ) )
-	zlib? (	>=sys-libs/zlib-1.1 )"
+	zlib? ( >=sys-libs/zlib-1.1 )"
 
 DEPEND="${CDEPEND}
 	virtual/pkgconfig
@@ -107,7 +107,7 @@ pkg_setup() {
 }
 
 src_prepare() {
-	base_src_prepare
+	default
 	#dev-python/docutils installs rst2html.py not rst2html
 	sed -i -e 's|\(rst2html\)|\1.py|g' doc/outdated/Makefile.am || \
 		die "sed doc/Makefile.am failed"
@@ -122,11 +122,11 @@ src_configure() {
 		$(use_with bzip2) \
 		$(use_with fam) \
 		$(use_with gdbm) \
-		$(use_with kerberos kerberos5) \
+		$(use_with kerberos krb5) \
 		$(use_with ldap) \
 		$(use_with libev) \
 		$(use_with lua) \
-		$(use_with memcache) \
+		$(use_with memcached) \
 		$(use_with mysql) \
 		$(use_with pcre) \
 		$(use_with ssl openssl) \
