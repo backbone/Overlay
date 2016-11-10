@@ -91,6 +91,7 @@
 <dev-python/chardet-2.4 ~amd64
 <dev-python/cycler-1 ~amd64
 <dev-python/enum34-1.2 ~amd64
+<dev-python/idna-2.2 ~amd64
 <dev-python/ipaddress-1.1 ~amd64
 <dev-python/matplotlib-1.6 ~amd64
 <dev-python/pivy-1 ~amd64
