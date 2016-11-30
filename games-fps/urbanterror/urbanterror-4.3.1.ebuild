@@ -6,7 +6,7 @@ EAPI=5
 inherit check-reqs eutils gnome2-utils pax-utils games
 
 ENGINE_PV=${PV}
-FULL_P=UrbanTerror42_full022
+FULL_P=UrbanTerror431_full
 UPDATE_PV=${PV:0:3}.${FULL_P#*full}
 DESCRIPTION="Hollywood tactical shooter based on the ioquake3 engine"
 HOMEPAGE="http://www.urbanterror.info/home/"
