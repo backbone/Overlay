@@ -48,7 +48,7 @@ DEPEND="${RDEPEND}
 	dedicated? ( curl? ( net-misc/curl ) )"
 
 S=${WORKDIR}/ioq3-for-UrbanTerror-4-release-${ENGINE_PV}
-S_DATA=${WORKDIR}/UrbanTerror42
+S_DATA=${WORKDIR}/UrbanTerror43
 
 CHECKREQS_DISK_BUILD="3300M"
 CHECKREQS_DISK_USR="1550M"
@@ -106,7 +106,7 @@ src_install() {
 	local my_arch=$(usex amd64 "x86_64" "i386")
 
 	dodoc ChangeLog README md4-readme.txt
-	dodoc "${S_DATA}"/q3ut4/readme42.txt
+	dodoc "${S_DATA}"/q3ut4/readme43.txt
 	insinto "${GAMES_DATADIR}"/${PN}/q3ut4
 	doins "${S_DATA}"/q3ut4/*.pk3
 
