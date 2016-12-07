@@ -36,10 +36,8 @@ app-antivirus/clamav ~amd64
 <games-fps/urbanterror-5 ~amd64
 <mail-filter/dovecot_deleted_to_trash-1 ~amd64
 <media-libs/freetype-2.7 ~amd64
-<media-libs/libmediainfo-1 ~amd64
 <media-libs/libpng-1.7 ~amd64
 <media-video/ffmpeg-2.9 ~amd64
-<media-video/mediainfo-1 ~amd64
 =net-analyzer/fail2ban-99999999 **
 <net-analyzer/nethogs-0.9 ~amd64
 <net-analyzer/ntop-6 ~amd64

@@ -11,6 +11,7 @@ dev-perl/GD png
 dev-vcs/git -python
 games-action/minetest leveldb
 games-fps/urbanterror dedicated -server
+mail-filter/amavisd-new clamav spamassassin
 mail-mta/postfix dovecot-sasl
 media-libs/gd fontconfig truetype jpeg png
 media-gfx/graphviz cairo
