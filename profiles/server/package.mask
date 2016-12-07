@@ -1,5 +1,5 @@
 # Manually control kernel version
->=sys-kernel/hardened-sources-4.5
+>=sys-kernel/hardened-sources-4.9
 
 =net-misc/openvswitch-2.6.0 # installation failed
 =www-servers/lighttpd-1.4.43 # crash #2762: http://redmine.lighttpd.net/issues/2762
