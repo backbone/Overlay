@@ -169,6 +169,7 @@
 <sys-devel/prelink-20140101 ~amd64
 sys-firmware/intel-microcode ~amd64
 sys-fs/android-file-transfer ~amd64
+<sys-fs/bcache-tools-2 ~amd64
 =sys-fs/go-mtpfs-9999 **
 <sys-fs/jmtpfs-1 ~amd64
 <sys-fs/mtpfs-1.2 ~amd64
