@@ -14,6 +14,9 @@
 <app-editors/vim-7.5 ~amd64
 <app-editors/vim-core-7.5 ~amd64
 <app-emulation/playonlinux-5 ~amd64
+<app-emulation/virtualbox-additions-5.2 ~amd64
+<app-emulation/virtualbox-5.2 ~amd64
+<app-emulation/virtualbox-modules-5.2 ~amd64
 <app-emulation/wine-2 ~amd64
 <app-emulation/winetricks-20170101 ~amd64
 <app-eselect/eselect-java-0.3 ~amd64
