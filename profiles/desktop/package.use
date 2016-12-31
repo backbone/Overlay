@@ -35,7 +35,7 @@ games-strategy/warzone2100 videos
 games-util/steam-client-meta flash trayicon
 games-util/steam-games-meta s3tc
 media-fonts/terminus-font a-like-o quote ru-dv ru-g ru-i ru-k
-media-gfx/blender ffmpeg
+media-gfx/blender colorio cycles ffmpeg tiff
 media-gfx/gimp pdf svg tiff
 media-gfx/imagemagick svg
 media-libs/gd fontconfig
