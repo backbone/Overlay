@@ -5,6 +5,7 @@ app-crypt/pinentry gnome-keyring
 app-crypt/qca gpg
 app-editors/gvim gtk cscope python
 app-editors/vim cscope perl python vim-pager
+app-emulation/qemu spice virgl
 app-emulation/wine gstreamer openal prelink s3tc staging vaapi
 app-laptop/laptop-mode-tools bluetooth
 app-misc/mc samba sftp
@@ -44,7 +45,7 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libvpx postproc
-media-libs/mesa d3d9 dri3 g3dvl gbm -gles1 -gles2 -llvm openvg vaapi xa xvmc
+media-libs/mesa d3d9 dri3 g3dvl gbm -gles1 -llvm openvg vaapi xa xvmc
 media-libs/mlt ffmpeg kdenlive melt qt4 xml
 media-libs/sdl-image gif
 media-libs/sdl-mixer midi mp3 mod timidity
@@ -68,6 +69,7 @@ net-libs/rb_libtorrent python
 <net-libs/rb_libtorrent-1.1 -python_targets_python3_4 -python_targets_python3_5 python_targets_python2_7 # workaround
 net-misc/iputils tracepath
 net-misc/remmina freerdp
+net-misc/spice-gtk gtk3
 net-misc/tightvnc server
 net-misc/wicd libnotify
 net-p2p/deluge geoip gtk libnotify setproctitle sound webinterface

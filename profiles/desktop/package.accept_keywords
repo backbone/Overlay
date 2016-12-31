@@ -9,11 +9,14 @@
 <app-antivirus/clamav-1 ~amd64
 <app-antivirus/clamtk-6 ~amd64
 <app-arch/lbzip2-2.6 ~amd64
+<ap-emulation/aqemu-1 ~amd64
 <app-editors/gvim-7.5 ~amd64
 <app-editors/oxygenxml-12 ~x86
 <app-editors/vim-7.5 ~amd64
 <app-editors/vim-core-7.5 ~amd64
 <app-emulation/playonlinux-5 ~amd64
+<app-emulation/spice-0.14 ~amd64
+<app-emulation/spice-protocol-0.13 ~amd64
 <app-emulation/virtualbox-additions-5.2 ~amd64
 <app-emulation/virtualbox-5.2 ~amd64
 <app-emulation/virtualbox-modules-5.2 ~amd64
@@ -147,6 +150,7 @@
 <net-misc/freerdp-2.1 ~amd64
 <net-misc/netifrc-0.4 ~amd64
 <net-misc/remmina-1.3 ~amd64
+<net-misc/spice-gtk-0.34 ~amd64
 <net-p2p/deluge-1.4 ~amd64
 <net-print/cups-2.2 ~amd64
 <net-voip/linphone-3.7 ~amd64
