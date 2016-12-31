@@ -135,10 +135,11 @@
 <media-tv/kodi-17 ~amd64
 <media-video/avidemux-3 ~amd64
 <media-video/cinelerra-20170101 ~amd64
-<media-video/ffmpeg-2.9 ~amd64
+<media-video/ffmpeg-3.3 ~amd64
 <media-video/lives-2 ~amd64
 <media-video/mpv-1 ~amd64
 <media-video/v4l2ucp-3 ~amd64
+<media-video/vlc-2.3 ~amd64
 <net-analyzer/hping-4 ~amd64
 <net-analyzer/nethogs-0.9 ~amd64
 <net-fs/smbnetfs-1 ~amd64
