@@ -10,7 +10,7 @@ app-antivirus/clamav ~amd64
 <app-editors/vim-7.5 ~amd64
 <app-editors/vim-core-7.5 ~amd64
 <app-portage/deltup-1 ~amd64
-<app-portage/eix-0.32 ~amd64
+<app-portage/eix-0.33 ~amd64
 <app-portage/ewo-1 ~amd64
 =app-portage/findcruftfiles-9999 **
 <app-portage/genlop-0.31 ~amd64
