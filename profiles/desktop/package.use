@@ -22,10 +22,12 @@ dev-libs/boost python
 dev-libs/elfutils static-libs
 dev-libs/glib static-libs utils
 dev-libs/gmp pgo
+dev-libs/libdbusmenu-qt qt5
 dev-libs/libgudev introspection static-libs
 dev-libs/libxml2 python
 dev-libs/libpcre pcre16 static-libs
 dev-libs/nss cacert
+dev-qt/qtcore icu
 <dev-qt/qtwebkit-5 -gstreamer
 dev-util/anjuta vala
 gnome-base/gvfs mtp udisks
@@ -47,7 +49,9 @@ media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libvpx postproc
 media-libs/mesa d3d9 dri3 g3dvl gbm -gles1 gles2 -llvm openvg vaapi xa xvmc
-media-libs/mlt ffmpeg kdenlive melt qt4 xml
+media-libs/mlt ffmpeg kdenlive melt qt5 xml
+media-libs/phonon qt5
+media-libs/phonon-vlc qt5
 media-libs/sdl-image gif
 media-libs/sdl-mixer midi mp3 mod timidity
 media-plugins/alsa-plugins libsamplerate pulseaudio
@@ -80,12 +84,13 @@ sci-libs/opencascade -vtk
 sys-apps/gawk mpfr
 sys-apps/util-linux tty-helpers
 sys-auth/consolekit pm-utils policykit
+sys-auth/polkit-qt qt5
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
 sys-devel/gdb expat lzma multitarget
 sys-devel/llvm clang
-sys-fs/android-file-transfer qt4 -qt5
+sys-fs/android-file-transfer qt5
 sys-fs/lvm2 static-libs -thin
 sys-fs/udev static-libs
 sys-libs/glibc nscd
