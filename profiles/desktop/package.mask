@@ -1,3 +1,1 @@
 >=media-fonts/liberation-fonts-2.00.0
->=kde-apps/khelpcenter-5 # too many new qt-packages to install
->=kde-apps/kdenlive-15 # requires media-libs/mlt +qt5
