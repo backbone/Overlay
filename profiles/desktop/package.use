@@ -8,6 +8,7 @@ app-editors/vim cscope perl python vim-pager
 app-emulation/qemu spice virgl
 app-emulation/wine gstreamer openal prelink s3tc staging vaapi
 app-laptop/laptop-mode-tools bluetooth
+app-misc/ca-certificates insecure_certs
 app-misc/mc samba sftp
 app-office/libreoffice-bin java
 app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rcs rtf svg
