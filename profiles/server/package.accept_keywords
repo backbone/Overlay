@@ -16,8 +16,9 @@ app-antivirus/clamav ~amd64
 <app-portage/genlop-0.31 ~amd64
 <app-portage/gentoolkit-3.2 ~amd64
 <app-portage/getdelta-1 ~amd64
-<app-shells/quoter-3 ~amd64
+<app-shells/quoter-4 ~amd64
 <app-shells/gentoo-zsh-completions-20170101 ~amd64
+<app-shells/push-3 ~amd64
 <app-shells/zsh-completions-1 ~amd64
 <app-text/dos2unix-7.4 ~amd64
 <dev-lang/php-5.7 ~amd64 # security fixes
