@@ -52,6 +52,7 @@
 <app-text/xdvik-23 ~amd64
 <app-text/yagf-1 ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
+<dev-db/sqlite-3.17 ~amd64
 <dev-lang/gnu-smalltalk-4 ~amd64
 <dev-lang/spidermonkey-1.9 ~amd64
 <dev-lang/vala-1 ~amd64
