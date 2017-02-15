@@ -100,6 +100,7 @@ sys-libs/tdb nscd
 sys-libs/tevent nscd python
 sys-libs/zlib minizip
 virtual/ffmpeg -libav mp3 theora vaapi
+virtual/imagemagick-tools svg
 virtual/libgudev introspection
 virtual/libudev static-libs
 www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
