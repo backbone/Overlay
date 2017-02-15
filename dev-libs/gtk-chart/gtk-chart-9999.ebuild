@@ -27,6 +27,6 @@ LICENSE="LGPL-3"
 IUSE=""
 
 DEPEND=">=dev-lang/vala-0.26
-	>=dev-libs/gtk+-3.20"
+	>=x11-libs/gtk+-3.20"
 
 RDEPEND="${DEPEND}"
