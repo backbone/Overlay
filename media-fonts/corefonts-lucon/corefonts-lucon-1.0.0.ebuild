@@ -7,11 +7,11 @@ EAPI=4
 inherit eutils
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://git.backbone.ws/linux-fonts/corefonts-lucon.git"}
+	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://git.backbone.ws/linux/corefonts-lucon.git"}
 	inherit git-r3
 	KEYWORDS=""
 else
-	SRC_URI="https://git.backbone.ws/linux-fonts/corefonts-lucon/archive-tarball/v${PV} -> corefonts-lucon-${PV}.tar.gz"
+	SRC_URI="https://git.backbone.ws/linux/corefonts-lucon/archive-tarball/v${PV} -> corefonts-lucon-${PV}.tar.gz"
 	KEYWORDS="-* x86 amd64"
 fi
 
