@@ -183,11 +183,12 @@ sys-fs/android-file-transfer ~amd64
 <sys-fs/jmtpfs-1 ~amd64
 <sys-fs/mtpfs-1.2 ~amd64
 <sys-fs/simple-mtpfs-1 ~amd64
-<sys-kernel/backbone-sources-4.9 ~amd64
+<sys-kernel/backbone-sources-4.10 ~amd64
 <sys-kernel/linux-headers-5 ~amd64
 <sys-libs/libomp-3.10 ~amd64
 <sys-libs/libseccomp-2.4 ~amd64
 <sys-libs/timezone-data-2017 ~amd64
+<sys-power/powerstat-1 ~amd64
 <sys-power/powertop-2.9 ~amd64
 <sys-process/atop-3 ~amd64
 <sys-process/procps-3.4 ~amd64
