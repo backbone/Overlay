@@ -50,7 +50,7 @@ app-antivirus/clamav ~amd64
 <sys-apps/util-linux-2.28 ~amd64
 <sys-devel/gcc-4.10 ~amd64
 sys-firmware/intel-microcode ~amd64
-<sys-kernel/hardened-sources-4.9 ~amd64
+<sys-kernel/hardened-sources-4.10 ~amd64
 <sys-kernel/linux-firmware-20170101 ~amd64
 <sys-kernel/linux-headers-5 ~amd64
 <sys-libs/timezone-data-2017 ~amd64

@@ -1,5 +1,5 @@
 # Manually control kernel version
->=sys-kernel/hardened-sources-4.9
+>=sys-kernel/hardened-sources-4.10
 
 >=dev-lang/php-7
 
