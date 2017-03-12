@@ -44,6 +44,7 @@ media-gfx/blender colorio cycles ffmpeg tiff
 <media-gfx/blender-2.78 -ffmpeg
 media-gfx/gimp pdf svg tiff
 media-gfx/imagemagick svg
+media-libs/freetype -cleartype_hinting
 media-libs/gd fontconfig
 media-libs/harfbuzz icu
 media-libs/libjpeg-turbo static-libs
