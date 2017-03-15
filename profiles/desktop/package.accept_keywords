@@ -101,6 +101,7 @@
 =dev-util/valadoc-9999 **
 <dev-util/valgrind-3.12 ~amd64
 <games-action/minetest-1 ~amd64
+games-emulation/gens-gs ~amd64
 <games-fps/doom3-2 ~amd64
 <games-fps/urbanterror-5 ~amd64
 <games-misc/asciiquarium-2 ~amd64
