@@ -132,6 +132,7 @@ games-emulation/gens-gs ~amd64
 <media-libs/mediastreamer-2.10 ~amd64
 <media-libs/mesa-13 ~amd64
 <media-libs/x264-0.1 ~amd64
+<media-libs/x265-3 ~amd64
 <media-libs/xvid-1.4 ~amd64
 <media-sound/audacity-2.1 ~amd64
 <media-sound/jack-audio-connection-kit-1 ~amd64
