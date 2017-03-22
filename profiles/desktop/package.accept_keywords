@@ -52,7 +52,7 @@
 <app-text/xdvik-23 ~amd64
 <app-text/yagf-1 ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
-<dev-db/sqlite-3.17 ~amd64
+<dev-db/sqlite-3.18 ~amd64
 <dev-lang/gnu-smalltalk-4 ~amd64
 <dev-lang/spidermonkey-1.9 ~amd64
 <dev-lang/vala-1 ~amd64
@@ -125,6 +125,7 @@ games-emulation/gens-gs ~amd64
 <media-libs/avidemux-plugins-3 ~amd64
 <media-libs/freetype-2.7 ~amd64
 <media-libs/glm-1 ~amd64
+<media-libs/harfbuzz-1.5 ~amd64
 <media-libs/lcms-2.8 ~amd64
 =media-libs/libfilteraudio-9999 **
 <media-libs/libmtp-1.2 ~amd64
