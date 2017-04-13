@@ -210,5 +210,6 @@ x11-drivers/nvidia-drivers ~amd64
 =x11-misc/primus-9999 **
 <x11-misc/trayion-1 ~amd64
 <x11-plugins/pidgin-bot-sentry-2 ~amd64
+<x11-plugins/whatsapp-purple-1 ~amd64
 <x11-themes/gtk-engines-equinox-2 ~amd64
 <x11-wm/awesome-3.6 ~amd64
