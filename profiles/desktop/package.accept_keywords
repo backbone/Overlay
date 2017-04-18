@@ -175,7 +175,7 @@ games-emulation/gens-gs ~amd64
 <sys-devel/boost-m4-0.5 ~amd64
 <sys-devel/clang-4 ~amd64
 <sys-devel/clang-runtime-3.10 ~amd64
-<sys-devel/gcc-4.10 ~amd64
+<sys-devel/gcc-5.5 ~amd64
 <sys-devel/gettext-0.20 ~amd64
 <sys-devel/llvm-4 ~amd64
 <sys-devel/prelink-20140101 ~amd64
