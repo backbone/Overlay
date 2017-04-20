@@ -169,6 +169,7 @@ games-emulation/gens-gs ~amd64
 =sys-apps/hardinform-9999 **
 <sys-apps/hwids-20170101 ~amd64
 <sys-apps/i2c-tools-3.2 ~amd64
+<sys-apps/net-tools-1.61 ~amd64
 =sys-apps/uksmstat-9999 **
 <sys-apps/util-linux-2.28 ~amd64
 <sys-block/whdd-3 ~amd64
