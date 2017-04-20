@@ -32,7 +32,7 @@ RDEPEND="${DEPEND}"
 src_unpack() {
 	unpack ${A}
 	cd "${WORKDIR}"
-	mv linux-fonts-corefonts-lucon ${P}
+	mv linux-corefonts-lucon ${P}
 }
 
 src_install() {
