@@ -16,6 +16,7 @@ app-portage/eix optimization strong-optimization sqlite
 app-portage/layman mercurial subversion
 app-text/evince djvu dvi
 app-text/stardict espeak pronounce spell
+app-text/xmlto text
 app-text/yagf pdf
 dev-db/sqlite secure-delete
 dev-lang/python sqlite
