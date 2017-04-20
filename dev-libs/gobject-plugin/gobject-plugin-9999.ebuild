@@ -12,7 +12,7 @@ if [[ ${PV} == "9999" ]] ; then
 	KEYWORDS=""
 else
 	#SRC_URI="ftp://ftp.backbone.ws/projects/gobject-plugin/${P}.tar.bz2"
-	SRC_URI="https://git.backbone.ws/gtk/gobject-plugin/archive-tarball/v${PVR}.tgz -> gobject-plugin-${PVR}.tar.gz"
+	SRC_URI="https://git.backbone.ws/gtk/gobject-plugin/archive/v${PVR}.tar.gz -> gobject-plugin-${PVR}.tar.gz"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 

@@ -11,7 +11,7 @@ if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
 	KEYWORDS=""
 else
-	SRC_URI="https://git.backbone.ws/linux/corefonts-lucon/archive-tarball/v${PV} -> corefonts-lucon-${PV}.tar.gz"
+	SRC_URI="https://git.backbone.ws/linux/corefonts-lucon/archive/v${PV}.tar.gz -> corefonts-lucon-${PV}.tar.gz"
 	KEYWORDS="-* x86 amd64"
 fi
 

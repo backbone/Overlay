@@ -12,7 +12,7 @@ if [[ ${PV} == "9999" ]] ; then
 	KEYWORDS=""
 else
 	#SRC_URI="ftp://ftp.backbone.ws/projects/cairo-chart/${P}.tar.bz2"
-	SRC_URI="https://git.backbone.ws/gtk/cairo-chart/archive-tarball/v${PVR}.tgz -> cairo--chart-${PVR}.tar.gz"
+	SRC_URI="https://git.backbone.ws/gtk/cairo-chart/archive/v${PVR}.tar.gz -> cairo--chart-${PVR}.tar.gz"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
