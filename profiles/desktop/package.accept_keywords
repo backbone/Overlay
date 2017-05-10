@@ -118,6 +118,7 @@ games-emulation/gens-gs ~amd64
 <media-fonts/liberation-fonts-2 ~amd64
 <media-gfx/blender-2.78 ~amd64
 <media-gfx/freecad-1 ~amd64
+<media-gfx/graphite2-1.4 ~amd64
 <media-gfx/imagemagick-7 ~amd64
 <media-gfx/librecad-2.1 ~amd64
 <media-gfx/shotwell-1 ~amd64
