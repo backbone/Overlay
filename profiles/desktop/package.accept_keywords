@@ -104,6 +104,7 @@
 games-emulation/gens-gs ~amd64
 <games-fps/doom3-2 ~amd64
 <games-fps/urbanterror-5 ~amd64
+<games-fps/urbanterror-data-5 ~amd64
 <games-misc/asciiquarium-2 ~amd64
 =games-puzzle/charley-9999 **
 <games-simulation/crrcsim-1 ~amd64

@@ -14,10 +14,11 @@ games-action/minetest leveldb
 games-fps/urbanterror dedicated -server
 mail-filter/amavisd-new clamav spamassassin
 mail-mta/postfix dovecot-sasl
-media-libs/gd fontconfig truetype jpeg png
 media-gfx/graphviz cairo
 media-gfx/imagemagick fftw jpeg png
+media-libs/gd fontconfig truetype jpeg png
 media-libs/libpng apng
+media-libs/libsdl2 X opengl
 media-libs/mesa -llvm
 media-video/ffmpeg aac v4l vpx x264
 net-dns/dnsmasq script
@@ -36,4 +37,5 @@ sys-libs/glibc nscd
 sys-libs/ntdb python
 sys-libs/tdb python
 sys-libs/tevent python
+sys-libs/zlib minizip
 www-servers/lighttpd php
