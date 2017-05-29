@@ -25,6 +25,7 @@
 <app-eselect/eselect-java-0.3 ~amd64
 <app-laptop/samsung-tools-2.4 ~amd64
 <app-misc/stardict-enru-dictset-1.1 ~amd64
+=app-pda/libimobiledevice-9999 **
 <app-portage/deltup-1 ~amd64
 <app-portage/eix-0.33 ~amd64
 <app-portage/ewo-1 ~amd64
