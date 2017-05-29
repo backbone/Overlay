@@ -101,7 +101,7 @@ sys-fs/lvm2 static-libs -thin
 sys-fs/udev static-libs
 sys-libs/glibc nscd
 sys-libs/ntdb nscd
-sys-libs/tdb nscd
+sys-libs/tdb nscd python
 sys-libs/tevent nscd python
 sys-libs/zlib minizip
 virtual/ffmpeg -libav mp3 theora vaapi
