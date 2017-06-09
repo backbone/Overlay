@@ -9,6 +9,7 @@ app-antivirus/clamav ~amd64
 <app-arch/p7zip-16 ~amd64
 <app-editors/vim-7.5 ~amd64
 <app-editors/vim-core-7.5 ~amd64
+app-forensics/chkrootkit ~amd64
 <app-portage/deltup-1 ~amd64
 <app-portage/eix-0.33 ~amd64
 <app-portage/ewo-1 ~amd64
