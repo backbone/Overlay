@@ -225,7 +225,7 @@ sys-fs/android-file-transfer ~amd64
 <sys-fs/jmtpfs-1 ~amd64
 <sys-fs/mtpfs-1.2 ~amd64
 <sys-fs/simple-mtpfs-1 ~amd64
-<sys-kernel/backbone-sources-4.11 ~amd64
+<sys-kernel/backbone-sources-4.12 ~amd64
 <sys-kernel/linux-headers-5 ~amd64
 <sys-libs/libomp-3.10 ~amd64
 <sys-libs/libseccomp-2.4 ~amd64
