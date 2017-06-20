@@ -27,25 +27,27 @@ unset UPDATE_I
 LICENSE="GPL-2 Q3AEULA-20000111 urbanterror-4.2-maps"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE="+altgamma +curl debug dedicated openal pax_kernel +sdl server smp vorbis"
+IUSE="altgamma client +curl debug dedicated mumble openal pax_kernel opus server smp voip vorbis"
 RESTRICT="mirror"
 
 RDEPEND="
-	!dedicated? (
-		virtual/opengl
-		curl? ( net-misc/curl )
+	client? (
+		media-libs/libsdl2[X,sound,joystick,opengl,video]
+		mumble? ( media-sound/mumble )
 		openal? ( media-libs/openal )
-		sdl? ( media-libs/libsdl[X,sound,joystick,opengl,video] )
-		!sdl? ( x11-libs/libX11
-			x11-libs/libXext
-			x11-libs/libXxf86dga
-			x11-libs/libXxf86vm )
-		vorbis? ( media-libs/libogg
-			media-libs/libvorbis )
-	)"
-DEPEND="${RDEPEND}
-	app-arch/unzip
-	dedicated? ( curl? ( net-misc/curl ) )"
+		opus? ( media-libs/opusfile )
+		vorbis? (
+			media-libs/libogg
+			media-libs/libvorbis
+		)
+	)
+	curl? ( net-misc/curl )
+	~games-fps/urbanterror-data-4.3.2
+	sys-libs/zlib[minizip]
+	virtual/jpeg:0
+"
+
+DEPEND="${RDEPEND}"
 
 S=${WORKDIR}/ioq3-for-UrbanTerror-4-release-${ENGINE_PV}
 S_DATA=${WORKDIR}/UrbanTerror43
@@ -90,7 +92,6 @@ src_compile() {
 		BUILD_CLIENT=$(nobuildit dedicated) \
 		BUILD_CLIENT_SMP=$(usex smp "$(nobuildit dedicated)" "0") \
 		BUILD_SERVER=$(usex dedicated "1" "$(buildit server)") \
-		USE_SDL=$(buildit sdl) \
 		USE_OPENAL=$(buildit openal) \
 		USE_OPENAL_DLOPEN=0 \
 		USE_CURL=$(buildit curl) \
