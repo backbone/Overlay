@@ -7,6 +7,8 @@
 app-antivirus/clamav ~amd64
 <app-arch/lbzip2-2.6 ~amd64
 <app-arch/p7zip-16 ~amd64
+=app-crypt/acme-9999 **
+=app-crypt/certbot-9999 **
 <app-editors/vim-7.5 ~amd64
 <app-editors/vim-core-7.5 ~amd64
 app-forensics/chkrootkit ~amd64
@@ -31,7 +33,11 @@ app-forensics/chkrootkit ~amd64
 <dev-python/chardet-2.4 ~amd64
 <dev-python/enum34-1.2 ~amd64
 <dev-python/ipaddress-1.1 ~amd64
+<dev-python/namespace-zope-2 ~amd64
+<dev-python/parsedatetime-2.5 ~amd64
 <dev-python/pyasn1-0.2 ~amd64
+<dev-python/pyrfc3339-1.1 ~amd64
+<dev-python/zope-component-4.4 ~amd64
 <dev-util/colormake-1 ~amd64
 =dev-util/valadoc-9999 **
 <games-action/minetest-1 ~amd64
