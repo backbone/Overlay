@@ -107,6 +107,7 @@ app-forensics/chkrootkit ~amd64
 <dev-util/valgrind-3.12 ~amd64
 <games-action/minetest-1 ~amd64
 games-emulation/gens-gs ~amd64
+<games-emulation/snes9x-1.55 ~amd64
 <games-fps/doom3-2 ~amd64
 <games-fps/urbanterror-5 ~amd64
 <games-fps/urbanterror-data-5 ~amd64

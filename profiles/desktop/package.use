@@ -35,6 +35,7 @@ dev-util/anjuta vala
 gnome-base/gvfs mtp udisks
 mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
 games-emulation/fceux gtk
+games-emulation/snes9x gtk joystick
 games-simulation/crrcsim portaudio
 games-strategy/0ad sound
 games-strategy/warzone2100 videos
