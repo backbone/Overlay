@@ -56,6 +56,7 @@ app-forensics/chkrootkit ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
 <dev-db/sqlite-3.18 ~amd64
 <dev-lang/gnu-smalltalk-4 ~amd64
+<dev-lang/nasm-2.14 ~amd64
 <dev-lang/rust-1.17 ~amd64
 <dev-lang/spidermonkey-1.9 ~amd64
 <dev-lang/vala-1 ~amd64
@@ -231,6 +232,7 @@ sys-fs/android-file-transfer ~amd64
 <sys-fs/jmtpfs-1 ~amd64
 <sys-fs/mtpfs-1.2 ~amd64
 <sys-fs/simple-mtpfs-1 ~amd64
+<sys-fs/udev-234 ~amd64
 <sys-kernel/backbone-sources-4.12 ~amd64
 <sys-kernel/linux-headers-5 ~amd64
 <sys-libs/libomp-3.10 ~amd64
