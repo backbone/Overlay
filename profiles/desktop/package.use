@@ -119,3 +119,4 @@ x11-libs/libdrm libkms
 x11-libs/libxcb xkb
 x11-libs/wxGTK -gstreamer tiff
 x11-terms/rxvt-unicode 256-color alt-font-width -vanilla xft
+x11-wm/awesome luajit
