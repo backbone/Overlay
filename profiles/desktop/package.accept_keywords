@@ -186,7 +186,7 @@ games-emulation/gens-gs ~amd64
 <media-tv/kodi-17 ~amd64
 <media-video/avidemux-3 ~amd64
 <media-video/cinelerra-20170101 ~amd64
-<media-video/ffmpeg-3.3 ~amd64
+<media-video/ffmpeg-3.4 ~amd64
 <media-video/ffmpegthumbnailer-2.3 ~amd64
 <media-video/lives-2 ~amd64
 <media-video/mpv-1 ~amd64
