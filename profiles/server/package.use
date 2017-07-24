@@ -9,6 +9,7 @@ dev-lang/python sqlite
 dev-libs/gmp pgo
 dev-libs/libxml2 icu python
 dev-perl/GD png
+dev-python/twisted conch
 dev-vcs/git -python
 games-action/minetest leveldb
 games-fps/urbanterror -client dedicated server
