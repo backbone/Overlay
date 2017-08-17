@@ -228,7 +228,7 @@ games-emulation/gens-gs ~amd64
 <sys-devel/gcc-5.5 ~amd64
 <sys-devel/gettext-0.20 ~amd64
 <sys-devel/llvm-4 ~amd64
-<sys-devel/prelink-20140101 ~amd64
+<sys-devel/prelink-20160101 ~amd64
 sys-firmware/intel-microcode ~amd64
 sys-fs/android-file-transfer ~amd64
 <sys-fs/bcache-tools-2 ~amd64
