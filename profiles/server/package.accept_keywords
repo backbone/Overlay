@@ -38,6 +38,7 @@ app-forensics/chkrootkit ~amd64
 <dev-python/pyasn1-0.2 ~amd64
 <dev-python/pyrfc3339-1.1 ~amd64
 <dev-python/zope-component-4.4 ~amd64
+<dev-util/bdelta-0.4 ~amd64
 <dev-util/colormake-1 ~amd64
 =dev-util/valadoc-9999 **
 <games-action/minetest-1 ~amd64
