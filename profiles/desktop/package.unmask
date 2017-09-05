@@ -4,3 +4,4 @@
 <games-fps/doom3-data-1.2
 >=dev-lang/vala-0.35
 >=dev-libs/libgee-0.19
+<net-libs/libtorrent-rasterbar-1.2
