@@ -201,6 +201,7 @@ games-emulation/gens-gs ~amd64
 <net-fs/smbnetfs-1 ~amd64
 <net-libs/gnutls-3.4 ~amd64
 <net-libs/libeXosip-4.1 ~amd64
+<net-libs/libtorrent-rasterbar-1.2 ~amd64
 <net-libs/rb_libtorrent-1.1 ~amd64
 =net-libs/tox-9999 **
 =net-im/utox-9999 **
