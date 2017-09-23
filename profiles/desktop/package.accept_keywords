@@ -245,6 +245,7 @@ sys-fs/android-file-transfer ~amd64
 <sys-libs/timezone-data-2017 ~amd64
 <sys-power/powerstat-1 ~amd64
 <sys-power/powertop-2.9 ~amd64
+<sys-process/acct-6.7 ~amd64
 <sys-process/atop-3 ~amd64
 <sys-process/procps-3.4 ~amd64
 <virtual/rust-1.20 ~amd64
