@@ -64,6 +64,7 @@ sys-firmware/intel-microcode ~amd64
 <sys-kernel/linux-headers-5 ~amd64
 <sys-libs/timezone-data-2017 ~amd64
 <sys-power/powertop-2.9 ~amd64
+<sys-process/acct-6.7 ~amd64
 <sys-process/atop-3 ~amd64
 <sys-process/procps-3.4 ~amd64
 <www-apps/tt-rss-20170101 ~amd64
