@@ -1,1 +1,2 @@
 >=media-fonts/liberation-fonts-2.00.0
+=media-plugins/caps-plugins-0.9.24 # brokes equiilizer

@@ -183,6 +183,7 @@ games-emulation/gens-gs ~amd64
 <media-libs/x265-3 ~amd64
 <media-libs/xvid-1.4 ~amd64
 <media-plugins/alsa-plugins-1.1.5 ~amd64
+<media-plugins/caps-plugins-0.9.24 ~amd64
 <media-sound/alsa-utils-1.1.5 ~amd64
 <media-sound/audacity-2.1 ~amd64
 <media-sound/jack-audio-connection-kit-1 ~amd64
