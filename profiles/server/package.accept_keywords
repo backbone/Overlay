@@ -53,6 +53,7 @@ app-forensics/chkrootkit ~amd64
 <net-analyzer/ntop-6 ~amd64
 <net-libs/gnutls-3.4 ~amd64
 <net-misc/netifrc-0.4 ~amd64
+<net-misc/radvd-2.18 ~amd64
 <sys-apps/gcp-1 ~amd64
 <sys-apps/hwids-20170101 ~amd64
 <sys-apps/net-tools-1.61 ~amd64
