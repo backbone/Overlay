@@ -1,6 +1,3 @@
-# Manually control kernel version
->=sys-kernel/hardened-sources-4.10
-
 >=dev-lang/php-7
 
 =net-misc/openvswitch-2.6.0 # installation failed
