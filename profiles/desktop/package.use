@@ -8,6 +8,7 @@ app-editors/gvim gtk cscope python
 app-editors/vim cscope perl python vim-pager
 app-emulation/qemu spice virgl
 app-emulation/wine gstreamer openal prelink s3tc staging vaapi
+app-emulation/wine-staging gstreamer openal prelink s3tc staging vaapi
 app-laptop/laptop-mode-tools bluetooth
 app-misc/ca-certificates insecure_certs
 app-misc/mc samba sftp

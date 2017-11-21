@@ -23,7 +23,8 @@ app-emulation/libspectrum ~amd64
 <app-emulation/virtualbox-5.2 ~amd64
 <app-emulation/virtualbox-modules-5.2 ~amd64
 <app-emulation/wine-3 ~amd64
-<app-emulation/winetricks-20170101 ~amd64
+<app-emulation/wine-staging-3 ~amd64
+app-emulation/winetricks ~amd64
 <app-eselect/eselect-java-0.3 ~amd64
 app-forensics/chkrootkit ~amd64
 <app-laptop/samsung-tools-2.4 ~amd64
