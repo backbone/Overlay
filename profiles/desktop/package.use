@@ -3,6 +3,7 @@ app-arch/zip natspec
 app-crypt/gcr gtk
 app-crypt/pinentry gnome-keyring
 app-crypt/qca gpg
+app-emulation/fuse -X -fbcon gtk joystick -sdl -svga
 app-editors/gvim gtk cscope python
 app-editors/vim cscope perl python vim-pager
 app-emulation/qemu spice virgl

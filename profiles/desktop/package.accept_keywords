@@ -10,7 +10,9 @@
 <app-antivirus/clamtk-6 ~amd64
 <app-arch/lbzip2-2.6 ~amd64
 <app-emulation/aqemu-1 ~amd64
+app-emulation/fuse ~amd64
 <app-editors/gvim-7.5 ~amd64
+app-emulation/libspectrum ~amd64
 <app-editors/oxygenxml-12 ~x86
 <app-editors/vim-7.5 ~amd64
 <app-editors/vim-core-7.5 ~amd64
