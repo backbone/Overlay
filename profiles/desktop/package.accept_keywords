@@ -115,6 +115,7 @@ app-forensics/chkrootkit ~amd64
 <games-board/crafty-25 ~amd64
 <games-board/eboard-1.2 ~amd64
 <games-emulation/fceux-2.3 ~amd64
+games-emulation/higan ~amd64
 games-emulation/gens-gs ~amd64
 <games-emulation/snes9x-1.55 ~amd64
 <games-fps/doom3-2 ~amd64
