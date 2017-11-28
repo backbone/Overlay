@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python2_7 )
 # libanjuta-language-vala.so links to a specific slot of libvala; we want to
 # avoid automagic behavior.
 VALA_MIN_API_VERSION="0.32"
-VALA_MAX_API_VERSION="0.38"
+VALA_MAX_API_VERSION="0.99"
 
 inherit gnome2 flag-o-matic readme.gentoo-r1 python-single-r1 vala
 
