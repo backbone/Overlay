@@ -30,6 +30,7 @@ dev-libs/libdbusmenu-qt qt5
 dev-libs/libgudev introspection
 dev-libs/libxml2 python
 dev-libs/libpcre pcre16 static-libs
+dev-libs/libpcre2 pcre16 static-libs
 dev-libs/nss cacert
 dev-libs/xmlsec nss
 dev-qt/qtcore icu
@@ -118,6 +119,7 @@ x11-base/xorg-server glamor kdrive
 x11-libs/cairo xcb
 >=x11-libs/gtk+-3 examples
 x11-libs/libdrm libkms
+x11-libs/libfm gtk
 x11-libs/libxcb xkb
 x11-libs/wxGTK -gstreamer tiff
 x11-terms/rxvt-unicode 256-color alt-font-width -vanilla xft
