@@ -44,6 +44,7 @@ app-forensics/chkrootkit ~amd64
 <games-fps/urbanterror-5 ~amd64
 <games-fps/urbanterror-data-5 ~amd64
 <mail-filter/dovecot_deleted_to_trash-1 ~amd64
+<media-gfx/graphviz-2.41 ~amd64
 <media-libs/freetype-2.7 ~amd64
 <media-libs/libpng-1.7 ~amd64
 <media-video/ffmpeg-2.9 ~amd64
