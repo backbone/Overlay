@@ -21,7 +21,7 @@ media-libs/gd fontconfig truetype jpeg png
 media-libs/libpng apng
 media-libs/libsdl2 X opengl
 media-libs/mesa -llvm
-media-video/ffmpeg aac v4l vpx x264
+media-video/ffmpeg aac mp3 v4l vpx x264
 net-dns/dnsmasq script
 net-firewall/iptables conntrack
 net-fs/samba aio quota
@@ -39,4 +39,5 @@ sys-libs/ntdb python
 sys-libs/tdb python
 sys-libs/tevent python
 sys-libs/zlib minizip
+virtual/ffmpeg mp3
 www-servers/lighttpd php
