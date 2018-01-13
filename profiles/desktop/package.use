@@ -78,7 +78,7 @@ media-video/ffmpeg aacplus faac libv4l mp3 schroedinger theora vaapi
 media-video/ffmpegthumbnailer gnome gtk
 media-video/mpv encode -lua -luajit vaapi
 media-video/vlc schroedinger vaapi
-net-analyzer/wireshark adns geoip smi
+net-analyzer/wireshark adns geoip gtk smi -qt5
 net-firewall/iptables conntrack
 net-fs/samba aio
 net-libs/libtorrent-rasterbar python
