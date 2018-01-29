@@ -4,7 +4,7 @@ app-misc/ca-certificates insecure_certs
 app-misc/mc samba sftp
 app-misc/sphinx mysql
 app-portage/eix sqlite
-dev-lang/php cgi curl gd mysql mysqli pcntl pdo truetype
+dev-lang/php cgi cli curl gd mysql mysqli pcntl pdo truetype
 dev-lang/python sqlite
 dev-libs/gmp pgo
 dev-libs/libxml2 icu python
