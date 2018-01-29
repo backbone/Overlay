@@ -50,6 +50,7 @@ app-forensics/chkrootkit ~amd64
 <app-text/libwpg-0.4 ~amd64
 <app-text/libwps-0.5 ~amd64
 <app-text/libodfgen-0.2 ~amd64
+<app-text/poppler-0.63 ~amd64
 <app-text/ps2pkm-1.9 ~amd64
 <app-text/texlive-2018 ~amd64
 <app-text/texlive-core-2018 ~amd64
@@ -99,6 +100,7 @@ app-forensics/chkrootkit ~amd64
 <dev-qt/qtquickcontrols-5.10 ~amd64
 <dev-qt/qtquickcontrols2-5.10 ~amd64
 <dev-qt/qtscript-5.10 ~amd64
+<dev-qt/qtsql-5.10 ~amd64
 <dev-qt/qtsvg-5.10 ~amd64
 <dev-qt/qttest-5.10 ~amd64
 <dev-qt/qtwidgets-5.10 ~amd64
