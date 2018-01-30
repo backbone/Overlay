@@ -14,7 +14,7 @@ dev-vcs/git -python
 games-action/minetest leveldb
 games-fps/urbanterror -client dedicated server
 mail-filter/amavisd-new clamav spamassassin
-mail-mta/postfix dovecot-sasl
+mail-mta/postfix berkdb dovecot-sasl
 media-gfx/graphviz cairo
 media-gfx/imagemagick fftw jpeg png
 media-libs/gd fontconfig truetype jpeg png
