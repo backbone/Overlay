@@ -61,7 +61,7 @@ app-forensics/chkrootkit ~amd64
 <dev-db/sqlite-3.22 ~amd64
 <dev-lang/gnu-smalltalk-4 ~amd64
 <dev-lang/nasm-2.14 ~amd64
-<dev-lang/rust-1.20 ~amd64
+<dev-lang/rust-1.24 ~amd64
 <dev-lang/spidermonkey-1.9 ~amd64
 <dev-lang/vala-1 ~amd64
 <dev-libs/d0_blind_id-1.1 ~amd64
@@ -122,7 +122,7 @@ app-forensics/chkrootkit ~amd64
 <dev-texlive/texlive-pstricks-2018 ~amd64
 <dev-texlive/texlive-science-2018 ~amd64
 <dev-util/bdelta-1 ~amd64
-<dev-util/cargo-0.21 ~amd64
+<dev-util/cargo-0.25 ~amd64
 <dev-util/cmake-3.7 ~amd64
 <dev-util/colormake-1 ~amd64
 <dev-util/cppcheck-2 ~amd64
@@ -295,7 +295,7 @@ sys-kernel/linux-firmware ~amd64
 <sys-process/acct-6.7 ~amd64
 <sys-process/atop-3 ~amd64
 <sys-process/procps-3.4 ~amd64
-<virtual/rust-1.20 ~amd64
+<virtual/rust-1.24 ~amd64
 www-client/firefox ~amd64
 <www-plugins/mozplugger-3 ~amd64
 <www-plugins/adobe-flash-25 ~amd64
