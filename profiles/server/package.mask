@@ -5,3 +5,4 @@
 =games-fps/urbanterror-4.3.2_p20170426 # does not notify master servers
 
 =net-libs/nodejs-6.11.5 # build fails
+=app-admin/sshguard-2.1.0-r1 # start-stop-daemon: /usr/sbin/sshguard died
