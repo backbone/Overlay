@@ -7,18 +7,18 @@ EAPI=5
 inherit cmake-utils
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://git.backbone.ws/gtk/gobject-plugin.git"}
+	EGIT_REPO_URI=${EGIT_REPO_URI:-"https://git.backbone.ws/kolan/gobject-plugin.git"}
 	inherit git-r3
 	KEYWORDS=""
 else
 	#SRC_URI="ftp://ftp.backbone.ws/projects/gobject-plugin/${P}.tar.bz2"
-	SRC_URI="https://git.backbone.ws/gtk/gobject-plugin/archive/v${PVR}.tar.gz -> gobject-plugin-${PVR}.tar.gz"
+	SRC_URI="https://git.backbone.ws/kolan/gobject-plugin/archive/v${PVR}.tar.gz -> gobject-plugin-${PVR}.tar.gz"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
 DESCRIPTION="Host/Plugin Interfaces for GObject Based Applications/Libraries."
 
-HOMEPAGE="https://redmine.backbone.ws/projects/plugin"
+HOMEPAGE="https://git.backbone.ws/kolan/gobject-plugin"
 
 SLOT="0"
 

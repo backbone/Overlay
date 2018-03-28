@@ -7,18 +7,18 @@ EAPI=5
 inherit cmake-utils
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://git.backbone.ws/gtk/cairo-chart.git"}
+	EGIT_REPO_URI=${EGIT_REPO_URI:-"https://git.backbone.ws/kolan/cairo-chart.git"}
 	inherit git-r3
 	KEYWORDS=""
 else
 	#SRC_URI="ftp://ftp.backbone.ws/projects/cairo-chart/${P}.tar.bz2"
-	SRC_URI="https://git.backbone.ws/gtk/cairo-chart/archive/v${PVR}.tar.gz -> cairo--chart-${PVR}.tar.gz"
+	SRC_URI="https://git.backbone.ws/kolan/cairo-chart/archive/v${PVR}.tar.gz -> cairo-chart-${PVR}.tar.gz"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
 DESCRIPTION="GtkChart for Gtk.DrawingArea (Cairo)."
 
-HOMEPAGE="https://redmine.backbone.ws/projects/cairo-chart"
+HOMEPAGE="https://git.backbone.ws/kolan/Cairo-Chart"
 
 SLOT="0"
 

@@ -7,17 +7,17 @@ EAPI=4
 inherit eutils
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://github.com/backbone/network-profile.git"}
+	EGIT_REPO_URI=${EGIT_REPO_URI:-"https://git.backbone.ws/kolan/obsolete.gentoo-network-profile.git"}
 	inherit git-r3
 	KEYWORDS=""
 else
-	SRC_URI="ftp://backbone.ws/projects/network-profile/${P}.tar.bz2"
+	SRC_URI="https://git.backbone.ws/kolan/obsolete.gentoo-network-profile/archive/v${PVR}.tar.gz -> gentoo-network-profile-${PVR}.tar.gz"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
 DESCRIPTION="Gentoo network profiling"
 
-HOMEPAGE="https://chili.backbone.ws/projects/network-profile"
+HOMEPAGE="https://git.backbone.ws/kolan/obsolete.gentoo-network-profile"
 
 SLOT="0"
 

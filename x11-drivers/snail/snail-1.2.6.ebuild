@@ -4,19 +4,19 @@
 
 EAPI=4
 
-EGIT_REPO_URI="git://github.com/backbone/snail.git"
+EGIT_REPO_URI="https://git.backbone.ws/kolan/snail.git"
 
 [[ 9999 == ${PV} ]] && vcs=git
 
 inherit $vcs eutils
 
 if [[ 9999 != ${PV} ]]; then
-	SRC_URI="ftp://backbone.ws/projects/snail/${P}.tar.bz2"
+	SRC_URI="https://git.backbone.ws/kolan/snail/archive/v${PVR}.tar.gz -> snail-${PVR}.tar.gz"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
 DESCRIPTION="Snail - nVidia Optimus support"
-HOMEPAGE="https://chili.backbone.ws/projects/snail"
+HOMEPAGE="https://git.backbone.ws/kolan/Snail"
 
 LICENSE="GPL-3"
 SLOT="0"

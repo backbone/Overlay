@@ -4,7 +4,7 @@
     name = "backbone"
     status="unofficial"
     type = "git"
-    src = "git://github.com/backbone/overlay.git"
+    src = "https://git.backbone.ws/kolan/overlay.git"
     contact = "backbone@backbone.ws">
 	<link>https://git.backbone.ws/kolan/overlay</link>
     <description>Backbone’s Portage overlay.</description>

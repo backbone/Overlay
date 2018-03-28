@@ -7,17 +7,17 @@ EAPI=4
 inherit eutils
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI=${EGIT_REPO_URI:-"git://github.com/backbone/findcruftfiles.git"}
+	EGIT_REPO_URI=${EGIT_REPO_URI:-"https://git.backbone.ws/kolan/Portage-FindCruftFiles.git"}
 	inherit git-r3
 	KEYWORDS=""
 else
-	SRC_URI="ftp://backbone.ws/projects/findcruftfiles/${P}.tar.bz2"
+	SRC_URI="https://git.backbone.ws/kolan/portage-findcruftfiles/archive/v${PVR}.tar.gz -> portage-findcruftfiles-${PVR}.tar.gz"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
 DESCRIPTION="Automated Gentoo upgrading"
 
-HOMEPAGE="https://redmine.backbone.ws/projects/findcruftfiles"
+HOMEPAGE="https://git.backbone.ws/kolan/Portage-FindCruftFiles"
 
 SLOT="0"
 
