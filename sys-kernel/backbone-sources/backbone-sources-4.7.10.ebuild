@@ -19,7 +19,7 @@ SRC_URI="https://git.backbone.ws/kolan/backbone-sources/archive/v${PVR}.tar.gz -
 src_unpack() {
 	tar -xf ${DISTDIR}/linux-backbone-${PVR}.tar.gz
 	if [[ ${PR} != "r0" ]]; then REV="-${PR}"; fi
-	mv ${WORKDIR}/linux-backbone-sources ${WORKDIR}/linux-${PV}-backbone${REV}
+	mv ${WORKDIR}/backbone-sources ${WORKDIR}/linux-${PV}-backbone${REV}
 }
 
 pkg_postinst() {
