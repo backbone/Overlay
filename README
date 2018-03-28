@@ -1,7 +1,7 @@
 How to add this repo using layman
 =================================
 
-sudo layman -f -o https://git.backbone.ws/linux/overlay/blobs/raw/master/layman.xml -a backbone
+sudo layman -f -o https://git.backbone.ws/kolan/overlay/blobs/raw/master/layman.xml -a backbone
 
 
 Using Backbone's Profiles
