@@ -7,18 +7,18 @@ EAPI=5
 inherit gnome2-utils cmake-utils
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI=${EGIT_REPO_URI:-"git@git.backbone.ws:kolan/laview-core.git"}
+	EGIT_REPO_URI=${EGIT_REPO_URI:-"git@git.backbone.ws:kolan/LAview.Core.git"}
 	inherit git-r3
 	KEYWORDS=""
 else
-	#SRC_URI="ftp://ftp.backbone.ws/projects/laview-core/${P}.tar.bz2"
-	SRC_URI="https://git.backbone.ws/kolan/laview-core/archive/v${PVR}.tar.gz -> laview-core-${PVR}.tar.gz"
+	#SRC_URI="ftp://ftp.backbone.ws/projects/LAview.Core/${P}.tar.bz2"
+	SRC_URI="https://git.backbone.ws/kolan/LAview.Core/archive/v${PVR}.tar.gz -> laview-core-${PVR}.tar.gz"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
 DESCRIPTION="LAview Core Libraries."
 
-HOMEPAGE="https://git.backbone.ws/kolan/laview-core"
+HOMEPAGE="https://git.backbone.ws/kolan/LAview.Core"
 
 SLOT="0"
 

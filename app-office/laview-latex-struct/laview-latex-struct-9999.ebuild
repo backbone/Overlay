@@ -7,12 +7,12 @@ EAPI=5
 inherit cmake-utils
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI=${EGIT_REPO_URI:-"git@git.backbone.ws:kolan/laview-latex-struct.git"}
+	EGIT_REPO_URI=${EGIT_REPO_URI:-"git@git.backbone.ws:kolan/LAview.LaTeX-Struct.git"}
 	inherit git-r3
 	KEYWORDS=""
 else
-	#SRC_URI="ftp://ftp.backbone.ws/projects/laview-latex-struct/${P}.tar.bz2"
-	SRC_URI="https://git.backbone.ws/kolan/laview-latex-struct/archive/v${PVR}.tar.gz -> laview-latex-struct-${PVR}.tar.gz"
+	#SRC_URI="ftp://ftp.backbone.ws/projects/LAview.LaTeX-Struct/${P}.tar.bz2"
+	SRC_URI="https://git.backbone.ws/kolan/LAview.LaTeX-Struct/archive/v${PVR}.tar.gz -> laview-latex-struct-${PVR}.tar.gz"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
