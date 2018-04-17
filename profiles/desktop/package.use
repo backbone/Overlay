@@ -108,6 +108,7 @@ sys-libs/ntdb nscd
 sys-libs/tdb nscd python
 sys-libs/tevent nscd python
 sys-libs/zlib minizip
+sys-process/lsof rpc
 virtual/ffmpeg -libav mp3 theora vaapi
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
