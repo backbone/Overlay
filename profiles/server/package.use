@@ -40,5 +40,6 @@ sys-libs/ntdb python
 sys-libs/tdb python
 sys-libs/tevent python
 sys-libs/zlib minizip
+sys-process/lsof rpc
 virtual/ffmpeg mp3
 www-servers/lighttpd php
