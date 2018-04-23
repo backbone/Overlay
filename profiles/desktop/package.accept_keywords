@@ -226,6 +226,7 @@ games-emulation/gens-gs ~amd64
 <media-plugins/audacious-plugins-3.10 ~amd64
 <media-plugins/caps-plugins-0.9.24 ~amd64
 <media-sound/alsa-utils-1.1.5 ~amd64
+=media-sound/apulse-9999 **
 <media-sound/audacious-3.10 ~amd64
 <media-sound/audacity-2.1 ~amd64
 <media-sound/jack-audio-connection-kit-1 ~amd64
