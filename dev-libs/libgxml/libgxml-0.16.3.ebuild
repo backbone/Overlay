@@ -14,7 +14,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND=""
+DEPEND="
+	>=dev-lang/vala-0.40
+	dev-libs/libxml2
+"
 RDEPEND="${DEPEND}"
 
 src_unpack() {
