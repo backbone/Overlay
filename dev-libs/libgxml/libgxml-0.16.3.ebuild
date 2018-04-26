@@ -17,6 +17,11 @@ IUSE=""
 DEPEND=""
 RDEPEND="${DEPEND}"
 
+src_unpack() {
+	default
+	mv "${WORKDIR}/gxml-${PV}" "${S}"
+}
+
 src_prepare() {
 	default
 	./autogen.sh || die
