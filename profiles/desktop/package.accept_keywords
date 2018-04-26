@@ -127,6 +127,7 @@ app-forensics/chkrootkit ~amd64
 <dev-util/cmake-3.7 ~amd64
 <dev-util/colormake-1 ~amd64
 <dev-util/cppcheck-2 ~amd64
+<dev-util/glade-3.21 ~amd64
 <dev-util/kbuild-0.2 ~amd64
 <dev-util/mdds-1.3 ~amd64
 <dev-util/perf-5 ~amd64
