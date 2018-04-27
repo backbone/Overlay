@@ -1,6 +1,6 @@
 app-editors/vim cscope perl python vim-pager
 app-emulation/libvirt virt-network
-app-emulation/qemu spice
+app-emulation/qemu spice usb
 app-misc/ca-certificates insecure_certs
 app-misc/mc samba sftp
 app-misc/sphinx mysql
