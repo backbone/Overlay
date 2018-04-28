@@ -7,12 +7,12 @@ EAPI=5
 inherit cmake-utils
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI=${EGIT_REPO_URI:-"git@git.backbone.ws:kolan/LAview.Plugin.Object-Example.git"}
+	EGIT_REPO_URI=${EGIT_REPO_URI:-"git@git.backbone.ws:kolan/LAview.Object-Example.git"}
 	inherit git-r3
 	KEYWORDS=""
 else
-	#SRC_URI="ftp://ftp.backbone.ws/projects/LAview.Plugin.Object-Example/${P}.tar.bz2"
-	SRC_URI="https://git.backbone.ws/kolan/LAview.Plugin.Object-Example/archive/v${PVR}.tar.gz -> laview-plugin-object-example-${PVR}.tar.gz"
+	#SRC_URI="ftp://ftp.backbone.ws/projects/LAview.Object-Example/${P}.tar.bz2"
+	SRC_URI="https://git.backbone.ws/kolan/LAview.Object-Example/archive/v${PVR}.tar.gz -> laview-object-example-${PVR}.tar.gz"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
@@ -28,6 +28,6 @@ IUSE=""
 
 DEPEND="app-office/laview-core
 	x11-libs/gtk+:3
-	app-office/laview-plugin-data-example"
+	app-office/laview-data-example"
 
 RDEPEND="${DEPEND}"

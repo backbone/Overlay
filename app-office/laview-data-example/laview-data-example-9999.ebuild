@@ -7,12 +7,12 @@ EAPI=5
 inherit cmake-utils
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI=${EGIT_REPO_URI:-"git@git.backbone.ws:kolan/LAview.Plugin.Data-Example.git"}
+	EGIT_REPO_URI=${EGIT_REPO_URI:-"git@git.backbone.ws:kolan/LAview.Data-Example.git"}
 	inherit git-r3
 	KEYWORDS=""
 else
-	#SRC_URI="ftp://ftp.backbone.ws/projects/LAview.Plugin.Data-Example/${P}.tar.bz2"
-	SRC_URI="https://git.backbone.ws/kolan/LAview.Plugin.Data-Example/archive/v${PVR}.tar.gz -> laview-plugin-data-example-${PVR}.tar.gz"
+	#SRC_URI="ftp://ftp.backbone.ws/projects/LAview.Data-Example/${P}.tar.bz2"
+	SRC_URI="https://git.backbone.ws/kolan/LAview.Data-Example/archive/v${PVR}.tar.gz -> laview-data-example-${PVR}.tar.gz"
 	KEYWORDS="-* ~x86 ~amd64"
 fi
 
