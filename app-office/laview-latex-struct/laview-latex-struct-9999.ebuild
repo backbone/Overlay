@@ -18,7 +18,7 @@ fi
 
 DESCRIPTION="LaTeX representation in the memory + Scanner + Generator + Operations on document objects."
 
-HOMEPAGE="https://git.backbone.ws/kolan/laview-latex-struct"
+HOMEPAGE="https://git.backbone.ws/kolan/LAview.LaTeX-Struct"
 
 SLOT="0"
 

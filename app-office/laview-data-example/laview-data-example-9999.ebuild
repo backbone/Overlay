@@ -18,7 +18,7 @@ fi
 
 DESCRIPTION="LAview data plugin sample."
 
-HOMEPAGE="https://git.backbone.ws/kolan/laview-data-example"
+HOMEPAGE="https://git.backbone.ws/kolan/LAview.Data-Example"
 
 SLOT="0"
 

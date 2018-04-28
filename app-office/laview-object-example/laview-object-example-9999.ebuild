@@ -18,7 +18,7 @@ fi
 
 DESCRIPTION="LAview Object protocol plugin sample."
 
-HOMEPAGE="https://git.backbone.ws/kolan/laview-object-example"
+HOMEPAGE="https://git.backbone.ws/kolan/LAview.Object-Example"
 
 SLOT="0"
 
