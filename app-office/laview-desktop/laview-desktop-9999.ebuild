@@ -30,7 +30,7 @@ DEPEND="app-office/laview-core
 	x11-libs/gtk+:3"
 
 RDEPEND="${DEPEND}
-	examples? ( app-office/laview-plugin-object-example )"
+	examples? ( app-office/laview-object-example )"
 
 pkg_preinst() {
 	gnome2_schemas_savelist
