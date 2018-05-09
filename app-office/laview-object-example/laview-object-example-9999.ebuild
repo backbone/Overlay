@@ -31,3 +31,15 @@ DEPEND="app-office/laview-core
 	app-office/laview-data-example"
 
 RDEPEND="${DEPEND}"
+
+pkg_preinst() {
+	gnome2_schemas_savelist
+}
+
+pkg_postinst() {
+	gnome2_schemas_update
+}
+
+pkg_postrm() {
+	gnome2_schemas_update
+}
