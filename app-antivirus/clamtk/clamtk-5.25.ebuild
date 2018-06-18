@@ -1,14 +1,13 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-EAPI=5
+EAPI=6
 
 inherit eutils perl-module
 
 DESCRIPTION="A frontend for ClamAV using Gtk2-perl"
-HOMEPAGE="https://bitbucket.org/dave_theunsub/clamtk/"
-SRC_URI="https://bitbucket.org/dave_theunsub/clamtk/downloads/${P}.tar.gz"
+HOMEPAGE="https://bitbucket.org/davem_/clamtk/"
+SRC_URI="https://bitbucket.org/davem_/clamtk/downloads/${P}.tar.xz"
 
 LICENSE="|| ( Artistic GPL-1+ )"
 SLOT="0"
@@ -28,6 +27,7 @@ RDEPEND="
 	dev-perl/Locale-gettext
 	dev-perl/Text-CSV
 	dev-perl/glib-perl
+	dev-perl/Gtk2
 	dev-perl/libwww-perl
 	virtual/perl-Digest-SHA
 	virtual/perl-MIME-Base64
