@@ -78,7 +78,7 @@ net-p2p/transmission gtk
 net-voip/linphone gtk
 sci-libs/opencascade -vtk
 sys-apps/gawk mpfr
-sys-apps/util-linux tty-helpers
+sys-apps/util-linux static-libs tty-helpers
 sys-auth/consolekit pm-utils policykit
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
