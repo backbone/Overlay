@@ -3,30 +3,27 @@ app-arch/zip natspec
 app-crypt/gcr gtk
 app-crypt/pinentry gnome-keyring
 app-crypt/qca gpg
-app-emulation/fuse -X -fbcon gtk joystick -sdl -svga
-app-editors/gvim gtk cscope python
+app-emulation/fuse joystick
+app-editors/gvim cscope gtk python
 app-editors/vim cscope perl python vim-pager
 app-emulation/qemu spice virgl
 app-emulation/wine gstreamer openal prelink s3tc staging vaapi
-app-emulation/wine-staging gstreamer openal prelink s3tc staging vaapi
+app-emulation/wine-staging gstreamer openal prelink s3tc vaapi
 app-laptop/laptop-mode-tools bluetooth
 app-misc/ca-certificates insecure_certs
 app-misc/mc samba sftp
 app-office/libreoffice-bin java
 app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rcs rtf svg
-app-portage/eix optimization strong-optimization sqlite
+app-portage/eix sqlite
 app-portage/layman mercurial subversion
 app-text/evince djvu dvi
 app-text/stardict espeak pronounce spell
 app-text/xmlto text
-app-text/yagf pdf
 dev-db/sqlite secure-delete
 dev-lang/python sqlite
 dev-libs/boost python
 dev-libs/elfutils static-libs
-dev-libs/glib static-libs utils
-dev-libs/gmp pgo
-dev-libs/libdbusmenu-qt qt5
+dev-libs/glib static-libs
 dev-libs/libgudev introspection
 dev-libs/libxml2 python
 dev-libs/libpcre pcre16 static-libs
@@ -34,20 +31,16 @@ dev-libs/libpcre2 pcre16 static-libs
 dev-libs/nss cacert
 dev-libs/xmlsec nss
 dev-qt/qtcore icu
-<dev-qt/qtwebkit-5 -gstreamer
 dev-util/anjuta vala
 gnome-base/gvfs mtp udisks
-mail-client/thunderbird custom-optimization -crypt gstreamer libnotify system-cairo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
+mail-client/thunderbird custom-optimization -crypt system-cairo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
 games-emulation/fceux gtk
 games-emulation/snes9x gtk joystick
 games-simulation/crrcsim portaudio
-games-strategy/0ad sound
 games-strategy/warzone2100 videos
 games-util/steam-client-meta flash trayicon
-games-util/steam-games-meta s3tc
-media-fonts/terminus-font a-like-o quote ru-dv ru-g ru-i ru-k
+media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
 media-gfx/blender colorio cycles ffmpeg openimageio tiff
-<media-gfx/blender-2.78 -ffmpeg
 media-gfx/gimp pdf svg tiff
 media-gfx/imagemagick svg
 media-libs/avidemux-core vaapi
@@ -59,64 +52,51 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libvpx postproc
-media-libs/mesa d3d9 dri3 g3dvl gbm -gles1 gles2 -llvm openvg vaapi xa xvmc
+media-libs/mesa d3d9 -llvm vaapi xa xvmc
 media-libs/mlt ffmpeg kdenlive melt qt5 xml
-media-libs/phonon qt4 qt5
-media-libs/phonon-vlc qt4 qt5
 media-libs/sdl-image gif
 media-libs/sdl-mixer midi mp3 mod timidity
 media-plugins/alsa-plugins libsamplerate pulseaudio
-media-plugins/audacious-plugins cue ffmpeg flac fluidsynth gtk3 lame libsamplerate midi mp3
+media-plugins/audacious-plugins cue ffmpeg flac fluidsynth gtk3 lame libsamplerate mp3
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
-=media-plugins/gst-plugins-meta-1.6.3 -vaapi    # Green video in several HTML5 videos on YouTube
-media-sound/audacity mp3
-media-sound/audacious gtk3 mp3
-media-tv/v4l-utils qt4
+media-sound/audacious gtk3
+media-tv/v4l-utils qt5
 media-tv/kodi vaapi
 media-video/avidemux qt5 vaapi
-media-video/ffmpeg aacplus faac libv4l mp3 schroedinger theora vaapi
+media-video/ffmpeg libv4l mp3 schroedinger theora vaapi
 media-video/ffmpegthumbnailer gnome gtk
 media-video/mpv encode -lua -luajit vaapi
 media-video/vlc schroedinger vaapi
-net-analyzer/wireshark adns geoip gtk smi -qt5
+net-analyzer/wireshark adns gtk smi -qt5
 net-firewall/iptables conntrack
-net-fs/samba aio
 net-libs/libtorrent-rasterbar python
 net-misc/iputils tracepath
 net-misc/remmina rdp
-net-misc/spice-gtk gtk3
-net-misc/tightvnc server
 net-misc/wicd libnotify
-net-p2p/deluge geoip gtk libnotify setproctitle sound webinterface
+net-p2p/deluge geoip gtk libnotify sound webinterface
 net-p2p/transmission gtk
 net-voip/linphone gtk
 sci-libs/opencascade -vtk
 sys-apps/gawk mpfr
 sys-apps/util-linux tty-helpers
 sys-auth/consolekit pm-utils policykit
-sys-auth/polkit-qt qt5
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
-sys-devel/gdb expat lzma multitarget
-sys-devel/llvm clang
-sys-fs/android-file-transfer qt5
+sys-devel/gdb lzma multitarget
 sys-fs/lvm2 -thin
-sys-fs/udev static-libs
 sys-libs/glibc nscd
-sys-libs/ntdb nscd
-sys-libs/tdb nscd python
-sys-libs/tevent nscd python
+sys-libs/tdb python
+sys-libs/tevent python
 sys-libs/zlib minizip
 sys-process/lsof rpc
 virtual/ffmpeg -libav mp3 theora vaapi
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
-www-client/firefox custom-cflags custom-optimization ffmpeg gstreamer gtk3 system-cairo system-harfbuzz system-jpeg system-libevent system-libvpx system-sqlite
-<www-client/opera-35 -gstreamer
+www-client/firefox custom-optimization system-cairo system-harfbuzz system-jpeg system-libevent system-libvpx system-sqlite
 x11-drivers/nvidia-drivers -kms uvm
 x11-drivers/xf86-video-intel dri3 uxa xvmc
-x11-base/xorg-server glamor kdrive
+x11-base/xorg-server kdrive
 x11-libs/cairo xcb
 >=x11-libs/gtk+-3 examples
 x11-libs/libdrm libkms
