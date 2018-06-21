@@ -36,6 +36,7 @@
 <app-vim/youcompleteme-20170101 ~amd64
 <dev-lang/gnu-smalltalk-4 ~amd64
 <dev-lang/nasm-2.14 ~amd64
+<dev-lang/rust-1.27 ~amd64
 <dev-lang/vala-1 ~amd64
 <dev-libs/d0_blind_id-1.1 ~amd64
 <dev-libs/gmp-6.2 ~amd64
@@ -123,6 +124,7 @@ games-emulation/gens-gs ~amd64
 <media-libs/glm-1 ~amd64
 =media-libs/libfilteraudio-9999 **
 <media-libs/libmtp-1.2 ~amd64
+<media-libs/mlt-6.7 ~amd64
 <media-libs/openimageio-1.9 ~amd64
 <media-libs/x265-3 ~amd64
 <media-libs/xvid-1.4 ~amd64
