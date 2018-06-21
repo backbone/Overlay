@@ -7,7 +7,7 @@ EAPI=4
 inherit eutils
 
 SRC_URI="http://files.backbone.ws/projects/stardict-dicts/${P}.tar.bz2"
-KEYWORDS="-* ~x86 ~amd64"
+KEYWORDS="-* x86 amd64"
 
 DESCRIPTION="Set of en/ru dictionaries for stardict"
 

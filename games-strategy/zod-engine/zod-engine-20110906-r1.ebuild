@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/zod/${MY_P}.tar.xz"
 
 LICENSE="GPL-3 LGPL-2.1"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="+editor +launcher"
 
 RDEPEND="

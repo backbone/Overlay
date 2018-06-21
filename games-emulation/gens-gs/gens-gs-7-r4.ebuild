@@ -14,7 +14,7 @@ SRC_URI="http://www.soniccenter.org/gerbilsoft/gens/${MY_PV}/${PN}-${MY_PV}.tar.
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="-* ~amd64 ~x86"
+KEYWORDS="-* amd64 x86"
 IUSE="opengl"
 
 RDEPEND="opengl? (

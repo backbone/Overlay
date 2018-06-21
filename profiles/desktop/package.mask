@@ -1,4 +1,3 @@
 >=media-fonts/liberation-fonts-2.00.0
 =media-plugins/caps-plugins-0.9.24 # brokes equiilizer
-=app-text/libmwaw-0.3.13
 =sys-fs/udev-238 #  error: size of array ‘a’ is negative

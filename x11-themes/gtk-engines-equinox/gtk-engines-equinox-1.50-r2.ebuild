@@ -15,7 +15,7 @@ SRC_URI="http://gnome-look.org/CONTENT/content-files/121881-${MY_P}.tar.gz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE="+animations"
 
 RDEPEND="x11-libs/gtk+"

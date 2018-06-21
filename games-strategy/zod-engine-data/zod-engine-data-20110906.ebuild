@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/zod/linux_releases/${MY_P}.tar.gz"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 RESTRICT="bindist"
 
