@@ -4,6 +4,7 @@
 <app-admin/logcheck-1.4 ~amd64
 <app-admin/paxtest-1 ~amd64
 <app-admin/python-updater-1 ~amd64
+<app-admin/sshguard-2.2 ~amd64
 app-antivirus/clamav ~amd64
 <app-arch/lbzip2-2.6 ~amd64
 <app-arch/p7zip-16 ~amd64

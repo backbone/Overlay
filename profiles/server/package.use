@@ -33,7 +33,7 @@ net-misc/openvswitch -modules
 net-p2p/rtorrent xmlrpc
 net-proxy/squid caps logrotate tproxy
 sys-apps/gawk mpfr
-sys-apps/util-linux tty-helpers
+sys-apps/util-linux static-libs tty-helpers
 sys-fs/lvm2 -thin
 sys-libs/glibc nscd
 sys-libs/ntdb python
