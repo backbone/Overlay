@@ -30,17 +30,11 @@ RUBY_TARGETS="-*"
 # cpu
 USE="${USE} mpi smp"
 
-# fonts
-USE="${USE} -cairo"
-
-# audio
-USE="${USE} alsa"
-
 # develop
-USE="${USE} -debug -introspection vim-syntax"
+USE="${USE} -debug vim-syntax"
 
 # daemons
 USE="${USE} daemon"
 
 # other
-USE="${USE} device-mapper natspec -static-libs threads"
+USE="${USE} threads"
