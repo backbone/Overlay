@@ -5,22 +5,16 @@ app-emulation/libvirt virt-network
 app-emulation/qemu spice usb
 app-misc/ca-certificates insecure_certs
 app-misc/mc samba sftp
-app-misc/sphinx mysql
 app-portage/eix sqlite
 dev-lang/php cgi cli curl gd mysql mysqli pcntl pdo truetype
 dev-lang/python sqlite
 dev-libs/gmp pgo
 dev-libs/libxml2 icu python
-dev-perl/GD png
 dev-python/twisted conch
-dev-vcs/git -python
-games-action/minetest leveldb
-games-fps/urbanterror -client dedicated server
+games-fps/urbanterror -client server
 mail-filter/amavisd-new clamav spamassassin
 mail-mta/postfix berkdb dovecot-sasl
-media-gfx/graphviz cairo
 media-gfx/imagemagick fftw jpeg png
-media-libs/gd fontconfig truetype jpeg png
 media-libs/libpng apng
 media-libs/libsdl2 X opengl
 media-libs/mesa -llvm
