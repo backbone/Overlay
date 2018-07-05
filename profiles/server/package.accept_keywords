@@ -53,6 +53,7 @@ app-forensics/chkrootkit ~amd64
 <net-analyzer/nethogs-0.9 ~amd64
 <net-analyzer/ntop-6 ~amd64
 <net-fs/samba-5 ~amd64
+<net-ftp/pure-ftpd-1.1 ~amd64
 <net-libs/gnutls-3.4 ~amd64
 <net-misc/netifrc-0.4 ~amd64
 <net-misc/radvd-2.18 ~amd64
@@ -74,6 +75,7 @@ sys-kernel/linux-firmware ~amd64
 <sys-power/powertop-2.9 ~amd64
 <sys-process/acct-6.7 ~amd64
 <sys-process/atop-3 ~amd64
+<sys-process/nmon-17 ~amd64
 <sys-process/procps-3.4 ~amd64
 <www-apps/tt-rss-20190101 ~amd64
 <www-servers/lighttpd-1.5 ~amd64

@@ -6,3 +6,4 @@
 
 =net-libs/nodejs-6.11.5 # build fails
 =app-admin/sshguard-2.1.0-r1 # start-stop-daemon: /usr/sbin/sshguard died
+>=media-gfx/imagemagick-7 # redmine installation fails

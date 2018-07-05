@@ -26,7 +26,7 @@ media-video/ffmpeg aac mp3 v4l vpx x264
 net-dns/dnsmasq script
 net-firewall/iptables conntrack
 net-fs/samba aio quota
-net-ftp/pure-ftpd sysquota
+net-ftp/pure-ftpd caps charconv resolveids sysquota
 net-im/ejabberd mod_muc mod_proxy65 mod_irc mod_pubsub
 net-misc/iputils tracepath
 net-misc/openvswitch -modules
