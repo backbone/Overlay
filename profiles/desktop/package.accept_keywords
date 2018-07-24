@@ -165,8 +165,8 @@ games-emulation/gens-gs ~amd64
 <sys-fs/jmtpfs-1 ~amd64
 <sys-fs/mtpfs-1.2 ~amd64
 <sys-fs/simple-mtpfs-1 ~amd64
-<sys-kernel/backbone-sources-4.16 ~amd64
-<sys-kernel/vanilla-sources-4.17 ~amd64
+<sys-kernel/backbone-sources-4.18 ~amd64
+<sys-kernel/vanilla-sources-4.18 ~amd64
 <sys-kernel/linux-firmware-20190101 ~amd64
 <sys-kernel/linux-headers-5 ~amd64
 <sys-libs/ldb-1.4 ~amd64
