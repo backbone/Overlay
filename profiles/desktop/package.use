@@ -12,13 +12,13 @@ app-emulation/wine-staging gstreamer openal prelink s3tc vaapi
 app-laptop/laptop-mode-tools bluetooth
 app-misc/ca-certificates insecure_certs
 app-misc/mc samba sftp
-app-office/libreoffice-bin java
+app-office/libreoffice-bin java python_targets_python3_5
 app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rcs rtf svg
 app-portage/eix sqlite
 app-portage/layman mercurial subversion
 app-text/evince djvu dvi
 app-text/stardict espeak pronounce spell
-app-text/xmlto text
+app-text/xmlto sdl2 text
 dev-db/sqlite secure-delete
 dev-lang/python sqlite
 dev-libs/boost python
