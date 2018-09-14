@@ -21,6 +21,7 @@ app-text/stardict espeak pronounce spell
 app-text/xmlto sdl2 text
 dev-db/sqlite secure-delete
 dev-lang/python sqlite
+dev-lang/python:2.7 tk
 dev-libs/boost python
 dev-libs/elfutils static-libs
 dev-libs/glib static-libs
