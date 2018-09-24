@@ -138,6 +138,7 @@ games-emulation/gens-gs ~amd64
 =media-sound/apulse-9999 **
 <media-sound/audacious-3.10 ~amd64
 <media-sound/audacity-2.3 ~amd64
+<media-sound/bluez-alsa-1.4.0 ~amd64
 <media-sound/mp3unicode-2 ~amd64
 <media-video/avidemux-3 ~amd64
 <media-video/lives-2 ~amd64
