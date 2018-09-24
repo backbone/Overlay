@@ -34,6 +34,7 @@
 <app-text/texlive-2018 ~amd64
 <app-text/texlive-core-2018 ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
+<dev-db/lmdb-0.9.23 ~amd64
 <dev-lang/gnu-smalltalk-4 ~amd64
 <dev-lang/nasm-2.14 ~amd64
 <dev-lang/rust-1.27 ~amd64
