@@ -9,7 +9,7 @@ inherit autotools eutils git-r3 vala
 
 DESCRIPTION="Documentation generator for Vala source code"
 HOMEPAGE="https://live.gnome.org/Valadoc"
-EGIT_REPO_URI="git://git.gnome.org/${PN}"
+EGIT_REPO_URI="https://github.com/GNOME/valadoc.git"
 
 LICENSE="GPL-2"
 SLOT="1.0"
