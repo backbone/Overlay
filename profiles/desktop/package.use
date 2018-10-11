@@ -22,7 +22,8 @@ app-text/xmlto sdl2 text
 dev-db/sqlite secure-delete
 dev-lang/python sqlite
 dev-lang/python:2.7 tk
-dev-libs/boost python
+dev-lang/rust -abi_x86_32
+dev-libs/boost -abi_x86_32 python
 dev-libs/elfutils static-libs
 dev-libs/glib static-libs
 dev-libs/libgudev introspection
@@ -65,12 +66,13 @@ media-sound/audacious gtk3
 media-tv/v4l-utils qt5
 media-tv/kodi vaapi
 media-video/avidemux qt5 vaapi
-media-video/ffmpeg libv4l mp3 schroedinger theora vaapi
+media-video/ffmpeg -abi_x86_32 libv4l mp3 schroedinger theora vaapi
 media-video/ffmpegthumbnailer gnome gtk
 media-video/mpv encode -lua -luajit vaapi
 media-video/vlc schroedinger vaapi
 net-analyzer/wireshark adns gtk smi -qt5
 net-firewall/iptables conntrack
+net-fs/samba -abi_x86_32
 net-libs/libtorrent-rasterbar python
 net-misc/iputils tracepath
 net-misc/remmina rdp
@@ -85,7 +87,10 @@ sys-auth/consolekit pm-utils policykit
 sys-boot/grub device-mapper
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
+sys-devel/clang -abi_x86_32
+sys-devel/clang-runtime -abi_x86_32
 sys-devel/gdb lzma multitarget
+sys-devel/llvm -abi_x86_32
 sys-fs/lvm2 -thin
 sys-libs/glibc nscd
 sys-libs/tdb python
@@ -100,7 +105,7 @@ x11-drivers/nvidia-drivers -kms uvm
 x11-drivers/xf86-video-intel dri3 uxa xvmc
 x11-base/xorg-server kdrive
 x11-libs/cairo xcb
->=x11-libs/gtk+-3 examples
+>=x11-libs/gtk+-3 -abi_x86_32 examples
 x11-libs/libdrm libkms
 x11-libs/libfm gtk
 x11-libs/libxcb xkb
