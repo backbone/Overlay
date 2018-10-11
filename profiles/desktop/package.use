@@ -19,6 +19,7 @@ app-portage/layman mercurial subversion
 app-text/evince djvu dvi
 app-text/stardict espeak pronounce spell
 app-text/xmlto sdl2 text
+dev-cpp/gtkmm -abi_x86_32
 dev-db/sqlite secure-delete
 dev-lang/python sqlite
 dev-lang/python:2.7 tk
@@ -50,6 +51,7 @@ media-libs/avidemux-plugins qt5
 media-libs/freetype -cleartype_hinting
 media-libs/gd fontconfig
 media-libs/harfbuzz icu
+media-libs/libcanberra -abi_x86_32
 media-libs/libjpeg-turbo static-libs
 media-libs/libmypaint gegl
 media-libs/libpng apng
@@ -66,7 +68,7 @@ media-sound/audacious gtk3
 media-tv/v4l-utils qt5
 media-tv/kodi vaapi
 media-video/avidemux qt5 vaapi
-media-video/ffmpeg -abi_x86_32 libv4l mp3 schroedinger theora vaapi
+media-video/ffmpeg libv4l mp3 schroedinger theora vaapi
 media-video/ffmpegthumbnailer gnome gtk
 media-video/mpv encode -lua -luajit vaapi
 media-video/vlc schroedinger vaapi
@@ -74,6 +76,7 @@ net-analyzer/wireshark adns gtk smi -qt5
 net-firewall/iptables conntrack
 net-fs/samba -abi_x86_32
 net-libs/libtorrent-rasterbar python
+net-libs/nghttp2 -abi_x86_32
 net-misc/iputils tracepath
 net-misc/remmina rdp
 net-misc/wicd libnotify
