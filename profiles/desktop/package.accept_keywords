@@ -125,6 +125,10 @@ games-emulation/gens-gs ~amd64
 <media-libs/avidemux-plugins-3 ~amd64
 <media-libs/faac-1.30 ~amd64
 <media-libs/glm-1 ~amd64
+<media-libs/graphene-1.9 ~amd64
+<media-libs/gst-plugins-base-1.15 ~amd64
+<media-libs/gst-plugins-good-1.15 ~amd64
+<media-libs/gstreamer-1.15 ~amd64
 =media-libs/libfilteraudio-9999 **
 <media-libs/libmtp-1.2 ~amd64
 <media-libs/mlt-6.7 ~amd64
@@ -135,12 +139,15 @@ games-emulation/gens-gs ~amd64
 <media-plugins/alsa-plugins-1.1.5 ~amd64
 <media-plugins/audacious-plugins-3.10 ~amd64
 <media-plugins/caps-plugins-0.9.24 ~amd64
+<media-plugins/gst-plugins-pulse-1.15 ~amd64
 <media-sound/alsa-utils-1.1.5 ~amd64
 =media-sound/apulse-9999 **
 <media-sound/audacious-3.10 ~amd64
 <media-sound/audacity-2.3 ~amd64
 <media-sound/bluez-alsa-1.4.0 ~amd64
 <media-sound/mp3unicode-2 ~amd64
+<media-sound/paprefs-0.10 ~amd64
+<media-sound/pulseaudio-13 ~amd64
 <media-video/avidemux-3 ~amd64
 <media-video/lives-2 ~amd64
 <media-video/v4l2ucp-3 ~amd64
