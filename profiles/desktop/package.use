@@ -17,7 +17,7 @@ app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rcs
 app-portage/eix sqlite
 app-portage/layman mercurial subversion
 app-text/evince djvu dvi
-app-text/stardict espeak pronounce spell
+app-text/stardict espeak pronounce
 app-text/xmlto sdl2 text
 dev-cpp/gtkmm -abi_x86_32
 dev-db/sqlite secure-delete

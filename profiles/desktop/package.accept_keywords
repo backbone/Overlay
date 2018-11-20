@@ -31,6 +31,7 @@
 <app-text/libetonyek-0.2 ~amd64
 <app-text/libmwaw-0.4 ~amd64
 <app-text/libwps-0.5 ~amd64
+<app-text/stardict-5 ~amd64
 <app-text/texlive-2018 ~amd64
 <app-text/texlive-core-2018 ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
