@@ -159,6 +159,7 @@ net-analyzer/namebench ~amd64
 <net-libs/libeXosip-4.1 ~amd64
 <net-libs/libtorrent-rasterbar-1.2 ~amd64
 =net-libs/tox-9999 **
+<net-im/skypeforlinux-9 ~amd64
 <net-im/telegram-desktop-bin-2 ~amd64
 =net-im/utox-9999 **
 =net-im/viber-9999 ~amd64
