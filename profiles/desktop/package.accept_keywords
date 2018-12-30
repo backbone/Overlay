@@ -37,6 +37,7 @@
 <app-vim/youcompleteme-20170101 ~amd64
 <dev-db/lmdb-0.9.23 ~amd64
 <dev-db/sqlite-3.26 ~amd64
+<dev-games/physfs-3.1 ~amd64
 <dev-lang/gnu-smalltalk-4 ~amd64
 <dev-lang/nasm-2.14 ~amd64
 <dev-lang/rust-1.27 ~amd64
