@@ -13,6 +13,7 @@ app-forensics/chkrootkit ~amd64
 <app-shells/gentoo-zsh-completions-20190101 ~amd64
 <app-shells/zsh-completions-1 ~amd64
 <dev-lang/go-1.11 ~amd64
+<dev-lang/perl-5.27 ~amd64
 <dev-lang/vala-1 ~amd64
 <dev-libs/libgee-1 ~amd64
 <dev-libs/vala-common-1 ~amd64
