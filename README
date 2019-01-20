@@ -4,10 +4,10 @@ How to add this repo using layman
 sudo layman -f -o https://git.backbone.ws/kolan/Overlay/raw/branch/master/layman.xml -a backbone
 (via app-eselect/eselect-repository app-portage/gentoolkit) 
 sudo  eselect repository add backbone git https://github.com/backbone/Overlay.git
-emaint sync -r backbone (app-portage/gentoolkit) 
+sudo emaint sync -r backbone (app-portage/gentoolkit) 
 backbone.conf useful if your using a docker-gentoo builder or 
 lxc/other containers etc. layman or app-eselect/eselect-repository not required 
-emaint sync -r backbone (app-portage/gentoolkit) and done. 
+sudo emaint sync -r backbone (app-portage/gentoolkit) and done. 
 
 
 
