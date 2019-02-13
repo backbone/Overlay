@@ -1,0 +1,15 @@
+--- colormake	2019-02-13 16:16:56.933437336 +0300
++++ colormake	2019-02-13 16:19:20.779409415 +0300
+@@ -7,6 +7,12 @@
+ # on the screen.
+ #
+ 
++# CMake uses its own color scheme
++if [ -f CMakeCache.txt ]; then
++	make $*
++	exit $?
++fi
++
+ if [ "$TERM" = "dumb" ];then
+    # As suggested by Alexander Korkov ...
+    exec make "$@"

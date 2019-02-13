@@ -90,6 +90,7 @@
 <dev-util/cargo-0.28 ~amd64
 dev-util/cbindgen ~amd64
 <dev-util/cmake-3.12 ~amd64
+=dev-util/colormake-9999 **
 <dev-util/glade-3.21 ~amd64
 <dev-util/kbuild-0.2 ~amd64
 <dev-util/perf-5 ~amd64
