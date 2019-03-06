@@ -1,3 +1,4 @@
+<app-admin/rasdaemon-1 ~amd64
 <app-admin/eselect-vala-1 ~amd64
 =app-admin/gentoo-upgrade-9999 **
 =app-admin/htpasswd-9999 **
@@ -29,7 +30,7 @@ app-forensics/chkrootkit ~amd64
 <sys-apps/hwids-20190101 ~amd64
 <sys-apps/net-tools-1.61 ~amd64
 sys-firmware/intel-microcode ~amd64
-<sys-kernel/hardened-sources-4.10 ~amd64
+<sys-kernel/gentoo-sources-4.21 ~amd64
 sys-kernel/linux-firmware ~amd64
 <sys-kernel/linux-headers-5 ~amd64
 <sys-kernel/minipli-sources-4.10 ~amd64
