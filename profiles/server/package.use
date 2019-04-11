@@ -12,10 +12,12 @@ dev-libs/gmp pgo
 dev-libs/libxml2 icu python
 dev-python/twisted conch
 games-fps/urbanterror -client server
-mail-filter/amavisd-new clamav spamassassin
+mail-filter/amavisd-new clamav razor spamassassin
+mail-filter/spamassassin cron
 mail-mta/postfix berkdb dovecot-sasl
 media-gfx/imagemagick fftw jpeg png
 media-libs/libpng apng
+media-libs/libv4l jpeg
 media-video/ffmpeg mp3 v4l vpx x264
 net-dns/dnsmasq script
 net-firewall/iptables conntrack
