@@ -35,6 +35,7 @@ dev-libs/nss cacert
 dev-libs/xmlsec nss
 dev-qt/qtcore icu
 dev-util/anjuta vala
+gnome-base/gconf policykit
 gnome-base/gvfs mtp udisks
 mail-client/thunderbird custom-optimization -crypt system-cairo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
 games-emulation/fceux gtk
