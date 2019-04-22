@@ -52,6 +52,7 @@
 <dev-libs/nss-4 ~amd64
 <dev-libs/vala-common-1 ~amd64
 <dev-perl/LWP-UserAgent-Cached-0.61 ~amd64
+<dev-python/typing-3.7 ~amd64
 <dev-qt/linguist-tools-5.12 ~amd64
 <dev-qt/qtconcurrent-5.12 ~amd64
 <dev-qt/qtcore-5.12 ~amd64
