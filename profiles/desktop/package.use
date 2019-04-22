@@ -93,6 +93,7 @@ sys-apps/gawk mpfr
 sys-apps/util-linux static-libs tty-helpers
 sys-auth/consolekit pm-utils policykit
 sys-auth/pambase consolekit
+sys-auth/polkit consolekit
 sys-boot/grub device-mapper mount
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
