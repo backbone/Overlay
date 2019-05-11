@@ -23,6 +23,7 @@ app-forensics/chkrootkit ~amd64
 <games-fps/urbanterror-5 ~amd64
 <games-fps/urbanterror-data-5 ~amd64
 <mail-filter/dovecot_deleted_to_trash-1 ~amd64
+<mail-mta/postfix-3.5 ~amd64
 <net-analyzer/nethogs-0.9 ~amd64
 <net-analyzer/ntop-6 ~amd64
 <net-fs/samba-4.10 ~amd64
