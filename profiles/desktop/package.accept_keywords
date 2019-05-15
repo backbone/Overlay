@@ -126,6 +126,7 @@ games-emulation/gens-gs ~amd64
 <games-util/steam-launcher-2 ~amd64
 <games-util/steam-meta-1 ~amd64
 <kde-apps/kdenlive-20 ~amd64
+<kde-frameworks/breeze-icons-5.59 ~amd64
 <kde-frameworks/kcodecs-5.59 ~amd64
 <kde-frameworks/knotifications-5.59 ~amd64
 <kde-frameworks/kbookmarks-5.59 ~amd64
