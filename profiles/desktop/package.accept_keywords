@@ -3,6 +3,7 @@
 =app-admin/gentoo-upgrade-9999 **
 <app-admin/paxtest-1 ~amd64
 <app-editors/oxygenxml-12 ~x86
+<app-emulation/faudio-20 ~amd64
 <app-emulation/fuse-2 ~amd64
 <app-emulation/libspectrum-2 ~amd64
 <app-emulation/playonlinux-5 ~amd64
