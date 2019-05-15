@@ -28,7 +28,7 @@ sys-kernel/linux-firmware ~amd64
 <sys-kernel/linux-headers-5.1 ~amd64
 <sys-kernel/minipli-sources-4.10 ~amd64
 <sys-libs/ldb-1.6 ~amd64
-<sys-libs/talloc-2.2 ~amd64
+<sys-libs/talloc-2.3 ~amd64
 <sys-libs/tdb-1.7 ~amd64
 <sys-libs/tevent-1 ~amd64
 <sys-libs/timezone-data-2020 ~amd64
