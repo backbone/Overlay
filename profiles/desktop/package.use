@@ -7,10 +7,9 @@ app-emulation/fuse joystick
 app-editors/gvim cscope gtk python
 app-editors/vim cscope perl python vim-pager
 app-emulation/qemu spice virgl
-app-emulation/wine gstreamer openal prelink s3tc staging vaapi
-app-emulation/wine-staging gstreamer openal prelink s3tc vaapi
+app-emulation/wine-vanilla gstreamer openal prelink
+app-emulation/wine-staging gstreamer openal prelink vaapi
 app-laptop/laptop-mode-tools bluetooth
-app-misc/ca-certificates insecure_certs
 app-misc/mc samba sftp
 app-office/libreoffice-bin java python_targets_python3_5
 app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rcs rtf svg
@@ -18,7 +17,7 @@ app-portage/eix sqlite
 app-portage/layman mercurial subversion
 app-text/evince djvu dvi
 app-text/stardict espeak pronounce
-app-text/xmlto sdl2 text
+app-text/xmlto text
 dev-cpp/gtkmm -abi_x86_32
 dev-db/sqlite secure-delete
 dev-lang/python sqlite
@@ -37,16 +36,15 @@ dev-qt/qtcore icu
 dev-util/anjuta vala
 gnome-base/gconf policykit
 gnome-base/gvfs mtp udisks
-mail-client/thunderbird custom-optimization -crypt system-cairo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
+mail-client/thunderbird custom-optimization system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
 games-emulation/fceux gtk
-games-emulation/snes9x gtk joystick
+games-emulation/snes9x gtk
 games-simulation/crrcsim portaudio
 games-strategy/warzone2100 videos
 games-util/steam-client-meta flash trayicon
 kde-plasma/kde-cli-tools -kdesu
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
 media-gfx/blender colorio cycles ffmpeg openimageio tiff
-media-gfx/gimp pdf svg tiff
 media-gfx/imagemagick svg
 media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt5
@@ -66,18 +64,16 @@ media-libs/opencv gtk
 media-libs/sdl-image gif
 media-libs/sdl-mixer midi mp3 mod timidity
 media-plugins/alsa-plugins libsamplerate pulseaudio
-media-plugins/audacious-plugins cue ffmpeg flac fluidsynth gtk3 lame libsamplerate mp3
+media-plugins/audacious-plugins cue ffmpeg flac fluidsynth lame libsamplerate mp3
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
-media-sound/audacious gtk3
-media-sound/pulseaudio bluetooth gconf gnome gtk jack libsamplerate native-headset ofono-headset
+media-sound/pulseaudio bluetooth gconf gtk jack libsamplerate native-headset ofono-headset
 media-tv/v4l-utils qt5
-media-tv/kodi vaapi
 media-video/avidemux qt5 vaapi
-media-video/ffmpeg libv4l mp3 schroedinger theora vaapi
+media-video/ffmpeg libv4l mp3 theora vaapi
 media-video/ffmpegthumbnailer gnome gtk
 media-video/mpv encode -lua -luajit vaapi
-media-video/vlc schroedinger vaapi
-net-analyzer/wireshark adns gtk smi -qt5
+media-video/vlc vaapi
+net-analyzer/wireshark adns smi -qt5
 net-firewall/iptables conntrack
 net-fs/samba -abi_x86_32
 net-libs/libtorrent-rasterbar python
@@ -107,10 +103,10 @@ sys-libs/tdb python
 sys-libs/tevent python
 sys-libs/zlib minizip
 sys-process/lsof rpc
-virtual/ffmpeg -libav mp3 theora vaapi
+virtual/ffmpeg mp3 theora vaapi
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
-www-client/firefox custom-optimization system-cairo system-harfbuzz system-jpeg system-libevent system-libvpx system-sqlite
+www-client/firefox custom-optimization system-harfbuzz system-jpeg system-libevent system-libvpx system-sqlite
 x11-drivers/nvidia-drivers -kms uvm
 x11-drivers/xf86-video-intel dri3 uxa xvmc
 x11-base/xorg-server kdrive
@@ -120,5 +116,5 @@ x11-libs/libdrm libkms
 x11-libs/libfm gtk
 x11-libs/libxcb xkb
 x11-libs/wxGTK -gstreamer tiff
-x11-terms/rxvt-unicode 256-color alt-font-width -vanilla xft
+x11-terms/rxvt-unicode 256-color xft
 x11-wm/awesome luajit
