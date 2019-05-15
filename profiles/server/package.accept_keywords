@@ -1,8 +1,8 @@
-<app-admin/rasdaemon-1 ~amd64
 <app-admin/eselect-vala-1 ~amd64
 =app-admin/gentoo-upgrade-9999 **
 =app-admin/htpasswd-9999 **
 <app-admin/paxtest-1 ~amd64
+<app-admin/rasdaemon-1 ~amd64
 <app-admin/sshguard-2.4 ~amd64
 app-antivirus/clamav ~amd64
 app-forensics/chkrootkit ~amd64
