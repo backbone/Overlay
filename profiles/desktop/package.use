@@ -3,12 +3,12 @@ app-arch/zip natspec
 app-crypt/gcr gtk
 app-crypt/pinentry gnome-keyring
 app-crypt/qca gpg
-app-emulation/fuse joystick
 app-editors/gvim cscope gtk python
 app-editors/vim cscope perl python vim-pager
+app-emulation/fuse joystick
 app-emulation/qemu spice virgl
-app-emulation/wine-vanilla gstreamer openal prelink
 app-emulation/wine-staging gstreamer openal prelink vaapi
+app-emulation/wine-vanilla gstreamer openal prelink
 app-laptop/laptop-mode-tools bluetooth
 app-misc/mc samba sftp
 app-office/libreoffice-bin java python_targets_python3_5
@@ -27,22 +27,22 @@ dev-libs/boost -abi_x86_32 python
 dev-libs/elfutils static-libs
 dev-libs/glib static-libs
 dev-libs/libgudev introspection
-dev-libs/libxml2 python
 dev-libs/libpcre pcre16 static-libs
 dev-libs/libpcre2 pcre16 static-libs
+dev-libs/libxml2 python
 dev-libs/nss cacert
 dev-libs/xmlsec nss
 dev-qt/qtcore icu
 dev-util/anjuta vala
-gnome-base/gconf policykit
-gnome-base/gvfs mtp udisks
-mail-client/thunderbird custom-optimization system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
 games-emulation/fceux gtk
 games-emulation/snes9x gtk
 games-simulation/crrcsim portaudio
 games-strategy/warzone2100 videos
 games-util/steam-client-meta flash trayicon
+gnome-base/gconf policykit
+gnome-base/gvfs mtp udisks
 kde-plasma/kde-cli-tools -kdesu
+mail-client/thunderbird custom-optimization system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
 media-gfx/blender colorio cycles ffmpeg openimageio tiff
 media-gfx/imagemagick svg
@@ -69,8 +69,8 @@ media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
 media-sound/pulseaudio bluetooth gconf gtk jack libsamplerate native-headset ofono-headset
 media-tv/v4l-utils qt5
 media-video/avidemux qt5 vaapi
-media-video/ffmpeg libv4l mp3 theora vaapi
 media-video/ffmpegthumbnailer gnome gtk
+media-video/ffmpeg libv4l mp3 theora vaapi
 media-video/mpv encode -lua -luajit vaapi
 media-video/vlc vaapi
 net-analyzer/wireshark adns smi -qt5
@@ -90,9 +90,9 @@ sys-apps/util-linux static-libs tty-helpers
 sys-auth/consolekit pm-utils policykit
 sys-auth/pambase consolekit
 sys-auth/polkit consolekit
-sys-boot/grub device-mapper mount
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
+sys-boot/grub device-mapper mount
 sys-devel/clang -abi_x86_32
 sys-devel/clang-runtime -abi_x86_32
 sys-devel/gdb lzma multitarget
@@ -107,9 +107,9 @@ virtual/ffmpeg mp3 theora vaapi
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
 www-client/firefox custom-optimization system-harfbuzz system-jpeg system-libevent system-libvpx system-sqlite
+x11-base/xorg-server kdrive
 x11-drivers/nvidia-drivers -kms uvm
 x11-drivers/xf86-video-intel dri3 uxa xvmc
-x11-base/xorg-server kdrive
 x11-libs/cairo xcb
 >=x11-libs/gtk+-3 -abi_x86_32 examples
 x11-libs/libdrm libkms
