@@ -3,12 +3,10 @@ app-arch/zip natspec
 app-editors/vim cscope perl python vim-pager
 app-emulation/libvirt virt-network
 app-emulation/qemu spice usb
-app-misc/ca-certificates insecure_certs
 app-misc/mc samba sftp
 app-portage/eix sqlite
 dev-lang/php cgi cli curl gd mysql mysqli pcntl pdo truetype
 dev-lang/python sqlite
-dev-libs/gmp pgo
 dev-libs/libxml2 icu python
 dev-python/twisted conch
 games-fps/urbanterror -client server
@@ -22,7 +20,7 @@ media-video/ffmpeg mp3 v4l vpx x264
 net-dns/dnsmasq script
 net-firewall/iptables conntrack
 net-fs/samba quota
-net-ftp/pure-ftpd caps charconv resolveids sysquota
+net-ftp/pure-ftpd caps resolveids sysquota
 net-misc/iputils tracepath
 net-p2p/rtorrent xmlrpc
 net-proxy/squid caps logrotate tproxy
