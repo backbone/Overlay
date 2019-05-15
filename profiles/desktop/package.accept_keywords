@@ -25,7 +25,6 @@
 <app-vim/youcompleteme-20170101 ~amd64
 <dev-cpp/rttr-0.10 ~amd64
 <dev-games/physfs-3.1 ~amd64
-<dev-lang/rust-1.35 ~amd64
 =dev-lang/spidermonkey-1.8.5-r7 ~amd64
 <dev-lang/vala-1 ~amd64
 <dev-libs/d0_blind_id-1.1 ~amd64
