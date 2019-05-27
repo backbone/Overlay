@@ -153,7 +153,7 @@ games-emulation/higan ~amd64
 <media-video/lives-2 ~amd64
 <media-video/v4l2ucp-3 ~amd64
 net-analyzer/namebench ~amd64
-<net-fs/samba-5 ~amd64
+<net-fs/samba-4.10 ~amd64
 <net-fs/smbnetfs-1 ~amd64
 <net-im/skypeforlinux-9 ~amd64
 <net-im/telegram-desktop-bin-2 ~amd64
