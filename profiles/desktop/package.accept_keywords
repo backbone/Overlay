@@ -15,6 +15,8 @@
 <app-emulation/wine-vanilla-5 ~amd64
 <app-forensics/chkrootkit-1 ~amd64
 <app-laptop/samsung-tools-2.4 ~amd64
+app-office/libreoffice ~amd64
+app-office/libreoffice-l10n ~amd64
 =app-pda/libimobiledevice-9999 **
 <app-portage/deltup-1 ~amd64
 =app-portage/findcruftfiles-9999 **
@@ -33,6 +35,8 @@ dev-lang/rust ~amd64
 <dev-libs/go-fuse-1 ~amd64
 =dev-libs/go-usb-9999 **
 =dev-libs/gobject-plugin-9999 **
+<dev-libs/libixion-0.15 ~amd64
+<dev-libs/liborcus-0.15 ~amd64
 <dev-libs/nspr-4.22 ~amd64
 <dev-libs/nss-4 ~amd64
 <dev-libs/vala-common-1 ~amd64
@@ -62,6 +66,7 @@ dev-lang/rust ~amd64
 dev-util/cbindgen ~amd64
 <dev-util/cmake-3.15 ~amd64
 =dev-util/colormake-9999 **
+<dev-util/mdds-1.5 ~amd64
 <dev-util/perf-5 ~amd64
 =dev-util/valadoc-9999 **
 <dev-util/valgrind-3.16 ~amd64

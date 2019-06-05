@@ -11,7 +11,8 @@ app-emulation/wine-staging gstreamer openal prelink vaapi
 app-emulation/wine-vanilla gstreamer openal prelink
 app-laptop/laptop-mode-tools bluetooth
 app-misc/mc samba sftp
-app-office/libreoffice-bin java python_targets_python3_5
+app-office/libreoffice googledrive gstreamer pdfimport
+app-office/libreoffice-l10n offlinehelp
 app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rcs rtf svg
 app-portage/eix sqlite
 app-portage/layman mercurial subversion
