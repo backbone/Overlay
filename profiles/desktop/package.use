@@ -98,6 +98,7 @@ sys-devel/clang -abi_x86_32
 sys-devel/clang-runtime -abi_x86_32
 sys-devel/gdb lzma multitarget
 sys-devel/llvm -abi_x86_32
+sys-fs/cryptsetup reencrypt
 sys-fs/lvm2 -thin
 sys-libs/glibc nscd
 sys-libs/tdb python
