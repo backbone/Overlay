@@ -25,7 +25,7 @@ net-misc/iputils tracepath
 net-p2p/rtorrent xmlrpc
 net-proxy/squid caps logrotate tproxy
 sys-apps/gawk mpfr
-sys-apps/util-linux static-libs tty-helpers
+sys-apps/util-linux caps static-libs tty-helpers
 sys-block/parted device-mapper
 sys-boot/grub device-mapper
 sys-fs/cryptsetup reencrypt
