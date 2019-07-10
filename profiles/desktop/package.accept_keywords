@@ -143,6 +143,7 @@ games-emulation/higan ~amd64
 <media-libs/avidemux-plugins-3 ~amd64
 <media-libs/dav1d-0.3 ~amd64
 <media-libs/glm-1 ~amd64
+<media-libs/harfbuzz-2.6 ~amd64
 <media-libs/libaom-1.1 ~amd64
 =media-libs/libfilteraudio-9999 **
 <media-libs/libvpx-1.8 ~amd64
