@@ -1,2 +1,1 @@
->=dev-lang/php-7
 >=media-gfx/imagemagick-7 # redmine installation fails
