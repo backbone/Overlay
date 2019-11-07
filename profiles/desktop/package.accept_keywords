@@ -40,7 +40,11 @@ dev-lang/rust ~amd64
 <dev-libs/nspr-4.23 ~amd64
 <dev-libs/nss-4 ~amd64
 <dev-libs/vala-common-1 ~amd64
+<dev-python/automat-0.8 ~amd64
+<dev-python/hyperlink-19 ~amd64
+<dev-python/m2r-0.2 ~amd64
 <dev-python/typing-3.7 ~amd64
+<dev-python/twisted-19 ~amd64
 <dev-qt/linguist-tools-5.13 ~amd64
 <dev-qt/qtconcurrent-5.13 ~amd64
 <dev-qt/qtcore-5.13 ~amd64
@@ -171,6 +175,7 @@ net-analyzer/namebench ~amd64
 =net-libs/tox-9999 **
 net-misc/gdrive ~amd64
 <net-misc/remmina-1.4 ~amd64
+<net-p2p/deluge-2.1 ~amd64
 <net-voip/linphone-3.13 ~amd64
 <sci-geosciences/googleearth-8 ~amd64
 <sys-apps/gcp-1 ~amd64
