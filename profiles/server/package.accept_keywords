@@ -19,6 +19,7 @@ app-forensics/chkrootkit ~amd64
 <mail-mta/postfix-3.5 ~amd64
 <net-analyzer/ntop-6 ~amd64
 <net-ftp/pure-ftpd-1.1 ~amd64
+<sys-apps/findutils-4.8 ~amd64
 <sys-apps/hwids-20200101 ~amd64
 <sys-apps/net-tools-1.61 ~amd64
 sys-firmware/intel-microcode ~amd64
