@@ -37,7 +37,7 @@ dev-lang/rust ~amd64
 =dev-libs/gobject-plugin-9999 **
 <dev-libs/libixion-0.15 ~amd64
 <dev-libs/liborcus-0.15 ~amd64
-<dev-libs/nspr-4.23 ~amd64
+<dev-libs/nspr-4.25 ~amd64
 <dev-libs/nss-4 ~amd64
 <dev-libs/vala-common-1 ~amd64
 <dev-python/automat-0.8 ~amd64
