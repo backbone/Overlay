@@ -7,9 +7,9 @@
 <app-emulation/fuse-2 ~amd64
 <app-emulation/libspectrum-2 ~amd64
 <app-emulation/playonlinux-5 ~amd64
-<app-emulation/virtualbox-6 ~amd64
-<app-emulation/virtualbox-additions-6 ~amd64
-<app-emulation/virtualbox-modules-6 ~amd64
+<app-emulation/virtualbox-6.1 ~amd64
+<app-emulation/virtualbox-additions-6.1 ~amd64
+<app-emulation/virtualbox-modules-6.1 ~amd64
 <app-emulation/winetricks-20200101 ~amd64
 <app-emulation/wine-staging-5 ~amd64
 <app-emulation/wine-vanilla-5 ~amd64
