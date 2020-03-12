@@ -42,7 +42,7 @@ games-util/steam-client-meta flash trayicon
 gnome-base/gconf policykit
 gnome-base/gvfs mtp udisks
 kde-plasma/kde-cli-tools -kdesu
-mail-client/thunderbird custom-optimization system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite
+mail-client/thunderbird custom-optimization system-harfbuzz system-icu system-jpeg system-libevent system-sqlite
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
 media-gfx/blender colorio cycles ffmpeg openimageio tiff
 media-gfx/imagemagick svg

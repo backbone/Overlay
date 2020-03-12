@@ -151,7 +151,8 @@ games-emulation/higan ~amd64
 <media-libs/harfbuzz-2.6 ~amd64
 <media-libs/libaom-1.1 ~amd64
 =media-libs/libfilteraudio-9999 **
-<media-libs/libvpx-1.8 ~amd64
+<media-libs/libvpx-1.9 ~amd64
+<media-libs/libwebp-1.2 ~amd64
 <media-libs/mlt-6.19 ~amd64
 <media-libs/openimageio-1.9 ~amd64
 <media-libs/x265-4 ~amd64
