@@ -11,8 +11,8 @@
 <app-emulation/virtualbox-additions-6.1 ~amd64
 <app-emulation/virtualbox-modules-6.1 ~amd64
 <app-emulation/winetricks-20200101 ~amd64
-<app-emulation/wine-staging-5 ~amd64
-<app-emulation/wine-vanilla-5 ~amd64
+<app-emulation/wine-staging-6 ~amd64
+<app-emulation/wine-vanilla-6 ~amd64
 <app-forensics/chkrootkit-1 ~amd64
 <app-laptop/samsung-tools-2.4 ~amd64
 <app-misc/grc-1.15 ~amd64
