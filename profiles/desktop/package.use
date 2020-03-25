@@ -73,7 +73,7 @@ media-video/ffmpegthumbnailer gnome gtk
 media-video/ffmpeg libv4l mp3 theora vaapi
 media-video/mpv encode -lua -luajit vaapi
 media-video/vlc vaapi
-net-analyzer/wireshark adns smi -qt5
+net-analyzer/wireshark adns smi qt5
 net-firewall/iptables conntrack
 net-fs/samba -abi_x86_32
 net-libs/libtorrent-rasterbar python
