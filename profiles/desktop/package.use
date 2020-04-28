@@ -1,3 +1,4 @@
+app-arch/bzip2 static-libs
 app-arch/unzip natspec
 app-arch/zip natspec
 app-crypt/gcr gtk
@@ -93,6 +94,7 @@ sys-auth/polkit consolekit
 sys-block/gparted fat ntfs
 sys-block/parted device-mapper
 sys-boot/grub device-mapper mount
+sys-cluster/openmpi cxx
 sys-devel/clang -abi_x86_32
 sys-devel/clang-runtime -abi_x86_32
 sys-devel/gdb lzma multitarget
@@ -103,7 +105,7 @@ sys-kernel/genkernel cryptsetup
 sys-libs/glibc nscd
 sys-libs/tdb python
 sys-libs/tevent python
-sys-libs/zlib minizip
+sys-libs/zlib minizip static-libs
 sys-process/lsof rpc
 virtual/ffmpeg mp3 theora vaapi
 virtual/imagemagick-tools svg
