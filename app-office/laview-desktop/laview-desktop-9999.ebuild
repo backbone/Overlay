@@ -7,7 +7,7 @@ EAPI=5
 inherit gnome2-utils cmake-utils
 
 if [[ ${PV} == "9999" ]] ; then
-	EGIT_REPO_URI=${EGIT_REPO_URI:-"git@git.backbone.ws:kolan/LAview.Desktop.git"}
+	EGIT_REPO_URI=${EGIT_REPO_URI:-"https://git.backbone.ws/kolan/LAview.Desktop.git"}
 	inherit git-r3
 	KEYWORDS=""
 else
