@@ -38,6 +38,7 @@ dev-lang/rust ~amd64
 <dev-libs/go-fuse-1 ~amd64
 =dev-libs/go-usb-9999 **
 =dev-libs/gobject-plugin-9999 **
+<dev-libs/ell-1 ~amd64
 <dev-libs/libgit2-1.1 ~amd64
 <dev-libs/libixion-0.16 ~amd64
 <dev-libs/liborcus-0.16 ~amd64
@@ -181,6 +182,7 @@ net-analyzer/namebench ~amd64
 =net-libs/tox-9999 **
 <net-misc/freerdp-2.1 ~amd64
 net-misc/gdrive ~amd64
+<net-misc/networkmanager-2 ~amd64
 net-misc/r8168 ~amd64
 <net-misc/remmina-1.4 ~amd64
 <net-p2p/deluge-2.1 ~amd64
