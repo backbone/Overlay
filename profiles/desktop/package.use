@@ -62,7 +62,7 @@ media-libs/libsdl2 haptic
 media-libs/libvpx postproc
 media-libs/mesa -llvm vaapi xa xvmc
 media-libs/mlt ffmpeg frei0r kdenlive melt qt5 xml
-media-libs/opencv gtk
+media-libs/opencv gtk qt5
 media-libs/sdl-image gif
 media-libs/sdl-mixer midi mp3 mod timidity
 media-plugins/alsa-plugins libsamplerate pulseaudio
