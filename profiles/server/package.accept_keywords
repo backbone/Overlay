@@ -14,6 +14,7 @@ app-forensics/chkrootkit ~amd64
 <app-shells/gentoo-zsh-completions-20190101 ~amd64
 <app-shells/zsh-completions-1 ~amd64
 <dev-lang/go-1.14 ~amd64
+dev-libs/tomsfastmath ~amd64
 <dev-util/bdelta-0.4 ~amd64
 <games-fps/urbanterror-5 ~amd64
 <games-fps/urbanterror-data-5 ~amd64
