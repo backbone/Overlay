@@ -1,5 +1,6 @@
+app-admin/localepurge
+app-emulation/playonlinux
 <app-text/cuneiform-2.0
-<sci-geosciences/googleearth-8
 <games-fps/doom3-1.4
 <games-fps/doom3-data-1.2
-app-admin/localepurge
+<sci-geosciences/googleearth-8
