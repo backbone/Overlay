@@ -47,7 +47,7 @@ kde-plasma/kde-cli-tools -kdesu
 mail-client/thunderbird custom-optimization system-harfbuzz system-icu system-jpeg system-libevent system-sqlite
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
 media-gfx/blender colorio cycles ffmpeg openimageio tiff
-media-gfx/imagemagick svg
+media-gfx/imagemagick svg xml
 media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt5
 media-libs/freetype -cleartype_hinting
@@ -109,7 +109,7 @@ sys-libs/tevent python
 sys-libs/zlib minizip static-libs
 sys-process/lsof rpc
 virtual/ffmpeg mp3 theora vaapi
-virtual/imagemagick-tools svg xml
+virtual/imagemagick-tools svg
 virtual/libgudev introspection
 www-client/firefox custom-optimization system-harfbuzz system-jpeg system-libevent system-libvpx system-sqlite
 x11-base/xorg-server kdrive
