@@ -112,7 +112,7 @@ virtual/ffmpeg mp3 theora vaapi
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
 www-client/firefox custom-optimization system-harfbuzz system-jpeg system-libevent system-libvpx system-sqlite
-x11-base/xorg-server kdrive
+x11-base/xorg-server -elogind kdrive
 x11-drivers/nvidia-drivers -kms uvm
 x11-drivers/xf86-video-intel dri3 uxa xvmc
 x11-libs/cairo xcb
