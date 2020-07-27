@@ -200,8 +200,8 @@ net-misc/r8168 ~amd64
 <sys-fs/mtpfs-1.2 ~amd64
 <sys-kernel/backbone-sources-5.1 ~amd64
 <sys-kernel/linux-firmware-20210101 ~amd64
-<sys-kernel/linux-headers-5.7 ~amd64
-<sys-kernel/vanilla-sources-5.7 ~amd64
+<sys-kernel/linux-headers-5.8 ~amd64
+<sys-kernel/vanilla-sources-5.8 ~amd64
 <sys-libs/ldb-1.7 ~amd64
 <sys-libs/talloc-2.3 ~amd64
 <sys-libs/tdb-1.5 ~amd64
