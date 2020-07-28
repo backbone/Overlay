@@ -173,7 +173,7 @@ net-analyzer/namebench ~amd64
 <net-fs/samba-4.10 ~amd64
 <net-fs/smbnetfs-1 ~amd64
 <net-im/skypeforlinux-9 ~amd64
-<net-im/telegram-desktop-bin-2 ~amd64
+net-im/telegram-desktop ~amd64
 =net-im/utox-9999 **
 =net-im/viber-9999 ~amd64
 <net-libs/libexosip-6 ~amd64

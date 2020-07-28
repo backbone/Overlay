@@ -34,6 +34,7 @@ dev-libs/libxml2 python
 dev-libs/nss cacert
 dev-libs/xmlsec nss
 dev-qt/qtcore icu
+dev-qt/qtgui egl wayland
 dev-util/anjuta vala
 games-emulation/fceux gtk
 games-emulation/snes9x gtk
@@ -78,6 +79,7 @@ media-video/vlc vaapi
 net-analyzer/wireshark adns smi qt5
 net-firewall/iptables conntrack
 net-fs/samba -abi_x86_32
+net-im/telegram-desktop -gtk
 net-libs/libtorrent-rasterbar python
 net-libs/nghttp2 -abi_x86_32
 net-misc/iputils tracepath
@@ -112,8 +114,8 @@ virtual/ffmpeg mp3 theora vaapi
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
 www-client/firefox custom-optimization system-harfbuzz system-jpeg system-libevent system-libvpx system-sqlite
-x11-base/xorg-server -elogind kdrive
-x11-drivers/nvidia-drivers -kms uvm
+x11-base/xorg-server elogind kdrive
+x11-drivers/nvidia-drivers kms uvm
 x11-drivers/xf86-video-intel dri3 uxa xvmc
 x11-libs/cairo xcb
 >=x11-libs/gtk+-3 -abi_x86_32 examples
