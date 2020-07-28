@@ -81,7 +81,8 @@ net-firewall/iptables conntrack
 net-fs/samba -abi_x86_32
 net-im/telegram-desktop -gtk
 net-libs/libtorrent-rasterbar python
-net-libs/nghttp2 -abi_x86_32
+net-libs/nghttp2 abi_x86_32
+net-misc/curl http2
 net-misc/iputils tracepath
 net-misc/networkmanager -dhclient dhcpcd -modemmanager -ncurses -ppp -wext
 net-misc/remmina rdp
