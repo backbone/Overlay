@@ -30,11 +30,14 @@ dev-libs/glib static-libs
 dev-libs/libgudev introspection
 dev-libs/libpcre pcre16 static-libs
 dev-libs/libpcre2 pcre16 static-libs
-dev-libs/libxml2 python
+dev-libs/libxml2 icu python
 dev-libs/nss cacert
 dev-libs/xmlsec nss
+dev-qt/qt-creator beautifier cmake cppcheck git mercurial modeling valgrind
 dev-qt/qtcore icu
 dev-qt/qtgui egl wayland
+dev-qt/qtwebchannel qml
+dev-qt/qtwebengine widgets
 dev-util/anjuta vala
 games-emulation/fceux gtk
 games-emulation/snes9x gtk
@@ -60,7 +63,7 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libsdl2 haptic
-media-libs/libvpx postproc
+media-libs/libvpx postproc svc
 media-libs/mesa -llvm vaapi xa xvmc
 media-libs/mlt ffmpeg frei0r kdenlive melt qt5 xml
 media-libs/opencv gtk qt5
