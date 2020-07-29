@@ -33,7 +33,7 @@ dev-libs/libpcre2 pcre16 static-libs
 dev-libs/libxml2 icu python
 dev-libs/nss cacert
 dev-libs/xmlsec nss
-dev-qt/qt-creator beautifier cmake cppcheck git mercurial modeling valgrind
+dev-qt/qt-creator beautifier -clang cmake cppcheck git mercurial modeling valgrind -webengine
 dev-qt/qtcore icu
 dev-qt/qtgui egl wayland
 dev-qt/qtwebchannel qml
