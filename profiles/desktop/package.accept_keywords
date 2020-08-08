@@ -203,6 +203,7 @@ net-misc/r8168 ~amd64
 =sys-fs/go-mtpfs-9999 **
 <sys-fs/jmtpfs-1 ~amd64
 <sys-fs/mtpfs-1.2 ~amd64
+<sys-fs/multipath-tools-1 ~amd64
 <sys-kernel/backbone-sources-5.1 ~amd64
 <sys-kernel/linux-firmware-20210101 ~amd64
 <sys-kernel/linux-headers-5.8 ~amd64
