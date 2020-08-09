@@ -29,6 +29,7 @@ app-office/libreoffice-l10n ~amd64
 <app-text/stardict-5 ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
 <dev-cpp/rttr-0.10 ~amd64
+dev-embedded/u-boot-tools ~amd64
 <dev-games/physfs-3.1 ~amd64
 dev-lang/rust ~amd64
 =dev-lang/spidermonkey-1.8.5-r7 ~amd64
