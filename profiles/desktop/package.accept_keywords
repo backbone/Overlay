@@ -46,6 +46,7 @@ dev-lang/rust ~amd64
 dev-libs/nspr ~amd64
 <dev-libs/nss-4 ~amd64
 <dev-libs/vala-common-1 ~amd64
+dev-libs/xxhash ~amd64
 <dev-python/automat-0.8 ~amd64
 <dev-python/hyperlink-19 ~amd64
 <dev-python/m2r-0.2 ~amd64
