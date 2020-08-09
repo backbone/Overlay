@@ -40,6 +40,7 @@ dev-lang/rust ~amd64
 =dev-libs/go-usb-9999 **
 =dev-libs/gobject-plugin-9999 **
 <dev-libs/ell-1 ~amd64
+dev-libs/libclangformat-ide ~amd64
 <dev-libs/libgit2-1.1 ~amd64
 <dev-libs/libixion-0.16 ~amd64
 <dev-libs/liborcus-0.16 ~amd64
@@ -72,11 +73,14 @@ dev-qt/qt-creator ~amd64
 <dev-qt/qtquickcontrols-5.16 ~amd64
 dev-qt/qtquicktimeline ~amd64
 <dev-qt/qtscript-5.16 ~amd64
+<dev-qt/qtserialport-5.16 ~amd64
 <dev-qt/qtsql-5.16 ~amd64
 <dev-qt/qtsvg-5.16 ~amd64
 <dev-qt/qttest-5.16 ~amd64
 <dev-qt/qttranslations-5.16 ~amd64
 <dev-qt/qtwayland-5.16 ~amd64
+<dev-qt/qtwebchannel-5.16 ~amd64
+<dev-qt/qtwebengine-5.16 ~amd64
 <dev-qt/qtwidgets-5.16 ~amd64
 <dev-qt/qtx11extras-5.16 ~amd64
 <dev-qt/qtxml-5.16 ~amd64
@@ -203,6 +207,7 @@ net-misc/r8168 ~amd64
 <sci-geosciences/googleearth-8 ~amd64
 <sys-apps/gcp-1 ~amd64
 =sys-apps/hardinform-9999 **
+sys-apps/the_silver_searcher ~amd64
 =sys-apps/uksmstat-9999 **
 <sys-block/whdd-4 ~amd64
 <sys-devel/prelink-20160101 ~amd64

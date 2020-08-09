@@ -34,7 +34,8 @@ dev-libs/libxml2 icu python
 dev-libs/nss cacert
 dev-libs/xmlsec nss
 dev-python/PyQt5 gui network printsupport svg widgets
-dev-qt/qt-creator beautifier -clang cmake cppcheck git mercurial modeling valgrind -webengine
+dev-qt/designer declarative
+dev-qt/qt-creator beautifier clang cmake cppcheck ctfvisualizer git glsl lsp mcu mercurial modeling perfprofiler python qmlprofiler remotelinux scxml serialterminal silversearcher valgrind webassembly -webengine
 dev-qt/qtcore icu
 dev-qt/qtgui egl wayland
 dev-qt/qtwebchannel qml
