@@ -22,6 +22,7 @@ app-text/stardict espeak pronounce
 app-text/xmlto text
 dev-cpp/gtkmm -abi_x86_32
 dev-db/sqlite secure-delete
+dev-lang/php gd
 dev-lang/python sqlite
 dev-lang/python:2.7 tk
 dev-libs/boost -abi_x86_32 python
