@@ -210,6 +210,7 @@ net-misc/r8168 ~amd64
 sys-apps/the_silver_searcher ~amd64
 =sys-apps/uksmstat-9999 **
 <sys-block/whdd-4 ~amd64
+sys-boot/unetbootin ~amd64
 <sys-devel/prelink-20160101 ~amd64
 <sys-firmware/intel-microcode-20210101 ~amd64
 <sys-fs/bcache-tools-1.1 ~amd64
