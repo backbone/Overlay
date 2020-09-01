@@ -22,7 +22,7 @@ app-text/stardict espeak pronounce
 app-text/xmlto text
 dev-cpp/gtkmm -abi_x86_32
 dev-db/sqlite secure-delete
-dev-lang/php gd
+dev-lang/php curl gd
 dev-lang/python sqlite
 dev-lang/python:2.7 tk
 dev-libs/boost -abi_x86_32 python
@@ -67,7 +67,7 @@ media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libsdl2 haptic
 media-libs/libvpx postproc svc
-media-libs/mesa -llvm vaapi xa xvmc
+media-libs/mesa vaapi xa xvmc
 media-libs/mlt ffmpeg frei0r kdenlive melt qt5 xml
 media-libs/opencv gtk qt5
 media-libs/sdl-image gif
@@ -108,7 +108,6 @@ sys-cluster/openmpi cxx
 sys-devel/clang -abi_x86_32
 sys-devel/clang-runtime -abi_x86_32
 sys-devel/gdb lzma multitarget source-highlight xml xxhash
-sys-devel/llvm -abi_x86_32
 sys-fs/cryptsetup reencrypt
 sys-fs/lvm2 -thin
 sys-kernel/genkernel cryptsetup
