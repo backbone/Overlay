@@ -125,7 +125,7 @@ x11-base/xorg-server elogind kdrive
 x11-drivers/nvidia-drivers kms uvm
 x11-drivers/xf86-video-intel dri3 uxa xvmc
 x11-libs/cairo xcb
->=x11-libs/gtk+-3 -abi_x86_32 examples
+x11-libs/gtk+ examples
 x11-libs/libdrm libkms
 x11-libs/libfm gtk
 x11-libs/libxcb xkb
