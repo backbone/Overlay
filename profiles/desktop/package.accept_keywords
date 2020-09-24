@@ -94,7 +94,7 @@ dev-util/cbindgen ~amd64
 <dev-util/cmake-3.15 ~amd64
 =dev-util/colormake-9999 **
 <dev-util/mdds-1.7 ~amd64
-<dev-util/perf-5 ~amd64
+<dev-util/perf-6 ~amd64
 =dev-util/valadoc-9999 **
 <dev-util/valgrind-3.16 ~amd64
 dev-vcs/mercurial ~amd64
