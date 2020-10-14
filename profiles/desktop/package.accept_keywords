@@ -55,6 +55,7 @@ dev-libs/xxhash ~amd64
 <dev-python/m2r-0.2 ~amd64
 <dev-python/typing-3.7 ~amd64
 <dev-python/twisted-19 ~amd64
+<dev-python/wxpython-5 ~amd64
 <dev-python/zstandard-0.14 ~amd64
 dev-qt/designer ~amd64
 dev-qt/qt-creator ~amd64
