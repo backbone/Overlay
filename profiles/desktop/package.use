@@ -46,6 +46,7 @@ games-emulation/fceux gtk
 games-emulation/snes9x gtk
 games-simulation/crrcsim portaudio
 games-strategy/warzone2100 videos
+games-util/game-device-udev-rules elogind
 games-util/steam-client-meta flash trayicon
 gnome-base/gconf policykit
 gnome-base/gvfs mtp udisks
