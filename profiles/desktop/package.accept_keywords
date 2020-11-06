@@ -182,6 +182,7 @@ games-util/game-device-udev-rules ~amd64
 <media-libs/libwebp-1.2 ~amd64
 <media-libs/mlt-6.19 ~amd64
 <media-libs/openimageio-1.9 ~amd64
+media-libs/tg_owt ~amd64
 media-libs/x264 ~amd64
 <media-libs/x265-4 ~amd64
 <media-plugins/audacious-plugins-3.11 ~amd64
