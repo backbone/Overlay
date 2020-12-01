@@ -40,4 +40,5 @@ sys-libs/tevent python
 sys-libs/zlib minizip
 sys-process/lsof rpc
 virtual/ffmpeg mp3
+virtual/mpi cxx
 www-servers/lighttpd php
