@@ -211,6 +211,7 @@ net-im/zoom ~amd64
 <net-libs/libtorrent-rasterbar-1.3 ~amd64
 =net-libs/tox-9999 **
 <net-misc/curl-8 ~amd64
+<net-misc/dhcpcd-9.4 ~amd64
 <net-misc/freerdp-2.1 ~amd64
 net-misc/gdrive ~amd64
 <net-misc/networkmanager-2 ~amd64
