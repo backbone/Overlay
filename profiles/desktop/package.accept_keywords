@@ -217,6 +217,7 @@ net-misc/gdrive ~amd64
 <net-misc/networkmanager-2 ~amd64
 net-misc/r8168 ~amd64
 <net-misc/remmina-1.4 ~amd64
+net-misc/teamviewer ~amd64
 <net-p2p/deluge-2.1 ~amd64
 <net-voip/linphone-3.13 ~amd64
 <sci-geosciences/googleearth-8 ~amd64
