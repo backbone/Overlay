@@ -174,6 +174,7 @@ games-util/game-device-udev-rules ~amd64
 <kde-frameworks/solid-5.78 ~amd64
 <kde-frameworks/sonnet-5.78 ~amd64
 <media-gfx/freecad-1 ~amd64
+media-gfx/geeqie ~amd64
 <media-gfx/inkscape-0.93 ~amd64
 <media-libs/avidemux-core-3 ~amd64
 <media-libs/avidemux-plugins-3 ~amd64

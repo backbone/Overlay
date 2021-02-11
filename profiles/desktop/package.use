@@ -55,6 +55,7 @@ kde-plasma/kde-cli-tools -kdesu
 mail-client/thunderbird custom-optimization system-harfbuzz system-icu system-jpeg system-libevent system-sqlite
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
 media-gfx/blender colorio cycles ffmpeg openimageio tiff
+media-gfx/geeqie exif ffmpegthumbnailer gpu-accel map pdf tiff xmp
 media-gfx/imagemagick svg xml
 media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt5
