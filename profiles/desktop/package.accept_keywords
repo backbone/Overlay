@@ -13,8 +13,8 @@ app-cdr/mdf2iso ~amd64
 <app-emulation/virtualbox-modules-6.2 ~amd64
 <app-emulation/winetricks-20220101 ~amd64
 <app-emulation/wine-gecko-2.48 ~amd64
-<app-emulation/wine-staging-6 ~amd64
-<app-emulation/wine-vanilla-6 ~amd64
+<app-emulation/wine-staging-7 ~amd64
+<app-emulation/wine-vanilla-7 ~amd64
 app-eselect/eselect-lua ~amd64
 app-eselect/eselect-luajit ~amd64
 <app-forensics/chkrootkit-1 ~amd64
