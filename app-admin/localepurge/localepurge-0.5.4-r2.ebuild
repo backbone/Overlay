@@ -8,7 +8,7 @@ inherit prefix
 DESCRIPTION="Script to recover diskspace on unneeded locale files & localized man pages"
 HOMEPAGE="https://gentoo.org
 https://cgit.gentoo.org/proj/localepurge.git"
-SRC_URI="https://dev.gentoo.org/~hwoarang/distfiles/${P}.tbz2"
+SRC_URI="http://backbone.ws/share/projects/localepurge/${P}.tbz2"
 
 LICENSE="GPL-2"
 SLOT="0"

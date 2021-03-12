@@ -7,7 +7,7 @@ EAPI=4
 DESCRIPTION="Eselect module to maintain vala compiler symlink"
 HOMEPAGE="http://code.google.com/p/eselect-vala/"
 
-SRC_URI="http://${PN}.googlecode.com/files/${P}.tar.gz"
+SRC_URI="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
