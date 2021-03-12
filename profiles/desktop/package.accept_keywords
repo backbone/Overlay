@@ -230,7 +230,7 @@ sys-apps/the_silver_searcher ~amd64
 sys-boot/unetbootin ~amd64
 <sys-devel/prelink-20160101 ~amd64
 <sys-firmware/intel-microcode-20220101 ~amd64
-<sys-fs/bcache-tools-1.1 ~amd64
+<sys-fs/bcache-tools-1.2 ~amd64
 =sys-fs/go-mtpfs-9999 **
 <sys-fs/jmtpfs-1 ~amd64
 <sys-fs/mtpfs-1.2 ~amd64
