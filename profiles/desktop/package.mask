@@ -3,3 +3,4 @@
 =sys-fs/udev-238 #  error: size of array ‘a’ is negative
 =gnome-base/dconf-editor-3.30.2 # build fails
 >=sys-kernel/genkernel-4 # grub does not find kernels with that specific names
+=net-libs/libtorrent-rasterbar-1.2.12 # build fails: Unable to load B2: could not find build system.
