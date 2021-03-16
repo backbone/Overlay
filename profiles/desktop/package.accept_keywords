@@ -202,6 +202,7 @@ net-analyzer/namebench ~amd64
 <net-fs/samba-4.10 ~amd64
 <net-fs/smbnetfs-1 ~amd64
 net-ftp/filezilla ~amd64
+net-im/jitsi ~amd64
 <net-im/skypeforlinux-9 ~amd64
 net-im/telegram-desktop ~amd64
 =net-im/utox-9999 **
