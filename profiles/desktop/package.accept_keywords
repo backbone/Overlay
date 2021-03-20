@@ -173,6 +173,7 @@ games-util/game-device-udev-rules ~amd64
 <kde-frameworks/oxygen-icons-5.78 ~amd64
 <kde-frameworks/solid-5.78 ~amd64
 <kde-frameworks/sonnet-5.78 ~amd64
+<lxde-base/menu-cache-1.2 ~amd64
 <media-gfx/freecad-1 ~amd64
 media-gfx/geeqie ~amd64
 <media-gfx/inkscape-0.93 ~amd64
@@ -259,6 +260,8 @@ x11-misc/pcmanfm ~amd64
 =x11-misc/primus-9999 **
 <x11-misc/trayer-1.1 ~amd64
 <x11-libs/libdrm-2.5 ~amd64
+<x11-libs/libfm-1.4 ~amd64
+<x11-libs/libfm-extra-1.4 ~amd64
 <x11-libs/libva-3 ~amd64
 <x11-libs/libva-intel-driver-3 ~amd64
 <x11-libs/wxGTK-3.1 ~amd64

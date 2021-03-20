@@ -6,7 +6,7 @@ app-crypt/pinentry gnome-keyring
 app-crypt/qca gpg
 app-editors/gvim cscope gtk python
 app-editors/vim cscope perl python vim-pager
-app-emulation/fuse joystick
+app-emulation/fuse -alsa joystick
 app-emulation/qemu spice virgl
 app-emulation/wine-staging gstreamer openal prelink vaapi
 app-emulation/wine-vanilla gstreamer openal prelink
