@@ -83,7 +83,7 @@ media-sound/pulseaudio bluetooth gconf gtk jack libsamplerate native-headset ofo
 media-tv/v4l-utils qt5
 media-video/avidemux qt5 vaapi
 media-video/ffmpegthumbnailer gnome gtk
-media-video/ffmpeg libv4l mp3 opus theora vaapi
+media-video/ffmpeg alsa libv4l mp3 opus theora vaapi
 media-video/mpv encode -lua -luajit vaapi
 media-video/vlc vaapi
 net-analyzer/wireshark adns smi qt5
