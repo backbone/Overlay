@@ -179,10 +179,11 @@ media-gfx/geeqie ~amd64
 <media-gfx/inkscape-0.93 ~amd64
 <media-libs/avidemux-core-3 ~amd64
 <media-libs/avidemux-plugins-3 ~amd64
-<media-libs/dav1d-0.3 ~amd64
+<media-libs/dav1d-0.9 ~amd64
 <media-libs/glm-1 ~amd64
 <media-libs/harfbuzz-2.8 ~amd64
 <media-libs/libaom-1.1 ~amd64
+<media-libs/libtgvoip-2.5 ~amd64
 =media-libs/libfilteraudio-9999 **
 <media-libs/libvpx-1.9 ~amd64
 <media-libs/libwebp-1.2 ~amd64
