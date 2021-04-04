@@ -85,6 +85,7 @@ media-video/avidemux qt5 vaapi
 media-video/ffmpegthumbnailer gnome gtk
 media-video/ffmpeg alsa libv4l mp3 opus theora vaapi
 media-video/mpv encode -lua -luajit vaapi
+media-video/obs-studio fdk nvenc vlc
 media-video/vlc vaapi
 net-analyzer/wireshark adns smi qt5
 net-firewall/iptables conntrack
