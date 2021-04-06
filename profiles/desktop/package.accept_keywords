@@ -114,6 +114,7 @@ dev-vcs/tortoisehg ~amd64
 <games-emulation/fceux-2.3 ~amd64
 games-emulation/higan ~amd64
 <games-emulation/snes9x-2 ~amd64
+<games-engines/box2d-3 ~amd64
 <games-fps/doom3-2 ~amd64
 <games-fps/urbanterror-5 ~amd64
 <games-fps/urbanterror-data-5 ~amd64
