@@ -72,6 +72,7 @@ media-libs/libvpx postproc svc
 media-libs/mesa vaapi xa xvmc
 media-libs/mlt ffmpeg frei0r kdenlive melt qt5 xml
 media-libs/opencv gtk qt5
+media-libs/portaudio alsa
 media-libs/sdl-image gif
 media-libs/sdl2-image gif
 media-libs/sdl-mixer midi mp3 mod timidity
