@@ -52,7 +52,7 @@ gnome-base/gconf policykit
 gnome-base/gvfs mtp udisks
 gnome-extra/nm-applet -modemmanager
 kde-plasma/kde-cli-tools -kdesu
-mail-client/thunderbird custom-optimization system-harfbuzz system-icu system-jpeg system-libevent system-sqlite
+mail-client/thunderbird custom-optimization hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-sqlite
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
 media-gfx/blender colorio cycles ffmpeg openimageio tiff
 media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
@@ -118,6 +118,7 @@ sys-fs/cryptsetup reencrypt
 sys-fs/lvm2 -thin
 sys-kernel/genkernel cryptsetup
 sys-libs/glibc nscd
+sys-libs/libomp hwloc
 sys-libs/tdb python
 sys-libs/tevent python
 sys-libs/zlib minizip static-libs
@@ -126,7 +127,7 @@ virtual/ffmpeg mp3 theora vaapi
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
 virtual/mpi cxx
-www-client/firefox custom-optimization system-harfbuzz system-jpeg system-libevent system-libvpx system-sqlite
+www-client/firefox custom-optimization hwaccel system-harfbuzz system-jpeg system-libevent system-libvpx system-sqlite
 x11-base/xorg-server elogind kdrive
 x11-drivers/nvidia-drivers kms uvm
 x11-drivers/xf86-video-intel dri3 uxa xvmc
