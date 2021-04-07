@@ -29,6 +29,7 @@ app-office/libreoffice-l10n ~amd64
 <app-text/cuneiform-2 ~amd64
 <app-text/libetonyek-0.2 ~amd64
 <app-text/libmwaw-0.4 ~amd64
+app-text/par ~amd64
 <app-text/stardict-5 ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
 <dev-cpp/rttr-0.10 ~amd64
