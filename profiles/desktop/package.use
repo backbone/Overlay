@@ -93,6 +93,7 @@ net-analyzer/wireshark adns smi qt5
 net-firewall/iptables conntrack
 net-fs/samba -abi_x86_32
 net-im/telegram-desktop -gtk
+net-im/zoom bundled-libjpeg-turbo
 net-libs/libtorrent-rasterbar python
 net-libs/nghttp2 abi_x86_32
 net-misc/curl http2
