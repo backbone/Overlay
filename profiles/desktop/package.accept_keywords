@@ -32,6 +32,7 @@ app-office/libreoffice-l10n ~amd64
 app-text/par ~amd64
 <app-text/stardict-5 ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
+dev-cpp/abseil-cpp ~amd64
 <dev-cpp/rttr-0.10 ~amd64
 dev-embedded/u-boot-tools ~amd64
 <dev-games/physfs-3.1 ~amd64
@@ -176,6 +177,7 @@ games-util/game-device-udev-rules ~amd64
 <kde-frameworks/solid-5.78 ~amd64
 <kde-frameworks/sonnet-5.78 ~amd64
 <lxde-base/menu-cache-1.2 ~amd64
+media-gfx/blender ~amd64
 <media-gfx/freecad-1 ~amd64
 media-gfx/geeqie ~amd64
 <media-gfx/inkscape-0.93 ~amd64
@@ -187,7 +189,7 @@ media-gfx/geeqie ~amd64
 <media-libs/libaom-1.1 ~amd64
 <media-libs/libtgvoip-2.5 ~amd64
 =media-libs/libfilteraudio-9999 **
-<media-libs/libvpx-1.9 ~amd64
+media-libs/libvpx ~amd64
 <media-libs/libwebp-1.2 ~amd64
 <media-libs/mlt-6.19 ~amd64
 <media-libs/openimageio-1.9 ~amd64
@@ -217,6 +219,7 @@ net-im/zoom ~amd64
 <net-libs/libexosip2-6 ~amd64
 <net-libs/libtorrent-rasterbar-1.3 ~amd64
 =net-libs/tox-9999 **
+net-libs/usrsctp ~amd64
 <net-misc/curl-8 ~amd64
 <net-misc/dhcpcd-9.4 ~amd64
 <net-misc/freerdp-2.1 ~amd64
@@ -243,8 +246,8 @@ sys-boot/unetbootin ~amd64
 <sys-fs/multipath-tools-1 ~amd64
 <sys-kernel/backbone-sources-5.1 ~amd64
 <sys-kernel/linux-firmware-20220101 ~amd64
-<sys-kernel/linux-headers-5.11 ~amd64
-<sys-kernel/vanilla-sources-5.11 ~amd64
+<sys-kernel/linux-headers-5.12 ~amd64
+<sys-kernel/vanilla-sources-5.12 ~amd64
 <sys-libs/ldb-1.7 ~amd64
 <sys-libs/talloc-2.3 ~amd64
 <sys-libs/tdb-1.5 ~amd64
