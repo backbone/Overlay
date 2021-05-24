@@ -248,10 +248,10 @@ sys-boot/unetbootin ~amd64
 <sys-fs/jmtpfs-1 ~amd64
 <sys-fs/mtpfs-1.2 ~amd64
 <sys-fs/multipath-tools-1 ~amd64
-<sys-kernel/backbone-sources-5.1 ~amd64
+<sys-kernel/backbone-sources-5.13 ~amd64
 <sys-kernel/linux-firmware-20220101 ~amd64
-<sys-kernel/linux-headers-5.12 ~amd64
-<sys-kernel/vanilla-sources-5.12 ~amd64
+<sys-kernel/linux-headers-5.13 ~amd64
+<sys-kernel/vanilla-sources-5.13 ~amd64
 <sys-libs/ldb-1.7 ~amd64
 <sys-libs/talloc-2.3 ~amd64
 <sys-libs/tdb-1.5 ~amd64
