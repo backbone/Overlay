@@ -36,5 +36,5 @@ sys-kernel/linux-firmware ~amd64
 <sys-libs/tevent-1 ~amd64
 <sys-libs/timezone-data-2020 ~amd64
 <sys-process/nmon-17 ~amd64
-<www-apps/tt-rss-20200101 ~amd64
+<www-apps/tt-rss-20220101 ~amd64
 <www-servers/lighttpd-1.5 ~amd64
