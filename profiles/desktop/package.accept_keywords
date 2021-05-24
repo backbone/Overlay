@@ -52,6 +52,7 @@ dev-libs/libfilezilla ~amd64
 <dev-libs/libgit2-1.1 ~amd64
 dev-libs/libixion ~amd64
 dev-libs/liborcus ~amd64
+<dev-libs/libxml2-2.10 ~amd64
 dev-libs/nspr ~amd64
 <dev-libs/nss-4 ~amd64
 <dev-libs/vala-common-1 ~amd64
@@ -59,6 +60,7 @@ dev-libs/xxhash ~amd64
 <dev-lua/lgi-1 ~amd64
 <dev-python/automat-0.8 ~amd64
 <dev-python/hyperlink-19 ~amd64
+<dev-python/lxml-4.7 ~amd64
 <dev-python/m2r-0.2 ~amd64
 <dev-python/typing-3.7 ~amd64
 <dev-python/twisted-19 ~amd64
