@@ -21,6 +21,7 @@ dev-libs/tomsfastmath ~amd64
 <mail-mta/postfix-3.5 ~amd64
 <net-analyzer/ntop-6 ~amd64
 <net-ftp/pure-ftpd-1.1 ~amd64
+<net-misc/wget-1.22 ~amd64
 <sci-libs/fftw-3.4 ~amd64
 <sys-apps/findutils-4.8 ~amd64
 <sys-apps/hwids-20200101 ~amd64
