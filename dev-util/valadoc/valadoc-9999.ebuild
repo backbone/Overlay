@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="5"
+EAPI="6"
 VALA_MIN_API_VERSION="0.20"
 
 inherit autotools eutils git-r3 vala
