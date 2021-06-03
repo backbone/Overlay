@@ -91,6 +91,7 @@ media-video/mpv encode -lua -luajit vaapi
 media-video/obs-studio fdk vlc
 media-video/vlc vaapi
 net-analyzer/wireshark adns smi qt5
+net-dns/avahi python
 net-firewall/iptables conntrack
 net-fs/samba -abi_x86_32
 net-im/telegram-desktop -gtk

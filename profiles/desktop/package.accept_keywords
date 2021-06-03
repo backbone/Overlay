@@ -38,6 +38,7 @@ dev-embedded/u-boot-tools ~amd64
 <dev-games/physfs-3.1 ~amd64
 <dev-lang/lua-5.2 ~amd64
 dev-lang/rust ~amd64
+dev-lang/rust-bin ~amd64
 =dev-lang/spidermonkey-1.8.5-r7 ~amd64
 <dev-lang/vala-1 ~amd64
 dev-libs/amdgpu-pro-opencl ~amd64
