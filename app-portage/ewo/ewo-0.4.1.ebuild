@@ -19,7 +19,7 @@ DEPEND=""
 RESTRICT="primaryuri"
 
 src_prepare() {
-	epatch "${FILESDIR}/fix_empty_genlop_output.patch"
+	eapply_user "${FILESDIR}/fix_empty_genlop_output.patch"
 }
 
 src_install() {
