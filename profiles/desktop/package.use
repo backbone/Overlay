@@ -127,7 +127,7 @@ sys-libs/tdb python
 sys-libs/tevent python
 sys-libs/zlib minizip static-libs
 sys-process/lsof rpc
-virtual/ffmpeg mp3 theora vaapi
+virtual/ffmpeg jpeg2k mp3 theora vaapi
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
 virtual/mpi cxx
