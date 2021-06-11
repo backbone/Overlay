@@ -86,7 +86,7 @@ media-sound/pulseaudio bluetooth gconf gtk jack libsamplerate native-headset ofo
 media-tv/v4l-utils qt5
 media-video/avidemux qt5 vaapi
 media-video/ffmpegthumbnailer gnome gtk
-media-video/ffmpeg alsa libv4l mp3 opus theora vaapi
+media-video/ffmpeg alsa jpeg2k libv4l mp3 opus theora vaapi
 media-video/mpv encode -lua -luajit vaapi
 media-video/obs-studio fdk vlc
 media-video/vlc vaapi
@@ -127,7 +127,7 @@ sys-libs/tdb python
 sys-libs/tevent python
 sys-libs/zlib minizip static-libs
 sys-process/lsof rpc
-virtual/ffmpeg jpeg2k mp3 theora vaapi
+virtual/ffmpeg mp3 theora vaapi
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
 virtual/mpi cxx
