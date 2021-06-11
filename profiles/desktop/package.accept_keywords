@@ -33,9 +33,11 @@ app-text/par ~amd64
 <app-text/stardict-5 ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
 dev-cpp/abseil-cpp ~amd64
+<dev-cpp/pystring-1.2 ~amd64
 <dev-cpp/rttr-0.10 ~amd64
 dev-embedded/u-boot-tools ~amd64
 <dev-games/physfs-3.1 ~amd64
+<dev-lang/ispc-1.15 ~amd64
 <dev-lang/lua-5.2 ~amd64
 dev-lang/rust ~amd64
 dev-lang/rust-bin ~amd64
@@ -189,6 +191,7 @@ media-gfx/geeqie ~amd64
 <media-libs/avidemux-core-3 ~amd64
 <media-libs/avidemux-plugins-3 ~amd64
 <media-libs/dav1d-0.9 ~amd64
+<media-libs/embree-3.14 ~amd64
 <media-libs/glm-1 ~amd64
 <media-libs/harfbuzz-2.8 ~amd64
 <media-libs/libaom-1.1 ~amd64
@@ -197,7 +200,11 @@ media-gfx/geeqie ~amd64
 media-libs/libvpx ~amd64
 <media-libs/libwebp-1.2 ~amd64
 <media-libs/mlt-6.19 ~amd64
+<media-libs/oidn-1.4 ~amd64
+<media-libs/opencolorio-2.1 ~amd64
 <media-libs/openimageio-1.9 ~amd64
+<media-gfx/openvdb-8 ~amd64
+<media-libs/osl-1.13 ~amd64
 media-libs/tg_owt ~amd64
 media-libs/x264 ~amd64
 <media-libs/x265-4 ~amd64
