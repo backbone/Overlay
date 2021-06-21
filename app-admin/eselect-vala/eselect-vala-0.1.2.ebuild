@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI="6"
 
 DESCRIPTION="Eselect module to maintain vala compiler symlink"
 HOMEPAGE="http://code.google.com/p/eselect-vala/"
