@@ -1,6 +1,8 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
+EAPI="6"
+
 inherit eutils toolchain-funcs
 
 DESCRIPTION="Alcohol 120% bin image to ISO image file converter"
