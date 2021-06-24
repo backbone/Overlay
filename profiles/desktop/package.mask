@@ -1,4 +1,4 @@
-=app-text/par-1.53.0::gentoo # use 1.52.0 UTF-8 patched sources from backbone's repo
+=app-text/par-1.53.0 # use 1.52.0 UTF-8 patched sources from backbone's repo
 >=media-fonts/liberation-fonts-2.00.0 # save your eyes
 =media-plugins/caps-plugins-0.9.24 # brokes equiilizer
 =sys-fs/udev-238 #  error: size of array ‘a’ is negative
