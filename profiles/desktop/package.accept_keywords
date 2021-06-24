@@ -110,6 +110,7 @@ dev-util/cbindgen ~amd64
 dev-util/nvidia-cuda-sdk ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
 <dev-util/perf-6 ~amd64
+dev-util/postman ~amd64
 =dev-util/valadoc-9999 **
 <dev-util/valgrind-3.16 ~amd64
 dev-vcs/mercurial ~amd64
