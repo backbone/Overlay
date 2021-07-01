@@ -206,6 +206,7 @@ media-libs/libvpx ~amd64
 <media-libs/openimageio-1.9 ~amd64
 <media-gfx/openvdb-8 ~amd64
 <media-libs/osl-1.13 ~amd64
+media-libs/rnnoise ~amd64
 media-libs/tg_owt ~amd64
 media-libs/x264 ~amd64
 <media-libs/x265-4 ~amd64
