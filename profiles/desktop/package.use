@@ -60,7 +60,7 @@ media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
 media-gfx/imagemagick svg xml
 media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt5
-media-libs/freetype -cleartype_hinting
+media-libs/freetype -cleartype_hinting harfbuzz
 media-libs/gd fontconfig
 media-libs/gst-plugins-base theora
 media-libs/harfbuzz icu
