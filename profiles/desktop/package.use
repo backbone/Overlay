@@ -28,6 +28,7 @@ dev-lang/python:2.7 tk
 dev-libs/boost -abi_x86_32 python
 dev-libs/elfutils static-libs
 dev-libs/glib static-libs
+dev-libs/libdbusmenu gtk3
 dev-libs/libgudev introspection
 dev-libs/libpcre pcre16 static-libs
 dev-libs/libpcre2 pcre16 static-libs
