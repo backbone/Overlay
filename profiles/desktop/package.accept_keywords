@@ -71,6 +71,7 @@ dev-libs/xxhash ~amd64
 <dev-python/zstandard-0.14 ~amd64
 dev-qt/designer ~amd64
 dev-qt/qt-creator ~amd64
+<dev-qt/qtchooser-67 ~amd64
 <dev-qt/linguist-tools-5.16 ~amd64
 <dev-qt/qtconcurrent-5.16 ~amd64
 <dev-qt/qtcore-5.16 ~amd64
