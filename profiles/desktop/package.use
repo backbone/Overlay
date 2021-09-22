@@ -96,6 +96,7 @@ net-analyzer/wireshark adns smi qt5
 net-dns/avahi python
 net-firewall/iptables conntrack
 net-fs/samba -abi_x86_32
+net-im/teams swiftshader
 net-im/telegram-desktop -gtk
 net-im/zoom bundled-libjpeg-turbo
 net-libs/libtorrent-rasterbar python
