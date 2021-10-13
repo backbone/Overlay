@@ -32,7 +32,7 @@ RDEPEND="${DEPEND}"
 src_prepare() {
 	if [[ ${PV} == "9999" ]] ; then
 		# Allow user patches to be applied without modifying the ebuild
-		epatch_user
+		eapply_user
 	fi
 }
 
