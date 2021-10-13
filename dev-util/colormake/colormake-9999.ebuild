@@ -33,7 +33,7 @@ src_prepare() {
 	epatch "${FILESDIR}"/${P}-cmake.patch
 	if [[ ${PV} == "9999" ]] ; then
 		# Allow user patches to be applied without modifying the ebuild
-		epatch_user
+		eapply_user
 	fi
 }
 
