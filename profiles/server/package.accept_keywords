@@ -27,7 +27,7 @@ dev-libs/tomsfastmath ~amd64
 <sys-apps/hwids-20200101 ~amd64
 <sys-apps/net-tools-1.61 ~amd64
 sys-firmware/intel-microcode ~amd64
-<sys-kernel/gentoo-sources-5.11 ~amd64
+<sys-kernel/gentoo-sources-5.0 ~amd64
 sys-kernel/linux-firmware ~amd64
 <sys-kernel/linux-headers-5.1 ~amd64
 <sys-kernel/minipli-sources-4.10 ~amd64

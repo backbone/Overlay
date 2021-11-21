@@ -1,3 +1,4 @@
 >=media-gfx/imagemagick-7 # redmine installation fails
 >=sys-kernel/genkernel-4 # grub does not find kernels with that specific names
 dev-lang/php:8.0 # brokes wiki
+>=sys-kernel/gentoo-sources-5.0
