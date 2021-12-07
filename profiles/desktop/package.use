@@ -74,7 +74,7 @@ media-libs/libvpx postproc svc
 media-libs/mesa vaapi xa xvmc
 media-libs/mlt ffmpeg frei0r kdenlive melt qt5 xml
 media-libs/openal alsa
-media-libs/opencv contribdnn gtk qt5
+media-libs/opencv contrib contribdnn gtk qt5
 media-libs/portaudio alsa
 media-libs/sdl-image gif
 media-libs/sdl2-image gif
