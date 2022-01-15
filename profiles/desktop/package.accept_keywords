@@ -53,6 +53,7 @@ dev-libs/amdgpu-pro-opencl ~amd64
 =dev-libs/go-usb-9999 **
 =dev-libs/gobject-plugin-9999 **
 <dev-libs/ell-1 ~amd64
+<dev-libs/icu-71 ~amd64
 dev-libs/libclangformat-ide ~amd64
 dev-libs/libdispatch ~amd64
 dev-libs/libfilezilla ~amd64
