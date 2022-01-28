@@ -145,6 +145,6 @@ x11-libs/libfm gtk
 x11-libs/libxcb xkb
 x11-libs/motif xft
 x11-libs/wxGTK gstreamer libnotify tiff
-x11-terms/rxvt-unicode 256-color xft
+x11-terms/rxvt-unicode 256-color fading-colors perl xft
 x11-wm/awesome luajit
 xfce-base/exo gtk2
