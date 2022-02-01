@@ -4,6 +4,7 @@
 <app-admin/paxtest-1 ~amd64
 app-cdr/mdf2iso ~amd64
 <app-containers/containerd-1.6 ~amd64
+<app-containers/docker-20.11 ~amd64
 <app-containers/docker-cli-20.11 ~amd64
 <app-containers/runc-1.1 ~amd64
 <app-editors/oxygenxml-12 ~x86
