@@ -283,7 +283,7 @@ virtual/cargo ~amd64
 virtual/rust ~amd64
 www-client/firefox ~amd64
 <www-plugins/adobe-flash-40 ~amd64
-<x11-drivers/nvidia-drivers-500 ~amd64
+x11-drivers/nvidia-drivers ~amd64
 =x11-drivers/snail-9999 **
 <x11-drivers/xf86-video-intel-2.100 ~amd64
 <x11-drivers/xf86-video-qxl-0.1.6 ~amd64
