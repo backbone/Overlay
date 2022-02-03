@@ -7,4 +7,3 @@
 =net-libs/libtorrent-rasterbar-1.2.15 # build fails
 =sys-power/powerstat-0.02.24 # checksum failed
 dev-lang/php:8.0 # brokes arcanist
-=dev-libs/icu-70.1-r1 # a lot of packages require icu-69
