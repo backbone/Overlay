@@ -253,7 +253,9 @@ net-misc/r8168 ~amd64
 net-misc/teamviewer ~amd64
 <net-misc/wget-1.22 ~amd64
 <net-p2p/deluge-2.1 ~amd64
+<net-proxy/obfs4proxy-1 ~amd64
 <net-voip/linphone-3.13 ~amd64
+<net-vpn/tor-0.5 ~amd64
 <sci-geosciences/googleearth-8 ~amd64
 <sys-apps/gcp-1 ~amd64
 =sys-apps/hardinform-9999 **
