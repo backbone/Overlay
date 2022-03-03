@@ -137,7 +137,7 @@ virtual/libgudev introspection
 virtual/mpi cxx
 www-client/firefox custom-optimization hwaccel system-harfbuzz -system-icu system-jpeg system-libevent system-libvpx system-png system-sqlite
 x11-base/xorg-server elogind kdrive
-x11-drivers/nvidia-drivers kms uvm
+x11-drivers/nvidia-drivers persistenced
 x11-drivers/xf86-video-intel dri3 uxa xvmc
 x11-libs/cairo xcb
 x11-libs/gtk+ examples

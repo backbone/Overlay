@@ -273,7 +273,7 @@ sys-boot/unetbootin ~amd64
 <sys-kernel/backbone-sources-5.13 ~amd64
 <sys-kernel/linux-firmware-20220101 ~amd64
 <sys-kernel/linux-headers-5.11 ~amd64
-<sys-kernel/vanilla-sources-5.16 ~amd64
+<sys-kernel/vanilla-sources-5.17 ~amd64
 <sys-libs/ldb-1.7 ~amd64
 <sys-libs/talloc-2.3 ~amd64
 <sys-libs/tdb-1.5 ~amd64
@@ -287,6 +287,7 @@ www-client/firefox ~amd64
 <www-plugins/adobe-flash-40 ~amd64
 x11-drivers/nvidia-drivers ~amd64
 =x11-drivers/snail-9999 **
+<x11-drivers/xf86-video-amdgpu-23 ~amd64
 <x11-drivers/xf86-video-intel-2.100 ~amd64
 <x11-drivers/xf86-video-qxl-0.1.6 ~amd64
 x11-misc/bumblebee ~amd64
