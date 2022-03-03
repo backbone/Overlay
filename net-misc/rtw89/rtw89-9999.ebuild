@@ -32,8 +32,7 @@ pkg_setup() {
 	linux-mod_pkg_setup
 
 	BUILD_TARGETS="all"
-	BUILD_PARAMS=""
-	KVER="$KV_FULL"
+	BUILD_PARAMS="KVER=$KV_FULL"
 }
 
 src_install() {
