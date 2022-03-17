@@ -1,34 +1,5 @@
-CUSTOM_PROFILE="yes"
-
-CFLAGS="-O2 -pipe -march=native"
-CXXFLAGS="${CFLAGS}"
-LDFLAGS="-Wl,-O1 -Wl,--as-needed"
-
-CHOST="x86_64-pc-linux-gnu"
-CBUILD="x86_64-pc-linux-gnu"
-MAKEOPTS="-j2"
-EMERGE_DEFAULT_OPTS="-j2"
-
-ACCEPT_KEYWORDS="amd64"
-ACCEPT_LICENSE="*"
-
-VIDEO_CARDS=""
 INPUT_DEVICES="evdev"
-
-FEATURES="ccache parallel-fetch collision-protect sandbox candy metadata-transfer preserve-libs"
-
-CCACHE_SIZE="8G"
-CCACHE_DIR="/var/tmp/ccache"
-PORTAGE_NICENESS="19"
-PORTAGE_IONICE_COMMAND="ionice -c 3 -p \${PID}"
-
-PORTAGE_ELOG_CLASSES="warn error log"
-PORTAGE_ELOG_SYSTEM="save"
-
 ABI_X86="32 64"
-
-# cpu
-USE="${USE} custom-cflags mpi smp"
 
 # gpu
 USE="${USE} fbcon opengl"
@@ -51,14 +22,14 @@ USE="${USE} xscreensaver"
 # input
 USE="${USE} gpm"
 
+# networking
+USE="${USE} -ipv6"
+
 # power
 USE="${USE} acpi"
-
-# develop
-USE="${USE} -debug -mono pch vim-syntax"
 
 # daemons
 USE="${USE} dbus"
 
 # other
-USE="${USE} threads"
+USE="${USE} cups"
