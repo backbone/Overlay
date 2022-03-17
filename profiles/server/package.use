@@ -9,6 +9,7 @@ app-portage/eix sqlite
 dev-lang/php cgi cli curl gd intl mysql mysqli pcntl pdo truetype
 dev-lang/python sqlite
 dev-libs/libxml2 icu python
+dev-perl/Net-Server ipv6 # amavisd
 dev-python/docutils -python_targets_python2_7
 dev-python/twisted conch
 games-fps/urbanterror -client server
@@ -20,8 +21,8 @@ media-libs/gd jpeg png webp
 media-libs/libpng apng
 media-libs/libv4l jpeg
 media-video/ffmpeg mp3 v4l vpx x264
-net-dns/dnsmasq script
-net-firewall/iptables conntrack
+net-dns/dnsmasq ipv6 script # libvirt
+net-firewall/iptables conntrack ipv6 # libvirt
 net-fs/samba quota
 net-ftp/pure-ftpd caps resolveids sysquota
 net-misc/iputils tracepath
@@ -41,4 +42,4 @@ sys-libs/zlib minizip
 sys-process/lsof rpc
 virtual/ffmpeg mp3
 virtual/mpi cxx
-www-servers/lighttpd php
+www-servers/lighttpd ipv6 php
