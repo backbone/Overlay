@@ -44,5 +44,8 @@ USE="${USE} custom-cflags mpi smp"
 # develop
 USE="${USE} -debug -mono pch vim-syntax"
 
+# networking
+USE="${USE} -ipv6"
+
 # other
 USE="${USE} threads"

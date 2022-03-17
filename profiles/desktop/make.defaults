@@ -22,9 +22,6 @@ USE="${USE} xscreensaver"
 # input
 USE="${USE} gpm"
 
-# networking
-USE="${USE} -ipv6"
-
 # power
 USE="${USE} acpi"
 
