@@ -11,6 +11,7 @@ Default Desktop/Laptop Profile
 ------------------------------
 /etc/portage/make.profile/parent:
 /var/portage/portage/profiles/default/linux/amd64/13.0
+/var/portage/layman/backbone/profiles/common
 /var/portage/layman/backbone/profiles/desktop
 
 Extreme Desktop/Laptop Profile
@@ -27,6 +28,7 @@ Hardened Server Profile
 ------------------------------
 /etc/portage/make.profile/parent:
 /var/portage/portage/profiles/hardened/linux/amd64/no-multilib
+/var/portage/layman/backbone/profiles/common
 /var/portage/layman/backbone/profiles/server
 
 
