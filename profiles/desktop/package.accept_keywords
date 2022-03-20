@@ -150,7 +150,7 @@ games-util/game-device-udev-rules ~amd64
 <games-util/steam-games-meta-1 ~amd64
 <games-util/steam-launcher-2 ~amd64
 <games-util/steam-meta-1 ~amd64
-<kde-apps/kdenlive-21 ~amd64
+<kde-apps/kdenlive-22 ~amd64
 <kde-frameworks/attica-5.90 ~amd64
 <kde-frameworks/breeze-icons-5.90 ~amd64
 <kde-frameworks/extra-cmake-modules-5.90 ~amd64
