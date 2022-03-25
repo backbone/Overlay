@@ -201,7 +201,7 @@ media-gfx/geeqie ~amd64
 <media-gfx/inkscape-0.93 ~amd64
 <media-libs/avidemux-core-3 ~amd64
 <media-libs/avidemux-plugins-3 ~amd64
-<media-libs/dav1d-0.9 ~amd64
+<media-libs/dav1d-1.1 ~amd64
 <media-libs/embree-3.14 ~amd64
 <media-libs/glm-1 ~amd64
 <media-libs/harfbuzz-2.8 ~amd64

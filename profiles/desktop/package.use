@@ -14,8 +14,9 @@ app-emulation/wine-vanilla gstreamer openal prelink
 app-laptop/laptop-mode-tools bluetooth
 app-misc/mc samba sftp
 app-office/libreoffice googledrive gstreamer pdfimport
+app-office/libreoffice-bin python_single_target_python3_9
 app-office/libreoffice-l10n offlinehelp
-app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rcs rtf svg
+app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build python_single_target_python3_9 rcs rtf svg
 app-portage/eix sqlite
 app-portage/layman mercurial subversion
 app-text/evince djvu dvi
@@ -44,7 +45,8 @@ dev-qt/qtcore icu
 dev-qt/qtgui egl wayland
 dev-qt/qtwebchannel qml
 dev-qt/qtwebengine widgets
-dev-util/anjuta vala
+dev-util/anjuta python_single_target_python3_9 vala
+dev-util/d-feet python_single_target_python3_9
 games-emulation/fceux gtk
 games-emulation/snes9x gtk
 games-simulation/crrcsim portaudio
@@ -61,6 +63,7 @@ media-gfx/blender colorio cycles ffmpeg openimageio tiff
 <media-gfx/blender-3.1 -cycles -color-management -embree -openexr -openimageio -openvdb -osl # build fails
 media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
 media-gfx/imagemagick svg xml
+media-gfx/inkscape python_single_target_python3_9
 media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt5
 media-libs/freetype -cleartype_hinting harfbuzz
@@ -73,8 +76,10 @@ media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libsdl2 haptic
 media-libs/libvpx postproc svc
+media-libs/lv2 python_single_target_python3_9
 media-libs/mesa vaapi xa xvmc
 media-libs/mlt ffmpeg frei0r kdenlive melt qt5 xml
+media-libs/oidn python_single_target_python3_9
 media-libs/openal alsa
 media-libs/opencv contrib contribdnn gtk qt5
 media-libs/portaudio alsa
@@ -98,6 +103,7 @@ net-analyzer/wireshark adns smi qt5
 net-dns/avahi python
 net-firewall/iptables conntrack
 net-fs/samba -abi_x86_32
+net-im/pidgin python_single_target_python3_9
 net-im/teams swiftshader
 net-im/telegram-desktop -gtk
 net-im/zoom bundled-libjpeg-turbo
@@ -110,6 +116,7 @@ net-misc/r8168 use-firmware
 net-misc/remmina rdp
 net-p2p/deluge geoip gtk libnotify sound webinterface
 net-p2p/transmission gtk
+net-print/hplip python_single_target_python3_9
 net-voip/linphone gtk
 sci-libs/opencascade -vtk
 sys-apps/gawk mpfr
@@ -123,11 +130,13 @@ sys-boot/grub device-mapper mount
 sys-cluster/openmpi cxx
 sys-devel/clang -abi_x86_32
 sys-devel/clang-runtime -abi_x86_32
+sys-devel/distcc python_single_target_python3_9
 sys-devel/gdb lzma multitarget source-highlight xml xxhash
 sys-fs/cryptsetup reencrypt
 sys-fs/lvm2 -thin
 sys-kernel/genkernel cryptsetup
 sys-libs/glibc nscd
+sys-libs/libblockdev python_single_target_python3_9
 sys-libs/libomp hwloc
 sys-libs/tdb python
 sys-libs/tevent python
