@@ -7,6 +7,7 @@ app-crypt/qca gpg
 app-editors/gvim cscope gtk python
 app-editors/vim cscope perl python vim-pager
 app-emulation/fuse -alsa joystick
+app-emulation/playonlinux python_single_target_python3_8
 app-emulation/qemu spice virgl
 app-emulation/wine-staging gstreamer openal prelink vaapi
 app-emulation/wine-vanilla gstreamer openal prelink
