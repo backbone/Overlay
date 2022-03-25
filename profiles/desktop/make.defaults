@@ -14,7 +14,7 @@ USE="${USE} aac amr dts gsm mad mikmod ogg pulseaudio speex vorbis"
 USE="${USE} fftw v4l video vpx x264 x265 xvid"
 
 # graphics
-USE="${USE} jpeg png sdl X"
+USE="${USE} jpeg png sdl svg X"
 
 # desktop
 USE="${USE} xscreensaver"
