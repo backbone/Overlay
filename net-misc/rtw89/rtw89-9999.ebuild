@@ -24,8 +24,8 @@ KEYWORDS="amd64 x86"
 
 MODULE_NAMES="rtw89core(kernel/drivers/net/wireless/rtw89) \
 				rtw89pci(kernel/drivers/net/wireless/rtw89) \
-				rtw89a(kernel/drivers/net/wireless/rtw89) \
-				rtw89ae(kernel/drivers/net/wireless/rtw89)"
+				rtw_8852a(kernel/drivers/net/wireless/rtw89) \
+				rtw_8852ae(kernel/drivers/net/wireless/rtw89)"
 BUILD_TARGETS="all"
 
 pkg_setup() {
