@@ -146,8 +146,8 @@ virtual/ffmpeg mp3 theora vaapi
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
 virtual/mpi cxx
-www-client/firefox custom-optimization hwaccel system-harfbuzz -system-icu system-jpeg system-libevent system-libvpx system-png system-sqlite
-x11-base/xorg-server elogind kdrive
+www-client/firefox custom-optimization hwaccel lto pgo system-harfbuzz -system-icu system-jpeg system-libevent system-libvpx system-png system-sqlite
+x11-base/xorg-server elogind kdrive xvfb
 x11-drivers/nvidia-drivers persistenced
 x11-drivers/xf86-video-amdgpu udev
 x11-drivers/xf86-video-intel dri3 uxa xvmc
