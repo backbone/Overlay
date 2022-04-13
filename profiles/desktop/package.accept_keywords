@@ -76,13 +76,14 @@ dev-libs/xxhash ~amd64
 <dev-python/wxpython-5 ~amd64
 <dev-python/zstandard-0.14 ~amd64
 dev-qt/qt-creator ~amd64
+dev-qt/qtquicktimeline ~amd64
 <dev-tex/latex2html-2018 ~amd64
 <dev-util/bdelta-1 ~amd64
 dev-util/cbindgen ~amd64
 <dev-util/cmake-3.23 ~amd64
 =dev-util/colormake-9999 **
 dev-util/cppcheck ~amd64
-<dev-util/mdds-1.7 ~amd64
+dev-util/mdds ~amd64
 dev-util/nvidia-cuda-sdk ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
 <dev-util/perf-6 ~amd64
