@@ -42,6 +42,9 @@ PYTHON_SINGLE_TARGET="-python3_8 -python3_9 python3_10"
 # cpu
 USE="${USE} custom-cflags mpi smp"
 
+# optimizations
+USE="${USE} pgo"
+
 # develop
 USE="${USE} -debug -mono pch vim-syntax"
 
