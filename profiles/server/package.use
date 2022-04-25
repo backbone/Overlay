@@ -32,6 +32,7 @@ sys-apps/gawk mpfr
 sys-apps/util-linux caps static-libs tty-helpers
 sys-block/parted device-mapper
 sys-boot/grub device-mapper
+sys-devel/gcc -pgo
 sys-fs/cryptsetup reencrypt
 sys-fs/lvm2 -thin
 sys-libs/glibc nscd
