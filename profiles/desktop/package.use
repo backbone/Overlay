@@ -63,7 +63,6 @@ media-gfx/blender colorio cycles ffmpeg openimageio tiff
 <media-gfx/blender-3.1 -cycles -color-management -embree -openexr -openimageio -openvdb -osl # build fails
 media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
 media-gfx/imagemagick svg xml
-media-gfx/inkscape python_single_target_python3_9
 media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt5
 media-libs/freetype -cleartype_hinting harfbuzz

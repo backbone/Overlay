@@ -167,7 +167,7 @@ games-util/game-device-udev-rules ~amd64
 <media-gfx/blender-3.1 ~amd64
 <media-gfx/freecad-1 ~amd64
 media-gfx/geeqie ~amd64
-<media-gfx/inkscape-0.93 ~amd64
+media-gfx/inkscape ~amd64
 <media-libs/avidemux-core-3 ~amd64
 <media-libs/avidemux-plugins-3 ~amd64
 <media-libs/dav1d-1.1 ~amd64
