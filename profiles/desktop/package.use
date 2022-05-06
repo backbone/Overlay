@@ -134,7 +134,6 @@ sys-fs/cryptsetup reencrypt
 sys-fs/lvm2 -thin
 sys-kernel/genkernel cryptsetup
 sys-libs/glibc -clone3 nscd
-sys-libs/libblockdev python_single_target_python3_9
 sys-libs/libomp hwloc
 sys-libs/tdb python
 sys-libs/tevent python
