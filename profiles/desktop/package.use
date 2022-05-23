@@ -46,7 +46,6 @@ dev-qt/qtgui egl wayland
 dev-qt/qtwebchannel qml
 dev-qt/qtwebengine widgets
 dev-util/anjuta vala
-dev-util/d-feet python_single_target_python3_9
 games-emulation/fceux gtk
 games-emulation/snes9x gtk
 games-simulation/crrcsim portaudio
