@@ -88,6 +88,7 @@ media-plugins/audacious-plugins cue ffmpeg flac fluidsynth lame libsamplerate mp
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
 media-sound/audacity alsa ffmpeg vamp
 media-sound/pulseaudio bluetooth equalizer gconf gtk jack libsamplerate native-headset ofono-headset
+media-sound/pulseaudio-daemon bluetooth jack ofono-headset
 media-tv/v4l-utils qt5
 media-video/avidemux qt5 vaapi
 media-video/ffmpegthumbnailer gnome gtk
