@@ -24,7 +24,7 @@ app-text/stardict espeak pronounce
 app-text/xmlto text
 dev-cpp/gtkmm -abi_x86_32
 dev-db/sqlite secure-delete
-dev-lang/php curl gd
+dev-lang/php cgi curl gd postgres
 dev-lang/python sqlite
 dev-lang/python:2.7 tk
 dev-libs/boost -abi_x86_32 python
@@ -143,6 +143,7 @@ virtual/imagemagick-tools svg
 virtual/libgudev introspection
 virtual/mpi cxx
 www-client/firefox custom-optimization hwaccel lto pgo system-harfbuzz -system-icu system-jpeg system-libevent system-libvpx system-png system-sqlite
+www-servers/lighttpd php
 x11-base/xorg-server elogind kdrive xvfb
 x11-drivers/nvidia-drivers persistenced
 x11-drivers/xf86-video-amdgpu udev
