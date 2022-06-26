@@ -125,7 +125,6 @@ sys-boot/grub device-mapper mount
 sys-cluster/openmpi cxx
 sys-devel/clang -abi_x86_32
 sys-devel/clang-runtime -abi_x86_32
-sys-devel/distcc python_single_target_python3_9
 sys-devel/gcc -pgo
 sys-devel/gdb lzma multitarget source-highlight xml xxhash
 sys-fs/cryptsetup reencrypt
