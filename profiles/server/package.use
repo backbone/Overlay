@@ -10,7 +10,6 @@ dev-lang/php cgi cli curl gd intl mysql mysqli pcntl pdo truetype
 dev-lang/python sqlite
 dev-libs/libxml2 icu python
 dev-perl/Net-Server ipv6 # amavisd
-dev-python/docutils -python_targets_python2_7
 dev-python/twisted conch
 games-fps/urbanterror -client server
 mail-filter/amavisd-new clamav razor spamassassin
