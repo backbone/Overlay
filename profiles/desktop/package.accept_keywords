@@ -77,7 +77,7 @@ dev-libs/xxhash ~amd64
 <dev-python/wxpython-5 ~amd64
 <dev-python/zstandard-0.14 ~amd64
 dev-qt/qt-creator ~amd64
-<dev-qt/qtquicktimeline-5.15.5 ~amd64
+<dev-qt/qtquicktimeline-5.15.6 ~amd64
 <dev-tex/latex2html-2018 ~amd64
 <dev-util/bdelta-1 ~amd64
 dev-util/cbindgen ~amd64
