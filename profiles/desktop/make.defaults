@@ -1,5 +1,6 @@
 INPUT_DEVICES="evdev"
 ABI_X86="32 64"
+PYTHON_TARGETS="$PYTHON_TARGETS python3_8"
 
 # gpu
 USE="${USE} fbcon opengl"
