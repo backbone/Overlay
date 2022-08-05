@@ -22,7 +22,7 @@ RDEPEND="${DEPEND}
 MULTILIB_CHOST_TOOLS=( /usr/bin/apulse )
 
 src_prepare() {
-	cmake-utils_src_prepare
+	cmake_src_prepare
 
 	# Ensure all relevant libdirs are added, to support all ABIs
 	DIRS=
@@ -33,11 +33,11 @@ src_prepare() {
 
 multilib_src_configure() {
 	local mycmakeargs=("-DAPULSEPATH=${EPREFIX}/usr/$(get_libdir)/apulse")
-	cmake-utils_src_configure
+	cmake_src_configure
 }
 
 multilib_src_install_all() {
-	cmake-utils_src_install
+	cmake_src_install
 	einstalldocs
 	dobin "${T}"/apulse
 }
