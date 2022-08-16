@@ -113,6 +113,7 @@ net-misc/remmina rdp vnc
 net-p2p/deluge geoip gtk libnotify sound webinterface
 net-p2p/transmission gtk
 net-voip/linphone gtk
+net-vpn/networkmanager-openvpn gtk
 sci-libs/opencascade -vtk
 sys-apps/gawk mpfr
 sys-apps/util-linux caps static-libs tty-helpers
