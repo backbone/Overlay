@@ -6,3 +6,4 @@ app-emulation/playonlinux
 <sci-geosciences/googleearth-8
 games-misc/games-envd
 =x11-misc/gcolor2-0.4-r4
+=x11-libs/gtkglext-1.2.0-r5 # anydesk
