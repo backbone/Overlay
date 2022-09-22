@@ -245,6 +245,7 @@ sys-devel/clang-common ~amd64
 sys-devel/clang-runtime ~amd64
 sys-devel/lld ~amd64
 sys-devel/llvm ~amd64
+sys-devel/llvm-toolchain-symlinks ~amd64
 sys-devel/llvmgold ~amd64
 <sys-devel/prelink-20160101 ~amd64
 <sys-firmware/intel-microcode-20220101 ~amd64
