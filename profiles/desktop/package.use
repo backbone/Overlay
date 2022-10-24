@@ -110,7 +110,7 @@ net-misc/iputils tracepath
 net-misc/networkmanager -dhclient dhcpcd -modemmanager -ncurses -ppp -wext
 net-misc/r8168 use-firmware
 net-misc/remmina rdp vnc
-net-p2p/deluge geoip gtk libnotify sound webinterface
+net-p2p/deluge geoip gtk gui libnotify sound webinterface
 net-p2p/transmission gtk
 net-voip/linphone gtk
 net-vpn/networkmanager-openvpn gtk
