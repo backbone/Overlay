@@ -179,6 +179,7 @@ media-gfx/inkscape ~amd64
 <media-libs/libaom-1.1 ~amd64
 <media-libs/libtgvoip-2.5 ~amd64
 =media-libs/libfilteraudio-9999 **
+<media-libs/libplacebo-6 ~amd64
 media-libs/libvpx ~amd64
 <media-libs/libwebp-1.2 ~amd64
 <media-libs/mlt-6.19 ~amd64
@@ -210,6 +211,7 @@ net-im/jitsi-meet-bin ~amd64
 <net-im/skypeforlinux-9 ~amd64
 net-im/teams ~amd64
 net-im/telegram-desktop ~amd64
+net-im/telegram-desktop-bin ~amd64
 =net-im/utox-9999 **
 =net-im/viber-9999 ~amd64
 net-im/zoom ~amd64
@@ -225,6 +227,7 @@ net-misc/anydesk ~amd64
 <net-misc/freerdp-2.1 ~amd64
 net-misc/gdrive ~amd64
 <net-misc/networkmanager-2 ~amd64
+net-misc/nomachine-enterprise-client ~amd64
 net-misc/r8168 ~amd64
 <net-misc/remmina-1.5 ~amd64
 net-misc/teamviewer ~amd64
@@ -265,6 +268,7 @@ sys-libs/compiler-rt-sanitizers ~amd64
 <sys-libs/glibc-2.35 ~amd64
 <sys-libs/ldb-1.7 ~amd64
 sys-libs/libomp ~amd64
+sys-libs/libudev-compat ~amd64
 <sys-libs/talloc-2.4 ~amd64
 <sys-libs/tdb-1.5 ~amd64
 <sys-libs/tevent-1 ~amd64
