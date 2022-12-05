@@ -64,7 +64,7 @@ media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
 media-gfx/imagemagick svg xml
 media-libs/avidemux-core vaapi
 media-libs/avidemux-plugins qt5
-media-libs/freetype -cleartype_hinting harfbuzz
+media-libs/freetype brotli -cleartype_hinting harfbuzz
 media-libs/gd fontconfig
 media-libs/gst-plugins-base theora
 media-libs/harfbuzz icu
@@ -137,7 +137,7 @@ sys-libs/tdb python
 sys-libs/tevent python
 sys-libs/zlib minizip static-libs
 sys-process/lsof rpc
-virtual/ffmpeg mp3 theora vaapi
+virtual/ffmpeg libass mp3 theora vaapi
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
 virtual/mpi cxx
