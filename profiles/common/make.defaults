@@ -24,7 +24,7 @@ ACCEPT_LICENSE="*"
 VIDEO_CARDS=""
 INPUT_DEVICES=""
 
-FEATURES="ccache parallel-fetch collision-protect sandbox candy metadata-transfer preserve-libs"
+FEATURES="ccache parallel-fetch sandbox candy metadata-transfer preserve-libs"
 
 CCACHE_SIZE="8G"
 CCACHE_DIR="/var/tmp/ccache"
