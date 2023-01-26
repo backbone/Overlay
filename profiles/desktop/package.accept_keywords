@@ -257,6 +257,7 @@ sys-devel/llvmgold ~amd64
 <sys-fs/mtpfs-1.2 ~amd64
 <sys-fs/multipath-tools-1 ~amd64
 <sys-kernel/backbone-sources-5.13 ~amd64
+<sys-kernel/gentoo-sources-5.17 ~amd64
 <sys-kernel/linux-firmware-20220101 ~amd64
 <sys-kernel/linux-headers-5.11 ~amd64
 <sys-kernel/vanilla-sources-5.17 ~amd64
