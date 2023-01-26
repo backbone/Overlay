@@ -293,7 +293,7 @@ x11-libs/gtkglext ~amd64
 <x11-libs/libfm-extra-1.4 ~amd64
 <x11-libs/libva-3 ~amd64
 <x11-libs/libva-intel-driver-3 ~amd64
-<x11-libs/wxGTK-3.1 ~amd64
+<x11-libs/wxGTK-3.3 ~amd64
 <x11-plugins/pidgin-bot-sentry-2 ~amd64
 <x11-plugins/whatsapp-purple-1 ~amd64
 <x11-themes/audacious-themes-0.5 ~amd64
