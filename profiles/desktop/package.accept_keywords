@@ -1,6 +1,7 @@
 <app-admin/eselect-opencascade-1 ~amd64
 <app-admin/eselect-vala-1 ~amd64
 =app-admin/gentoo-upgrade-9999 **
+app-admin/nvidia-docker ~amd64
 <app-admin/paxtest-1 ~amd64
 app-cdr/mdf2iso ~amd64
 app-containers/containerd ~amd64
