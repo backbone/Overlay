@@ -267,6 +267,7 @@ sys-libs/compiler-rt-sanitizers ~amd64
 <sys-libs/glibc-2.35 ~amd64
 <sys-libs/ldb-1.7 ~amd64
 sys-libs/libomp ~amd64
+sys-libs/libnvidia-container ~amd64
 sys-libs/libudev-compat ~amd64
 <sys-libs/talloc-2.5 ~amd64
 <sys-libs/tdb-1.5 ~amd64
