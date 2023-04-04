@@ -7,16 +7,16 @@ app-crypt/qca gpg
 app-editors/gvim cscope gtk python
 app-editors/vim cscope perl python vim-pager
 app-emulation/fuse -alsa joystick
-app-emulation/playonlinux python_single_target_python3_8
+app-emulation/playonlinux python_single_target_python3_10
 app-emulation/qemu spice virgl
 app-emulation/wine-staging gstreamer openal prelink vaapi
 app-emulation/wine-vanilla gstreamer openal prelink
 app-laptop/laptop-mode-tools bluetooth
 app-misc/mc samba sftp
 app-office/libreoffice googledrive gstreamer pdfimport
-app-office/libreoffice-bin python_single_target_python3_9
+app-office/libreoffice-bin python_single_target_python3_10
 app-office/libreoffice-l10n offlinehelp
-app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rcs rtf svg
+app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build python_single_target_python3_10 rcs rtf svg
 app-portage/eix sqlite
 app-portage/layman mercurial subversion
 app-text/evince djvu dvi
@@ -40,12 +40,12 @@ dev-libs/xmlsec nss
 dev-python/PyQt5 gui network printsupport svg widgets
 dev-qt/designer declarative
 dev-qt/qt-creator beautifier clang cmake cppcheck ctfvisualizer git glsl lsp mercurial modeling perfprofiler python qmlprofiler remotelinux scxml serialterminal silversearcher valgrind webassembly -webengine
-dev-vcs/tortoisehg -python_targets_python3_10
 dev-qt/qtcore icu
 dev-qt/qtgui egl wayland
 dev-qt/qtwebchannel qml
 dev-qt/qtwebengine widgets
 dev-util/anjuta vala
+dev-util/cppcheck python_single_target_python3_10
 games-emulation/fceux gtk
 games-emulation/snes9x gtk
 games-simulation/crrcsim portaudio
@@ -58,7 +58,7 @@ gnome-extra/nm-applet -modemmanager
 kde-plasma/kde-cli-tools -kdesu
 mail-client/thunderbird custom-optimization hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-sqlite
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
-media-gfx/blender colorio cycles ffmpeg openimageio tiff
+media-gfx/blender colorio cycles ffmpeg openimageio python_single_target_python3_10 tiff
 <media-gfx/blender-3.1 -cycles -color-management -embree -openexr -openimageio -openvdb -osl # build fails
 media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
 media-gfx/imagemagick svg xml
@@ -76,6 +76,7 @@ media-libs/libsdl2 haptic
 media-libs/libvpx postproc svc
 media-libs/mesa vaapi xa xvmc
 media-libs/mlt ffmpeg frei0r kdenlive melt qt5 xml
+media-libs/oidn python_single_target_python3_10
 media-libs/openal alsa
 media-libs/opencv contrib contribdnn gtk qt5
 media-libs/portaudio alsa
@@ -112,6 +113,7 @@ net-misc/r8168 use-firmware
 net-misc/remmina rdp vnc
 net-p2p/deluge geoip gtk gui libnotify sound webinterface
 net-p2p/transmission gtk
+net-print/hplip python_single_target_python3_10
 net-voip/linphone gtk
 net-vpn/networkmanager-openvpn gtk
 sci-libs/opencascade -vtk
@@ -126,7 +128,9 @@ sys-block/parted device-mapper
 sys-boot/grub device-mapper mount
 sys-cluster/openmpi cxx
 sys-devel/clang -abi_x86_32
+sys-devel/clang:14 python_single_target_python3_10
 sys-devel/clang-runtime -abi_x86_32
+sys-devel/distcc python_single_target_python3_10
 sys-devel/gcc -pgo
 sys-devel/gdb lzma multitarget source-highlight xml xxhash
 sys-fs/cryptsetup reencrypt

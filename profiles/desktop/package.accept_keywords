@@ -95,8 +95,6 @@ dev-util/nvidia-cuda-toolkit ~amd64
 dev-util/postman ~amd64
 =dev-util/valadoc-9999 **
 <dev-util/valgrind-3.16 ~amd64
-<dev-vcs/mercurial-7 ~amd64
-<dev-vcs/tortoisehg-7 ~amd64
 games-action/extreme-tuxracer ~amd64
 <games-action/minetest-1 ~amd64
 <games-arcade/frozen-bubble-2.3 ~amd64
