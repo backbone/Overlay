@@ -58,7 +58,7 @@ gnome-extra/nm-applet -modemmanager
 kde-plasma/kde-cli-tools -kdesu
 mail-client/thunderbird custom-optimization hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-sqlite
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
-media-gfx/blender colorio cycles ffmpeg openimageio python_single_target_python3_10 tiff
+media-gfx/blender colorio cycles ffmpeg openimageio tiff
 <media-gfx/blender-3.1 -cycles -color-management -embree -openexr -openimageio -openvdb -osl # build fails
 media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
 media-gfx/imagemagick svg xml
@@ -130,7 +130,6 @@ sys-cluster/openmpi cxx
 sys-devel/clang -abi_x86_32
 sys-devel/clang:14 python_single_target_python3_10
 sys-devel/clang-runtime -abi_x86_32
-sys-devel/distcc python_single_target_python3_10
 sys-devel/gcc -pgo
 sys-devel/gdb lzma multitarget source-highlight xml xxhash
 sys-fs/cryptsetup reencrypt
