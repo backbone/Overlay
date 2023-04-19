@@ -41,6 +41,7 @@ app-text/par ~amd64
 <app-text/stardict-5 ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
 dev-cpp/abseil-cpp ~amd64
+dev-cpp/glibmm ~amd64
 <dev-cpp/pystring-1.2 ~amd64
 <dev-cpp/rttr-0.10 ~amd64
 dev-db/dbeaver-bin ~amd64
@@ -80,7 +81,6 @@ dev-python/cachecontrol ~amd64
 <dev-python/wxpython-5 ~amd64
 <dev-python/zstandard-0.14 ~amd64
 dev-qt/qt-creator ~amd64
-dev-qt/qtquicktimeline ~amd64
 <dev-tex/latex2html-2018 ~amd64
 dev-util/anjuta ~amd64
 <dev-util/bdelta-1 ~amd64
