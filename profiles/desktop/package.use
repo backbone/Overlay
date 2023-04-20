@@ -113,7 +113,6 @@ net-misc/r8168 use-firmware
 net-misc/remmina rdp vnc
 net-p2p/deluge geoip gtk gui libnotify sound webinterface
 net-p2p/transmission gtk
-net-print/hplip python_single_target_python3_10
 net-voip/linphone gtk
 net-vpn/networkmanager-openvpn gtk
 sci-libs/opencascade -vtk
