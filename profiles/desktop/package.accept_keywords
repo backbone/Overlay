@@ -81,6 +81,7 @@ dev-python/cachecontrol ~amd64
 <dev-python/wxpython-5 ~amd64
 <dev-python/zstandard-0.14 ~amd64
 dev-qt/qt-creator ~amd64
+dev-qt/qtquicktimeline ~amd64
 <dev-tex/latex2html-2018 ~amd64
 dev-util/anjuta ~amd64
 <dev-util/bdelta-1 ~amd64
