@@ -3,7 +3,6 @@ app-arch/zip natspec
 app-editors/vim cscope perl python vim-pager
 app-emulation/libvirt virt-network
 app-emulation/qemu spice usb
-app-misc/grc python_targets_python3_6
 app-misc/mc samba sftp
 app-portage/eix sqlite
 dev-lang/php cgi cli curl gd intl mysql mysqli pcntl pdo truetype
