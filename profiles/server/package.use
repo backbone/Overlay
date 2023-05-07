@@ -7,6 +7,7 @@ app-misc/mc samba sftp
 app-portage/eix sqlite
 dev-lang/php cgi cli curl gd intl mysql mysqli pcntl pdo truetype
 dev-lang/python sqlite
+dev-libs/boost python
 dev-libs/libxml2 icu python
 dev-perl/Net-Server ipv6 # amavisd
 dev-python/twisted conch
@@ -23,7 +24,9 @@ net-dns/dnsmasq ipv6 script # libvirt
 net-firewall/iptables conntrack ipv6 # libvirt
 net-fs/samba quota
 net-ftp/pure-ftpd caps resolveids sysquota
+net-libs/libtorrent-rasterbar python
 net-misc/iputils tracepath
+net-p2p/deluge console webinterface
 net-p2p/rtorrent xmlrpc
 net-proxy/squid caps logrotate tproxy
 sys-apps/gawk mpfr
