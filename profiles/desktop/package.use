@@ -16,7 +16,7 @@ app-misc/mc samba sftp
 app-office/libreoffice googledrive gstreamer pdfimport
 app-office/libreoffice-bin python_single_target_python3_10
 app-office/libreoffice-l10n offlinehelp
-app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build python_single_target_python3_10 rcs rtf svg
+app-office/lyx aspell dia docbook dot enchant gnumeric html monolithic-build rcs rtf svg
 app-portage/eix sqlite
 app-portage/layman mercurial subversion
 app-text/evince djvu dvi
