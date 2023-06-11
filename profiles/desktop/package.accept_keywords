@@ -41,6 +41,7 @@ app-text/par ~amd64
 <app-text/stardict-5 ~amd64
 <app-vim/youcompleteme-20170101 ~amd64
 dev-cpp/abseil-cpp ~amd64
+dev-cpp/cppgir ~amd64
 dev-cpp/glibmm ~amd64
 <dev-cpp/pystring-1.2 ~amd64
 <dev-cpp/rttr-0.10 ~amd64
