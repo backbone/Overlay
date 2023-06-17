@@ -18,6 +18,7 @@ mail-mta/postfix berkdb dovecot-sasl
 media-gfx/imagemagick fftw jpeg png
 media-libs/gd jpeg png webp
 media-libs/libpng apng
+media-libs/libsndfile minimal
 media-libs/libv4l jpeg
 media-video/ffmpeg mp3 v4l vpx x264
 net-dns/dnsmasq ipv6 script # libvirt
