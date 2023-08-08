@@ -25,6 +25,7 @@ net-dns/dnsmasq ipv6 script # libvirt
 net-firewall/iptables conntrack ipv6 # libvirt
 net-fs/samba quota
 net-ftp/pure-ftpd caps resolveids sysquota
+net-libs/gnutls tools pkcs11
 net-libs/libtorrent-rasterbar python
 net-misc/iputils tracepath
 net-p2p/deluge console webinterface
