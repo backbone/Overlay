@@ -170,13 +170,13 @@ src_install() {
 		doins ../QQWry.Dat
 	fi
 
-	if use pronounce; then
-		docinto WyabdcRealPeopleTTS
-		dodoc ../WyabdcRealPeopleTTS/{README,readme.txt}
-		rm -f ../WyabdcRealPeopleTTS/{README,readme.txt}
-		insinto /usr/share
-		doins -r ../WyabdcRealPeopleTTS
-	fi
+	#if use pronounce; then
+	#	docinto WyabdcRealPeopleTTS
+	#	dodoc ../WyabdcRealPeopleTTS/{README,readme.txt}
+	#	rm -f ../WyabdcRealPeopleTTS/{README,readme.txt}
+	#	insinto /usr/share
+	#	doins -r ../WyabdcRealPeopleTTS
+	#fi
 
 	# noinst_PROGRAMS with ${PN}_ prefix from tools/src/Makefile.am wrt #292773
 	# and additional scripts from tools dir
