@@ -1,3 +1,4 @@
 >=media-gfx/imagemagick-7 # redmine installation fails
 dev-lang/php:8.0 # brokes wiki
 >=sys-kernel/gentoo-sources-5.0
+>=app-antivirus/clamav-1.2
