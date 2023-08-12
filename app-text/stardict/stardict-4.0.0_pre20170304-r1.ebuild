@@ -69,6 +69,11 @@ DOCS=""
 
 PATCHES=( "${FILESDIR}/${PN}-4.0.0_pre20160518-tabfile.patch" )
 
+src_unpack() {
+	unpack ${P}.tar.xz
+	mv $P stardict-4.0.0.pre.20170304
+}
+
 src_prepare() {
 	# From Fedora
 	# Remove unneeded sigc++ header files to make it sure
