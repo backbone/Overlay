@@ -71,7 +71,9 @@ PATCHES=( "${FILESDIR}/${PN}-4.0.0_pre20160518-tabfile.patch" )
 
 src_unpack() {
 	unpack ${P}.tar.xz
-	mv $P stardict-4.0.0.pre.20170304
+	DNAME=stardict-4.0.0.pre.20170304
+	mv $P $DNAME
+	sed -i 's~-lespeak~-lespeak-ng~' $DNAME/dict/configure.ac
 }
 
 src_prepare() {
