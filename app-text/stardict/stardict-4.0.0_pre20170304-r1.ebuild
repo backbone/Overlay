@@ -37,7 +37,7 @@ COMMON_DEPEND="
 	x11-libs/gtk+:3
 	x11-libs/libX11
 	x11-libs/pango
-	espeak? ( >=app-accessibility/espeak-1.29 )
+	espeak? ( >=app-accessibility/espeak-ng-1.29 )
 	flite? ( app-accessibility/flite )
 	gucharmap? ( gnome-extra/gucharmap:2.90= )
 	spell? ( >=app-text/enchant-1.2:0= )
