@@ -4,8 +4,6 @@
 
 EAPI="7"
 
-inherit eutils
-
 SRC_URI="http://files.backbone.ws/projects/stardict-dicts/${P}.tar.bz2"
 KEYWORDS="-* x86 amd64"
 

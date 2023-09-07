@@ -8,7 +8,7 @@ EGIT_REPO_URI="https://git.backbone.ws/kolan/snail.git"
 
 [[ 9999 == ${PV} ]] && vcs=git-r3
 
-inherit $vcs eutils
+inherit $vcs
 
 if [[ 9999 != ${PV} ]]; then
 	SRC_URI="https://git.backbone.ws/kolan/snail/archive/v${PVR}.tar.gz -> snail-${PVR}.tar.gz"

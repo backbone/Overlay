@@ -4,7 +4,6 @@
 
 EAPI="7"
 
-inherit eutils
 DESCRIPTION="Free calls, text and picture sharing with anyone, anywhere!"
 HOMEPAGE="http://www.viber.com"
 SRC_URI="http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb"

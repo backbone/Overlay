@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/media-plugins/alsaequal/alsaequal-0.6-r2.ebuild,v 1.4 2014/08/10 12:59:02 nativemad Exp $
 
-EAPI=5
-inherit eutils multilib toolchain-funcs multilib-minimal
+EAPI=6
+inherit multilib toolchain-funcs multilib-minimal
 
 DESCRIPTION="a real-time adjustable equalizer plugin for ALSA"
 HOMEPAGE="http://www.thedigitalmachine.net/alsaequal.html"

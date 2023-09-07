@@ -4,8 +4,6 @@
 
 EAPI="7"
 
-inherit eutils
-
 DESCRIPTION="Colorizing wrapper around make"
 HOMEPAGE="http://bre.klaki.net/programs/colormake/"
 SRC_URI="${HOMEPAGE}${P}.tar.gz"

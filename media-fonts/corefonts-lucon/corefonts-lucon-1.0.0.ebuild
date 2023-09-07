@@ -4,8 +4,6 @@
 
 EAPI="7"
 
-inherit eutils
-
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI=${EGIT_REPO_URI:-"https://git.backbone.ws/kolan/corefonts-lucidaconsole.git"}
 	inherit git-r3

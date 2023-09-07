@@ -4,8 +4,6 @@
 
 EAPI="7"
 
-inherit eutils
-
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI=${EGIT_REPO_URI:-"https://git.backbone.ws/kolan/Portage-FindCruftFiles.git"}
 	inherit git-r3

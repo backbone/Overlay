@@ -5,7 +5,7 @@
 EAPI="7"
 VALA_MIN_API_VERSION="0.20"
 
-inherit autotools eutils git-r3 vala
+inherit autotools git-r3 vala
 
 DESCRIPTION="Documentation generator for Vala source code"
 HOMEPAGE="https://live.gnome.org/Valadoc"

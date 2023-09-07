@@ -3,7 +3,7 @@
 
 EAPI="7"
 
-inherit eutils toolchain-funcs
+inherit toolchain-funcs
 
 DESCRIPTION="Alcohol 120% bin image to ISO image file converter"
 HOMEPAGE="http://mdf2iso.berlios.de/"

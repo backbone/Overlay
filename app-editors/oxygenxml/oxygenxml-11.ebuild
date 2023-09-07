@@ -4,8 +4,6 @@
 
 EAPI=2
 
-inherit eutils
-
 DESCRIPTION="Oxygen XML Editor is a complete cross platform XML editor providing the tools for XML authoring, XML conversion, XML Schema, DTD, Relax NG and Schematron development, XPath, XSLT, XQuery debugging, SOAP and WSDL testing."
 HOMEPAGE="http://oxygenxml.com"
 SRC_URI="http://mirror.oxygenxml.com/InstData/Editor/All/oxygen.tar.gz -> oxygen.tar.gz"
