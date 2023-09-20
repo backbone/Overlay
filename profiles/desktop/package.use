@@ -25,8 +25,7 @@ app-text/xmlto text
 dev-cpp/gtkmm -abi_x86_32
 dev-db/sqlite secure-delete
 dev-lang/php cgi curl gd postgres
-dev-lang/python sqlite
-dev-lang/python:2.7 tk
+dev-lang/python sqlite tk
 dev-libs/boost -abi_x86_32 python
 dev-libs/elfutils static-libs
 dev-libs/glib static-libs
@@ -43,6 +42,7 @@ dev-qt/designer declarative
 dev-qt/qt-creator beautifier clang cmake cppcheck ctfvisualizer git glsl lsp mercurial modeling perfprofiler python qmlprofiler remotelinux scxml serialterminal silversearcher valgrind webassembly -webengine
 dev-qt/qtcore icu
 dev-qt/qtgui egl wayland
+dev-qt/qttools assistant designer qml
 dev-qt/qtwebchannel qml
 dev-qt/qtwebengine widgets
 dev-util/anjuta vala
@@ -143,6 +143,7 @@ virtual/imagemagick-tools svg
 virtual/libgudev introspection
 virtual/mpi cxx
 www-client/firefox custom-optimization hwaccel lto pgo system-harfbuzz -system-icu system-jpeg system-libevent system-libvpx system-png system-sqlite
+www-client/vivaldi proprietary-codecs widevine
 www-servers/lighttpd php
 x11-base/xorg-server elogind kdrive xvfb
 x11-drivers/nvidia-drivers persistenced

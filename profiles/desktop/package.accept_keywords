@@ -15,9 +15,9 @@ app-containers/runc ~amd64
 <app-emulation/fuse-2 ~amd64
 <app-emulation/libspectrum-2 ~amd64
 <app-emulation/playonlinux-5 ~amd64
-<app-emulation/virtualbox-6.2 ~amd64
-<app-emulation/virtualbox-additions-6.2 ~amd64
-<app-emulation/virtualbox-modules-6.2 ~amd64
+<app-emulation/virtualbox-7.1 ~amd64
+<app-emulation/virtualbox-additions-7.1 ~amd64
+<app-emulation/virtualbox-modules-7.1 ~amd64
 <app-emulation/winetricks-20220101 ~amd64
 <app-emulation/wine-gecko-2.48 ~amd64
 <app-emulation/wine-staging-8 ~amd64
@@ -96,6 +96,7 @@ dev-util/nvidia-cuda-sdk ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
 <dev-util/perf-6 ~amd64
 dev-util/postman ~amd64
+dev-util/pycharm-community ~amd64
 =dev-util/valadoc-9999 **
 <dev-util/valgrind-3.16 ~amd64
 games-action/extreme-tuxracer ~amd64
@@ -282,6 +283,7 @@ virtual/cargo ~amd64
 <virtual/opencl-4 ~amd64
 virtual/rust ~amd64
 www-client/firefox ~amd64
+www-client/vivaldi ~amd64
 <www-plugins/adobe-flash-40 ~amd64
 x11-apps/igt-gpu-tools ~amd64
 x11-drivers/nvidia-drivers ~amd64
