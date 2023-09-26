@@ -57,6 +57,7 @@ dev-lang/rust-bin ~amd64
 <dev-lang/vala-1 ~amd64
 dev-libs/amdgpu-pro-opencl ~amd64
 <dev-libs/d0_blind_id-1.1 ~amd64
+<dev-libs/glib-2.80 ~amd64
 <dev-libs/gmp-6.2 ~amd64
 <dev-libs/go-fuse-1 ~amd64
 =dev-libs/go-usb-9999 **
@@ -91,6 +92,7 @@ dev-util/cbindgen ~amd64
 <dev-util/cmake-3.23 ~amd64
 =dev-util/colormake-9999 **
 dev-util/cppcheck ~amd64
+dev-util/gdbus-codegen-2.80 ~amd64
 dev-util/mdds ~amd64
 dev-util/nvidia-cuda-sdk ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
