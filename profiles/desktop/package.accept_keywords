@@ -71,6 +71,7 @@ dev-libs/liborcus ~amd64
 <dev-libs/libxml2-2.10 ~amd64
 dev-libs/nspr ~amd64
 <dev-libs/nss-4 ~amd64
+<dev-libs/openssl-3.1 ~amd64
 <dev-libs/vala-common-1 ~amd64
 dev-libs/xxhash ~amd64
 <dev-lua/lgi-1 ~amd64
@@ -92,7 +93,7 @@ dev-util/cbindgen ~amd64
 <dev-util/cmake-3.23 ~amd64
 =dev-util/colormake-9999 **
 dev-util/cppcheck ~amd64
-dev-util/gdbus-codegen-2.80 ~amd64
+<dev-util/gdbus-codegen-2.80 ~amd64
 dev-util/mdds ~amd64
 dev-util/nvidia-cuda-sdk ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
