@@ -167,7 +167,7 @@ games-util/joystick ~amd64
 <kde-frameworks/sonnet-5.103 ~amd64
 <kde-frameworks/syntax-highlighting-5.103 ~amd64
 <lxde-base/menu-cache-1.2 ~amd64
-<media-gfx/blender-3.4 ~amd64
+media-gfx/blender ~amd64
 <media-gfx/freecad-1 ~amd64
 media-gfx/geeqie ~amd64
 media-gfx/inkscape ~amd64
@@ -187,6 +187,7 @@ media-libs/libvpx ~amd64
 <media-libs/oidn-1.4 ~amd64
 <media-libs/opencolorio-2.1 ~amd64
 <media-libs/openimageio-1.9 ~amd64
+media-libs/openpgl ~amd64
 <media-gfx/openvdb-10 ~amd64
 <media-libs/osl-1.13 ~amd64
 media-libs/rnnoise ~amd64
