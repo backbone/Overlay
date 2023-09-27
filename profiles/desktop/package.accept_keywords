@@ -20,7 +20,7 @@ app-containers/runc ~amd64
 <app-emulation/virtualbox-modules-7.1 ~amd64
 <app-emulation/winetricks-20220101 ~amd64
 <app-emulation/wine-gecko-2.48 ~amd64
-<app-emulation/wine-staging-8 ~amd64
+<app-emulation/wine-staging-9 ~amd64
 <app-emulation/wine-vanilla-8 ~amd64
 app-eselect/eselect-lua ~amd64
 app-eselect/eselect-luajit ~amd64
