@@ -6,6 +6,7 @@ app-admin/nvidia-docker ~amd64
 app-cdr/mdf2iso ~amd64
 app-containers/containerd ~amd64
 app-containers/docker ~amd64
+app-containers/docker-buildx ~amd64
 app-containers/docker-cli ~amd64
 app-containers/docker-proxy ~amd64
 app-containers/nvidia-container-toolkit ~amd64
