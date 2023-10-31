@@ -1,11 +1,11 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-PYTHON_COMPAT=( python3_{8..10} )
+PYTHON_COMPAT=( python3_{10..11} )
 
-inherit desktop python-single-r1 xdg
+inherit desktop python-single-r1 wrapper xdg
 
 MY_PN="PlayOnLinux"
 
@@ -54,7 +54,6 @@ PATCHES=(
 	"${FILESDIR}/${PN}-4.2.4-pol-bash.patch"
 	"${FILESDIR}/${PN}-4.2.4-binary-plugin.patch"
 	"${FILESDIR}/${PN}-4.2.6-stop-update-warning.patch"
-	"${FILESDIR}/${PN}-4.4-python.patch"
 )
 
 src_prepare() {
