@@ -31,8 +31,6 @@ dev-cpp/expected-lite ~amd64
 <dev-cpp/glibmm-2.80 ~amd64
 dev-db/dbeaver-bin ~amd64
 dev-embedded/u-boot-tools ~amd64
-dev-lang/rust ~amd64
-dev-lang/rust-bin ~amd64
 <dev-lang/vala-1 ~amd64
 dev-libs/amdgpu-pro-opencl ~amd64
 <dev-libs/glib-2.80 ~amd64
@@ -174,8 +172,6 @@ sys-libs/libudev-compat ~amd64
 <sys-libs/tevent-1 ~amd64
 <sys-libs/timezone-data-2025 ~amd64
 <sys-power/powerstat-1 ~amd64
-virtual/rust ~amd64
-www-client/firefox ~amd64
 www-client/vivaldi ~amd64
 x11-apps/igt-gpu-tools ~amd64
 x11-misc/pcmanfm ~amd64
