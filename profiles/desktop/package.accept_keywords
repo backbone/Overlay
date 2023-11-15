@@ -38,6 +38,7 @@ dev-libs/amdgpu-pro-opencl ~amd64
 dev-libs/libfilezilla ~amd64
 <dev-libs/nss-4 ~amd64
 <dev-libs/openssl-3.1 ~amd64
+<dev-libs/protobuf-24 ~amd64
 <dev-libs/vala-common-1 ~amd64
 <dev-python/wxpython-5 ~amd64
 dev-qt/qt-creator ~amd64
