@@ -25,6 +25,7 @@ dev-libs/libdbusmenu gtk3
 dev-libs/libgudev introspection
 dev-libs/libpcre pcre16 static-libs
 dev-libs/libpcre2 pcre16 pcre32 static-libs
+dev-libs/libportal gtk
 dev-libs/libxml2 icu python
 dev-libs/nss cacert
 dev-libs/xmlsec nss
