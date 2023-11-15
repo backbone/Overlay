@@ -32,30 +32,24 @@ dev-python/PyQt5 gui network printsupport svg widgets
 dev-qt/designer declarative
 dev-qt/qt-creator clang serialterminal -webengine
 dev-qt/qtcore icu
-dev-qt/qtgui egl wayland
+dev-qt/qtgui egl
 dev-qt/qttools assistant designer qml
 dev-qt/qtwebchannel qml
 dev-qt/qtwebengine widgets
-dev-util/anjuta vala
-games-emulation/fceux gtk
-games-emulation/snes9x gtk
 games-simulation/crrcsim portaudio
 games-strategy/warzone2100 videos
 games-util/game-device-udev-rules elogind
-games-util/steam-client-meta flash trayicon
-gnome-base/gconf policykit
+games-util/steam-client-meta trayicon
 gnome-base/gvfs mtp udisks
 gnome-extra/nm-applet -modemmanager
 kde-frameworks/purpose -kaccounts
 kde-plasma/kde-cli-tools -kdesu -X
-mail-client/thunderbird custom-optimization hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-sqlite
+mail-client/thunderbird hwaccel system-harfbuzz system-jpeg system-libevent
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
-media-gfx/blender colorio cycles ffmpeg openimageio tiff
-<media-gfx/blender-3.1 -cycles -color-management -embree -openexr -openimageio -openvdb -osl # build fails
+media-gfx/blender cycles ffmpeg tiff
 media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
 media-gfx/imagemagick svg xml
 media-libs/avidemux-core vaapi
-media-libs/avidemux-plugins qt5
 media-libs/freetype brotli -cleartype_hinting harfbuzz
 media-libs/gd fontconfig
 media-libs/gst-plugins-base theora
@@ -65,67 +59,58 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libsdl2 haptic
-media-libs/libvpx postproc svc
-media-libs/mesa vaapi xa xvmc
-media-libs/mlt ffmpeg frei0r kdenlive melt qt5 xml
+media-libs/libvpx postproc
+media-libs/mesa vaapi xa
+media-libs/mlt ffmpeg frei0r qt5 xml
 media-libs/openal alsa
-media-libs/opencv contrib contribdnn gtk qt5
+media-libs/opencv contrib contribdnn qt5
 media-libs/portaudio alsa
 media-libs/sdl-image gif
 media-libs/sdl2-image gif
-media-libs/sdl-mixer midi mp3 mod timidity
+media-libs/sdl-mixer midi mod mp3 timidity
 media-libs/sdl2-mixer midi mp3 mod timidity
 media-plugins/alsa-plugins libsamplerate pulseaudio
 media-plugins/audacious-plugins cue ffmpeg flac fluidsynth lame libsamplerate mp3
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
 media-sound/audacity alsa ffmpeg vamp
-media-sound/pulseaudio bluetooth equalizer gconf gtk jack libsamplerate native-headset ofono-headset
+media-sound/pulseaudio bluetooth jack ofono-headset
 media-sound/pulseaudio-daemon bluetooth jack ofono-headset
 media-tv/v4l-utils qt5
-media-video/avidemux qt5 vaapi
+media-video/avidemux vaapi
 media-video/ffmpegthumbnailer gnome gtk
 media-video/ffmpeg alsa jpeg2k libass libv4l mp3 opus theora vaapi
-media-video/mpv encode -lua -luajit vaapi
+media-video/mpv -lua vaapi
 media-video/obs-studio fdk vlc
 media-video/vlc live vaapi
-net-analyzer/wireshark adns smi qt5
+net-analyzer/wireshark smi
 net-dns/avahi python
 net-firewall/iptables conntrack
 net-fs/samba -abi_x86_32
-net-im/teams swiftshader
-net-im/telegram-desktop -gtk
 net-im/zoom bundled-libjpeg-turbo
 net-libs/libtorrent-rasterbar python
 net-libs/nghttp2 abi_x86_32
 net-misc/curl http2
 net-misc/iputils tracepath
-net-misc/networkmanager -dhclient dhcpcd -modemmanager -ncurses -ppp -wext
+net-misc/networkmanager -dhclient dhcpcd -modemmanager -ppp -wext
 net-misc/r8168 use-firmware
 net-misc/remmina rdp vnc
-net-p2p/deluge geoip gtk gui libnotify sound webinterface
+net-p2p/deluge gui libnotify sound
 net-p2p/transmission gtk
-net-voip/linphone gtk
 net-vpn/networkmanager-openvpn gtk
 sci-libs/opencascade -vtk
 sys-apps/gawk mpfr
 sys-apps/fwupd amt archive bash-completion bluetooth cbor elogind fastboot flashrom gnutls lzma modemmanager nvme policykit spi synaptics tpm uefi
 sys-apps/util-linux caps static-libs tty-helpers
-sys-auth/consolekit pm-utils policykit
 sys-auth/pambase elogind
-sys-auth/polkit elogind
-sys-block/gparted fat ntfs
 sys-block/parted device-mapper
 sys-boot/grub device-mapper mount
 sys-cluster/openmpi cxx
 sys-devel/clang -abi_x86_32
-sys-devel/clang:14 python_single_target_python3_10
 sys-devel/clang-runtime -abi_x86_32
 sys-devel/gcc -pgo
 sys-devel/gdb lzma multitarget source-highlight xml xxhash
-sys-fs/cryptsetup reencrypt
 sys-fs/lvm2 -thin
-sys-kernel/genkernel cryptsetup
-sys-libs/glibc -clone3 nscd
+sys-libs/glibc nscd
 sys-libs/libomp hwloc
 sys-libs/tdb python
 sys-libs/tevent python
@@ -134,20 +119,16 @@ sys-process/lsof rpc
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
 virtual/mpi cxx
-www-client/firefox custom-optimization hwaccel lto pgo system-harfbuzz -system-icu system-jpeg system-libevent system-libvpx system-png system-sqlite
+www-client/firefox hwaccel lto pgo system-harfbuzz -system-icu system-jpeg system-libevent system-libvpx system-png
 www-client/vivaldi proprietary-codecs widevine
 www-servers/lighttpd php
-x11-base/xorg-server elogind kdrive xvfb
+x11-base/xorg-server elogind xvfb
 x11-drivers/nvidia-drivers persistenced
 x11-drivers/xf86-video-amdgpu udev
 x11-drivers/xf86-video-intel dri3 uxa xvmc
-x11-libs/cairo xcb
 x11-libs/gtk+ examples
-x11-libs/libdrm libkms
 x11-libs/libfm gtk
 x11-libs/libxcb xkb
 x11-libs/motif xft
 x11-libs/wxGTK gstreamer libnotify tiff
 x11-terms/rxvt-unicode 256-color fading-colors perl xft
-x11-wm/awesome luajit
-xfce-base/exo gtk2
