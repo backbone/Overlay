@@ -63,7 +63,7 @@ media-libs/libvpx postproc
 media-libs/mesa vaapi xa
 media-libs/mlt ffmpeg frei0r qt5 xml
 media-libs/openal alsa
-media-libs/opencv contrib contribdnn qt5
+media-libs/opencv contrib contribdnn lto qt5
 media-libs/portaudio alsa
 media-libs/sdl-image gif
 media-libs/sdl2-image gif
@@ -91,7 +91,7 @@ net-libs/libtorrent-rasterbar python
 net-libs/nghttp2 abi_x86_32
 net-misc/curl http2
 net-misc/iputils tracepath
-net-misc/networkmanager -dhclient dhcpcd -modemmanager -ppp -wext
+net-misc/networkmanager -dhclient dhcpcd lto -modemmanager -ppp -wext
 net-misc/r8168 use-firmware
 net-misc/remmina rdp vnc
 net-p2p/deluge gui libnotify sound
@@ -107,7 +107,7 @@ sys-boot/grub device-mapper mount
 sys-cluster/openmpi cxx
 sys-devel/clang -abi_x86_32
 sys-devel/clang-runtime -abi_x86_32
-sys-devel/gcc -pgo
+sys-devel/gcc lto pgo
 sys-devel/gdb lzma multitarget source-highlight xml xxhash
 sys-fs/lvm2 -thin
 sys-libs/glibc nscd
