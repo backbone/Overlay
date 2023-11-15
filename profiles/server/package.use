@@ -3,7 +3,7 @@ app-arch/zip natspec
 app-editors/vim cscope perl python vim-pager
 app-emulation/libvirt virt-network
 app-emulation/qemu usb
-app-misc/mc samba sftp
+app-misc/mc sftp
 app-portage/eix sqlite
 dev-lang/php cgi cli curl gd intl mysql mysqli pcntl pdo truetype
 dev-lang/python sqlite
@@ -22,10 +22,10 @@ media-libs/libsndfile minimal
 media-libs/libv4l jpeg
 media-video/ffmpeg mp3 v4l vpx x264
 net-dns/dnsmasq ipv6 script # libvirt
-net-firewall/iptables conntrack ipv6 # libvirt
+net-firewall/iptables conntrack # libvirt
 net-fs/samba quota
 net-ftp/pure-ftpd caps resolveids sysquota
-net-libs/gnutls tools pkcs11
+net-libs/gnutls pkcs11 tools
 net-libs/libtorrent-rasterbar python
 net-misc/iputils tracepath
 net-p2p/deluge console webinterface
@@ -36,14 +36,12 @@ sys-apps/util-linux caps static-libs tty-helpers
 sys-block/parted device-mapper
 sys-boot/grub device-mapper
 sys-devel/gcc lto pgo
-sys-fs/cryptsetup reencrypt
 sys-fs/lvm2 -thin
 sys-libs/glibc nscd
-sys-libs/ntdb python
 sys-libs/tdb python
 sys-libs/tevent python
 sys-libs/zlib minizip
 sys-process/lsof rpc
 virtual/ffmpeg mp3
 virtual/mpi cxx
-www-servers/lighttpd ipv6 php
+www-servers/lighttpd php
