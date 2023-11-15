@@ -206,7 +206,6 @@ media-libs/x264 ~amd64
 <media-video/avidemux-3 ~amd64
 <media-video/lives-2 ~amd64
 media-video/mpv ~amd64
-media-video/nvidia-video-codec ~amd64
 media-video/obs-studio ~amd64
 <media-video/v4l2ucp-3 ~amd64
 net-analyzer/namebench ~amd64
@@ -283,7 +282,6 @@ www-client/firefox ~amd64
 www-client/vivaldi ~amd64
 <www-plugins/adobe-flash-40 ~amd64
 x11-apps/igt-gpu-tools ~amd64
-x11-drivers/nvidia-drivers ~amd64
 =x11-drivers/snail-9999 **
 x11-drivers/xf86-video-amdgpu ~amd64
 <x11-drivers/xf86-video-intel-2.100 ~amd64
