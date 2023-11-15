@@ -1,6 +1,2 @@
 =app-text/par-1.53.0 # use 1.52.0 UTF-8 patched sources from backbone's repo
 >=media-fonts/liberation-fonts-2.00.0 # save your eyes
->=sys-kernel/gentoo-sources-6.2
->=sys-kernel/vanilla-sources-6.2
-=net-im/skypeforlinux-8.100.0.203
-=app-accessibility/espeak-1.48.04-r1

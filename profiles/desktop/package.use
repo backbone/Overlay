@@ -54,7 +54,8 @@ games-util/steam-client-meta flash trayicon
 gnome-base/gconf policykit
 gnome-base/gvfs mtp udisks
 gnome-extra/nm-applet -modemmanager
-kde-plasma/kde-cli-tools -kdesu
+kde-frameworks/purpose -kaccounts
+kde-plasma/kde-cli-tools -kdesu -X
 mail-client/thunderbird custom-optimization hwaccel system-harfbuzz system-icu system-jpeg system-libevent system-sqlite
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
 media-gfx/blender colorio cycles ffmpeg openimageio tiff
