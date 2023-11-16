@@ -2,7 +2,7 @@ app-arch/unzip natspec
 app-arch/zip natspec
 app-editors/vim cscope perl python vim-pager
 app-emulation/libvirt virt-network
-app-emulation/qemu usb
+app-emulation/qemu spice usb
 app-misc/mc sftp
 app-portage/eix sqlite
 dev-lang/php cgi cli curl gd intl mysql mysqli pcntl pdo truetype
