@@ -64,7 +64,7 @@ media-libs/libvpx postproc
 media-libs/mesa vaapi xa
 media-libs/mlt ffmpeg frei0r qt5 xml
 media-libs/openal alsa
-media-libs/opencv contrib contribdnn lto qt5
+media-libs/opencv contrib contribdnn qt5
 media-libs/portaudio alsa
 media-libs/sdl-image gif
 media-libs/sdl2-image gif
@@ -77,7 +77,7 @@ media-sound/audacity alsa ffmpeg vamp
 media-sound/pulseaudio bluetooth jack ofono-headset
 media-sound/pulseaudio-daemon bluetooth jack ofono-headset
 media-tv/v4l-utils qt5
-media-video/avidemux vaapi
+media-video/avidemux gui vaapi
 media-video/ffmpegthumbnailer gnome gtk
 media-video/ffmpeg alsa jpeg2k libass libv4l mp3 opus theora vaapi
 media-video/mpv -lua vaapi
