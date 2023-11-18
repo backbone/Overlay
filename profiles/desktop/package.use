@@ -78,6 +78,7 @@ media-sound/pulseaudio bluetooth jack ofono-headset
 media-sound/pulseaudio-daemon bluetooth jack ofono-headset
 media-tv/v4l-utils qt5
 media-video/avidemux gui vaapi
+media-video/avidemux-plugins gui libsamplerate vaapi
 media-video/ffmpegthumbnailer gnome gtk
 media-video/ffmpeg alsa jpeg2k libass libv4l mp3 opus theora vaapi
 media-video/mpv -lua vaapi
