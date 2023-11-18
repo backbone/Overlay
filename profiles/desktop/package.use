@@ -51,6 +51,7 @@ media-gfx/blender cycles ffmpeg tiff
 media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
 media-gfx/imagemagick svg xml
 media-libs/avidemux-core vaapi
+media-libs/avidemux-plugins gui libsamplerate vaapi
 media-libs/freetype brotli -cleartype_hinting harfbuzz
 media-libs/gd fontconfig
 media-libs/gst-plugins-base theora
@@ -78,7 +79,6 @@ media-sound/pulseaudio bluetooth jack ofono-headset
 media-sound/pulseaudio-daemon bluetooth jack ofono-headset
 media-tv/v4l-utils qt5
 media-video/avidemux gui vaapi
-media-video/avidemux-plugins gui libsamplerate vaapi
 media-video/ffmpegthumbnailer gnome gtk
 media-video/ffmpeg alsa jpeg2k libass libv4l mp3 opus theora vaapi
 media-video/mpv -lua vaapi
