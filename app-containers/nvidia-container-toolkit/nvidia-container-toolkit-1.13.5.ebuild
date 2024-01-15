@@ -39,7 +39,7 @@ DEPEND="${RDEPEND}"
 
 BDEPEND="
 	app-arch/unzip
-	sys-devel/make
+	dev-build/make
 "
 
 src_compile() {
