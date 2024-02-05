@@ -18,7 +18,7 @@ app-text/xmlto text
 dev-db/sqlite secure-delete
 dev-lang/php cgi curl gd postgres
 dev-lang/python sqlite tk
-dev-libs/boost -abi_x86_32 python
+dev-libs/boost -abi_x86_32 context python
 dev-libs/elfutils static-libs
 dev-libs/glib static-libs
 dev-libs/libdbusmenu gtk3

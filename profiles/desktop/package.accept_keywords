@@ -159,6 +159,12 @@ net-misc/r8168 ~amd64
 net-misc/teamviewer ~amd64
 <net-voip/linphone-3.13 ~amd64
 <net-vpn/tor-0.5 ~amd64
+<sci-electronics/kicad-7.1 ~amd64
+<sci-electronics/kicad-symbols-7.1 ~amd64
+<sci-electronics/kicad-footprints-7.1 ~amd64
+<sci-electronics/kicad-packages3d-7.1 ~amd64
+<sci-electronics/kicad-templates-7.1 ~amd64
+<sci-electronics/kicad-meta-7.1 ~amd64
 <sci-geosciences/googleearth-8 ~amd64
 =sys-apps/hardinform-9999 **
 sys-apps/inxi ~amd64
