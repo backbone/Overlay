@@ -12,7 +12,7 @@ HOMEPAGE="https://github.com/DisplayLink/evdi"
 
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI=${EGIT_REPO_URI:-"https://github.com/DisplayLink/evdi.git"}
-	EGIT_BRANCH="devel"
+	EGIT_BRANCH="main"
 	inherit git-r3
 	KEYWORDS=""
 else
