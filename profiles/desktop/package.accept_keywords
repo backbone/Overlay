@@ -186,7 +186,6 @@ sys-libs/libudev-compat ~amd64
 <sys-power/powerstat-1 ~amd64
 www-client/vivaldi ~amd64
 x11-apps/igt-gpu-tools ~amd64
-x11-drivers/evdi ~amd64
 x11-drivers/displaylink-driver ~amd64
 <x11-drivers/nvidia-drivers-536 ~amd64
 x11-misc/pcmanfm ~amd64
