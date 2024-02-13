@@ -128,6 +128,7 @@ media-gfx/blender ~amd64
 <media-gfx/freecad-1 ~amd64
 <media-libs/avidemux-core-3 ~amd64
 <media-libs/avidemux-plugins-3 ~amd64
+media-libs/libtgvoip ~amd64
 media-libs/libvpx ~amd64
 <media-libs/mesa-23.2 ~amd64
 media-libs/openpgl ~amd64
