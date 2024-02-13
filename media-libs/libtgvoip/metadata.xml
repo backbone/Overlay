@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>mva@gentoo.org</email>
+    <description>Also, you can find me on IRC (Libera.Chat) as mva, or in Telegram as @mva_name</description>
+    <name>Vadim A. Misbakh-Soloviov</name>
+  </maintainer>
+  <use>
+    <flag name="alsa">Enable ALSA support</flag>
+    <flag name="dsp">Enable signal processing (echo cancellation, noise suppression, and automatic gain control)</flag>
+    <flag name="pulseaudio">Enable PulseAudio support</flag>
+    <flag name="pipewire">Enable PipeWire support (actually, only force needed dependencies)</flag>
+    <!-- <flag name="libcxx">Build with <pkg>sys-devel/clang</pkg> against <pkg>sys-libs/libcxx</pkg></flag> -->
+    <flag name="static-libs">Build static library</flag>
+  </use>
+  <upstream>
+    <remote-id type="github">grishka/libtgvoip</remote-id>
+    <bugs-to>https://github.com/grishka/libtgvoip/issues</bugs-to>
+  </upstream>
+</pkgmetadata>
