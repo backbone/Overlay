@@ -8,6 +8,7 @@ app-containers/docker-buildx ~amd64
 app-containers/docker-cli ~amd64
 app-containers/docker-proxy ~amd64
 app-containers/nvidia-container-toolkit ~amd64
+app-containers/runc ~amd64
 <app-editors/oxygenxml-12 ~x86
 <app-emulation/fuse-2 ~amd64
 <app-emulation/libspectrum-2 ~amd64
