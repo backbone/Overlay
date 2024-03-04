@@ -33,6 +33,10 @@ MODULE_NAMES="evdi(video:${S}/module)"
 #CONFIG_CHECK="~FB_VIRTUAL ~!INTEL_IOMMU"
 CONFIG_CHECK="~FB_VIRTUAL ~I2C DRM ~USB_SUPPORT USB_ARCH_HAS_HCD"
 
+PATCHES=(
+	"${FILESDIR}"/linux_src_path.patch
+)
+
 pkg_setup() {
 	linux-mod_pkg_setup
 }

@@ -1,0 +1,11 @@
+--- a/module/Makefile	2024-03-04 17:04:34.102345590 +0300
++++ b/module/Makefile	2024-03-04 17:04:40.026271116 +0300
+@@ -75,7 +75,7 @@
+ endif
+ 
+ ifeq ($(KDIR),)
+-	KDIR := /lib/modules/$(KVER)/build
++	KDIR := /usr/src/linux
+ endif
+ 
+ MOD_KERNEL_PATH := /kernel/drivers/gpu/drm/evdi
