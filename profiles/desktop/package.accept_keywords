@@ -153,6 +153,7 @@ net-im/zoom ~amd64
 <net-libs/libexosip2-6 ~amd64
 =net-libs/tox-9999 **
 net-misc/anydesk ~amd64
+net-misc/freerdp ~amd64
 net-misc/gdrive ~amd64
 <net-misc/networkmanager-2 ~amd64
 net-misc/nomachine-enterprise-client ~amd64
