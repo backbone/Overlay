@@ -48,7 +48,9 @@ src_compile() {
 
 src_install() {
 	linux-mod_src_install
-	dolib.so library/libevdi.so.1.[0-9]*.*
-	dosym libevdi.so.1.[0-9]*.* "/usr/$(get_libdir)/libevdi.so.1"
+	FNAME=library/libevdi.so.1.[0-9]*.*
+	BASENAME=$(basename $FNAME)
+	dolib.so $FNAME
+	dosym $BASENAME "/usr/$(get_libdir)/libevdi.so.1"
 	dosym libevdi.so.1 "/usr/$(get_libdir)/libevdi.so"
 }
