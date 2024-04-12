@@ -5,8 +5,6 @@ EAPI=8
 
 inherit linux-mod
 
-SO_VER=1.14.2
-
 DESCRIPTION="Extensible Virtual Display Interface"
 HOMEPAGE="https://github.com/DisplayLink/evdi"
 
@@ -50,7 +48,7 @@ src_compile() {
 
 src_install() {
 	linux-mod_src_install
-	dolib.so library/libevdi.so.${SO_VER}
-	dosym libevdi.so.${SO_VER} "/usr/$(get_libdir)/libevdi.so.1"
+	dolib.so library/libevdi.so.1.[0-9]*.*
+	dosym libevdi.so.1.[0-9]*.* "/usr/$(get_libdir)/libevdi.so.1"
 	dosym libevdi.so.1 "/usr/$(get_libdir)/libevdi.so"
 }
