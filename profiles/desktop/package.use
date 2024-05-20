@@ -112,6 +112,7 @@ sys-devel/clang -abi_x86_32
 sys-devel/clang-runtime -abi_x86_32
 sys-devel/gcc lto pgo
 sys-devel/gdb lzma multitarget source-highlight xml xxhash
+sys-firmware/intel-microcode -initramfs
 sys-fs/lvm2 -thin
 sys-libs/glibc nscd
 sys-libs/libomp hwloc

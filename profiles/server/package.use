@@ -36,6 +36,7 @@ sys-apps/util-linux caps static-libs tty-helpers
 sys-block/parted device-mapper
 sys-boot/grub device-mapper
 sys-devel/gcc lto pgo
+sys-firmware/intel-microcode -initramfs
 sys-fs/lvm2 -thin
 sys-libs/glibc nscd
 sys-libs/tdb python
