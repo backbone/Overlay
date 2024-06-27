@@ -40,6 +40,7 @@ CONFIG_CHECK="~FB_VIRTUAL ~I2C"
 
 PATCHES=(
 	"${FILESDIR}/${PN}-1.14.4-format-truncation.patch"
+	"${FILESDIR}"/linux_src_path.patch
 )
 
 pkg_setup() {
