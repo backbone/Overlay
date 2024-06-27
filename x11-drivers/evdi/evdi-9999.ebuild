@@ -15,7 +15,7 @@ if [[ ${PV} == "9999" ]] ; then
 	KEYWORDS=""
 else
     SRC_URI="https://github.com/DisplayLink/evdi/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-    KEYWORDS="~amd64 ~arm ~x86"
+    KEYWORDS=""
 fi
 
 LICENSE="GPL-2 LGPL-2.1"
