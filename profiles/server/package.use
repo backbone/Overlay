@@ -38,6 +38,7 @@ sys-boot/grub device-mapper
 sys-devel/gcc lto pgo
 sys-firmware/intel-microcode -initramfs
 sys-fs/lvm2 -thin
+sys-kernel/linux-firmware -initramfs
 sys-libs/glibc nscd
 sys-libs/tdb python
 sys-libs/tevent python
