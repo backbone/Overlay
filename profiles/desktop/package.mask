@@ -1,3 +1,4 @@
 =app-text/par-1.53.0 # use 1.52.0 UTF-8 patched sources from backbone's repo
 >=media-fonts/liberation-fonts-2.00.0 # save your eyes
 >=media-video/ffmpeg-5
+=net-im/telegram-desktop-5.2.2 # segfault when opening image
