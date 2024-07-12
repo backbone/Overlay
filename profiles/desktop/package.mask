@@ -2,3 +2,4 @@
 >=media-fonts/liberation-fonts-2.00.0 # save your eyes
 >=media-video/ffmpeg-5
 =net-im/telegram-desktop-5.2.2 # segfault when opening image
+=dev-libs/protobuf-23.4 # build fails
