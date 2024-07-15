@@ -50,8 +50,7 @@ media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
 media-gfx/blender cycles ffmpeg tiff
 media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
 media-gfx/imagemagick svg xml
-media-libs/avidemux-core vaapi
-media-libs/avidemux-plugins gui libsamplerate vaapi
+media-libs/avidemux-plugins gui libsamplerate
 media-libs/freetype brotli -cleartype_hinting harfbuzz
 media-libs/gd fontconfig
 media-libs/gst-plugins-base theora
@@ -62,7 +61,7 @@ media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libsdl2 haptic
 media-libs/libvpx postproc
-media-libs/mesa vaapi xa
+media-libs/mesa xa
 media-libs/mlt ffmpeg frei0r qt5 xml
 media-libs/openal alsa
 media-libs/opencv contrib contribdnn qt5
@@ -73,17 +72,17 @@ media-libs/sdl-mixer midi mod mp3 timidity
 media-libs/sdl2-mixer midi mp3 mod timidity
 media-plugins/alsa-plugins libsamplerate pulseaudio
 media-plugins/audacious-plugins cue ffmpeg flac fluidsynth lame libsamplerate mp3
-media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg vaapi
+media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg
 media-sound/audacity alsa ffmpeg vamp
 media-sound/pulseaudio bluetooth jack ofono-headset
 media-sound/pulseaudio-daemon bluetooth jack ofono-headset
 media-tv/v4l-utils qt5
-media-video/avidemux gui vaapi
+media-video/avidemux gui
 media-video/ffmpegthumbnailer gnome gtk
-media-video/ffmpeg alsa jpeg2k libass libv4l mp3 opus theora vaapi
-media-video/mpv -lua vaapi
+media-video/ffmpeg alsa jpeg2k libass libv4l mp3 opus theora
+media-video/mpv -lua
 media-video/obs-studio fdk vlc
-media-video/vlc live vaapi
+media-video/vlc live
 net-analyzer/wireshark smi
 net-dns/avahi python
 net-firewall/iptables conntrack
