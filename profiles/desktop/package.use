@@ -129,7 +129,7 @@ www-servers/lighttpd php
 x11-base/xorg-server elogind xvfb
 x11-drivers/nvidia-drivers persistenced
 x11-drivers/xf86-video-amdgpu udev
-x11-drivers/xf86-video-intel dri3 uxa xvmc
+x11-drivers/xf86-video-intel dri dri3 uxa xvmc
 x11-libs/gtk+ examples
 x11-libs/libfm gtk
 x11-libs/libxcb xkb
