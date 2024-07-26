@@ -5,3 +5,6 @@
 =dev-libs/protobuf-23.4 # build fails
 =media-video/obs-studio-30.2.0-r1 # build fails
 =net-misc/networkmanager-1.48.4 # build fails
+=virtual/rust-1.79.0 # build fails
+=dev-lang/rust-1.79.0 # build fails
+=dev-lang/rust-bin-1.79.0 # build fails
