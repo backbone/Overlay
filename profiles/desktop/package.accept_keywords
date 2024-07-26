@@ -132,11 +132,13 @@ media-gfx/blender ~amd64
 media-libs/libtgvoip ~amd64
 media-libs/libvpx ~amd64
 <media-libs/mesa-23.2 ~amd64
+media-libs/nvidia-vaapi-driver ~amd64
 media-libs/openpgl ~amd64
 <media-libs/osl-1.13 ~amd64
 media-libs/tg_owt ~amd64
 <media-sound/bluez-alsa-1.4.0 ~amd64
 <media-sound/mp3unicode-2 ~amd64
+media-tv/v4l-utils ~amd64
 <media-video/avidemux-3 ~amd64
 media-video/obs-studio ~amd64
 <media-video/v4l2ucp-3 ~amd64
@@ -161,6 +163,7 @@ net-misc/r8168 ~amd64
 <net-misc/remmina-1.5 ~amd64
 net-misc/teamviewer ~amd64
 <net-voip/linphone-3.13 ~amd64
+net-vpn/networkmanager-l2tp ~amd64
 <net-vpn/tor-0.5 ~amd64
 <sci-electronics/kicad-7.1 ~amd64
 <sci-electronics/kicad-symbols-7.1 ~amd64
@@ -193,8 +196,10 @@ x11-drivers/displaylink-driver ~amd64
 x11-drivers/evdi ~amd64
 <x11-drivers/nvidia-drivers-536 ~amd64
 x11-misc/pcmanfm ~amd64
+x11-misc/urxvtconfig ~amd64
 x11-libs/gtkglext ~amd64
 <x11-libs/libdrm-2.5 ~amd64
 <x11-libs/libfm-1.4 ~amd64
 <x11-libs/libfm-extra-1.4 ~amd64
 <x11-plugins/pidgin-bot-sentry-2 ~amd64
+x11-terms/rxvt-unicode ~amd64

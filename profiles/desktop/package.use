@@ -18,6 +18,7 @@ app-text/xmlto text
 dev-db/sqlite secure-delete
 dev-lang/php cgi curl gd postgres
 dev-lang/python sqlite tk
+dev-lang/rust profiler
 dev-libs/boost -abi_x86_32 context python
 dev-libs/elfutils static-libs
 dev-libs/glib static-libs
@@ -31,7 +32,7 @@ dev-libs/nss cacert
 dev-libs/xmlsec nss
 dev-python/PyQt5 gui network printsupport svg widgets
 dev-qt/designer declarative
-dev-qt/qt-creator clang serialterminal -webengine
+dev-qt/qt-creator clang designer qmldesigner serialterminal -webengine
 dev-qt/qtcore icu
 dev-qt/qtgui egl
 dev-qt/qttools assistant designer qml
@@ -60,6 +61,7 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libsdl2 haptic
+media-libs/libv4l bpf qt5
 media-libs/libvpx postproc
 media-libs/mesa xa
 media-libs/mlt ffmpeg frei0r qt5 xml
@@ -90,14 +92,17 @@ net-fs/samba -abi_x86_32
 net-im/zoom bundled-libjpeg-turbo
 net-libs/libtorrent-rasterbar python
 net-libs/nghttp2 abi_x86_32
+net-libs/nodejs inspector
 net-misc/curl http2
 net-misc/iputils tracepath
-net-misc/networkmanager -dhclient dhcpcd lto -modemmanager -ppp -wext
+net-misc/networkmanager -dhclient dhcpcd lto -modemmanager ppp -wext
 net-misc/r8168 use-firmware
 net-misc/remmina rdp vnc
 net-p2p/deluge gui libnotify sound
 net-p2p/transmission gtk
+net-vpn/networkmanager-l2tp gtk
 net-vpn/networkmanager-openvpn gtk
+net-vpn/strongswan networkmanager
 sci-libs/opencascade -vtk
 sys-apps/gawk mpfr
 sys-apps/fwupd amt archive bash-completion bluetooth cbor elogind fastboot flashrom gnutls lzma modemmanager nvme policykit spi synaptics tpm uefi
@@ -123,10 +128,13 @@ sys-process/lsof rpc
 virtual/imagemagick-tools svg
 virtual/libgudev introspection
 virtual/mpi cxx
+virtual/rust profiler
+www-client/chromium debugsyms installsources -screencast -system-png -wayland
 www-client/firefox hwaccel lto pgo system-harfbuzz -system-icu system-jpeg system-libevent system-libvpx system-png
 www-client/vivaldi proprietary-codecs widevine
 www-servers/lighttpd php
 x11-base/xorg-server elogind xvfb
+x11-drivers/evdi python
 x11-drivers/nvidia-drivers persistenced
 x11-drivers/xf86-video-amdgpu udev
 x11-drivers/xf86-video-intel dri dri3 uxa xvmc
@@ -135,4 +143,4 @@ x11-libs/libfm gtk
 x11-libs/libxcb xkb
 x11-libs/motif xft
 x11-libs/wxGTK gstreamer libnotify tiff
-x11-terms/rxvt-unicode 256-color fading-colors perl xft
+x11-terms/rxvt-unicode 24-bit-color 256-color blink fading-colors gdk-pixbuf iso14755 perl wide-glyphs xft
