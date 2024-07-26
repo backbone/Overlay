@@ -4,6 +4,7 @@
 =net-im/telegram-desktop-5.2.3 # segfault when opening image
 =dev-libs/protobuf-23.4 # build fails
 =media-video/obs-studio-30.2.0-r1 # build fails
+=media-video/obs-studio-30.2.1 # build fails
 =net-misc/networkmanager-1.48.4 # build fails
 =virtual/rust-1.79.0 # build fails
 =dev-lang/rust-1.79.0 # build fails
