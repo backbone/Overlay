@@ -46,4 +46,6 @@ sys-libs/zlib minizip
 sys-process/lsof rpc
 virtual/ffmpeg mp3
 virtual/mpi cxx
+www-client/elinks gnutls
+www-client/lynx gnutls
 www-servers/lighttpd php

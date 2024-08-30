@@ -131,6 +131,8 @@ virtual/mpi cxx
 virtual/rust profiler
 www-client/chromium debugsyms installsources -screencast -system-png -wayland
 www-client/firefox hwaccel lto pgo system-harfbuzz -system-icu system-jpeg system-libevent system-libvpx system-png
+www-client/elinks gnutls
+www-client/lynx gnutls
 www-client/vivaldi proprietary-codecs widevine
 www-servers/lighttpd php
 x11-base/xorg-server elogind xvfb
