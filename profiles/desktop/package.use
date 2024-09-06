@@ -67,12 +67,12 @@ media-libs/libjpeg-turbo static-libs
 media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libsdl2 haptic
-media-libs/libv4l bpf qt5
+media-libs/libv4l bpf
 media-libs/libvpx postproc
 media-libs/mesa xa
-media-libs/mlt ffmpeg frei0r qt5 qt6 xml
+media-libs/mlt ffmpeg frei0r qt6 xml
 media-libs/openal alsa
-media-libs/opencv -abi_x86_32 contrib contribdnn qt5
+media-libs/opencv -abi_x86_32 contrib contribdnn
 media-libs/portaudio alsa
 media-libs/sdl-image gif
 media-libs/sdl2-image gif
@@ -85,7 +85,6 @@ media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg
 media-sound/audacity alsa ffmpeg vamp
 media-sound/pulseaudio bluetooth jack ofono-headset
 media-sound/pulseaudio-daemon bluetooth jack ofono-headset
-media-tv/v4l-utils qt5
 media-video/avidemux gui
 media-video/ffmpegthumbnailer gnome gtk
 media-video/ffmpeg alsa jpeg2k libass libv4l mp3 opus theora
