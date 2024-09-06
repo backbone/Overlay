@@ -2,7 +2,7 @@ app-arch/bzip2 static-libs
 app-arch/unzip natspec
 app-arch/zip natspec
 app-crypt/gcr gtk
-app-crypt/qca gpg
+app-crypt/qca gpg qt6
 app-editors/gvim cscope python
 app-editors/vim cscope perl python vim-pager
 app-emulation/fuse -alsa joystick
@@ -29,10 +29,13 @@ dev-libs/libpcre2 pcre16 pcre32 static-libs
 dev-libs/libportal gtk
 dev-libs/libxml2 icu python
 dev-libs/nss cacert
+dev-libs/protobuf -abi_x86_32
 dev-libs/xmlsec nss
 dev-python/PyQt5 gui network printsupport svg widgets
 dev-qt/designer declarative
 dev-qt/qt-creator clang designer qmldesigner serialterminal -webengine
+dev-qt/qt5compat icu qml
+dev-qt/qtbase icu libproxy wayland
 dev-qt/qtcore icu
 dev-qt/qtgui egl
 dev-qt/qttools assistant designer qml
@@ -44,7 +47,10 @@ games-util/game-device-udev-rules elogind
 games-util/steam-client-meta trayicon
 gnome-base/gvfs mtp udisks
 gnome-extra/nm-applet -modemmanager
+kde-frameworks/kconfig qml
+kde-frameworks/kwindowsystem wayland
 kde-frameworks/purpose -kaccounts
+kde-frameworks/sonnet qml
 kde-plasma/kde-cli-tools -kdesu -X
 mail-client/thunderbird hwaccel system-harfbuzz system-jpeg system-libevent
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
@@ -64,9 +70,9 @@ media-libs/libsdl2 haptic
 media-libs/libv4l bpf qt5
 media-libs/libvpx postproc
 media-libs/mesa xa
-media-libs/mlt ffmpeg frei0r qt5 xml
+media-libs/mlt ffmpeg frei0r qt5 qt6 xml
 media-libs/openal alsa
-media-libs/opencv contrib contribdnn qt5
+media-libs/opencv -abi_x86_32 contrib contribdnn qt5
 media-libs/portaudio alsa
 media-libs/sdl-image gif
 media-libs/sdl2-image gif
@@ -74,6 +80,7 @@ media-libs/sdl-mixer midi mod mp3 timidity
 media-libs/sdl2-mixer midi mp3 mod timidity
 media-plugins/alsa-plugins libsamplerate pulseaudio
 media-plugins/audacious-plugins cue ffmpeg flac fluidsynth lame libsamplerate mp3
+media-plugins/frei0r-plugins -abi_x86_32
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg
 media-sound/audacity alsa ffmpeg vamp
 media-sound/pulseaudio bluetooth jack ofono-headset
@@ -109,6 +116,7 @@ sys-apps/fwupd amt archive bash-completion bluetooth cbor elogind fastboot flash
 sys-apps/lshw gtk
 sys-apps/util-linux caps static-libs tty-helpers
 sys-auth/pambase elogind
+sys-auth/polkit-qt qt6
 sys-block/parted device-mapper
 sys-boot/grub device-mapper mount
 sys-cluster/openmpi cxx

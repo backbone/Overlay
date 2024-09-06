@@ -28,6 +28,7 @@ app-text/par ~amd64
 <app-text/stardict-5 ~amd64
 <app-vim/youcompleteme-20250101 ~amd64
 dev-cpp/abseil-cpp ~amd64
+dev-cpp/ada ~amd64
 dev-cpp/cppgir ~amd64
 dev-cpp/expected-lite ~amd64
 <dev-cpp/glibmm-2.80 ~amd64
@@ -40,7 +41,7 @@ dev-libs/amdgpu-pro-opencl ~amd64
 dev-libs/libfilezilla ~amd64
 <dev-libs/nss-4 ~amd64
 <dev-libs/openssl-3.1 ~amd64
-<dev-libs/protobuf-24 ~amd64
+dev-libs/protobuf ~amd64
 <dev-libs/vala-common-1 ~amd64
 <dev-python/protobuf-python-4.24 ~amd64
 <dev-python/wxpython-5 ~amd64
@@ -57,6 +58,7 @@ dev-util/postman ~amd64
 dev-util/pycharm-community ~amd64
 =dev-util/valadoc-9999 **
 <dev-util/valgrind-4 ~amd64
+dev-vcs/tortoisehg ~amd64
 games-action/extreme-tuxracer ~amd64
 <games-action/minetest-1 ~amd64
 <games-arcade/frozen-bubble-2.3 ~amd64
@@ -133,6 +135,7 @@ media-libs/libtgvoip ~amd64
 media-libs/libvpx ~amd64
 <media-libs/mesa-23.2 ~amd64
 media-libs/nvidia-vaapi-driver ~amd64
+media-libs/opencv ~amd64
 media-libs/openpgl ~amd64
 <media-libs/osl-1.13 ~amd64
 media-libs/tg_owt ~amd64
