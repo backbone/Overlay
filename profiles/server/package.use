@@ -8,6 +8,7 @@ app-portage/eix sqlite
 dev-lang/php cgi cli curl gd intl mysql mysqli pcntl pdo truetype
 dev-lang/python sqlite
 dev-libs/boost python
+dev-libs/jemalloc stats
 dev-libs/libxml2 icu python
 dev-perl/Net-Server ipv6 # amavisd
 dev-python/twisted conch
