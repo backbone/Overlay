@@ -46,7 +46,6 @@ dev-libs/protobuf ~amd64
 <dev-python/protobuf-python-4.24 ~amd64
 <dev-python/wxpython-5 ~amd64
 dev-qt/qt-creator ~amd64
-dev-qt/qtquicktimeline ~amd64
 <dev-util/android-tools-35 ~amd64
 dev-util/anjuta ~amd64
 <dev-util/bdelta-1 ~amd64
