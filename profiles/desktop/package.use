@@ -53,7 +53,7 @@ kde-frameworks/kwindowsystem wayland
 kde-frameworks/purpose -kaccounts
 kde-frameworks/sonnet qml
 kde-plasma/kde-cli-tools -kdesu -X
-mail-client/thunderbird hwaccel system-harfbuzz system-jpeg system-libevent
+mail-client/thunderbird hwaccel system-harfbuzz system-jpeg system-libevent system-png
 media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
 media-gfx/blender cycles ffmpeg tiff
 media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
@@ -138,7 +138,7 @@ virtual/libgudev introspection
 virtual/mpi cxx
 virtual/rust profiler
 www-client/chromium debugsyms installsources -screencast -system-png -wayland
-www-client/firefox hwaccel lto pgo system-harfbuzz -system-icu system-jpeg system-libevent system-libvpx system-png
+www-client/firefox hwaccel lto openh264 pgo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-png
 www-client/elinks gnutls
 www-client/lynx gnutls
 www-client/vivaldi proprietary-codecs widevine
