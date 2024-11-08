@@ -150,6 +150,7 @@ net-ftp/filezilla ~amd64
 net-im/jitsi-meet-bin ~amd64
 <net-im/skypeforlinux-9 ~amd64
 net-im/teams ~amd64
+net-im/teams-for-linux ~amd64
 <net-im/telegram-desktop-5.1 ~amd64
 <net-im/telegram-desktop-bin-5.1 ~amd64
 =net-im/viber-9999 ~amd64
