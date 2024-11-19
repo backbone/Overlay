@@ -80,10 +80,11 @@ media-libs/sdl2-image gif
 media-libs/sdl-mixer midi mod mp3 timidity
 media-libs/sdl2-mixer midi mp3 mod timidity
 media-plugins/alsa-plugins libsamplerate pulseaudio
-media-plugins/audacious-plugins cue ffmpeg flac fluidsynth lame libsamplerate mp3
+media-plugins/audacious-plugins cue ffmpeg flac fluidsynth gtk lame libsamplerate mp3
 media-plugins/frei0r-plugins -abi_x86_32
 media-plugins/gst-plugins-meta ffmpeg flac mp3 mpeg
 media-sound/audacity alsa ffmpeg vamp
+media-sound/audacious gtk
 media-sound/pulseaudio bluetooth jack ofono-headset
 media-sound/pulseaudio-daemon bluetooth jack ofono-headset
 media-video/avidemux gui
