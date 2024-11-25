@@ -127,6 +127,7 @@ sys-devel/gcc lto pgo
 sys-devel/gdb lzma multitarget source-highlight xml xxhash
 sys-firmware/intel-microcode -initramfs
 sys-fs/lvm2 -thin
+sys-kernel/gentoo-sources experimental
 sys-kernel/linux-firmware -initramfs
 sys-libs/glibc nscd
 sys-libs/libomp hwloc
