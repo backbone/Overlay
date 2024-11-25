@@ -2,7 +2,7 @@ app-arch/bzip2 static-libs
 app-arch/unzip natspec
 app-arch/zip natspec
 app-crypt/gcr gtk
-app-crypt/qca gpg qt6
+app-crypt/qca gpg qt5 qt6
 app-editors/gvim cscope python
 app-editors/vim cscope perl python vim-pager
 app-emulation/fuse -alsa joystick
@@ -32,7 +32,7 @@ dev-libs/libxml2 icu python
 dev-libs/nss cacert
 dev-libs/protobuf -abi_x86_32
 dev-libs/xmlsec nss
-dev-python/PyQt5 gui network printsupport svg widgets
+dev-python/pyqt5 gui network printsupport svg widgets
 dev-qt/designer declarative
 dev-qt/qt-creator clang designer qmldesigner serialterminal -webengine
 dev-qt/qt5compat icu qml
@@ -115,7 +115,7 @@ sci-libs/opencascade -vtk
 sys-apps/gawk mpfr
 sys-apps/fwupd amt archive bash-completion bluetooth cbor elogind fastboot flashrom gnutls lzma modemmanager nvme policykit spi synaptics tpm uefi
 sys-apps/lshw gtk
-sys-apps/util-linux caps static-libs tty-helpers
+sys-apps/util-linux caps magic static-libs tty-helpers
 sys-auth/pambase elogind
 sys-auth/polkit-qt qt6
 sys-block/parted device-mapper
