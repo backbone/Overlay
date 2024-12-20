@@ -63,7 +63,6 @@ media-libs/freetype brotli -cleartype_hinting harfbuzz
 media-libs/gd fontconfig
 media-libs/gst-plugins-base theora
 media-libs/harfbuzz icu
-media-libs/libcanberra -abi_x86_32
 media-libs/libjpeg-turbo static-libs
 media-libs/libmypaint gegl
 media-libs/libpng apng
