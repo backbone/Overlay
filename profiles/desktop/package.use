@@ -33,6 +33,7 @@ dev-libs/nss cacert
 dev-libs/protobuf -abi_x86_32
 dev-libs/xmlsec nss
 dev-python/pyqt5 gui network printsupport svg widgets
+dev-python/qscintilla qt6
 dev-qt/designer declarative
 dev-qt/qt-creator clang designer qmldesigner serialterminal -webengine
 dev-qt/qt5compat icu qml
@@ -153,5 +154,6 @@ x11-libs/gtk+ examples
 x11-libs/libfm gtk
 x11-libs/libxcb xkb
 x11-libs/motif xft
+x11-libs/qscintilla qt6
 x11-libs/wxGTK gstreamer libnotify tiff
 x11-terms/rxvt-unicode 24-bit-color 256-color blink fading-colors gdk-pixbuf iso14755 perl wide-glyphs xft
