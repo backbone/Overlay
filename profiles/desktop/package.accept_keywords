@@ -43,6 +43,7 @@ dev-libs/libfilezilla ~amd64
 <dev-libs/openssl-3.1 ~amd64
 dev-libs/protobuf ~amd64
 <dev-libs/vala-common-1 ~amd64
+<dev-python/curl-cffi-0.9 ~amd64
 <dev-python/protobuf-python-4.24 ~amd64
 <dev-python/wxpython-5 ~amd64
 dev-qt/qt-creator ~amd64
@@ -158,6 +159,7 @@ net-im/zoom ~amd64
 <net-libs/libexosip2-6 ~amd64
 =net-libs/tox-9999 **
 net-misc/anydesk ~amd64
+<net-misc/curl-impersonate-0.9 ~amd64
 net-misc/freerdp ~amd64
 net-misc/gdrive ~amd64
 <net-misc/networkmanager-2 ~amd64
