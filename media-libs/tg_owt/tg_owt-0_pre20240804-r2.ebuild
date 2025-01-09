@@ -8,9 +8,9 @@ inherit cmake flag-o-matic
 DESCRIPTION="WebRTC build for Telegram"
 HOMEPAGE="https://github.com/desktop-app/tg_owt"
 
-TG_OWT_COMMIT="afd9d5d31798d3eacf9ed6c30601e91d0f1e4d60"
-LIBYUV_COMMIT="914624f0b8b92986ef385e9650ee7b5fb07099e9"
-LIBSRTP_COMMIT="f53df50059906e5c364eca65bd3c847cac9ef192"
+TG_OWT_COMMIT="dc17143230b5519f3c1a8da0079e00566bd4c5a8"
+LIBYUV_COMMIT="04821d1e7d60845525e8db55c7bcd41ef5be9406"
+LIBSRTP_COMMIT="a566a9cfcd619e8327784aa7cff4a1276dc1e895"
 SRC_URI="https://github.com/desktop-app/tg_owt/archive/${TG_OWT_COMMIT}.tar.gz -> ${P}.tar.gz
 	https://gitlab.com/chromiumsrc/libyuv/-/archive/${LIBYUV_COMMIT}/libyuv-${LIBYUV_COMMIT}.tar.bz2
 	https://github.com/cisco/libsrtp/archive/${LIBSRTP_COMMIT}.tar.gz -> libsrtp-${LIBSRTP_COMMIT}.tar.gz"
@@ -19,7 +19,7 @@ S="${WORKDIR}/${PN}-${TG_OWT_COMMIT}"
 
 LICENSE="BSD"
 SLOT="0/${PV##*pre}"
-KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv"
+KEYWORDS="amd64 ~arm64 ~loong ~ppc64 ~riscv"
 IUSE="screencast +X"
 
 # This package's USE flags may change the ABI and require a rebuild of
@@ -33,7 +33,7 @@ IUSE="screencast +X"
 # - libsrtp (project uses private APIs)
 # - pffft (no stable versioning, patched)
 RDEPEND="
-	>=dev-cpp/abseil-cpp-20220623.1:=
+	>=dev-cpp/abseil-cpp-20240722.0:=
 	dev-libs/openssl:=
 	dev-libs/protobuf:=
 	media-libs/libjpeg-turbo:=
@@ -44,7 +44,7 @@ RDEPEND="
 	dev-libs/crc32c
 	screencast? (
 		dev-libs/glib:2
-		media-video/pipewire:=
+		>=media-video/pipewire-1.0.7:=
 	)
 	X? (
 		x11-libs/libX11
@@ -59,7 +59,7 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}
 	screencast? (
-		media-libs/libglvnd
+		media-libs/libglvnd[X]
 		media-libs/mesa
 		x11-libs/libdrm
 	)
@@ -70,19 +70,13 @@ BDEPEND="
 "
 
 src_unpack() {
-	unpack "${P}.tar.gz"
-	unpack "libyuv-${LIBYUV_COMMIT}.tar.bz2"
+	default
+
 	mv -T "libyuv-${LIBYUV_COMMIT}" "${S}/src/third_party/libyuv" || die
-	unpack "libsrtp-${LIBSRTP_COMMIT}.tar.gz"
 	mv -T "libsrtp-${LIBSRTP_COMMIT}" "${S}/src/third_party/libsrtp" || die
 }
 
 src_prepare() {
-	# libopenh264 has GENERATED files with yasm that aren't excluded by
-	# EXCLUDE_FROM_ALL, and I have no clue how to avoid this.
-	# These source files aren't used with system-openh264, anyway.
-	sed -i '/include(cmake\/libopenh264.cmake)/d' CMakeLists.txt || die
-
 	# The sources for these aren't available, avoid needing them
 	sed -e '/include(cmake\/libcrc32c.cmake)/d' \
 		-e '/include(cmake\/libabsl.cmake)/d' -i CMakeLists.txt || die
