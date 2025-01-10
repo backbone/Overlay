@@ -1,3 +1,4 @@
 =app-text/par-1.53.0 # use 1.52.0 UTF-8 patched sources from backbone's repo
 >=media-fonts/liberation-fonts-2.00.0 # save your eyes
 >=net-im/telegram-desktop-5.9.0 # build fails
+=sys-kernel/gentoo-sources-6.6.70 # build fails
