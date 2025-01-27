@@ -1,1 +1,2 @@
+>=sys-kernel/gentoo-sources-5.11
 >=media-gfx/imagemagick-7 # redmine installation fails
