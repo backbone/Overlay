@@ -6,5 +6,5 @@
 <games-fps/urbanterror-data-5 ~amd64
 sys-firmware/intel-microcode ~amd64
 sys-kernel/linux-firmware ~amd64
-<www-apps/tt-rss-20250101 ~amd64
+www-apps/tt-rss ~amd64
 <www-servers/lighttpd-1.5 ~amd64
