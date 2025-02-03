@@ -28,6 +28,7 @@ net-fs/samba quota
 net-ftp/pure-ftpd caps resolveids sysquota
 net-libs/gnutls pkcs11 tools
 net-libs/libtorrent-rasterbar python
+net-libs/nodejs npm
 net-misc/iputils tracepath
 net-p2p/deluge console webinterface
 net-p2p/rtorrent xmlrpc
