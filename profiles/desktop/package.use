@@ -78,7 +78,7 @@ media-libs/portaudio alsa
 media-libs/sdl-image gif
 media-libs/sdl2-image gif
 media-libs/sdl-mixer midi mod mp3 timidity
-media-libs/sdl2-mixer midi mp3 mod timidity
+media-libs/sdl2-mixer midi mod modplug mp3 timidity
 media-plugins/alsa-plugins libsamplerate pulseaudio
 media-plugins/audacious-plugins cue ffmpeg flac fluidsynth gtk lame libsamplerate mp3
 media-plugins/frei0r-plugins -abi_x86_32
