@@ -19,6 +19,14 @@ app-emulation/wine-staging ~amd64
 app-emulation/wine-vanilla ~amd64
 <app-laptop/samsung-tools-2.4 ~amd64
 app-misc/radeontop ~amd64
+=app-office/laview-core-9999 **
+=app-office/laview-desktop-9999 **
+=app-office/laview-latex-struct-9999 **
+=app-office/laview-data-example-9999 **
+=app-office/laview-object-example-9999 **
+=app-office/laview-insys-standconfig-9999 **
+=app-office/laview-insys-controlpoint-9999 **
+=app-office/laview-insys-tablemeas-9999 **
 =app-portage/findcruftfiles-9999 **
 app-text/par ~amd64
 <app-text/stardict-5 ~amd64
@@ -36,6 +44,7 @@ dev-util/android-tools ~amd64
 dev-util/anjuta ~amd64
 <dev-util/bdelta-1 ~amd64
 =dev-util/colormake-9999 **
+dev-util/jfrog-cli ~amd64
 dev-util/nvidia-cuda-sdk ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
 dev-util/postman ~amd64
@@ -141,6 +150,7 @@ net-misc/gdrive ~amd64
 net-misc/r8168 ~amd64
 <net-misc/remmina-1.5 ~amd64
 net-misc/teamviewer ~amd64
+net-p2p/cpuminer-opt ~amd64
 net-voip/linphone-desktop ~amd64
 net-vpn/networkmanager-l2tp ~amd64
 <net-vpn/tor-0.5 ~amd64
@@ -173,9 +183,10 @@ www-client/vivaldi ~amd64
 <x11-apps/igt-gpu-tools-2 ~amd64
 x11-drivers/displaylink-driver ~amd64
 x11-drivers/evdi ~amd64
-<x11-drivers/nvidia-drivers-551 ~amd64
+x11-drivers/nvidia-drivers ~amd64
 x11-misc/pcmanfm ~amd64
 x11-misc/urxvtconfig ~amd64
+=x11-libs/cairo-chart-9999 **
 x11-libs/gtkglext ~amd64
 <x11-libs/libdrm-2.5 ~amd64
 <x11-libs/libfm-1.4 ~amd64
