@@ -7,6 +7,7 @@ app-containers/docker-buildx ~amd64
 app-containers/docker-cli ~amd64
 app-containers/docker-proxy ~amd64
 <app-containers/nvidia-container-toolkit-1.18 ~amd64
+<app-containers/runc-1.2.7 ~amd64
 <app-editors/oxygenxml-12 ~x86
 <app-emulation/fuse-2 ~amd64
 <app-emulation/libspectrum-2 ~amd64
@@ -32,6 +33,7 @@ app-text/par ~amd64
 <app-text/stardict-5 ~amd64
 app-vim/youcompleteme ~amd64
 dev-db/dbeaver-bin ~amd64
+<dev-cpp/abseil-cpp-2026 ~amd64
 dev-libs/amdgpu-pro-opencl ~amd64
 =dev-libs/gobject-plugin-9999 **
 <dev-libs/libfilezilla-1 ~amd64
@@ -136,8 +138,8 @@ net-im/jitsi-meet-bin ~amd64
 <net-im/skypeforlinux-9 ~amd64
 <net-im/teams-2 ~amd64
 <net-im/teams-for-linux-2 ~amd64
-<net-im/telegram-desktop-5.6 ~amd64
-<net-im/telegram-desktop-bin-5.6 ~amd64
+<net-im/telegram-desktop-5.14 ~amd64
+<net-im/telegram-desktop-bin-5.14 ~amd64
 =net-im/viber-9999 ~amd64
 <net-im/zoom-7 ~amd64
 <net-libs/libexosip2-6 ~amd64
