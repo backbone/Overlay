@@ -63,6 +63,7 @@ media-fonts/terminus-font a-like-o quote ru-dv ru-i ru-k
 media-gfx/blender cycles ffmpeg tiff
 media-gfx/geeqie exif ffmpegthumbnailer pdf tiff xmp
 media-gfx/imagemagick svg xml
+media-gfx/sane-frontends gimp gtk
 media-libs/avidemux-plugins gui libsamplerate
 media-libs/freetype brotli -cleartype_hinting harfbuzz
 media-libs/gd fontconfig
