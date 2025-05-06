@@ -11,7 +11,6 @@ app-emulation/wine-staging gstreamer
 app-emulation/wine-vanilla gstreamer
 app-misc/mc sftp
 app-office/laview-desktop examples
-app-office/libreoffice-bin python_single_target_python3_12
 app-office/lyx aspell dia dot enchant gnumeric html monolithic-build rcs rtf svg
 app-portage/eix sqlite
 app-text/evince djvu dvi

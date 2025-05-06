@@ -36,8 +36,8 @@ PORTAGE_ELOG_SYSTEM="save"
 
 ABI_X86="64"
 
-PYTHON_TARGETS="$PYTHON_TARGETS -python3_10 python3_11 -python3_12"
-PYTHON_SINGLE_TARGET="-python3_10 python3_11 -python3_12"
+PYTHON_TARGETS="$PYTHON_TARGETS -python3_10 python3_11 -python3_12 -python3_13"
+PYTHON_SINGLE_TARGET="-python3_10 python3_11 -python3_12 -python3_13"
 
 # cpu
 USE="${USE} custom-cflags mpi smp"
