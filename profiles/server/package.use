@@ -22,6 +22,7 @@ media-libs/libpng apng
 media-libs/libsndfile minimal
 media-libs/libv4l jpeg
 media-video/ffmpeg mp3 v4l vpx x264
+net-analyzer/nmap ncat
 net-dns/dnsmasq ipv6 script # libvirt
 net-firewall/iptables conntrack # libvirt
 net-fs/samba quota

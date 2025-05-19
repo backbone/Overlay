@@ -98,6 +98,7 @@ media-video/ffmpeg alsa jpeg2k libass libv4l mp3 opus theora
 media-video/mpv -lua
 media-video/obs-studio fdk vlc
 media-video/vlc live
+net-analyzer/nmap ncat
 net-analyzer/wireshark smi
 net-dns/avahi python
 net-firewall/iptables conntrack
