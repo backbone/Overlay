@@ -123,11 +123,11 @@ media-gfx/blender ~amd64
 <media-gfx/freecad-1.1 ~amd64
 <media-libs/avidemux-core-3 ~amd64
 <media-libs/avidemux-plugins-3 ~amd64
-media-libs/libtg_owt ~amd64
 media-libs/libtgvoip ~amd64
 media-libs/libvpx ~amd64
 <media-libs/mesa-24.4 ~amd64
 media-libs/nvidia-vaapi-driver ~amd64
+media-libs/tg_owt ~amd64
 media-sound/bluez-alsa ~amd64
 <media-sound/mp3unicode-2 ~amd64
 <media-video/avidemux-3 ~amd64
