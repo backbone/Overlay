@@ -1,3 +1,3 @@
 =app-text/par-1.53.0 # use 1.52.0 UTF-8 patched sources from backbone's repo
 >=media-fonts/liberation-fonts-2.00.0 # save your eyes
->=sys-kernel/gentoo-sources-6.7 # old stable only with patch version >> 10
+>=sys-kernel/gentoo-sources-6.13 # old stable only with patch version >> 10

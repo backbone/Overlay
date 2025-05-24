@@ -75,7 +75,7 @@ media-libs/libpng apng
 media-libs/libsdl2 haptic
 media-libs/libv4l bpf qt5
 media-libs/libvpx postproc
-media-libs/mesa xa
+media-libs/mesa xa wayland
 media-libs/mlt ffmpeg frei0r qt6 xml
 media-libs/openal alsa
 media-libs/opencv -abi_x86_32 contrib contribdnn qt6
@@ -158,7 +158,7 @@ x11-drivers/evdi python
 x11-drivers/nvidia-drivers persistenced
 x11-drivers/xf86-video-amdgpu udev
 x11-drivers/xf86-video-intel dri dri3 uxa xvmc
-x11-libs/gtk+ examples
+x11-libs/gtk+ examples wayland
 x11-libs/libfm gtk
 x11-libs/libxcb xkb
 x11-libs/motif xft
