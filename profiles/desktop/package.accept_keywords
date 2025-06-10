@@ -145,6 +145,7 @@ net-im/jitsi-meet-bin ~amd64
 =net-im/viber-9999 ~amd64
 <net-im/zoom-7 ~amd64
 <net-libs/libexosip2-6 ~amd64
+<net-libs/mbedtls-3.7 ~amd64
 =net-libs/tox-9999 **
 <net-libs/tdlib-1.9 ~amd64
 net-misc/anydesk ~amd64
