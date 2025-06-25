@@ -78,7 +78,7 @@ media-libs/libvpx postproc
 media-libs/mesa xa wayland
 media-libs/mlt ffmpeg frei0r qt6 xml
 media-libs/openal alsa
-media-libs/opencv -abi_x86_32 contrib contribdnn qt6
+media-libs/opencv -abi_x86_32 contrib contribdnn features2d qt6
 media-libs/portaudio alsa
 media-libs/sdl-image gif
 media-libs/sdl2-image gif
