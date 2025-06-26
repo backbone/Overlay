@@ -17,7 +17,7 @@ mail-filter/amavisd-new clamav razor spamassassin
 mail-filter/spamassassin cron
 mail-mta/postfix berkdb dovecot-sasl
 media-gfx/imagemagick fftw jpeg png
-media-libs/gd jpeg png webp
+media-libs/gd jpeg png truetype webp
 media-libs/libpng apng
 media-libs/libsndfile minimal
 media-libs/libv4l jpeg
