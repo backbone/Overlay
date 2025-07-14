@@ -1,5 +1,6 @@
 app-arch/bzip2 static-libs
 app-arch/unzip natspec
+app-arch/xz-utils static-libs
 app-arch/zip natspec
 app-crypt/gcr gtk
 app-crypt/qca gpg qt5 qt6
@@ -133,7 +134,6 @@ sys-devel/gcc lto pgo
 sys-devel/gdb lzma multitarget source-highlight xml xxhash
 sys-firmware/intel-microcode -initramfs
 sys-fs/lvm2 -thin
-sys-kernel/gentoo-sources experimental
 sys-kernel/linux-firmware -initramfs
 sys-libs/glibc nscd
 sys-libs/libomp hwloc
@@ -155,7 +155,7 @@ www-servers/lighttpd php
 x11-base/xorg-server elogind xvfb
 x11-base/xwayland libei
 x11-drivers/evdi python
-x11-drivers/nvidia-drivers persistenced
+x11-drivers/nvidia-drivers kernel-open persistenced powerd wayland
 x11-drivers/xf86-video-amdgpu udev
 x11-drivers/xf86-video-intel dri dri3 uxa xvmc
 x11-libs/gtk+ examples wayland
