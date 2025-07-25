@@ -38,6 +38,7 @@ dev-libs/amdgpu-pro-opencl ~amd64
 =dev-libs/gobject-plugin-9999 **
 <dev-libs/libfilezilla-1 ~amd64
 <dev-libs/libusb-1.0.29 ~amd64
+<dev-libs/nspr-4.100 ~amd64
 <dev-libs/nss-4 ~amd64
 dev-libs/protobuf ~amd64
 <dev-libs/vala-common-1 ~amd64
